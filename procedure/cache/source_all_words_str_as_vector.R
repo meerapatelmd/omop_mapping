@@ -1,6 +1,6 @@
 if (interactive()) {
                 clean_env()
-                source('setup.R')
+                source('startup.R')
                 # Read input
                 input <- read_input()
                 target_col <- source_col
@@ -40,9 +40,13 @@ if (interactive()) {
 
                                 input_word <- input5[i]
 
-                                secretary::typewrite(crayon::bold("Phrase:"), input_word)
+                                if (any(grepl(pattern = " ", input_word) == TRUE)) {
 
-                                x <- chariot::query_string_as_vector(input_word)
+                                        secretary::typewrite(crayon::bold("Phrase:"), input_word)
+
+                                        x <- chariot::query_string_as_vector(input_word)
+
+                                }
 
                                 typewrite_percent_progress(i = i,
                                                            input5)
@@ -51,7 +55,7 @@ if (interactive()) {
 
         secretary::typewrite("Starting non-interactive session.")
 
-        source('/Users/patelm9/GitHub/KMI/termite/Map_to_OMOP/procedure/startup.R')
+        source('/Users/patelm9/GitHub/omop_mapping/procedure/startup.R')
         # Read input
         input <- read_input()
         target_col <- source_col

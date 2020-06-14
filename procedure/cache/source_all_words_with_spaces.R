@@ -1,6 +1,6 @@
 if (interactive()) {
-        clean_env()
-        source('setup.R')
+                clean_env()
+                source('setup.R')
                 # Read input
                 input <- read_input()
                 target_col <- source_col
@@ -27,7 +27,7 @@ if (interactive()) {
 
                 # Getting words
                 input4 <-
-                strsplit(input3, split = " |[(]{1}|[)]{1}|[,]{1}") %>%
+                        strsplit(input3, split = " |[(]{1}|[)]{1}|[,]{1}") %>%
                         unlist() %>%
                         trimws("both") %>%
                         centipede::no_blank() %>%
@@ -37,6 +37,15 @@ if (interactive()) {
                 # Filtering for only words that meeting the character limit
                 input5 <- input4[nchar(input4) >= source_skip_nchar]
 
+                # Adding spaces before
+                input6_a <- paste0(" ", input5)
+
+                # Adding spaces after
+                input6_b <- paste0(input5, " ")
+
+                # Combining into a single string
+                input6 <- c(input6_a,
+                            input6_b)
 
                 while (length(types) > 0) {
                         type <- types[1]
@@ -46,26 +55,25 @@ if (interactive()) {
                         cat("\n")
 
 
-                        for (i in 1:length(input5)) {
+                        for (i in 1:length(input6)) {
 
-                                input_word <- input5[i]
+                                input_word <- input6[i]
 
                                 secretary::typewrite(crayon::bold("Phrase:"), input_word)
 
-                                x <- chariot::query_phrase_synonym(phrase = input_word,
+                                x <- chariot::query_phrase(phrase = input_word,
                                                                    type = type)
 
                                 typewrite_percent_progress(i = i,
-                                                           input5)
+                                                           input6)
                         }
 
                         types <- types[-1]
                 }
-
 } else {
+
         secretary::typewrite("Starting non-interactive session.")
         source('/Users/patelm9/GitHub/omop_mapping/procedure/startup.R')
-
         # Read input
         input <- read_input()
         target_col <- source_col
@@ -103,6 +111,16 @@ if (interactive()) {
         input5 <- input4[nchar(input4) >= source_skip_nchar]
 
 
+        # Adding spaces before
+        input6_a <- paste0(" ", input5)
+
+        # Adding spaces after
+        input6_b <- paste0(input5, " ")
+
+        # Combining into a single string
+        input6 <- c(input6_a,
+                    input6_b)
+
         while (length(types) > 0) {
                 type <- types[1]
 
@@ -111,19 +129,19 @@ if (interactive()) {
                 cat("\n")
 
 
-                for (i in 1:length(input5)) {
+                for (i in 1:length(input6)) {
 
-                        input_word <- input5[i]
+                        input_word <- input6[i]
 
                         secretary::typewrite(crayon::bold("Phrase:"), input_word)
 
-                        x <- chariot::query_phrase_synonym(phrase = input_word,
-                                                           type = type)
+                        x <- chariot::query_phrase(phrase = input_word,
+                                                   type = type)
 
                         typewrite_percent_progress(i = i,
-                                                   input5)
+                                                   input6)
                 }
-
                 types <- types[-1]
         }
 }
+

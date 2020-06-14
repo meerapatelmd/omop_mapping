@@ -1,7 +1,7 @@
 set_this_wd <-
         function() {
-                if ("/Users/patelm9/GitHub/KMI/termite/Map_to_OMOP/procedure" != getwd()) {
-                        setwd("/Users/patelm9/GitHub/KMI/termite/Map_to_OMOP/procedure")
+                if ("/Users/patelm9/GitHub/omop_mapping/procedure" != getwd()) {
+                        setwd("/Users/patelm9/GitHub/omop_mapping/procedure")
                 }
         }
 

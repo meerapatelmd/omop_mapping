@@ -64,7 +64,7 @@ if (interactive()) {
 } else {
 
         secretary::typewrite("Starting non-interactive session.")
-        source('/Users/patelm9/GitHub/KMI/termite/Map_to_OMOP/procedure/startup.R')
+        source('/Users/patelm9/GitHub/omop_mapping/procedure/startup.R')
         # Read input
         input <- read_input()
         target_col <- source_col
