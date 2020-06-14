@@ -1,183 +1,411 @@
-rm(list = ls())
-source('setup.R')
-path_to_output_fn <- paste0(stringr::str_replace(path_to_input_fn, "(^.*?[/]{1})(.*?)([.]{1}csv$)", "output/\\2_"), cave::strip_fn(cave::present_script_path()), ".csv")
+if (interactive()) {
 
-if (file.exists(path_to_output_fn)) {
-        secretary::typewrite_warning(path_to_output_fn, "already exists and will be overwritten.")
-        secretary::press_enter()
-}
+clean_env()
+
+source('startup.R')
+# Routine Variables
+word_split <- "[ ]{1}|[(]{1}|[)]{1}|[,]{1}"
+
+# Temporary stop if the output file exists
+brake_if_output_exists()
 
 
-input2 <- read_workfile(routine = "01_search_source")
+# Read input
+input <- read_input()
 target_col <- source_col
 
+# Routine Variables
+type <- c("like")
+new_col_name <- paste0("Source Each Word ", centipede::in_title_format(type))
 
-# Add rowid
-input3 <-
-        input2 %>%
-        #tibble::rowid_to_column("routine_id") %>%
-        dplyr::mutate_all(as.character)
 
 # Normalize NAs because some are "NA" and others are true NA
-input4 <-
-        input3 %>%
-        dplyr::mutate_all(stringr::str_replace_all, "^NA$", "") %>%
-        dplyr::mutate_all(na_if, "")
+input2 <-
+        input %>%
+        normalize_na()
 
-# Creating final input object to join with final output object
-final_input <- input4
+                # Creating final input object to join with final output object
+                final_input <- input2
 
-# Parse the vectors that are strings
-input_vector <-
-        input4 %>%
-        dplyr::select(all_of(target_col)) %>%
-        unlist() %>%
-        #purrr::map(cave::string_to_vector) %>%
-        purrr::set_names(input4$routine_id)
+                # Parse the vectors that are strings
+                input3 <-
+                        input2 %>%
+                        dplyr::select(routine_id, all_of(target_col), !!terminal_col)
 
-input_fact_concept <-
-        input4 %>%
-        dplyr::select(!!terminal_col) %>%
-        unlist()
 
-input_routine_id <- input4$routine_id
+                # If any routine_id is NA
+                qa1 <-  input3$routine_id[is.na(input3$routine_id)]
 
-qa1 <- length(input_fact_concept)-length(input_vector)
+                if (length(qa1) > 0) {
 
-if (qa1 != 0) {
-        stop("x and y are not equal in length.")
-}
+                        stop("routine_ids present in input are missing in input3")
 
+                }
 
 
                 output <- list()
-                for (i in 1:length(input_vector)) {
+                for (i in 1:nrow(input3)) {
 
-                        if (!is.logical(input_vector[i]) && !(input_vector[i] %in% c(NA, "NA"))) {
+                                        input_row <- input3 %>%
+                                                        dplyr::filter(row_number() == i)
 
-                                        if (is.na(input_fact_concept[i])) {
 
-                                                                #skip_nchar <- source_skip_nchar-2
-                                                                Words <- tibble(all_words = strsplit(input_vector[i], split = " ")  %>% unlist()) %>%
-                                                                                        dplyr::mutate(all_words = stringr::str_remove_all(all_words, "[']{1}|[?]{1}$")) %>%
-                                                                                        dplyr::mutate(nchar = nchar(all_words)) %>%
-                                                                                        #dplyr::filter(nchar > skip_nchar) %>%
-                                                                                        dplyr::arrange(desc(nchar)) %>%
-                                                                                        dplyr::select(all_words) %>%
-                                                                                        unlist() %>%
-                                                                                        unique()
+                                        rubix::release_df(input_row)
 
-                                                                if (length(Words)) {
+
+                                        input_concept <- get(target_col)
+                                        output_concept <- get(terminal_col)
+                                        input_routine_id <- routine_id
+
+
+                                        if (!is.logical(input_concept) && !(input_concept %in% c(NA, "NA"))) {
+
+                                                        if (is.na(output_concept)) {
+
+                                                                if (nchar(input_concept) > source_skip_nchar) {
+
+                                                                        Words <- tibble(all_words = strsplit(input_concept, split = word_split) %>%
+                                                                                                                unlist() %>%
+                                                                                                                centipede::no_blank() %>%
+                                                                                                                unique()) %>%
+                                                                                dplyr::mutate(nchar = nchar(all_words)) %>%
+                                                                                dplyr::filter(nchar >= 3) %>%
+                                                                                dplyr::arrange(desc(nchar)) %>%
+                                                                                dplyr::select(all_words) %>%
+                                                                                unlist() %>%
+                                                                                unique()
+
+                                                                        if (length(Words)) {
+
+                                                                                output[[i]] <- list()
 
                                                                                 for (j in 1:length(Words)) {
-                                                                                        output[[i]] <- list()
+
+                                                                                        #Add space after
+                                                                                        input_word <- paste0(Words[j], " ")
+                                                                                        space_after_results <-
+                                                                                                query_phrase_in_athena(phrase = input_word,
+                                                                                                                       type = type,
+                                                                                                                       n = (250/(3*length(Words))))
+
+
+                                                                                        #Add space before
+                                                                                        input_word <- paste0(" ", Words[j])
+                                                                                        space_before_results <-
+                                                                                                query_phrase_in_athena(phrase = input_word,
+                                                                                                                       type = type,
+                                                                                                                       n = (250/(3*length(Words))))
+
+                                                                                        #No space
+                                                                                        no_space_results <-
+                                                                                                query_phrase_in_athena(phrase = Words[j],
+                                                                                                                       type = type,
+                                                                                                                       n = (250/(3*length(Words))))
+
                                                                                         output[[i]][[j]] <-
-                                                                                                chariot::query_phrase(phrase = tolower(Words[j]), type = "exact") %>%
-                                                                                                rubix::arrange_by_nchar(concept_name) %>%
-                                                                                                #filtering for only 250 lines (max in Excel)
-                                                                                                dplyr::slice(1:(250/length(Words))) %>%
-                                                                                                dplyr::mutate_all(as.character)
+                                                                                                dplyr::bind_rows(space_after_results,
+                                                                                                                 space_before_results,
+                                                                                                                 no_space_results) %>%
+                                                                                                dplyr::distinct() %>%
+                                                                                                rubix::arrange_by_nchar(concept_name)
 
                                                                                 }
 
-                                                                        names(output)[i] <- input_routine_id[i]
+                                                                                names(output)[i] <- input_routine_id
+                                                                                names(output[[i]]) <- Words
 
-                                                                        names(output[[i]]) <- Words
+
+
+
+                                                                        output[[i]] <-
+                                                                                output[[i]] %>%
+                                                                                dplyr::bind_rows(.id = "Word") %>%
+                                                                                chariot::merge_concepts(into = `Concept`) %>%
+                                                                                dplyr::mutate(Concept = paste0(Word, ": ", Concept)) %>%
+                                                                                dplyr::select(!!new_col_name := `Concept`)
 
                                                                 } else {
-
-                                                                        output[[i]] <- NA_character_
-
+                                                                        output[[i]] <- NA
+                                                                        output[[i]] <-
+                                                                                output[[i]] %>%
+                                                                                rubix::vector_to_tibble(!!new_col_name)
                                                                 }
 
+
+
+                                                        } else {
+                                                                output[[i]] <- NA
+                                                                output[[i]] <-
+                                                                        output[[i]] %>%
+                                                                        rubix::vector_to_tibble(!!new_col_name)
+                                                        }
+
                                         } else {
-
                                                 output[[i]] <- NA
+                                                output[[i]] <-
+                                                        output[[i]] %>%
+                                                        rubix::vector_to_tibble(!!new_col_name)
+                                        }
 
+                                        names(output)[i] <- input_routine_id
+
+                                        typewrite_percent_progress(i = i, input3)
+                                        rm(list = colnames(input_row))
+                                        rm(input_row)
+                        }
+
+                        final_output <- output %>%
+                                                dplyr::bind_rows(.id = "routine_id")
+
+                }
+
+        # Aggregating the search result columns to the original routine_id
+        final_output2 <-
+                final_output %>%
+                rubix::map_names_set(function(x) x %>%
+                                                        rubix::group_by_unique_aggregate(routine_id,
+                                                                                         agg.col = contains("Source"),
+                                                                                         collapse = "\n")) %>%
+                purrr::map(function(x) x %>%
+                                                                dplyr::mutate_at(vars(!routine_id), substr, 1, 25000))
+
+        # # If the search type is both exact and like, would need to reduce the list with left_join so each routine_id will have both searches associated with it in the dataframe
+
+        if (length(final_output2) > 1) {
+                final_output3 <-
+                        final_output2  %>%
+                        purrr::reduce(full_join, by = "routine_id")
+        } else {
+                final_output3 <-
+                        final_output2
+        }
+
+
+        # Join with final_input object
+        final_routine_output <-
+                dplyr::left_join(final_input,
+                                 final_output3)
+
+
+        #QA
+        qa2 <- all(final_routine_output$routine_id %in% final_input$routine_id)
+        if (qa2 == FALSE) {
+                stop("all routine_ids from final_input not in final_routine_output")
+        }
+
+        qa3 <- nrow(final_routine_output) - nrow(final_input)
+        if (qa3 != 0) {
+                stop("row counts between final_input and final_routine_output don't match")
+        }
+
+
+        broca::simply_write_csv(x = final_routine_output,
+                                file = path_to_output_fn)
+
+
+
+} else {
+
+
+        source('/Users/patelm9/GitHub/omop_mapping/procedure/startup.R')
+
+        # Routine Variables
+        word_split <- "[ ]{1}|[(]{1}|[)]{1}|[,]{1}"
+
+        # Temporary stop if the output file exists
+        brake_if_output_exists()
+
+
+        # Read input
+        input <- read_input()
+        target_col <- source_col
+
+        # Routine Variables
+        type <- c("like")
+        new_col_name <- paste0("Source Each Word ", centipede::in_title_format(type))
+
+
+        # Normalize NAs because some are "NA" and others are true NA
+        input2 <-
+                input %>%
+                normalize_na()
+
+        # Creating final input object to join with final output object
+        final_input <- input2
+
+        # Parse the vectors that are strings
+        input3 <-
+                input2 %>%
+                dplyr::select(routine_id, all_of(target_col), !!terminal_col)
+
+
+        # If any routine_id is NA
+        qa1 <-  input3$routine_id[is.na(input3$routine_id)]
+
+        if (length(qa1) > 0) {
+
+                stop("routine_ids present in input are missing in input3")
+
+        }
+
+
+        output <- list()
+        for (i in 1:nrow(input3)) {
+
+                input_row <- input3 %>%
+                        dplyr::filter(row_number() == i)
+
+
+                rubix::release_df(input_row)
+
+
+                input_concept <- get(target_col)
+                output_concept <- get(terminal_col)
+                input_routine_id <- routine_id
+
+
+                if (!is.logical(input_concept) && !(input_concept %in% c(NA, "NA"))) {
+
+                        if (is.na(output_concept)) {
+
+                                if (nchar(input_concept) > source_skip_nchar) {
+
+                                        Words <- tibble(all_words = strsplit(input_concept, split = word_split) %>%
+                                                                unlist() %>%
+                                                                centipede::no_blank() %>%
+                                                                unique()) %>%
+                                                dplyr::mutate(nchar = nchar(all_words)) %>%
+                                                #dplyr::filter(nchar > skip_nchar) %>%
+                                                dplyr::arrange(desc(nchar)) %>%
+                                                dplyr::select(all_words) %>%
+                                                unlist() %>%
+                                                unique()
+
+                                        if (length(Words)) {
+
+                                                output[[i]] <- list()
+
+                                                for (j in 1:length(Words)) {
+
+                                                        #Add space after
+                                                        input_word <- paste0(Words[j], " ")
+                                                        space_after_results <-
+                                                                query_phrase_in_athena(phrase = input_word,
+                                                                                       type = type,
+                                                                                       n = (250/(3*length(Words))))
+
+
+                                                        #Add space before
+                                                        input_word <- paste0(" ", Words[j])
+                                                        space_before_results <-
+                                                                query_phrase_in_athena(phrase = input_word,
+                                                                                       type = type,
+                                                                                       n = (250/(3*length(Words))))
+
+                                                        #No space
+                                                        no_space_results <-
+                                                                query_phrase_in_athena(phrase = Words[j],
+                                                                                       type = type,
+                                                                                       n = (250/(3*length(Words))))
+
+                                                        output[[i]][[j]] <-
+                                                                dplyr::bind_rows(space_after_results,
+                                                                                 space_before_results,
+                                                                                 no_space_results) %>%
+                                                                dplyr::distinct() %>%
+                                                                rubix::arrange_by_nchar(concept_name)
+
+                                                }
+
+                                                names(output)[i] <- input_routine_id
+                                                names(output[[i]]) <- Words
+
+
+
+
+                                                output[[i]] <-
+                                                        output[[i]] %>%
+                                                        dplyr::bind_rows(.id = "Word") %>%
+                                                        chariot::merge_concepts(into = `Concept`) %>%
+                                                        dplyr::mutate(Concept = paste0(Word, ": ", Concept)) %>%
+                                                        dplyr::select(!!new_col_name := `Concept`)
+
+                                        } else {
+                                                output[[i]] <- NA
+                                                output[[i]] <-
+                                                        output[[i]] %>%
+                                                        rubix::vector_to_tibble(!!new_col_name)
                                         }
 
 
 
                                 } else {
-
-                                                output[[i]] <- NA
-
+                                        output[[i]] <- NA
+                                        output[[i]] <-
+                                                output[[i]] %>%
+                                                rubix::vector_to_tibble(!!new_col_name)
                                 }
 
+                        } else {
+                                output[[i]] <- NA
+                                output[[i]] <-
+                                        output[[i]] %>%
+                                        rubix::vector_to_tibble(!!new_col_name)
+                        }
+
+                        names(output)[i] <- input_routine_id
+
+                        typewrite_percent_progress(i = i, input3)
+                        rm(list = colnames(input_row))
+                        rm(input_row)
                 }
 
-
-
-
-# Binding all search results with the search term preserved
-for (i in 1:length(output)) {
-
-        if (!is.logical(output[[i]])) {
-
-
-                new_col_name <- "Source Each Word Exact"
-
-                output[[i]] <- dplyr::bind_rows(output[[i]], .id = "SEARCH_TERM") %>%
-                                        chariot::merge_concepts(into = `Concept`) %>%
-                                        dplyr::mutate(!!new_col_name := paste0(SEARCH_TERM, ": ", `Concept`))
+                final_output <- output %>%
+                        dplyr::bind_rows(.id = "routine_id")
 
         }
+
+        # Aggregating the search result columns to the original routine_id
+        final_output2 <-
+                final_output %>%
+                rubix::map_names_set(function(x) x %>%
+                                             rubix::group_by_unique_aggregate(routine_id,
+                                                                              agg.col = contains("Source"),
+                                                                              collapse = "\n")) %>%
+                purrr::map(function(x) x %>%
+                                   dplyr::mutate_at(vars(!routine_id), substr, 1, 25000))
+
+        # # If the search type is both exact and like, would need to reduce the list with left_join so each routine_id will have both searches associated with it in the dataframe
+
+        if (length(final_output2) > 1) {
+                final_output3 <-
+                        final_output2  %>%
+                        purrr::reduce(full_join, by = "routine_id")
+        } else {
+                final_output3 <-
+                        final_output2
+        }
+
+
+        # Join with final_input object
+        final_routine_output <-
+                dplyr::left_join(final_input,
+                                 final_output3)
+
+
+        #QA
+        qa2 <- all(final_routine_output$routine_id %in% final_input$routine_id)
+        if (qa2 == FALSE) {
+                stop("all routine_ids from final_input not in final_routine_output")
+        }
+
+        qa3 <- nrow(final_routine_output) - nrow(final_input)
+        if (qa3 != 0) {
+                stop("row counts between final_input and final_routine_output don't match")
+        }
+
+
+        broca::simply_write_csv(x = final_routine_output,
+                                file = path_to_output_fn)
+
 }
-
-
-# For concepts that are already mapped or do not have an entry in the target column, creating a blank entry for the new columns
-# for (i in 1:length(output)) {
-#
-#         if (is.logical(output[[i]])) {
-#
-#                         output[[i]] <-
-#                                         rubix::vector_to_tibble(output[[i]],
-#                                                                 !!new_col_name)
-#
-#         }
-# }
-
-output <-
-        output %>%
-        purrr::keep(function(x) is.data.frame(x))
-
-# Binding back to routine_id
-output <-
-        output %>%
-        dplyr::bind_rows(.id = "routine_id")
-
-# Adding to final output
-final_output <- output %>%
-                                dplyr::distinct()
-
-
-# Aggregating the search result columns to the original routine_id
-final_output2 <-
-        final_output %>%
-        rubix::group_by_unique_aggregate(routine_id,
-                                         agg.col = contains("Source"),
-                                         collapse = "\n") %>%
-        dplyr::mutate_at(vars(!routine_id), substr, 1, 25000)
-
-
-
-# Join with final_input object
-final_routine_output <-
-        dplyr::left_join(final_input,
-                         final_output2) %>%
-        dplyr::distinct()
-
-#QA
-qa2 <- all(final_routine_output$routine_id %in% final_input$routine_id)
-if (qa2 == FALSE) {
-        stop("all routine_ids from final_input not in final_routine_output")
-}
-
-qa3 <- nrow(final_routine_output) - nrow(final_input)
-if (qa3 != 0) {
-        stop("row counts between final_input and final_routine_output don't match")
-}
-
-
-broca::simply_write_csv(x = final_routine_output,
-                        file = path_to_output_fn)
