@@ -192,6 +192,6 @@ if (interactive()) {
 
 } else {
 
-        source("/Users/patelm9/GitHub/omop_mapping/procedure/startup.R")
+        #source("/Users/patelm9/GitHub/omop_mapping/procedure/startup.R")
 
 }
