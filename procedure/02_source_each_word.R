@@ -207,7 +207,6 @@ input2 <-
 
         source('/Users/patelm9/GitHub/omop_mapping/procedure/startup.R')
 
-
         # Read input
         input <- read_input()
         target_col <- source_col
@@ -216,14 +215,10 @@ input2 <-
         type <- c("like")
         new_col_name <- paste0("Source Each Word ", centipede::in_title_format(type))
 
-
         # Normalize NAs because some are "NA" and others are true NA
         input2 <-
                 input %>%
                 normalize_na()
-
-        # Creating final input object to join with final output object
-        final_input <- input2
 
         # Parse the vectors that are strings
         input3 <-
@@ -353,5 +348,4 @@ input2 <-
                 }
 
         }
-
 }
