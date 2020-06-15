@@ -1879,3 +1879,6 @@ Timestamp	Activity Type	Function	File	Details
 2020-06-14 21:35:24	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
 2020-06-14 21:57:56	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
 2020-06-14 22:25:11	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-14 22:50:56	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-14 22:58:34	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-14 23:01:46	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input

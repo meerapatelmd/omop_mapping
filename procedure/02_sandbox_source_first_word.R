@@ -295,21 +295,21 @@ input2 <-
                                                         space_after_results <-
                                                                 query_phrase_in_athena(phrase = input_word,
                                                                                        type = type,
-                                                                                       n = (250/(3*length(Words))))
+                                                                                       n = (250/3))
 
 
                                                         #Add space before
-                                                        input_word <- paste0(" ", Words[j])
+                                                        input_word <- paste0(" ", FirstWord[j])
                                                         space_before_results <-
                                                                 query_phrase_in_athena(phrase = input_word,
                                                                                        type = type,
-                                                                                       n = (250/(3*length(Words))))
+                                                                                       n = (250/3))
 
                                                         #No space
                                                         no_space_results <-
-                                                                query_phrase_in_athena(phrase = Words[j],
+                                                                query_phrase_in_athena(phrase = FirstWord[j],
                                                                                        type = type,
-                                                                                       n = (250/(3*length(Words))))
+                                                                                       n = (250/3))
 
                                                         output[[i]][[j]] <-
                                                                 dplyr::bind_rows(space_after_results,
