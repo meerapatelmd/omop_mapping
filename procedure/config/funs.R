@@ -296,28 +296,93 @@ create_types_output_object <-
 
 
 query_phrase_in_athena <-
-        function(phrase, type, remove_regex = "[']{1}|[?]{1}$", n = 250) {
+        function(phrase, type, remove_regex = "[']{1}|[?]{1}$", n = 250, synonym = FALSE) {
 
                         secretary::typewrite(crayon::bold("Raw:"), phrase)
-
                         mod_phrase <- stringr::str_remove_all(phrase, pattern = remove_regex)
 
-                        if (mod_phrase != phrase) {
-                                secretary::typewrite(crayon::bold("Modified:"), mod_phrase)
-                                chariot::query_phrase(phrase = mod_phrase,
-                                                      type = type) %>%
-                                        dplyr::mutate_all(as.character) %>%
-                                        filter_for_settings() %>%
-                                        rubix::arrange_by_nchar(concept_name) %>%
-                                        filter_max_n(n = n)
+
+                        if (synonym) {
+
+                                if (mod_phrase != phrase) {
+                                        if (type != "string") {
+                                                secretary::typewrite(crayon::bold("Modified:"), mod_phrase)
+                                                chariot::query_phrase_synonym(phrase = mod_phrase,
+                                                                      type = type) %>%
+                                                        dplyr::mutate_all(as.character) %>%
+                                                        filter_for_settings() %>%
+                                                        rubix::arrange_by_nchar(concept_name) %>%
+                                                        filter_max_n(n = n)
+                                        } else {
+                                                secretary::typewrite(crayon::bold("Modified:"), mod_phrase)
+                                                chariot::query_string_as_vector_synonym(mod_phrase,
+                                                                                split =  " |[[:punct:]]") %>%
+                                                        dplyr::mutate_all(as.character) %>%
+                                                        filter_for_settings() %>%
+                                                        rubix::arrange_by_nchar(concept_name) %>%
+                                                        filter_max_n(n = n)
+                                        }
+                                } else {
+                                        if (type != "string") {
+                                                chariot::query_phrase_synonym(phrase = phrase,
+                                                                      type = type) %>%
+                                                        dplyr::mutate_all(as.character) %>%
+                                                        filter_for_settings() %>%
+                                                        rubix::arrange_by_nchar(concept_name) %>%
+                                                        filter_max_n(n = n)
+                                        } else {
+                                                secretary::typewrite(crayon::bold("Modified:"), mod_phrase)
+                                                chariot::query_string_as_vector_synonym(mod_phrase,
+                                                                                split = " |[[:punct:]]") %>%
+                                                        dplyr::mutate_all(as.character) %>%
+                                                        filter_for_settings() %>%
+                                                        rubix::arrange_by_nchar(concept_name) %>%
+                                                        filter_max_n(n = n)
+                                        }
+                                }
+
+
+
                         } else {
-                                chariot::query_phrase(phrase = phrase,
-                                                      type = type) %>%
-                                        dplyr::mutate_all(as.character) %>%
-                                        filter_for_settings() %>%
-                                        rubix::arrange_by_nchar(concept_name) %>%
-                                        filter_max_n(n = n)
+
+                        if (mod_phrase != phrase) {
+                                if (type != "string") {
+                                        secretary::typewrite(crayon::bold("Modified:"), mod_phrase)
+                                        chariot::query_phrase(phrase = mod_phrase,
+                                                              type = type) %>%
+                                                dplyr::mutate_all(as.character) %>%
+                                                filter_for_settings() %>%
+                                                rubix::arrange_by_nchar(concept_name) %>%
+                                                filter_max_n(n = n)
+                                } else {
+                                        secretary::typewrite(crayon::bold("Modified:"), mod_phrase)
+                                        chariot::query_string_as_vector(mod_phrase,
+                                                                        split =  " |[[:punct:]]") %>%
+                                                dplyr::mutate_all(as.character) %>%
+                                                filter_for_settings() %>%
+                                                rubix::arrange_by_nchar(concept_name) %>%
+                                                filter_max_n(n = n)
+                                }
+                        } else {
+                                if (type != "string") {
+                                        chariot::query_phrase(phrase = phrase,
+                                                              type = type) %>%
+                                                dplyr::mutate_all(as.character) %>%
+                                                filter_for_settings() %>%
+                                                rubix::arrange_by_nchar(concept_name) %>%
+                                                filter_max_n(n = n)
+                                } else {
+                                        secretary::typewrite(crayon::bold("Modified:"), mod_phrase)
+                                        chariot::query_string_as_vector(mod_phrase,
+                                                                        split = " |[[:punct:]]") %>%
+                                                dplyr::mutate_all(as.character) %>%
+                                                filter_for_settings() %>%
+                                                rubix::arrange_by_nchar(concept_name) %>%
+                                                filter_max_n(n = n)
+                                }
                         }
+                        }
+
 
         }
 

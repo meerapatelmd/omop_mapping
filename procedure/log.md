@@ -1902,3 +1902,44 @@ Timestamp	Activity Type	Function	File	Details
 2020-06-15 12:48:21	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
 2020-06-15 12:54:16	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
 2020-06-15 12:59:45	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 13:20:19	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 13:20:42	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 13:21:29	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 13:24:05	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 13:24:57	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 13:35:31	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 13:36:30	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 13:38:49	write	simply_write_csv	data/output/COVID_SL_MAP_08_02_sandbox_source_exclude_icdo3_code.csv	
+2020-06-15 13:38:52	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 13:41:22	write	simply_write_csv	data/output/COVID_SL_MAP_08_02_sandbox_source_icdo3_code.csv	
+2020-06-15 13:42:03	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 13:45:13	write	simply_write_csv	data/output/COVID_SL_MAP_08_02_sandbox_source_icdo3_code.csv	
+2020-06-15 13:51:18	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 13:53:31	write	simply_write_csv	data/output/COVID_SL_MAP_08_02_source_icdo3_code.csv	
+2020-06-15 13:53:43	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 13:55:51	write	simply_write_csv	data/output/COVID_SL_MAP_08_02_source_exclude_icdo3_code.csv	
+2020-06-15 13:57:46	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 14:01:04	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 14:01:35	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 14:03:21	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 14:16:31	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 14:17:33	write	simply_write_csv	data/output/COVID_SL_MAP_08_02_sandbox_source_exclude_icdo3_code_str_as_vector.csv	
+2020-06-15 14:19:13	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 14:20:16	write	simply_write_csv	data/output/COVID_SL_MAP_08_02_sandbox_source_exclude_icdo3_code_str_as_vector.csv	
+2020-06-15 14:20:53	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 14:21:54	write	simply_write_csv	data/output/COVID_SL_MAP_08_02_sandbox_source_exclude_icdo3_code_str_as_vector.csv	
+2020-06-15 14:22:26	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpcFSzaA/filec4a06db2dc8a.csv	
+2020-06-15 14:30:50	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 14:32:02	write	simply_write_csv	data/output/COVID_SL_MAP_08_02_sandbox_source_exclude_icdo3_code_str_as_vector.csv	
+2020-06-15 14:38:04	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 14:41:05	write	simply_write_csv	data/output/COVID_SL_MAP_08_02_sandbox_source_exclude_icdo3_code_str_as_vector.csv	
+2020-06-15 14:43:10	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpEOhz0B/filecc1d67a9c7d6.csv	
+2020-06-15 14:45:38	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 14:46:40	write	simply_write_csv	data/output/COVID_SL_MAP_08_02_sandbox_source_exclude_icdo3_code_str_as_vector.csv	
+2020-06-15 14:48:09	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 14:50:23	write	simply_write_csv	data/output/COVID_SL_MAP_08_02_sandbox_source_exclude_icdo3_code_str_as_vector.csv	
+2020-06-15 14:52:14	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 14:53:15	write	simply_write_csv	data/output/COVID_SL_MAP_08_02_source_exclude_icdo3_code_str_as_vector.csv	
+2020-06-15 14:55:53	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 14:56:31	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 14:57:04	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input

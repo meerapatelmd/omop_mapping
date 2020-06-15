@@ -48,7 +48,7 @@ if (interactive()) {
                         type <- types[1]
                         output <- list()
 
-                        new_col_name <- paste0("Source Exclude ICDO3 Code ", centipede::in_title_format(type))
+                        new_col_name <- paste0("Source Exclude ICDO3 Code Synonym ", centipede::in_title_format(type))
 
                         secretary::typewrite("Starting", type, "search.")
                         Sys.sleep(1)
@@ -86,7 +86,7 @@ if (interactive()) {
                                                                                         secretary::typewrite(crayon::bold("Concept without ICDO3 Code:"), input_concept)
 
                                                                                         output[[i]] <-
-                                                                                                query_phrase_in_athena(phrase = input_concept, type = "string") %>%
+                                                                                                query_phrase_in_athena(phrase = input_concept, type = "string", synonym = TRUE) %>%
                                                                                                 chariot::merge_concepts(into = `Concept`) %>%
                                                                                                 dplyr::select(!!new_col_name := `Concept`)
                                                                                 } else {
