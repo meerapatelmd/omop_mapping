@@ -1,3 +1,5 @@
+# Standard "exact" and "like" style searches after removing the icdo3 code from the label. For example "Meera Patel 9000/3" would have a "exact" and "like" search of "Meera Patel" for all labels that grepl TRUE for [0-9]{4}[/]{1}[0-9]{1}. If no sources contain that regex, all values will be NA.
+
 if (interactive()) {
 
                 clean_env()
@@ -46,7 +48,7 @@ if (interactive()) {
                         type <- types[1]
                         output <- list()
 
-                        new_col_name <- paste0("Source ", centipede::in_title_format(type))
+                        new_col_name <- paste0("Source ICDO3 Code", centipede::in_title_format(type))
 
                         secretary::typewrite("Starting", type, "search.")
                         Sys.sleep(1)
@@ -73,11 +75,39 @@ if (interactive()) {
 
                                                                 if (nchar(input_concept) > source_skip_nchar) {
 
+                                                                        if (grepl(icdo3_code_pattern_regex, input_concept)) {
+                                                                                secretary::typewrite(crayon::bold("Concept with ICDO3 Code:"), input_concept)
+                                                                                input_concept <-
+                                                                                stringr::str_replace_all(input_concept, paste0("(^.* )(", icdo3_code_pattern_regex,")([ ]{0,}.*$)"), "\\2") %>%
+                                                                                        centipede::trimws(which = "both") %>%
+                                                                                        centipede::no_blank()
 
-                                                                        output[[i]] <-
-                                                                                query_phrase_in_athena(phrase = input_concept, type = type) %>%
-                                                                                chariot::merge_concepts(into = `Concept`) %>%
-                                                                                dplyr::select(!!new_col_name := `Concept`)
+                                                                                if (nchar(input_concept) > 0) {
+                                                                                        secretary::typewrite(crayon::bold("Concept ICDO3 Code:"), input_concept)
+
+                                                                                        output[[i]] <-
+                                                                                                chariot::query_code(code = input_concept,
+                                                                                                                    type = type) %>%
+                                                                                                chariot::merge_concepts(into = `Concept`) %>%
+                                                                                                dplyr::select(!!new_col_name := `Concept`)
+                                                                                } else {
+
+
+                                                                                        output[[i]] <- NA
+                                                                                        output[[i]] <-
+                                                                                                output[[i]] %>%
+                                                                                                rubix::vector_to_tibble(!!new_col_name)
+                                                                                }
+
+                                                                        } else {
+
+                                                                                output[[i]] <- NA
+                                                                                output[[i]] <-
+                                                                                        output[[i]] %>%
+                                                                                        rubix::vector_to_tibble(!!new_col_name)
+
+                                                                        }
+
 
                                                                 } else {
                                                                         output[[i]] <- NA
@@ -164,105 +194,4 @@ if (interactive()) {
 
         source("/Users/patelm9/GitHub/omop_mapping/procedure/startup.R")
 
-        # Read input
-        input <- read_input()
-        target_col <- source_col
-
-        # Routine Variables
-        types <- c("exact", "like")
-
-
-        # Normalize NAs because some are "NA" and others are true NA
-        input2 <-
-                input %>%
-                normalize_na()
-
-        # Creating final input object to join with final output object
-        final_input <- input2
-
-        # Parse the vectors that are strings
-        input3 <-
-                input2 %>%
-                dplyr::select(routine_id, all_of(target_col), !!terminal_col)
-
-
-        # If any routine_id is NA
-        qa1 <-  input3$routine_id[is.na(input3$routine_id)]
-
-        if (length(qa1) > 0) {
-
-                stop("routine_ids present in input are missing in input3")
-
-        }
-
-        while (length(types) > 0) {
-                type <- types[1]
-                output <- list()
-
-                new_col_name <- paste0("Source ", centipede::in_title_format(type))
-
-                secretary::typewrite("Starting", type, "search.")
-                Sys.sleep(1)
-                cat("\n")
-
-
-                for (i in 1:nrow(input3)) {
-
-                        input_row <- input3 %>%
-                                dplyr::filter(row_number() == i)
-
-
-                        rubix::release_df(input_row)
-
-
-                        input_concept <- get(target_col)
-                        output_concept <- get(terminal_col)
-                        input_routine_id <- routine_id
-
-
-                        if (!is.logical(input_concept) && !(input_concept %in% c(NA, "NA"))) {
-
-                                if (is.na(output_concept)) {
-
-                                        if (nchar(input_concept) > source_skip_nchar) {
-
-
-                                                output[[i]] <-
-                                                        query_phrase_in_athena(phrase = input_concept, type = type) %>%
-                                                        chariot::merge_concepts(into = `Concept`) %>%
-                                                        dplyr::select(!!new_col_name := `Concept`)
-
-                                        } else {
-                                                output[[i]] <- NA
-                                                output[[i]] <-
-                                                        output[[i]] %>%
-                                                        rubix::vector_to_tibble(!!new_col_name)
-                                        }
-
-
-
-                                } else {
-                                        output[[i]] <- NA
-                                        output[[i]] <-
-                                                output[[i]] %>%
-                                                rubix::vector_to_tibble(!!new_col_name)
-                                }
-
-                        } else {
-                                output[[i]] <- NA
-                                output[[i]] <-
-                                        output[[i]] %>%
-                                        rubix::vector_to_tibble(!!new_col_name)
-                        }
-
-                        names(output)[i] <- input_routine_id
-
-                        typewrite_progress(i = i, input3)
-                        rm(list = colnames(input_row))
-                        rm(input_row)
-                }
-
-                types <- types[-1]
-                cat("\n\n")
-        }
 }

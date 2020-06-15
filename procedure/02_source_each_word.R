@@ -3,8 +3,6 @@ if (interactive()) {
 clean_env()
 
 source('startup.R')
-# Routine Variables
-#word_split <- "[ ]{1}|[(]{1}|[)]{1}|[,]{1}"
 
 # Temporary stop if the output file exists
 brake_if_output_exists()
@@ -149,7 +147,7 @@ input2 <-
 
                                         names(output)[i] <- input_routine_id
 
-                                        typewrite_percent_progress(i = i, input3)
+                                        typewrite_progress(i = i, input3)
                                         rm(list = colnames(input_row))
                                         rm(input_row)
                         }
@@ -209,12 +207,6 @@ input2 <-
 
         source('/Users/patelm9/GitHub/omop_mapping/procedure/startup.R')
 
-        # Routine Variables
-        #word_split <- "[ ]{1}|[(]{1}|[)]{1}|[,]{1}"
-
-        # Temporary stop if the output file exists
-        #brake_if_output_exists()
-
 
         # Read input
         input <- read_input()
@@ -231,7 +223,7 @@ input2 <-
                 normalize_na()
 
         # Creating final input object to join with final output object
-        #final_input <- input2
+        final_input <- input2
 
         # Parse the vectors that are strings
         input3 <-
@@ -274,8 +266,8 @@ input2 <-
                                                                 unlist() %>%
                                                                 centipede::no_blank() %>%
                                                                 unique()) %>%
-                                                dplyr::mutate(nchar = nchar(all_words)) %>%
-                                                #dplyr::filter(nchar > skip_nchar) %>%
+                                                dplyr::mutate(nchar = centipede::nchar_letter(all_words)) %>%
+                                                dplyr::filter(nchar >= (source_skip_nchar-1)) %>%
                                                 dplyr::arrange(desc(nchar)) %>%
                                                 dplyr::select(all_words) %>%
                                                 unlist() %>%
@@ -360,52 +352,6 @@ input2 <-
                         rm(input_row)
                 }
 
-                final_output <- output %>%
-                        dplyr::bind_rows(.id = "routine_id")
-
         }
-
-        # Aggregating the search result columns to the original routine_id
-        # final_output2 <-
-        #         final_output %>%
-        #         rubix::map_names_set(function(x) x %>%
-        #                                      rubix::group_by_unique_aggregate(routine_id,
-        #                                                                       agg.col = contains("Source"),
-        #                                                                       collapse = "\n")) %>%
-        #         purrr::map(function(x) x %>%
-        #                            dplyr::mutate_at(vars(!routine_id), substr, 1, 25000))
-
-        # # If the search type is both exact and like, would need to reduce the list with left_join so each routine_id will have both searches associated with it in the dataframe
-
-        # if (length(final_output2) > 1) {
-        #         final_output3 <-
-        #                 final_output2  %>%
-        #                 purrr::reduce(full_join, by = "routine_id")
-        # } else {
-        #         final_output3 <-
-        #                 final_output2
-        # }
-
-
-        # Join with final_input object
-        # final_routine_output <-
-        #         dplyr::left_join(final_input,
-        #                          final_output3)
-
-
-        #QA
-        # qa2 <- all(final_routine_output$routine_id %in% final_input$routine_id)
-        # if (qa2 == FALSE) {
-        #         stop("all routine_ids from final_input not in final_routine_output")
-        # }
-        #
-        # qa3 <- nrow(final_routine_output) - nrow(final_input)
-        # if (qa3 != 0) {
-        #         stop("row counts between final_input and final_routine_output don't match")
-        # }
-        #
-        #
-        # broca::simply_write_csv(x = final_routine_output,
-        #                         file = path_to_output_fn)
 
 }

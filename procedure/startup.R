@@ -1,5 +1,5 @@
 rm(list = ls())
-source('/Users/patelm9/GitHub/omop_mapping/procedure/config/util_funs.R')
+source('/Users/patelm9/GitHub/omop_mapping/procedure/config/funs.R')
 source('/Users/patelm9/GitHub/omop_mapping/procedure/config/constants.R')
 source('/Users/patelm9/GitHub/omop_mapping/procedure/config/variables.R')
 
