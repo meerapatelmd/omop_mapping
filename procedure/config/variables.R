@@ -10,11 +10,11 @@ invalid_reasons <- c(NA, "NA")
 origin_fn <-  "~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsx"
 origin_tab <- "MAP_08"
 
-
 # Target Columns: column where queries are sourced from. Note that the column called "CONCEPT" has been changed to "SOURCE" in this routine since the merge of OMOP concepts is functionalized to be called `Concept`.
 ## Source Columns: 1:1 concepts
 input_file_stem <- "COVID_SL_"
 source_col <- "CONCEPT"
+word_split <- "[ ]{1}|[(]{1}|[)]{1}|[,]{1}" #The regex to split() the SOURCE column on to retrieve words for words-based searches
 
 ## Term Columns: series of search terms and phrases to each original concept to further search for the concept. Term columns are manually inputed by an end-user.
 term_col <- "SEARCH_TERM_01"

@@ -1882,3 +1882,23 @@ Timestamp	Activity Type	Function	File	Details
 2020-06-14 22:50:56	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
 2020-06-14 22:58:34	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
 2020-06-14 23:01:46	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-14 23:25:42	write	simply_write_csv	data/output/COVID_SL_MAP_08_02_source_first_word.csv	
+2020-06-15 00:55:19	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 01:16:07	write	simply_write_csv	data/output/COVID_SL_MAP_08_02_source_first_word.csv	
+2020-06-15 10:00:50	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 11:38:00	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 11:39:00	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 11:41:03	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 11:46:27	write	simply_write_csv	data/output/COVID_SL_MAP_08_01_source_as_is.csv	
+2020-06-15 11:51:39	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 11:52:28	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 11:57:21	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 11:57:33	write	simply_write_csv	data/output/COVID_SL_MAP_08_01_source_as_is.csv	
+2020-06-15 11:59:58	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 12:14:17	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 12:36:31	write	simply_write_csv	data/output/COVID_SL_MAP_08_02_sandbox_source_first_word.csv	
+2020-06-15 12:41:05	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 12:47:51	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 12:48:21	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 12:54:16	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 12:59:45	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input

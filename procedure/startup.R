@@ -1,7 +1,7 @@
 rm(list = ls())
 source('/Users/patelm9/GitHub/omop_mapping/procedure/config/util_funs.R')
-source('/Users/patelm9/GitHub/omop_mapping/procedure/config/constant_vars.R')
-source('/Users/patelm9/GitHub/omop_mapping/procedure/config/routine_vars.R')
+source('/Users/patelm9/GitHub/omop_mapping/procedure/config/constants.R')
+source('/Users/patelm9/GitHub/omop_mapping/procedure/config/variables.R')
 
 
 set_this_wd()

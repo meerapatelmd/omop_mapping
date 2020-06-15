@@ -1,3 +1,6 @@
+####################
+## Operational    ##
+####################
 set_this_wd <-
         function() {
                 if ("/Users/patelm9/GitHub/omop_mapping/procedure" != getwd()) {
@@ -5,7 +8,34 @@ set_this_wd <-
                 }
         }
 
+clean_env <-
+        function() {
+                rm(list = ls(envir = globalenv()), envir = globalenv())
+        }
 
+
+create_path_to_output_fn <-
+        function() {
+                paste0(stringr::str_replace(path_to_input_fn, "(^.*[/]{1})(.*?)([.]{1}csv$)", "data/output/\\2_"), cave::strip_fn(cave::present_script_path()), ".csv")
+        }
+
+brake_if_output_exists <-
+        function() {
+                path_to_output_fn <<- create_path_to_output_fn()
+
+                if (file.exists(path_to_output_fn)) {
+
+                        secretary::typewrite_warning(path_to_output_fn, "already exists and will be overwritten.")
+                        secretary::press_enter()
+                }
+        }
+
+
+
+####################
+## Apply Settings ##
+####################
+# Creates a settings object containing all the variables required by the filter_for_settings() function
 make_settings <-
         function(override_vocabularies = NULL,
                  override_concept_classes = NULL,
@@ -57,6 +87,7 @@ make_settings <-
         }
 
 
+# Filters the resultset of a concept table search for the settings in variables.R
 filter_for_settings <-
         function(.data,
                  override_vocabularies = NULL,
@@ -119,55 +150,23 @@ filter_for_settings <-
 
         }
 
-normalize_na <-
-        function(.data) {
-                .data %>%
-                        dplyr::mutate_all(stringr::str_replace_all, "^NA$", "") %>%
-                        dplyr::mutate_all(na_if, "")
-        }
-
-read_workfile <-
-        function(routine, ...) {
-
-                x <- broca::simply_read_csv(path_to_input_fn,
-                                       log_details = routine) %>%
-                        normalize_na()
-
-                if (!missing(...)) {
-                        x <-
-                                x %>%
-                                dplyr::filter(...)
-                }
-
-                print(
-                        x %>%
-                        dplyr::select(!!terminal_col) %>%
-                                dplyr::mutate_at(vars(!!terminal_col),
-                                                 function(x)
-                                                         ifelse(is.na(x),
-                                                                "Unmapped",
-                                                                "Mapped")) %>%
-                                group_by_at(vars(!!terminal_col)) %>%
-                                summarize(COUNT = n())
-                )
-
-                return(x)
-
-        }
-
-
-apply_input_filters <-
-        function(.data) {
-                x <- .data
-                if (exists("additional_filters", envir = globalenv())) {
-                        eval(rlang::parse_expr(paste0("x %>% ", paste(paste0("dplyr::filter(", additional_filters, ")"), collapse = " %>% "))))
-                } else {
-                        x
-                }
-        }
-
+#################################
+## Apply More Filters to Input ##
+#################################
 read_input <-
         function() {
+
+                apply_input_filters <-
+                        function(.data) {
+                                x <- .data
+                                if (exists("additional_filters", envir = globalenv())) {
+                                        eval(rlang::parse_expr(paste0("x %>% ", paste(paste0("dplyr::filter(", additional_filters, ")"), collapse = " %>% "))))
+                                } else {
+                                        x
+                                }
+                        }
+
+
 
                 x <- broca::simply_read_csv(path_to_input_fn,
                                             log_details = "read input") %>%
@@ -210,13 +209,25 @@ read_input <-
         }
 
 
+####################
+## Cleanup Data   ##
+####################
+# Normalize all NA values that are strings to true NAs
+normalize_na <-
+        function(.data) {
+                .data %>%
+                        dplyr::mutate_all(stringr::str_replace_all, "^NA$", "") %>%
+                        dplyr::mutate_all(na_if, "")
+        }
+
+# Filter for 250 rows, the most Excel can handle in a single cell
 filter_max_250 <-
         function(.data) {
                 .data %>%
                         dplyr::slice(1:250)
 
         }
-
+# Filter for a n number of rows, particularly helpful with combination searches where the total of all search results cannot be greater than 250
 filter_max_n <-
         function(.data, n) {
                 .data %>%
@@ -224,30 +235,39 @@ filter_max_n <-
         }
 
 
+##################
+## Deprecated   ##
+##################
+read_workfile <-
+        function(routine, ...) {
 
-clean_env <-
-        function() {
-                rm(list = ls(envir = globalenv()), envir = globalenv())
-        }
+                x <- broca::simply_read_csv(path_to_input_fn,
+                                       log_details = routine) %>%
+                        normalize_na()
 
-
-create_path_to_output_fn <-
-        function() {
-                paste0(stringr::str_replace(path_to_input_fn, "(^.*[/]{1})(.*?)([.]{1}csv$)", "data/output/\\2_"), cave::strip_fn(cave::present_script_path()), ".csv")
-        }
-
-
-
-brake_if_output_exists <-
-        function() {
-                path_to_output_fn <<- create_path_to_output_fn()
-
-                if (file.exists(path_to_output_fn)) {
-
-                        secretary::typewrite_warning(path_to_output_fn, "already exists and will be overwritten.")
-                        secretary::press_enter()
+                if (!missing(...)) {
+                        x <-
+                                x %>%
+                                dplyr::filter(...)
                 }
+
+                print(
+                        x %>%
+                        dplyr::select(!!terminal_col) %>%
+                                dplyr::mutate_at(vars(!!terminal_col),
+                                                 function(x)
+                                                         ifelse(is.na(x),
+                                                                "Unmapped",
+                                                                "Mapped")) %>%
+                                group_by_at(vars(!!terminal_col)) %>%
+                                summarize(COUNT = n())
+                )
+
+                return(x)
+
         }
+
+
 
 
 create_types_output_object <-
@@ -326,6 +346,7 @@ typewrite_percent_progress <-
                                                                 Sys.sleep(.1)
 
                                                                 if ((percent_progress %% 5) == 0) {
+                                                                        secretary::typewrite(Sys.time())
                                                                         secretary::typewrite(current_percent, "percent complete.")
                                                                         secretary::typewrite(i, "out of", nrow(.data))
                                                                 }
@@ -353,13 +374,14 @@ typewrite_percent_progress <-
                                                         Sys.sleep(.1)
 
                                                         if ((percent_progress %% 5) == 0) {
-                                                                secretary::typewrite(current_percent, "percent complete.")
+                                                                secretary::typewrite(Sys.time())
+                                                                secretary::typewrite(percent_progress, "percent complete.")
                                                                 secretary::typewrite(i, "out of", length(input))
                                                         }
                                                 }
 
                                         } else {
-                                                secretary::typewrite("100% complete.")
+                                                secretary::typewrite("COMPLETE.")
                                                 rm(percent_progress, envir = globalenv())
                                         }
                                 }
@@ -380,6 +402,98 @@ typewrite_percent_progress <-
                 # }
 
         }
+
+
+typewrite_progress <-
+        function(i, input) {
+
+                if (is.data.frame(input)) {
+
+                        .data <- input
+
+                        total_iterations <- nrow(.data)
+
+                        if (i != total_iterations) {
+                                if (!exists("percent_progress", envir = globalenv())) {
+                                        percent_progress <<- signif((i/total_iterations)*100, digits = 2)
+                                }
+
+                                percent_progress <- get("percent_progress", envir = globalenv())
+
+                                current_percent <- signif((i/total_iterations)*100, digits = 2)
+
+                                if (current_percent != percent_progress) {
+
+                                        percent_progress <<- current_percent
+                                        Sys.sleep(.1)
+
+                                        if ((percent_progress %% 5) == 0) {
+                                                secretary::typewrite(Sys.time())
+                                                secretary::typewrite(current_percent, "percent complete.")
+                                                secretary::typewrite(i, "out of", total_iterations)
+                                        }
+                                }
+
+                        } else {
+                                secretary::typewrite("100% complete.")
+                                rm(percent_progress, envir = globalenv())
+                        }
+
+
+                } else {
+                        total_iterations <- length(input)
+
+                        if (i != total_iterations) {
+                                if (!exists("percent_progress", envir = globalenv())) {
+                                        percent_progress <<- signif((i/total_iterations)*100, digits = 2)
+                                }
+
+                                percent_progress <- get("percent_progress", envir = globalenv())
+
+                                current_percent <- signif((i/total_iterations)*100, digits = 2)
+
+                                if (current_percent != percent_progress) {
+
+                                        percent_progress <<- current_percent
+                                        Sys.sleep(.1)
+
+                                        if ((percent_progress %% 5) == 0) {
+                                                secretary::typewrite(Sys.time())
+                                                secretary::typewrite(percent_progress, "percent complete.")
+                                                secretary::typewrite(i, "out of", total_iterations)
+
+                                                if (!interactive()) {
+
+                                                        joblog <- tibble(Timestmap = Sys.time(),
+                                                                         Routine = cave::present_script_path(),
+                                                                         Percent = percent_progress,
+                                                                         Iteration = i,
+                                                                         Total_Iterations = total_iterations)
+
+                                                        if (!file.exists("joblog.csv")) {
+
+                                                                broca::simply_write_csv(x = joblog,
+                                                                                        file = "joblog.csv")
+
+                                                        } else {
+
+                                                                readr::write_csv(x = joblog,
+                                                                                 path = "joblog.csv",
+                                                                                 append = TRUE)
+                                                        }
+                                                }
+                                        }
+                                }
+
+                        } else {
+                                secretary::typewrite("COMPLETE.")
+                                rm(percent_progress, envir = globalenv())
+                        }
+                }
+
+
+        }
+
 
 
 typewrite_complete <-
