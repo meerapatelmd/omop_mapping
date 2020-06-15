@@ -286,12 +286,14 @@ query_phrase_in_athena <-
                                 secretary::typewrite(crayon::bold("Modified:"), mod_phrase)
                                 chariot::query_phrase(phrase = mod_phrase,
                                                       type = type) %>%
+                                        dplyr::mutate_all(as.character) %>%
                                         filter_for_settings() %>%
                                         rubix::arrange_by_nchar(concept_name) %>%
                                         filter_max_n(n = n)
                         } else {
                                 chariot::query_phrase(phrase = phrase,
                                                       type = type) %>%
+                                        dplyr::mutate_all(as.character) %>%
                                         filter_for_settings() %>%
                                         rubix::arrange_by_nchar(concept_name) %>%
                                         filter_max_n(n = n)

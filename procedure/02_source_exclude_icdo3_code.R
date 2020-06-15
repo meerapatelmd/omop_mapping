@@ -1,8 +1,8 @@
 # Standard "exact" and "like" style searches after removing the icdo3 code from the label. For example "Meera Patel 9000/3" would have a "exact" and "like" search of "Meera Patel" for all labels that grepl TRUE for [0-9]{4}[/]{1}[0-9]{1}. If no sources contain that regex, all values will be NA.
 
 
-rm(list = ls())
-source('setup.R')
+#rm(list = ls())
+#source('startup.R')
 
 path_to_output_fn <- paste0(stringr::str_replace(path_to_input_fn, "(^.*?[/]{1})(.*?)([.]{1}csv$)", "output/\\2_"), cave::strip_fn(cave::present_script_path()), ".csv")
 
@@ -73,12 +73,16 @@ for (i in 1:length(input_vector)) {
                         if (is.na(input_fact_concept[i])) {
 
                                 if (nchar(input_vector[[i]]) > source_skip_nchar) {
-                                        print(i)
+                                        #print(i)
                                         input_phrase <- input_vector[[i]]
 
-                                        if (grepl("[0-9]{4}[/]{1}[0-9]{1}", input_phrase) == TRUE) {
-                                        input_phrase <- stringr::str_replace_all(input_phrase, "(^.*)( [0-9]{4}[/]{1}[0-9]{1})", "\\1") %>%
-                                                trimws("both")
+                                        if (grepl(icdo3_code_pattern_regex, input_phrase) == TRUE) {
+                                                print(input_phrase)
+                                        input_phrase <- stringr::str_replace_all(input_phrase, paste0("(^.* )(", icdo3_code_pattern_regex,")([ ]{0,}.*$)"), "\\1\\3") %>%
+                                                centipede::trimws(which = "both") %>%
+                                                centipede::no_blank()
+
+                                        if (length(input_phrase)) {
                                         print(input_phrase)
 
                                 output[[i]] <-
@@ -88,6 +92,9 @@ for (i in 1:length(input_vector)) {
                                         rubix::arrange_by_nchar(concept_name) %>%
                                         #filtering for only 250 lines (max in Excel)
                                         dplyr::slice(1:250)
+                                        } else {
+                                                output[[i]] <- NA
+                                        }
 
                                 #names(output[[i]]) <- input_vector[[i]]
                                         } else {

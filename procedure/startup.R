@@ -1,7 +1,7 @@
 rm(list = ls())
-source('/Users/patelm9/GitHub/KMI/termite/Map_to_OMOP/procedure/config/util_funs.R')
-source('/Users/patelm9/GitHub/KMI/termite/Map_to_OMOP/procedure/config/constant_vars.R')
-source('/Users/patelm9/GitHub/KMI/termite/Map_to_OMOP/procedure/config/routine_vars.R')
+source('/Users/patelm9/GitHub/omop_mapping/procedure/config/util_funs.R')
+source('/Users/patelm9/GitHub/omop_mapping/procedure/config/constant_vars.R')
+source('/Users/patelm9/GitHub/omop_mapping/procedure/config/routine_vars.R')
 
 
 set_this_wd()
