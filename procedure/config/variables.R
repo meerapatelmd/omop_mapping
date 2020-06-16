@@ -1,14 +1,14 @@
 # Search Settings
 # Global filters for all queries to the concept table
-vocabularies <- c("HemOnc", "RxNorm", "RxNorm Extension")
+vocabularies <- c("RxNorm", "RxNorm Extension", "HemOnc", "ATC")
 concept_classes <- NULL
-domains <- NULL
+domains <- c("Drug")
 standard_concepts <- c("S", "C", "NA", NA)
 invalid_reasons <- c(NA, "NA")
 
 # Project Setup
 origin_fn <-  "~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsx"
-origin_tab <- "MAP_08"
+origin_tab <- "MAP_12"
 
 # Target Columns: column where queries are sourced from. Note that the column called "CONCEPT" has been changed to "SOURCE" in this routine since the merge of OMOP concepts is functionalized to be called `Concept`.
 ## Source Columns: 1:1 concepts

@@ -139,7 +139,7 @@ for (i in 1:length(output)) {
 
         if (!is.logical(output[[i]]) && (length(output[[i]]) != 0)) {
 
-                new_col_name <- "Source Terms Inside Parentheses"
+                new_col_name <- "Source Terms Inside Parentheses Terms"
 
                 #secretary::press_enter()
 

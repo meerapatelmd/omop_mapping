@@ -15,7 +15,7 @@ target_col <- source_col
 
 # Routine Variables
 type <- c("like")
-new_col_name <- paste0("Source First Word ", centipede::in_title_format(type))
+new_col_name <- paste0("Source Exclude Parentheses ", centipede::in_title_format(type))
 
 
 # Normalize NAs because some are "NA" and others are true NA
@@ -63,61 +63,31 @@ input2 <-
 
                                                                 if (nchar(input_concept) > source_skip_nchar) {
 
-                                                                        FirstWord <- tibble(all_words = strsplit(input_concept, split = word_split) %>%
-                                                                                                                unlist() %>%
-                                                                                                                centipede::no_blank() %>%
-                                                                                                                unique()) %>%
-                                                                                dplyr::mutate(nchar = nchar(all_words)) %>%
-                                                                                dplyr::filter(nchar >= source_skip_nchar) %>%
-                                                                                dplyr::select(-nchar) %>%
-                                                                                rubix::filter_first_row() %>%
-                                                                                unlist() %>%
-                                                                                centipede::no_na() %>%
-                                                                                centipede::no_blank()
 
+                                                                        if (grepl("[(]{1}", input_concept)) {
 
+                                                                                        FirstWord <-
+                                                                                                stringr::str_replace_all(input_concept,
+                                                                                                                         pattern = "(^.*?)([(]{1}.*$)",
+                                                                                                                         replacement = "\\1") %>%
+                                                                                                trimws(which = "both") %>%
+                                                                                                centipede::no_na() %>%
+                                                                                                centipede::no_blank()
 
-                                                                        if (length(FirstWord)) {
-
-                                                                                        #Add space after
-                                                                                        input_word <- paste0(FirstWord, " ")
-                                                                                        space_after_results <-
-                                                                                                query_phrase_in_athena(phrase = input_word,
-                                                                                                                       type = type)
-
-
-                                                                                        #Add space before
-                                                                                        input_word <- paste0(" ", FirstWord)
-                                                                                        space_before_results <-
-                                                                                                query_phrase_in_athena(phrase = input_word,
-                                                                                                                       type = type)
-
-                                                                                        #No space
-                                                                                        no_space_results <-
-                                                                                                query_phrase_in_athena(phrase = FirstWord,
-                                                                                                                       type = type)
+                                                                                        secretary::typewrite(crayon::bold("Concept without Parentheses:"), FirstWord)
 
                                                                                         output[[i]] <-
-                                                                                                dplyr::bind_rows(space_after_results,
-                                                                                                                 space_before_results,
-                                                                                                                 no_space_results) %>%
+                                                                                                query_phrase_in_athena(phrase = FirstWord,
+                                                                                                                       type = type) %>%
                                                                                                 dplyr::distinct() %>%
                                                                                                 rubix::arrange_by_nchar(concept_name) %>%
-                                                                                                filter_max_250()
+                                                                                                filter_max_250() %>%
+                                                                                                chariot::merge_concepts(into = `Concept`) %>%
+                                                                                                dplyr::mutate(Concept = paste0(FirstWord, ": ", Concept)) %>%
+                                                                                                dplyr::select(!!new_col_name := `Concept`)
 
 
                                                                                 names(output)[i] <- input_routine_id
-
-
-
-
-
-                                                                        output[[i]] <-
-                                                                                output[[i]] %>%
-                                                                                #dplyr::bind_rows() %>%
-                                                                                chariot::merge_concepts(into = `Concept`) %>%
-                                                                                dplyr::mutate(Concept = paste0(FirstWord, ": ", Concept)) %>%
-                                                                                dplyr::select(!!new_col_name := `Concept`)
 
                                                                 } else {
                                                                         output[[i]] <- NA
@@ -158,7 +128,7 @@ input2 <-
         final_output2 <-
                 final_output %>%
                 rubix::group_by_unique_aggregate(routine_id,
-                                                 agg.col = contains("Source First Word "),
+                                                 agg.col = contains("Source Exclude Parentheses "),
                                                  collapse = "\n") %>%
                 dplyr::mutate_at(vars(!routine_id), substr, 1, 25000)
 
@@ -396,8 +366,6 @@ input2 <-
         #
         # broca::simply_write_csv(x = final_routine_output,
         #                         file = path_to_output_fn)
-
-
 
 
 }

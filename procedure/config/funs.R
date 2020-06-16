@@ -227,6 +227,7 @@ filter_max_250 <-
                         dplyr::slice(1:250)
 
         }
+
 # Filter for a n number of rows, particularly helpful with combination searches where the total of all search results cannot be greater than 250
 filter_max_n <-
         function(.data, n) {
@@ -267,9 +268,6 @@ read_workfile <-
 
         }
 
-
-
-
 create_types_output_object <-
         function(param_types = NULL) {
                 if (is.null(param_types)) {
@@ -294,7 +292,23 @@ create_types_output_object <-
         }
 
 
+##############
+## Errors ####
+##############
 
+try_catch_as_na_df <-
+        function(expr) {
+
+                tryCatch(expr = expr,
+                         error = function(e) NA %>%
+                                                rubix::vector_to_tibble(!!new_col_name))
+
+        }
+
+
+##################
+## Query        ##
+##################
 query_phrase_in_athena <-
         function(phrase, type, remove_regex = "[']{1}|[?]{1}$", n = 250, synonym = FALSE) {
 
@@ -387,6 +401,70 @@ query_phrase_in_athena <-
         }
 
 
+lookup_cancer_gov_dictionary <-
+        function(phrase, type) {
+                if (!exists("cg_dict", envir = globalenv())) {
+                        cg_dict <<- broca::simply_read_csv("/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv")
+                }
+
+                if (type == "like") {
+
+                        try_catch_as_na_df(
+                        cg_dict %>%
+                                dplyr::filter_all(function(x) grepl(phrase,
+                                                                    x,
+                                                                    ignore.case = TRUE) == TRUE))
+                } else if (type == "exact") {
+                        try_catch_as_na_df(
+                        cg_dict %>%
+                                dplyr::filter_all(function(x) x %in% phrase)
+                        )
+                } else if (type == "string") {
+                        Args <- strsplit(phrase, " |[[:punct:]]") %>%
+                                        unlist() %>%
+                                        centipede::no_na() %>%
+                                        centipede::no_blank() %>%
+                                        unique()
+
+                        for (i in 1:length(Args)) {
+                                if (i == 1) {
+
+                                        output <-
+                                                try_catch_as_na_df(
+                                                cg_dict %>%
+                                                dplyr::filter_all(function(x) grepl(Args[1],
+                                                                                    x,
+                                                                                    ignore.case = TRUE) == TRUE)
+                                        )
+                                } else {
+                                        output <-
+                                                try_catch_as_na_df(
+                                                output %>%
+                                                dplyr::filter_all(function(x) grepl(Args[i],
+                                                                                    x,
+                                                                                    ignore.case = TRUE) == TRUE)
+                                                )
+                                }
+                        }
+                        return(output)
+
+                                }
+        }
+
+lookup_uptodate_dictionary <-
+        function(phrase) {
+                dictionary <- broca::read_full_excel("/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/UpToDate_Drugs/MASTER.xlsx")
+
+                dictionary$MASTER %>%
+                        dplyr::filter_all(function(x) grepl(phrase,
+                                                            x,
+                                                            ignore.case = TRUE) == TRUE)
+        }
+
+
+##################
+## Typewrite    ##
+##################
 typewrite_percent_progress <-
         function(i, input) {
 
@@ -493,14 +571,18 @@ typewrite_progress <-
                                         Sys.sleep(.1)
 
                                         if ((percent_progress %% 5) == 0) {
-                                                secretary::typewrite(Sys.time())
-                                                secretary::typewrite(current_percent, "percent complete.")
-                                                secretary::typewrite(i, "out of", total_iterations)
+                                                cat("\n")
+                                                secretary::typewrite(crayon::red(Sys.time()))
+                                                secretary::typewrite(crayon::red(current_percent, "percent complete."))
+                                                secretary::typewrite(crayon::red(i, "out of", total_iterations))
+                                                cat("\n")
                                         }
                                 }
 
                         } else {
-                                secretary::typewrite("100% complete.")
+                                cat("\n")
+                                secretary::typewrite(crayon::red("100% complete."))
+                                cat("\n")
                                 rm(percent_progress, envir = globalenv())
                         }
 
@@ -523,9 +605,11 @@ typewrite_progress <-
                                         Sys.sleep(.1)
 
                                         if ((percent_progress %% 5) == 0) {
-                                                secretary::typewrite(Sys.time())
-                                                secretary::typewrite(percent_progress, "percent complete.")
-                                                secretary::typewrite(i, "out of", total_iterations)
+                                                cat("\n")
+                                                secretary::typewrite(crayon::red(Sys.time()))
+                                                secretary::typewrite(crayon::red(percent_progress, "percent complete."))
+                                                secretary::typewrite(crayon::red(i, "out of", total_iterations))
+                                                cat("\n")
 
                                                 if (!interactive()) {
 
@@ -551,14 +635,15 @@ typewrite_progress <-
                                 }
 
                         } else {
-                                secretary::typewrite("COMPLETE.")
+                                cat("\n")
+                                secretary::typewrite(crayon::red("100% complete."))
+                                cat("\n")
                                 rm(percent_progress, envir = globalenv())
                         }
                 }
 
 
         }
-
 
 
 typewrite_complete <-
