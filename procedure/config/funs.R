@@ -88,7 +88,7 @@ make_settings <-
 
 
 # Filters the resultset of a concept table search for the settings in variables.R
-filter_for_settings <-
+dep_filter_for_settings <-
         function(.data,
                  override_vocabularies = NULL,
                  override_concept_classes = NULL,
@@ -109,6 +109,56 @@ filter_for_settings <-
                                 .data <-
                                         .data %>%
                                         dplyr::filter(vocabulary_id %in% settings$vocabularies)
+
+                }
+
+
+                if (!is.null(settings$concept_classes)) {
+
+                        .data <-
+                                .data %>%
+                                dplyr::filter(concept_class_id %in% settings$concept_classes)
+
+                }
+
+                if (!is.null(settings$domains)) {
+
+                        .data <-
+                                .data %>%
+                                dplyr::filter(domain_id %in% settings$domains)
+
+                }
+
+
+                if (!is.null(settings$standard_concepts)) {
+
+                        .data <-
+                                .data %>%
+                                dplyr::filter(standard_concept %in% settings$standard_concepts)
+
+                }
+
+                if (!is.null(settings$invalid_reasons)) {
+
+                        .data <-
+                                .data %>%
+                                dplyr::filter(invalid_reason %in% settings$invalid_reasons)
+
+                }
+
+                return(.data)
+
+        }
+
+
+filter_for_settings <-
+        function(.data)   {
+
+                if (!is.null(settings$vocabularies)) {
+
+                        .data <-
+                                .data %>%
+                                dplyr::filter(vocabulary_id %in% settings$vocabularies)
 
                 }
 
@@ -310,7 +360,7 @@ try_catch_as_na_df <-
 ## Query        ##
 ##################
 query_phrase_in_athena <-
-        function(phrase, type, remove_regex = "[']{1}|[?]{1}$", n = 250, synonym = FALSE) {
+        function(phrase, type, remove_regex = "[']{1}|[?]{1}$|[[:punct:]]{1}$", n = 250, synonym = FALSE) {
 
                         secretary::typewrite(crayon::bold("Raw:"), phrase)
                         mod_phrase <- stringr::str_remove_all(phrase, pattern = remove_regex)
@@ -362,12 +412,12 @@ query_phrase_in_athena <-
                         if (mod_phrase != phrase) {
                                 if (type != "string") {
                                         secretary::typewrite(crayon::bold("Modified:"), mod_phrase)
+
                                         chariot::query_phrase(phrase = mod_phrase,
                                                               type = type) %>%
                                                 dplyr::mutate_all(as.character) %>%
-                                                filter_for_settings() %>%
-                                                rubix::arrange_by_nchar(concept_name) %>%
-                                                filter_max_n(n = n)
+                                                #filter_for_settings() %>%
+                                                rubix::arrange_by_nchar(concept_name)
                                 } else {
                                         secretary::typewrite(crayon::bold("Modified:"), mod_phrase)
                                         chariot::query_string_as_vector(mod_phrase,
