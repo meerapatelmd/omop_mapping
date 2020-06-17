@@ -19,9 +19,7 @@ create_path_to_output_fn <-
                 if (interactive()) {
                 paste0(stringr::str_replace(path_to_input_fn, "(^.*[/]{1})(.*?)([.]{1}csv$)", "data/output/\\2_"), cave::strip_fn(cave::present_script_path()), ".csv")
                 } else {
-                       x <- paste0("/Users/patelm9/GitHub/omop_mapping/procedure/", stringr::str_replace(path_to_input_fn, "(^.*[/]{1})(.*?)([.]{1}csv$)", "data/output/\\2_"), cave::strip_fn(cave::present_script_path()), ".csv")
-                       print(x)
-                       return(x)
+                       paste0("/Users/patelm9/GitHub/omop_mapping/procedure/", stringr::str_replace(path_to_input_fn, "(^.*[/]{1})(.*?)([.]{1}csv$)", "data/output/\\2_"), cave::strip_fn(cave::present_script_path()), ".csv")
 
                 }
         }
@@ -716,4 +714,7 @@ typewrite_start <-
                 cat("\n")
         }
 
-
+typewrite_file_exists <-
+        function() {
+                secretary::typewrite("File exists.")
+        }
