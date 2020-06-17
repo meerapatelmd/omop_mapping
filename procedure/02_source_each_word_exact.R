@@ -182,6 +182,9 @@ input2 <-
         input <- read_input()
         target_col <- source_col
 
+        # Path to output
+        path_to_output_fn <- create_path_to_output_fn()
+
         # Routine Variables
         type <- c("exact")
         new_col_name <- paste0("Source Each Word ", centipede::in_title_format(type))

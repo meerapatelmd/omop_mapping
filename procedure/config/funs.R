@@ -16,12 +16,18 @@ clean_env <-
 
 create_path_to_output_fn <-
         function() {
+                if (interactive()) {
                 paste0(stringr::str_replace(path_to_input_fn, "(^.*[/]{1})(.*?)([.]{1}csv$)", "data/output/\\2_"), cave::strip_fn(cave::present_script_path()), ".csv")
+                } else {
+                       x <- paste0("/Users/patelm9/GitHub/omop_mapping/procedure/", stringr::str_replace(path_to_input_fn, "(^.*[/]{1})(.*?)([.]{1}csv$)", "data/output/\\2_"), cave::strip_fn(cave::present_script_path()), ".csv")
+                       print(x)
+                       return(x)
+
+                }
         }
 
 brake_if_output_exists <-
         function() {
-                path_to_output_fn <<- create_path_to_output_fn()
 
                 if (file.exists(path_to_output_fn)) {
 
@@ -221,7 +227,8 @@ read_input <-
                 x <- broca::simply_read_csv(path_to_input_fn,
                                             log_details = "read input") %>%
                         normalize_na() %>%
-                        dplyr::mutate_all(as.character)
+                        dplyr::mutate_all(as.character) %>%
+                        dplyr::filter(`MSK Concept Type` == "Fact")
 
                 x <- apply_input_filters(x)
 
@@ -454,7 +461,8 @@ query_phrase_in_athena <-
 lookup_cancer_gov_dictionary <-
         function(phrase, type) {
                 if (!exists("cg_dict", envir = globalenv())) {
-                        cg_dict <<- broca::simply_read_csv("/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv")
+                        cg_dict <<- broca::simply_read_csv("/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv") %>%
+                                dplyr::mutate(`Code String` = stringr::str_remove_all(`Code name`, "[-]"))
                 }
 
                 if (type == "like") {
@@ -700,4 +708,12 @@ typewrite_complete <-
         function() {
                 secretary::typewrite_bold("Routine complete.")
         }
+
+typewrite_start <-
+        function(type) {
+                secretary::typewrite("Starting", type, "search.")
+                Sys.sleep(1)
+                cat("\n")
+        }
+
 

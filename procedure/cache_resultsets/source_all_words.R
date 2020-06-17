@@ -116,10 +116,10 @@ if (interactive()) {
 
                         secretary::typewrite(crayon::bold("Phrase:"), input_word)
 
-                        x <- chariot::query_phrase(phrase = input_word,
+                        x <- query_phrase_in_athena(phrase = input_word,
                                                    type = type)
 
-                        typewrite_percent_progress(i = i,
+                        typewrite_progress(i = i,
                                                    input5)
                 }
                 types <- types[-1]

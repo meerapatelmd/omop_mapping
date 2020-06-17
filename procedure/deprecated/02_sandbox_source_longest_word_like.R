@@ -14,8 +14,8 @@ input <- read_input()
 target_col <- source_col
 
 # Routine Variables
-type <- c("exact")
-new_col_name <- paste0("Source In Parentheses ", centipede::in_title_format(type))
+type <- c("like")
+new_col_name <- paste0("Source Longest Word ", centipede::in_title_format(type))
 
 
 # Normalize NAs because some are "NA" and others are true NA
@@ -63,31 +63,68 @@ input2 <-
 
                                                                 if (nchar(input_concept) > source_skip_nchar) {
 
+                                                                        secretary::typewrite(crayon::bold("Full:"), input_concept)
 
-                                                                        if (grepl("[(]{1}", input_concept)) {
+                                                                        LongestWord <- tibble(all_words = strsplit(input_concept, split = word_split) %>%
+                                                                                                                unlist() %>%
+                                                                                                                centipede::no_blank() %>%
+                                                                                                                unique()) %>%
+                                                                                dplyr::mutate(nchar = nchar(all_words)) %>%
+                                                                                dplyr::filter(nchar >= source_skip_nchar) %>%
+                                                                                dplyr::arrange(desc(nchar)) %>%
+                                                                                dplyr::select(-nchar) %>%
+                                                                                rubix::filter_first_row() %>%
+                                                                                unlist() %>%
+                                                                                centipede::no_na() %>%
+                                                                                centipede::no_blank()
 
-                                                                                        FirstWord <-
-                                                                                                stringr::str_replace_all(input_concept,
-                                                                                                                         pattern = "(^.*?[(]{1})(.*?)([)]{1}.*$)",
-                                                                                                                         replacement = "\\2") %>%
-                                                                                                trimws(which = "both") %>%
-                                                                                                centipede::no_na() %>%
-                                                                                                centipede::no_blank()
 
-                                                                                        secretary::typewrite(crayon::bold("Concept:"), input_concept)
-                                                                                        secretary::typewrite(crayon::bold("Concept inside Parentheses:"), FirstWord)
+                                                                        secretary::typewrite(crayon::bold("Longest Word:"), LongestWord)
 
-                                                                                        secretary::press_enter()
+
+
+                                                                        if (length(LongestWord)) {
+
+
+                                                                                        #Add space after
+                                                                                        input_word <- paste0(LongestWord, " ")
+                                                                                        space_after_results <-
+                                                                                                query_phrase_in_athena(phrase = input_word,
+                                                                                                                       type = type)
+
+
+                                                                                        #Add space before
+                                                                                        input_word <- paste0(" ", LongestWord)
+                                                                                        space_before_results <-
+                                                                                                query_phrase_in_athena(phrase = input_word,
+                                                                                                                       type = type)
+
+                                                                                        #No space
+                                                                                        no_space_results <-
+                                                                                                query_phrase_in_athena(phrase = LongestWord,
+                                                                                                                       type = type)
 
                                                                                         output[[i]] <-
-                                                                                                query_phrase_in_athena(phrase = FirstWord,
-                                                                                                                       type = type)
-                                                                                                chariot::merge_concepts(into = `Concept`) %>%
-                                                                                                dplyr::mutate(Concept = paste0(FirstWord, ": ", Concept)) %>%
-                                                                                                dplyr::select(!!new_col_name := `Concept`)
+                                                                                                dplyr::bind_rows(space_after_results,
+                                                                                                                 space_before_results,
+                                                                                                                 no_space_results) %>%
+                                                                                                dplyr::distinct() %>%
+                                                                                                rubix::arrange_by_nchar(concept_name) %>%
+                                                                                                filter_max_250()
 
 
                                                                                 names(output)[i] <- input_routine_id
+
+
+
+
+
+                                                                        output[[i]] <-
+                                                                                output[[i]] %>%
+                                                                                #dplyr::bind_rows() %>%
+                                                                                chariot::merge_concepts(into = `Concept`) %>%
+                                                                                dplyr::mutate(Concept = paste0(LongestWord, ": ", Concept)) %>%
+                                                                                dplyr::select(!!new_col_name := `Concept`)
 
                                                                 } else {
                                                                         output[[i]] <- NA
@@ -128,7 +165,7 @@ input2 <-
         final_output2 <-
                 final_output %>%
                 rubix::group_by_unique_aggregate(routine_id,
-                                                 agg.col = new_col_name,
+                                                 agg.col = contains("Source First Word "),
                                                  collapse = "\n") %>%
                 dplyr::mutate_at(vars(!routine_id), substr, 1, 25000)
 
@@ -164,15 +201,14 @@ input2 <-
 
         source('/Users/patelm9/GitHub/omop_mapping/procedure/startup.R')
 
-
         final_output <- list()
         # Read input
         input <- read_input()
         target_col <- source_col
 
         # Routine Variables
-        type <- c("exact")
-        new_col_name <- paste0("Source In Parentheses ", centipede::in_title_format(type))
+        type <- c("like")
+        new_col_name <- paste0("Source Longest Word ", centipede::in_title_format(type))
 
 
         # Normalize NAs because some are "NA" and others are true NA
@@ -220,34 +256,68 @@ input2 <-
 
                                 if (nchar(input_concept) > source_skip_nchar) {
 
+                                        secretary::typewrite(crayon::bold("Full:"), input_concept)
 
-                                        if (grepl("[(]{1}", input_concept)) {
+                                        LongestWord <- tibble(all_words = strsplit(input_concept, split = word_split) %>%
+                                                                      unlist() %>%
+                                                                      centipede::no_blank() %>%
+                                                                      unique()) %>%
+                                                dplyr::mutate(nchar = nchar(all_words)) %>%
+                                                dplyr::filter(nchar >= source_skip_nchar) %>%
+                                                dplyr::arrange(desc(nchar)) %>%
+                                                dplyr::select(-nchar) %>%
+                                                rubix::filter_first_row() %>%
+                                                unlist() %>%
+                                                centipede::no_na() %>%
+                                                centipede::no_blank()
 
-                                                FirstWord <-
-                                                        stringr::str_replace_all(input_concept,
-                                                                                 pattern = "(^.*?[(]{1})(.*?)([)]{1}.*$)",
-                                                                                 replacement = "\\2") %>%
-                                                        trimws(which = "both") %>%
-                                                        centipede::no_na() %>%
-                                                        centipede::no_blank()
 
-                                                secretary::typewrite(crayon::bold("Concept:"), input_concept)
-                                                secretary::typewrite(crayon::bold("Concept inside Parentheses:"), FirstWord)
+                                        secretary::typewrite(crayon::bold("Longest Word:"), LongestWord)
 
-                                                secretary::press_enter()
+
+
+                                        if (length(LongestWord)) {
+
+
+                                                #Add space after
+                                                input_word <- paste0(LongestWord, " ")
+                                                space_after_results <-
+                                                        query_phrase_in_athena(phrase = input_word,
+                                                                               type = type)
+
+
+                                                #Add space before
+                                                input_word <- paste0(" ", LongestWord)
+                                                space_before_results <-
+                                                        query_phrase_in_athena(phrase = input_word,
+                                                                               type = type)
+
+                                                #No space
+                                                no_space_results <-
+                                                        query_phrase_in_athena(phrase = LongestWord,
+                                                                               type = type)
 
                                                 output[[i]] <-
-                                                        query_phrase_in_athena(phrase = FirstWord,
-                                                                               type = type) %>%
+                                                        dplyr::bind_rows(space_after_results,
+                                                                         space_before_results,
+                                                                         no_space_results) %>%
                                                         dplyr::distinct() %>%
                                                         rubix::arrange_by_nchar(concept_name) %>%
-                                                        filter_max_250() %>%
-                                                        chariot::merge_concepts(into = `Concept`) %>%
-                                                        dplyr::mutate(Concept = paste0(FirstWord, ": ", Concept)) %>%
-                                                        dplyr::select(!!new_col_name := `Concept`)
+                                                        filter_max_250()
 
 
                                                 names(output)[i] <- input_routine_id
+
+
+
+
+
+                                                output[[i]] <-
+                                                        output[[i]] %>%
+                                                        #dplyr::bind_rows() %>%
+                                                        chariot::merge_concepts(into = `Concept`) %>%
+                                                        dplyr::mutate(Concept = paste0(LongestWord, ": ", Concept)) %>%
+                                                        dplyr::select(!!new_col_name := `Concept`)
 
                                         } else {
                                                 output[[i]] <- NA
@@ -288,7 +358,7 @@ input2 <-
         final_output2 <-
                 final_output %>%
                 rubix::group_by_unique_aggregate(routine_id,
-                                                 agg.col = contains("Source Exclude Parentheses "),
+                                                 agg.col = contains("Source First Word "),
                                                  collapse = "\n") %>%
                 dplyr::mutate_at(vars(!routine_id), substr, 1, 25000)
 
@@ -316,6 +386,8 @@ input2 <-
 
         broca::simply_write_csv(x = final_routine_output,
                                 file = path_to_output_fn)
+
+
 
 
 }
