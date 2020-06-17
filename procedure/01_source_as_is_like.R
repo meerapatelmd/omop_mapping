@@ -1,5 +1,3 @@
-# Standard "exact" and "like" style searches after removing the icdo3 code from the label. For example "Meera Patel 9000/3" would have a "exact" and "like" search of "Meera Patel" for all labels that grepl TRUE for [0-9]{4}[/]{1}[0-9]{1}. If no sources contain that regex, all values will be NA.
-
 if (interactive()) {
 
                 clean_env()
@@ -15,7 +13,7 @@ if (interactive()) {
                 target_col <- source_col
 
                 # Routine Variables
-                types <- c("exact", "like")
+                types <- c("like")
 
 
                 # Normalize NAs because some are "NA" and others are true NA
@@ -48,7 +46,7 @@ if (interactive()) {
                         type <- types[1]
                         output <- list()
 
-                        new_col_name <- paste0("Source Exclude ICDO3 Code", centipede::in_title_format(type))
+                        new_col_name <- paste0("Source ", centipede::in_title_format(type))
 
                         secretary::typewrite("Starting", type, "search.")
                         Sys.sleep(1)
@@ -75,38 +73,11 @@ if (interactive()) {
 
                                                                 if (nchar(input_concept) > source_skip_nchar) {
 
-                                                                        if (grepl(icdo3_code_pattern_regex, input_concept)) {
-                                                                                secretary::typewrite(crayon::bold("Concept with ICDO3 Code:"), input_concept)
-                                                                                input_concept <-
-                                                                                stringr::str_replace_all(input_concept, paste0("(^.* )(", icdo3_code_pattern_regex,")([ ]{0,}.*$)"), "\\1\\3") %>%
-                                                                                        centipede::trimws(which = "both") %>%
-                                                                                        centipede::no_blank()
 
-                                                                                if (nchar(input_concept) > source_skip_nchar) {
-                                                                                        secretary::typewrite(crayon::bold("Concept without ICDO3 Code:"), input_concept)
-
-                                                                                        output[[i]] <-
-                                                                                                query_phrase_in_athena(phrase = input_concept, type = type) %>%
-                                                                                                chariot::merge_concepts(into = `Concept`) %>%
-                                                                                                dplyr::select(!!new_col_name := `Concept`)
-                                                                                } else {
-
-
-                                                                                        output[[i]] <- NA
-                                                                                        output[[i]] <-
-                                                                                                output[[i]] %>%
-                                                                                                rubix::vector_to_tibble(!!new_col_name)
-                                                                                }
-
-                                                                        } else {
-
-                                                                                output[[i]] <- NA
-                                                                                output[[i]] <-
-                                                                                        output[[i]] %>%
-                                                                                        rubix::vector_to_tibble(!!new_col_name)
-
-                                                                        }
-
+                                                                        output[[i]] <-
+                                                                                query_phrase_in_athena(phrase = input_concept, type = type) %>%
+                                                                                chariot::merge_concepts(into = `Concept`) %>%
+                                                                                dplyr::select(!!new_col_name := `Concept`)
 
                                                                 } else {
                                                                         output[[i]] <- NA
@@ -151,7 +122,7 @@ if (interactive()) {
                 final_output %>%
                 rubix::map_names_set(function(x) x %>%
                                                         rubix::group_by_unique_aggregate(routine_id,
-                                                                                         agg.col = contains("Source"),
+                                                                                         agg.col = "Source Like",
                                                                                          collapse = "\n")) %>%
                 purrr::map(function(x) x %>%
                                                                 dplyr::mutate_at(vars(!routine_id), substr, 1, 25000))
@@ -191,20 +162,19 @@ if (interactive()) {
 
 } else {
 
+
         source("/Users/patelm9/GitHub/omop_mapping/procedure/startup.R")
 
+        clean_env()
 
-
-        # Temporary stop if the output file exists
-        brake_if_output_exists()
-
+        source("startup.R")
 
         # Read input
         input <- read_input()
         target_col <- source_col
 
         # Routine Variables
-        types <- c("exact", "like")
+        types <- c("like")
 
 
         # Normalize NAs because some are "NA" and others are true NA
@@ -231,13 +201,13 @@ if (interactive()) {
         }
 
 
-        final_output <- list()
+        #final_output <- create_types_output_object()
 
         while (length(types) > 0) {
                 type <- types[1]
                 output <- list()
 
-                new_col_name <- paste0("Source Exclude ICDO3 Code", centipede::in_title_format(type))
+                new_col_name <- paste0("Source ", centipede::in_title_format(type))
 
                 secretary::typewrite("Starting", type, "search.")
                 Sys.sleep(1)
@@ -264,38 +234,11 @@ if (interactive()) {
 
                                         if (nchar(input_concept) > source_skip_nchar) {
 
-                                                if (grepl(icdo3_code_pattern_regex, input_concept)) {
-                                                        secretary::typewrite(crayon::bold("Concept with ICDO3 Code:"), input_concept)
-                                                        input_concept <-
-                                                                stringr::str_replace_all(input_concept, paste0("(^.* )(", icdo3_code_pattern_regex,")([ ]{0,}.*$)"), "\\1\\3") %>%
-                                                                centipede::trimws(which = "both") %>%
-                                                                centipede::no_blank()
 
-                                                        if (nchar(input_concept) > source_skip_nchar) {
-                                                                secretary::typewrite(crayon::bold("Concept without ICDO3 Code:"), input_concept)
-
-                                                                output[[i]] <-
-                                                                        query_phrase_in_athena(phrase = input_concept, type = type) %>%
-                                                                        chariot::merge_concepts(into = `Concept`) %>%
-                                                                        dplyr::select(!!new_col_name := `Concept`)
-                                                        } else {
-
-
-                                                                output[[i]] <- NA
-                                                                output[[i]] <-
-                                                                        output[[i]] %>%
-                                                                        rubix::vector_to_tibble(!!new_col_name)
-                                                        }
-
-                                                } else {
-
-                                                        output[[i]] <- NA
-                                                        output[[i]] <-
-                                                                output[[i]] %>%
-                                                                rubix::vector_to_tibble(!!new_col_name)
-
-                                                }
-
+                                                output[[i]] <-
+                                                        query_phrase_in_athena(phrase = input_concept, type = type) %>%
+                                                        chariot::merge_concepts(into = `Concept`) %>%
+                                                        dplyr::select(!!new_col_name := `Concept`)
 
                                         } else {
                                                 output[[i]] <- NA
@@ -340,7 +283,7 @@ if (interactive()) {
                 final_output %>%
                 rubix::map_names_set(function(x) x %>%
                                              rubix::group_by_unique_aggregate(routine_id,
-                                                                              agg.col = contains("Source"),
+                                                                              agg.col = "Source Like",
                                                                               collapse = "\n")) %>%
                 purrr::map(function(x) x %>%
                                    dplyr::mutate_at(vars(!routine_id), substr, 1, 25000))

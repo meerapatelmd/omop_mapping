@@ -1,17 +1,19 @@
 rm(list = ls())
 source('/Users/patelm9/GitHub/omop_mapping/procedure/config/funs.R')
+set_this_wd()
 source('/Users/patelm9/GitHub/omop_mapping/procedure/config/constants.R')
 source('/Users/patelm9/GitHub/omop_mapping/procedure/config/variables.R')
 
 
-set_this_wd()
+
 
 # If the input_fn does not exist in the input subdir, it is written to the input subdir to the input_fn provided above
 if (grepl("[.]xlsx$", origin_fn) == TRUE) {
                 input_fn <- paste0(input_file_stem, origin_tab, ".csv")
                 path_to_input_fn <- paste0("data/input/", input_fn)
                 if (!file.exists(path_to_input_fn)) {
-                        origin_data <- broca::read_full_excel(origin_fn)
+                        origin_data <- broca::read_full_excel(origin_fn,
+                                                              log_details = paste0("Load: ", origin_tab))
                         input <- origin_data[[origin_tab]]
 
                         input <-
@@ -24,10 +26,10 @@ if (grepl("[.]xlsx$", origin_fn) == TRUE) {
 
                         if ("routine_id" %in% colnames(input)) {
                         # Using prior routine_id to make sure no garbage is imported
-                        input$routine_id <- suppressWarnings(as.integer(input$routine_id))
-                        input <-
-                                input %>%
-                                dplyr::filter(!is.na(routine_id))
+                        # input$routine_id <- suppressWarnings(as.integer(input$routine_id))
+                        # input <-
+                        #         input %>%
+                        #         dplyr::filter(!is.na(routine_id))
 
                         input <-
                                 input %>%

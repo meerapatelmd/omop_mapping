@@ -2,13 +2,10 @@
 
 
 rm(list = ls())
-source('setup.R')
-path_to_output_fn <- paste0(stringr::str_replace(path_to_input_fn, "(^.*?[/]{1})(.*?)([.]{1}csv$)", "output/\\2_"), cave::strip_fn(cave::present_script_path()), ".csv")
+source('startup.R')
+path_to_output_fn <- create_path_to_output_fn()
 
-if (file.exists(path_to_output_fn)) {
-        secretary::typewrite_warning(path_to_output_fn, "already exists and will be overwritten.")
-        secretary::press_enter()
-}
+brake_if_output_exists()
 
 
 input2 <- read_workfile(routine = "01_search_source")

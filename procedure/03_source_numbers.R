@@ -1,17 +1,11 @@
 # Search only source concepts that are a string of numbers and nothing else.
 rm(list = ls())
-source('setup.R')
+source('startup.R')
 
-path_to_output_fn <- paste0(stringr::str_replace(path_to_input_fn, "(^.*?[/]{1})(.*?)([.]{1}csv$)", "output/\\2_"), cave::strip_fn(cave::present_script_path()), ".csv")
+path_to_output_fn <- create_path_to_output_fn()
+brake_if_output_exists()
 
-if (file.exists(path_to_output_fn)) {
-        secretary::typewrite_warning(path_to_output_fn, "already exists and will be overwritten.")
-        secretary::press_enter()
-}
-
-
-input2 <- read_workfile(routine = "01_search_source",
-                        STANDARD_LIBRARY == "TRUE")
+input2 <- read_workfile(routine = "01_search_source")
 target_col <- source_col
 
 # Search Settings
@@ -77,11 +71,11 @@ for (i in 1:length(input_vector)) {
                         if (is.na(input_fact_concept[i])) {
 
                                 if (grepl("^[0-9]+$", input_vector[[i]])) {
-                                        print(i)
+                                        #print(i)
                                         print(input_vector[[i]])
                                         #secretary::press_enter()
                                 output[[i]] <-
-                                        chariot::query_phrase(input_vector[[i]], type = type) %>%
+                                       query_phrase_in_athena(input_vector[[i]], type = type) %>%
                                         filter_for_settings() %>%
                                         # dplyr::mutate_at(vars(concept_name), function(x) str_replace_all(x, "[,]{1} ", " ")) %>%
                                         rubix::arrange_by_nchar(concept_name) %>%

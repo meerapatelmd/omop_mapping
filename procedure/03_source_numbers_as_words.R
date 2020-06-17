@@ -1,14 +1,10 @@
 #' Convert digits to numbers in words and conduct a like and exact style search on the results
 
 rm(list = ls())
-source('setup.R')
+source('startup.R')
 
-path_to_output_fn <- paste0(stringr::str_replace(path_to_input_fn, "(^.*?[/]{1})(.*?)([.]{1}csv$)", "output/\\2_"), cave::strip_fn(cave::present_script_path()), ".csv")
-
-if (file.exists(path_to_output_fn)) {
-        secretary::typewrite_warning(path_to_output_fn, "already exists and will be overwritten.")
-        secretary::press_enter()
-}
+path_to_output_fn <- create_path_to_output_fn()
+brake_if_output_exists()
 
 
 input2 <- read_workfile(routine = "01_search_source")
@@ -76,6 +72,7 @@ for (i in 1:length(input_vector)) {
                                         print(input_vector[[i]])
                                         input_digit <- as.integer(input_vector[[i]])
                                         input_digit <- centipede::number_in_words(input_digit)
+                                        print(input_digit)
                                         #secretary::press_enter()
                                 output[[i]] <-
                                         chariot::query_phrase(input_digit, type = type) %>%
