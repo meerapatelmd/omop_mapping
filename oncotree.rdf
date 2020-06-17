@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://topbraid.org/swa#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:teamwork="http://topbraid.org/teamwork#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.1="http://teamwork.topbraidlive.org/ontologyprojects#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:metadata="http://topbraid.org/metadata#"
+    xmlns:oncotree="http://data.mskcc.org/ontologies/oncotree#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="urn:x-evn-master:oncotree" > 
+  <rdf:Description rdf:about="http://data.mskcc.org/ontologies/oncotree#Tumor_Type">
+    <rdfs:subClassOf rdf:nodeID="A0"/>
+    <rdfs:subClassOf rdf:nodeID="A1"/>
+    <rdfs:subClassOf rdf:nodeID="A2"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:subClassOf rdf:nodeID="A3"/>
+    <rdfs:label>Tumor_Type</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.mskcc.org/ontologies/oncotree#revocations">
+    <rdfs:label>revocations</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://data.mskcc.org/ontologies/oncotree#Tumor_Type"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://data.mskcc.org/ontologies/oncotree#mainType"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.mskcc.org/ontologies/oncotree#mainType">
+    <rdfs:label>mainType</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://data.mskcc.org/ontologies/oncotree#Tumor_Type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://teamwork.topbraidlive.org/ontologyprojects#Ontology">
+    <rdfs:subClassOf rdf:resource="http://topbraid.org/teamwork#Vocabulary"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://data.mskcc.org/ontologies/oncotree#precursors"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.mskcc.org/ontologies/oncotree#precursors">
+    <rdfs:label>precursors</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://data.mskcc.org/ontologies/oncotree#Tumor_Type"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://data.mskcc.org/ontologies/oncotree#revocations"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://topbraid.org/teamwork#Vocabulary">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:x-evn-master:oncotree">
+    <j.0:defaultNamespace>http://data.mskcc.org/ontologies/oncotree#</j.0:defaultNamespace>
+    <rdfs:label>Oncotree</rdfs:label>
+    <metadata:status rdf:resource="http://topbraid.org/metadata#UnderDevelopmentStatus"/>
+    <metadata:status rdf:resource="http://topbraid.org/metadata#InUseStatus"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <teamwork:rootClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:comment>Base ontology providing concept definitions and properties for the oncotree Taxonomies</rdfs:comment>
+    <owl:imports rdf:resource="urn:x-evn-master:enumerations_include"/>
+    <owl:imports rdf:resource="http://spinrdf.org/spl"/>
+    <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+    <owl:imports rdf:resource="http://topbraid.org/skos.shapes"/>
+    <owl:imports rdf:resource="http://datashapes.org/dash"/>
+    <rdf:type rdf:resource="http://topbraid.org/teamwork#Vocabulary"/>
+    <rdf:type rdf:resource="http://teamwork.topbraidlive.org/ontologyprojects#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://data.mskcc.org/ontologies/oncotree#color"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.mskcc.org/ontologies/oncotree#color">
+    <rdfs:label>color</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://data.mskcc.org/ontologies/oncotree#Tumor_Type"/>
+  </rdf:Description>
+</rdf:RDF>
