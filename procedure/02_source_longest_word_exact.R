@@ -4,7 +4,7 @@ clean_env()
 
 source('startup.R')
 # Routine Variables
-
+path_to_output_fn <- create_path_to_output_fn()
 # Temporary stop if the output file exists
 brake_if_output_exists()
 

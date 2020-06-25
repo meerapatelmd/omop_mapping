@@ -1,4 +1,5 @@
 if (interactive()) {
+
                 ##############################################
                 ### INTRODUCTION
                 ##############################################
@@ -9,10 +10,10 @@ if (interactive()) {
                 source("startup.R")
 
                 # Set search parameters
-                type <- "exact"
+                type <- "string"
 
                 # Create output variables
-                new_col_name <- "Source Exact"
+                new_col_name <- "Source No Parentheses String"
                 path_to_output_fn <- create_path_to_output_fn()
 
                 # Temporary stop if the output file exists
@@ -57,39 +58,50 @@ if (interactive()) {
                 # Notify start
                 typewrite_start(type = type)
 
-
-                # For each concept
                 for (i in 1:nrow(input3)) {
 
-                                        # Isolate concept
                                         input_row <- input3 %>%
                                                         dplyr::filter(row_number() == i)
 
 
-                                        # Convert concept info into objects
                                         rubix::release_df(input_row)
+
 
                                         input_concept <- get(target_col)
                                         output_concept <- get(terminal_col)
                                         input_routine_id <- routine_id
 
 
-
-                                        # Search if input is not NA
                                         if (!is.logical(input_concept) && !(input_concept %in% c(NA, "NA"))) {
 
-                                                # Search if output concept is NA, meaning unmapped
-                                                 if (is.na(output_concept)) {
+                                                        if (is.na(output_concept)) {
 
-
-                                                                # Search if input concept is above the character number threshold
                                                                 if (nchar(input_concept) > source_skip_nchar) {
 
 
-                                                                        output[[i]] <-
-                                                                                query_phrase_in_athena(phrase = input_concept, type = type) %>%
-                                                                                chariot::merge_concepts(into = `Concept`) %>%
-                                                                                dplyr::select(!!new_col_name := `Concept`)
+                                                                        # Search if an open parenthesis is present in the concept
+                                                                        if (grepl("[(]{1}", input_concept)) {
+
+                                                                                        FirstWord <-
+                                                                                                stringr::str_replace_all(input_concept,
+                                                                                                                         pattern = "(^.*?)([(]{1}.*$)",
+                                                                                                                         replacement = "\\1") %>%
+                                                                                                trimws(which = "both") %>%
+                                                                                                centipede::no_na() %>%
+                                                                                                centipede::no_blank()
+
+                                                                                        secretary::typewrite(crayon::bold("Concept:"), input_concept)
+                                                                                        secretary::typewrite(crayon::bold("Concept without Parentheses:"), FirstWord)
+
+                                                                                        output[[i]] <-
+                                                                                                query_phrase_in_athena(phrase = FirstWord,
+                                                                                                                       type = type) %>%
+                                                                                                chariot::merge_concepts(into = `Concept`) %>%
+                                                                                                dplyr::mutate(Concept = paste0(FirstWord, ": ", Concept)) %>%
+                                                                                                dplyr::select(!!new_col_name := `Concept`)
+
+
+                                                                                names(output)[i] <- input_routine_id
 
                                                                 } else {
                                                                         output[[i]] <- NA
@@ -124,8 +136,9 @@ if (interactive()) {
                         final_output <- output %>%
                                                 dplyr::bind_rows(.id = "routine_id")
 
+                }
 
-        # Aggregating the search result columns to the routine_id
+        # Aggregating the search result columns to the original routine_id
         final_output2 <-
                 final_output %>%
                 rubix::group_by_unique_aggregate(routine_id,
@@ -133,15 +146,17 @@ if (interactive()) {
                                                  collapse = "\n") %>%
                 dplyr::mutate_at(vars(!routine_id), substr, 1, 25000)
 
+        # # If the search type is both exact and like, would need to reduce the list with left_join so each routine_id will have both searches associated with it in the dataframe
+                final_output3 <-
+                        final_output2
+
         # Join with final_input object
         final_routine_output <-
                 dplyr::left_join(final_input,
-                                 final_output2)
+                                 final_output3)
 
 
-        ##############################################
-        ### QA
-        ##############################################
+        #QA
         qa2 <- all(final_routine_output$routine_id %in% final_input$routine_id)
         if (qa2 == FALSE) {
                 stop("all routine_ids from final_input not in final_routine_output")
@@ -152,27 +167,25 @@ if (interactive()) {
                 stop("row counts between final_input and final_routine_output don't match")
         }
 
-        ##############################################
-        ### OUTRO
-        ##############################################
+
         broca::simply_write_csv(x = final_routine_output,
                                 file = path_to_output_fn)
 
-        typewrite_complete()
+
 
 } else {
         path_to_output_fn <- create_path_to_output_fn()
-        if (!file.exists(path_to_output_fn)) {
 
+        if (!file.exists(path_to_output_fn)) {
 
                         ##############################################
                         ### INTRODUCTION
                         ##############################################
                         # Set search parameters
-                        type <- "exact"
+                        type <- "string"
 
                         # Create output variables
-                        new_col_name <- "Source Exact"
+                        new_col_name <- "Source No Parentheses String"
 
                         ##############################################
                         ### PRE-PROCEDURE
@@ -213,36 +226,59 @@ if (interactive()) {
                         # Notify start
                         typewrite_start(type = type)
 
-
-                        # For each concept
                         for (i in 1:nrow(input3)) {
 
-                                # Isolate concept
                                 input_row <- input3 %>%
                                         dplyr::filter(row_number() == i)
 
-                                # Convert concept info into objects
+
                                 rubix::release_df(input_row)
+
 
                                 input_concept <- get(target_col)
                                 output_concept <- get(terminal_col)
                                 input_routine_id <- routine_id
 
-                                # Search if input is not NA
+
                                 if (!is.logical(input_concept) && !(input_concept %in% c(NA, "NA"))) {
 
-                                        # Search if output concept is NA, meaning unmapped
                                         if (is.na(output_concept)) {
 
-
-                                                # Search if input concept is above the character number threshold
                                                 if (nchar(input_concept) > source_skip_nchar) {
 
 
-                                                        output[[i]] <-
-                                                                query_phrase_in_athena(phrase = input_concept, type = type) %>%
-                                                                chariot::merge_concepts(into = `Concept`) %>%
-                                                                dplyr::select(!!new_col_name := `Concept`)
+                                                        # Search if an open parenthesis is present in the concept
+                                                        if (grepl("[(]{1}", input_concept)) {
+
+                                                                FirstWord <-
+                                                                        stringr::str_replace_all(input_concept,
+                                                                                                 pattern = "(^.*?)([(]{1}.*$)",
+                                                                                                 replacement = "\\1") %>%
+                                                                        trimws(which = "both") %>%
+                                                                        centipede::no_na() %>%
+                                                                        centipede::no_blank()
+
+                                                                secretary::typewrite(crayon::bold("Concept:"), input_concept)
+                                                                secretary::typewrite(crayon::bold("Concept without Parentheses:"), FirstWord)
+
+                                                                output[[i]] <-
+                                                                        query_phrase_in_athena(phrase = FirstWord,
+                                                                                               type = type) %>%
+                                                                        chariot::merge_concepts(into = `Concept`) %>%
+                                                                        dplyr::mutate(Concept = paste0(FirstWord, ": ", Concept)) %>%
+                                                                        dplyr::select(!!new_col_name := `Concept`)
+
+
+                                                                names(output)[i] <- input_routine_id
+
+                                                        } else {
+                                                                output[[i]] <- NA
+                                                                output[[i]] <-
+                                                                        output[[i]] %>%
+                                                                        rubix::vector_to_tibble(!!new_col_name)
+                                                        }
+
+
 
                                                 } else {
                                                         output[[i]] <- NA
@@ -251,8 +287,6 @@ if (interactive()) {
                                                                 rubix::vector_to_tibble(!!new_col_name)
                                                 }
 
-
-
                                         } else {
                                                 output[[i]] <- NA
                                                 output[[i]] <-
@@ -260,25 +294,19 @@ if (interactive()) {
                                                         rubix::vector_to_tibble(!!new_col_name)
                                         }
 
-                                } else {
-                                        output[[i]] <- NA
-                                        output[[i]] <-
-                                                output[[i]] %>%
-                                                rubix::vector_to_tibble(!!new_col_name)
+                                        names(output)[i] <- input_routine_id
+
+                                        typewrite_progress(i = i, input3)
+                                        rm(list = colnames(input_row))
+                                        rm(input_row)
                                 }
 
-                                names(output)[i] <- input_routine_id
+                                final_output <- output %>%
+                                        dplyr::bind_rows(.id = "routine_id")
 
-                                typewrite_progress(i = i, input3)
-                                rm(list = colnames(input_row))
-                                rm(input_row)
                         }
 
-                        final_output <- output %>%
-                                dplyr::bind_rows(.id = "routine_id")
-
-
-                        # Aggregating the search result columns to the routine_id
+                        # Aggregating the search result columns to the original routine_id
                         final_output2 <-
                                 final_output %>%
                                 rubix::group_by_unique_aggregate(routine_id,
@@ -286,15 +314,17 @@ if (interactive()) {
                                                                  collapse = "\n") %>%
                                 dplyr::mutate_at(vars(!routine_id), substr, 1, 25000)
 
+                        # # If the search type is both exact and like, would need to reduce the list with left_join so each routine_id will have both searches associated with it in the dataframe
+                        final_output3 <-
+                                final_output2
+
                         # Join with final_input object
                         final_routine_output <-
                                 dplyr::left_join(final_input,
-                                                 final_output2)
+                                                 final_output3)
 
 
-                        ##############################################
-                        ### QA
-                        ##############################################
+                        #QA
                         qa2 <- all(final_routine_output$routine_id %in% final_input$routine_id)
                         if (qa2 == FALSE) {
                                 stop("all routine_ids from final_input not in final_routine_output")
@@ -305,17 +335,14 @@ if (interactive()) {
                                 stop("row counts between final_input and final_routine_output don't match")
                         }
 
-                        ##############################################
-                        ### OUTRO
-                        ##############################################
+
                         broca::simply_write_csv(x = final_routine_output,
                                                 file = path_to_output_fn)
 
 
         } else {
 
-                        typewrite_file_exists()
+                typewrite_file_exists()
 
         }
-
 }
