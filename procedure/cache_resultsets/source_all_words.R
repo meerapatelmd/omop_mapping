@@ -1,6 +1,6 @@
 if (interactive()) {
-                clean_env()
-                source('setup.R')
+                #clean_env()
+                source('startup.R')
                 # Read input
                 input <- read_input()
                 target_col <- source_col
@@ -27,7 +27,7 @@ if (interactive()) {
 
                 # Getting words
                 input4 <-
-                        strsplit(input3, split = " |[(]{1}|[)]{1}|[,]{1}") %>%
+                        strsplit(input3, split = word_split) %>%
                         unlist() %>%
                         trimws("both") %>%
                         centipede::no_blank() %>%
@@ -91,7 +91,7 @@ if (interactive()) {
 
         # Getting words
         input4 <-
-                strsplit(input3, split = " |[(]{1}|[)]{1}|[,]{1}") %>%
+                strsplit(input3, split = word_split) %>%
                 unlist() %>%
                 trimws("both") %>%
                 centipede::no_blank() %>%

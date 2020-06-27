@@ -25,20 +25,31 @@ c('routine_id',
 'CONCEPT')
 
 read_terminal_workfile <-
-        function(routine) {
+        function(terminal_col) {
 
-                x <- broca::simply_read_csv(path_to_input_fn,
-                                       log_details = routine)
+                terminal_col <- enquo(terminal_col)
+
+                x <- broca::simply_read_csv(path_to_input_fn)
+
+                if (!is.null(filter_for_form)) {
+                        x <- x %>%
+                                rubix::filter_for_vector(filter_col = FORM,
+                                                         inclusion_vector = filter_for_form)
+                }
+
+                if (nrow(x) == 0) {
+                        stop("no data")
+                }
 
                 print(
                         x %>%
-                        dplyr::select(`Fact Concept`) %>%
-                                dplyr::mutate_at(vars(`Fact Concept`),
+                        dplyr::select(!!terminal_col) %>%
+                                dplyr::mutate_at(vars(!!terminal_col),
                                                  function(x)
                                                          ifelse(is.na(x),
                                                                 "Unmapped",
                                                                 "Mapped")) %>%
-                                group_by_at(vars(`Fact Concept`)) %>%
+                                group_by_at(vars(!!terminal_col)) %>%
                                 summarize(COUNT = n())
                 )
 

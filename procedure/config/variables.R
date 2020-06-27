@@ -1,20 +1,22 @@
 # Search Settings
 # Global filters for all queries to the concept table
-vocabularies <- c("RxNorm", "RxNorm Extension", "HemOnc", "ATC", "SNOMED", "LOINC")
+vocabularies <- c("SNOMED", "LOINC", "HemOnc", "RxNorm", "RxNorm Extension")
 concept_classes <- NULL
-domains <- c("Drug")
-standard_concepts <- c("S", "C", "NA", NA)
+domains <- NULL
+standard_concepts <- NULL
 invalid_reasons <- c(NA, "NA")
 
 # Project Setup
-origin_fn <-  "~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx"
+project_name <- "ESOPHAGUS"
+origin_fn <-  "~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/Workfile.xlsx"
 origin_tab <- "MAP_00"
+
 
 # Target Columns: column where queries are sourced from. Note that the column called "CONCEPT" has been changed to "SOURCE" in this routine since the merge of OMOP concepts is functionalized to be called `Concept`.
 ## Source Columns: 1:1 concepts
-input_file_stem <- "COVID_SL_ROUND2_"
+#input_file_stem <- "ESOPHAGUS_"
 source_col <- "CONCEPT"
-word_split <- "[ ]{1}|[(]{1}|[)]{1}|[,]{1}" #The regex to split() the SOURCE column on to retrieve words for words-based searches
+word_split <- "[ ]{1}|[(]{1}|[)]{1}|[,]{1}|[/]{1}|[+]{1}" #The regex to split() the SOURCE column on to retrieve words for words-based searches
 
 ## Term Columns: series of search terms and phrases to each original concept to further search for the concept. Term columns are manually inputed by an end-user.
 term_col <- "SEARCH_TERM_01"
@@ -24,15 +26,21 @@ terminal_col <- "MSK Concept"
 
 # Skip parameters: parameters that signals skipping over a concept
 source_skip_nchar <- 5
-additional_filters <- list("CORE_VARIABLES == 'Yes',", #Additional filters fed into the dplyr filter function to apply to the input. Comment out if no filters should be applied.
-"FORM %in% c('covid19_testing',
-                'covid19_serology_testing',
-                'covid19_noninvasive_ventilation_support',
-                'covid19_chest_imaging_admission_icu',
-                'covid19_anticoagulant_medications',
-                'covid19_antiplatelet_medications',
-                'covid19_directed_medications')")
+#additional_filters <- list("is.na(`HemOnc Regimen`)")
 
+#Additional filters fed into the dplyr filter function to apply to the input. Comment out if no filters should be applied.
+
+# Creating project directory if it does not exist
+path_to_project_data <- paste0("data/", project_name)
+cave::create_dir_if_not_exist(path_to_project_data)
+
+# Creating subdirectories
+path_to_input_dir <- paste0(path_to_project_data, "/input")
+cave::create_dir_if_not_exist(path_to_input_dir)
+path_to_output_dir <- paste0(path_to_project_data, "/output")
+cave::create_dir_if_not_exist(path_to_output_dir)
+path_to_settings_dir <- paste0(path_to_project_data, "/settings")
+cave::create_dir_if_not_exist(path_to_settings_dir)
 
 # Creating settings object
 settings <-
@@ -55,9 +63,9 @@ rm(list = c("vocabularies",
             "invalid_reasons"))
 
 # Writing settings for this input_file_stem-origin tab name combo
-setting_history_fn <- paste0("data/setting_history/", input_file_stem, origin_tab, ".txt")
+setting_history_fn <- paste0(path_to_settings_dir, "/", origin_tab, ".txt")
 
-cat(Sys.time(), "\n", file = setting_history_fn)
+cat("\n", file = setting_history_fn)
 
 
 settings_to_write <- settings
@@ -81,4 +89,3 @@ rm(settings_to_write)
 
 cat("origin file: ", origin_fn, "\n", file = setting_history_fn, append = TRUE)
 cat("origin tab: ", origin_tab, "\n", file = setting_history_fn, append = TRUE)
-cat("file stem: ", input_file_stem, "\n", file = setting_history_fn, append = TRUE)

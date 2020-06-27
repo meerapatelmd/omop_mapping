@@ -1943,3 +1943,3255 @@ Timestamp	Activity Type	Function	File	Details
 2020-06-15 14:55:53	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
 2020-06-15 14:56:31	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
 2020-06-15 14:57:04	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 15:01:39	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 15:13:00	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 15:13:35	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	read input
+2020-06-15 15:15:18	read	simply_read_csv	data/output/COVID_SL_MAP_08_01_source_as_is.csv	
+2020-06-15 15:15:18	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_sandbox_source_exclude_icdo3_code_str_as_vector.csv	
+2020-06-15 15:15:19	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_sandbox_source_exclude_icdo3_code.csv	
+2020-06-15 15:15:20	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_sandbox_source_icdo3_code.csv	
+2020-06-15 15:15:21	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_exclude_icdo3_code_str_as_vector.csv	
+2020-06-15 15:15:21	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_exclude_icdo3_code.csv	
+2020-06-15 15:15:22	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_first_word.csv	
+2020-06-15 15:15:30	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_icdo3_code.csv	
+2020-06-15 15:15:31	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_progressive.csv	
+2020-06-15 15:15:32	read	simply_read_csv	data/output/COVID_SL_MAP_08_03_source_inside_parentheses_as_terms.csv	
+2020-06-15 15:15:32	read	simply_read_csv	data/output/COVID_SL_MAP_08_03_source_no_parentheses_synonym.csv	
+2020-06-15 15:15:33	read	simply_read_csv	data/output/COVID_SL_MAP_08_03_source_no_parentheses.csv	
+2020-06-15 15:17:01	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	
+2020-06-15 15:17:53	read	simply_read_csv	data/output/COVID_SL_MAP_08_01_source_as_is.csv	
+2020-06-15 15:17:54	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_exclude_icdo3_code_str_as_vector.csv	
+2020-06-15 15:17:55	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_exclude_icdo3_code.csv	
+2020-06-15 15:17:56	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_first_word.csv	
+2020-06-15 15:18:04	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_icdo3_code.csv	
+2020-06-15 15:18:05	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_progressive.csv	
+2020-06-15 15:18:06	read	simply_read_csv	data/output/COVID_SL_MAP_08_03_source_inside_parentheses_as_terms.csv	
+2020-06-15 15:18:07	read	simply_read_csv	data/output/COVID_SL_MAP_08_03_source_no_parentheses_synonym.csv	
+2020-06-15 15:18:08	read	simply_read_csv	data/output/COVID_SL_MAP_08_03_source_no_parentheses.csv	
+2020-06-15 15:18:45	read	simply_read_csv	data/output/COVID_SL_MAP_08_01_source_as_is.csv	
+2020-06-15 15:18:46	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_exclude_icdo3_code_str_as_vector.csv	
+2020-06-15 15:18:47	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_exclude_icdo3_code.csv	
+2020-06-15 15:18:48	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_first_word.csv	
+2020-06-15 15:18:56	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_icdo3_code.csv	
+2020-06-15 15:18:57	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_progressive.csv	
+2020-06-15 15:18:58	read	simply_read_csv	data/output/COVID_SL_MAP_08_03_source_inside_parentheses_as_terms.csv	
+2020-06-15 15:18:58	read	simply_read_csv	data/output/COVID_SL_MAP_08_03_source_no_parentheses_synonym.csv	
+2020-06-15 15:18:59	read	simply_read_csv	data/output/COVID_SL_MAP_08_03_source_no_parentheses.csv	
+2020-06-15 15:21:52	read	simply_read_csv	data/output/COVID_SL_MAP_08_01_source_as_is.csv	
+2020-06-15 15:21:53	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_exclude_icdo3_code_str_as_vector.csv	
+2020-06-15 15:21:54	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_exclude_icdo3_code.csv	
+2020-06-15 15:21:55	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_first_word.csv	
+2020-06-15 15:22:03	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_icdo3_code.csv	
+2020-06-15 15:22:04	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_progressive.csv	
+2020-06-15 15:22:05	read	simply_read_csv	data/output/COVID_SL_MAP_08_03_source_inside_parentheses_as_terms.csv	
+2020-06-15 15:22:05	read	simply_read_csv	data/output/COVID_SL_MAP_08_03_source_no_parentheses_synonym.csv	
+2020-06-15 15:22:06	read	simply_read_csv	data/output/COVID_SL_MAP_08_03_source_no_parentheses.csv	
+2020-06-15 15:23:57	read	simply_read_csv	data/output/COVID_SL_MAP_08_01_source_as_is.csv	
+2020-06-15 15:23:57	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_exclude_icdo3_code_str_as_vector.csv	
+2020-06-15 15:23:58	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_exclude_icdo3_code.csv	
+2020-06-15 15:23:59	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_icdo3_code.csv	
+2020-06-15 15:24:00	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_progressive.csv	
+2020-06-15 15:24:01	read	simply_read_csv	data/output/COVID_SL_MAP_08_03_source_inside_parentheses_as_terms.csv	
+2020-06-15 15:24:02	read	simply_read_csv	data/output/COVID_SL_MAP_08_03_source_no_parentheses_synonym.csv	
+2020-06-15 15:24:03	read	simply_read_csv	data/output/COVID_SL_MAP_08_03_source_no_parentheses.csv	
+2020-06-15 15:25:34	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	
+2020-06-15 15:34:54	read	simply_read_csv	data/output/COVID_SL_MAP_08_01_source_as_is.csv	
+2020-06-15 15:34:55	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_exclude_icdo3_code_str_as_vector.csv	
+2020-06-15 15:34:55	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_exclude_icdo3_code.csv	
+2020-06-15 15:34:56	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_icdo3_code.csv	
+2020-06-15 15:34:57	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_progressive.csv	
+2020-06-15 15:34:57	read	simply_read_csv	data/output/COVID_SL_MAP_08_03_source_inside_parentheses_as_terms.csv	
+2020-06-15 15:34:58	read	simply_read_csv	data/output/COVID_SL_MAP_08_03_source_no_parentheses_synonym.csv	
+2020-06-15 15:34:58	read	simply_read_csv	data/output/COVID_SL_MAP_08_03_source_no_parentheses.csv	
+2020-06-15 15:42:39	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	
+2020-06-15 15:42:40	read	simply_read_csv	data/output/COVID_SL_MAP_08_01_source_as_is.csv	
+2020-06-15 15:42:41	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_exclude_icdo3_code_str_as_vector.csv	
+2020-06-15 15:42:42	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_exclude_icdo3_code.csv	
+2020-06-15 15:42:43	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_icdo3_code.csv	
+2020-06-15 15:42:44	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_progressive.csv	
+2020-06-15 15:42:45	read	simply_read_csv	data/output/COVID_SL_MAP_08_03_source_inside_parentheses_as_terms.csv	
+2020-06-15 15:42:46	read	simply_read_csv	data/output/COVID_SL_MAP_08_03_source_no_parentheses_synonym.csv	
+2020-06-15 15:42:47	read	simply_read_csv	data/output/COVID_SL_MAP_08_03_source_no_parentheses.csv	
+2020-06-15 15:42:47	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp1wbz2K/filecdd24b001137.csv	
+2020-06-15 15:42:56	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	
+2020-06-15 15:42:56	read	simply_read_csv	data/output/COVID_SL_MAP_08_01_source_as_is.csv	
+2020-06-15 15:42:57	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_exclude_icdo3_code_str_as_vector.csv	
+2020-06-15 15:42:57	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_exclude_icdo3_code.csv	
+2020-06-15 15:42:57	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_icdo3_code.csv	
+2020-06-15 15:42:58	read	simply_read_csv	data/output/COVID_SL_MAP_08_02_source_progressive.csv	
+2020-06-15 15:42:58	read	simply_read_csv	data/output/COVID_SL_MAP_08_03_source_inside_parentheses_as_terms.csv	
+2020-06-15 15:42:59	read	simply_read_csv	data/output/COVID_SL_MAP_08_03_source_no_parentheses_synonym.csv	
+2020-06-15 15:42:59	read	simply_read_csv	data/output/COVID_SL_MAP_08_03_source_no_parentheses.csv	
+2020-06-15 15:42:59	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp1wbz2K/filecdd2716a5858.csv	
+2020-06-15 16:00:51	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsx	
+2020-06-15 16:00:56	write	simply_write_csv	data/input/COVID_SL_MAP_09.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsxTAB: MAP_09written to COVID_SL_MAP_09.csv
+2020-06-15 16:01:22	read	simply_read_csv	data/input/COVID_SL_MAP_09.csv	read input
+2020-06-15 16:10:46	read	simply_read_csv	data/input/COVID_SL_MAP_09.csv	read input
+2020-06-15 16:14:24	read	simply_read_csv	data/input/COVID_SL_MAP_09.csv	read input
+2020-06-15 16:19:24	read	simply_read_csv	data/input/COVID_SL_MAP_09.csv	read input
+2020-06-15 16:36:30	write	simply_write_csv	data/output/COVID_SL_MAP_09_02_source_first_word.csv	
+2020-06-15 16:37:53	read	simply_read_csv	data/input/COVID_SL_MAP_09.csv	read input
+2020-06-15 16:42:46	write	simply_write_csv	data/output/COVID_SL_MAP_09_01_source_as_is.csv	
+2020-06-15 16:48:30	read	simply_read_csv	data/input/COVID_SL_MAP_09.csv	read input
+2020-06-15 16:49:57	read	simply_read_csv	data/input/COVID_SL_MAP_09.csv	read input
+2020-06-15 17:01:20	write	simply_write_csv	data/output/COVID_SL_MAP_09_02_source_each_word_like.csv	
+2020-06-15 17:02:47	read	simply_read_csv	data/input/COVID_SL_MAP_09.csv	read input
+2020-06-15 17:08:07	write	simply_write_csv	data/output/COVID_SL_MAP_09_02_source_each_word_exact.csv	
+2020-06-15 17:11:59	read	simply_read_csv	data/input/COVID_SL_MAP_09.csv	read input
+2020-06-15 17:20:21	write	simply_write_csv	data/output/COVID_SL_MAP_09_02_source_each_word_like_space_after.csv	
+2020-06-15 17:20:23	read	simply_read_csv	data/input/COVID_SL_MAP_09.csv	read input
+2020-06-15 17:29:45	write	simply_write_csv	data/output/COVID_SL_MAP_09_funs.csv	
+2020-06-15 17:30:30	read	simply_read_csv	data/input/COVID_SL_MAP_09.csv	
+2020-06-15 17:30:31	read	simply_read_csv	data/output/COVID_SL_MAP_09_01_source_as_is.csv	
+2020-06-15 17:30:32	read	simply_read_csv	data/output/COVID_SL_MAP_09_02_source_each_word_exact.csv	
+2020-06-15 17:30:33	read	simply_read_csv	data/output/COVID_SL_MAP_09_02_source_each_word_like_space_after.csv	
+2020-06-15 17:30:34	read	simply_read_csv	data/output/COVID_SL_MAP_09_02_source_each_word_like.csv	
+2020-06-15 17:30:35	read	simply_read_csv	data/output/COVID_SL_MAP_09_02_source_first_word.csv	
+2020-06-15 17:30:36	read	simply_read_csv	data/output/COVID_SL_MAP_09_funs.csv	
+2020-06-15 17:30:37	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp1wbz2K/filecdd26a73b529.csv	
+2020-06-15 17:54:11	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsx	
+2020-06-15 17:54:18	write	simply_write_csv	data/input/COVID_SL_MAP_10.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsxTAB: MAP_10written to COVID_SL_MAP_10.csv
+2020-06-15 17:54:27	read	simply_read_csv	data/input/COVID_SL_MAP_10.csv	read input
+2020-06-15 17:59:28	write	simply_write_csv	data/output/COVID_SL_MAP_10_02_source_each_word_exact.csv	
+2020-06-15 18:00:27	read	simply_read_csv	data/input/COVID_SL_MAP_10.csv	read input
+2020-06-15 18:08:29	write	simply_write_csv	data/output/COVID_SL_MAP_10_02_source_each_word_like.csv	
+2020-06-15 18:08:38	read	simply_read_csv	data/input/COVID_SL_MAP_10.csv	read input
+2020-06-15 18:15:54	write	simply_write_csv	data/output/COVID_SL_MAP_10_02_source_each_word_like_space_after.csv	
+2020-06-15 18:33:18	read	simply_read_csv	data/input/COVID_SL_MAP_10.csv	read input
+2020-06-15 18:41:00	write	simply_write_csv	data/output/COVID_SL_MAP_10_02_source_each_word_like_space_before.csv	
+2020-06-15 18:41:11	read	simply_read_csv	data/input/COVID_SL_MAP_10.csv	
+2020-06-15 18:41:13	read	simply_read_csv	data/output/COVID_SL_MAP_10_02_source_each_word_exact.csv	
+2020-06-15 18:41:14	read	simply_read_csv	data/output/COVID_SL_MAP_10_02_source_each_word_like_space_after.csv	
+2020-06-15 18:41:15	read	simply_read_csv	data/output/COVID_SL_MAP_10_02_source_each_word_like_space_before.csv	
+2020-06-15 18:41:16	read	simply_read_csv	data/output/COVID_SL_MAP_10_02_source_each_word_like.csv	
+2020-06-15 18:41:17	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp1wbz2K/filecdd27449a48c.csv	
+2020-06-15 20:50:04	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsx	
+2020-06-15 20:50:10	write	simply_write_csv	data/input/COVID_SL_MAP_11.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsxTAB: MAP_11written to COVID_SL_MAP_11.csv
+2020-06-15 20:51:02	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	read input
+2020-06-15 20:57:34	write	simply_write_csv	data/output/COVID_SL_MAP_11_02_source_first_word.csv	
+2020-06-15 20:57:37	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	read input
+2020-06-15 20:57:40	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	read input
+2020-06-15 21:00:42	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	read input
+2020-06-15 21:03:30	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	read input
+2020-06-15 21:04:22	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	read input
+2020-06-15 21:05:49	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	read input
+2020-06-15 21:09:33	write	simply_write_csv	data/output/COVID_SL_MAP_11_02_sandbox_source_exclude_parentheses_str_as_vector.csv	
+2020-06-15 21:37:02	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	read input
+2020-06-15 21:37:11	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	read input
+2020-06-15 21:40:31	write	simply_write_csv	data/output/COVID_SL_MAP_11_02_sandbox_source_exclude_parentheses_exact.csv	
+2020-06-15 21:57:57	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 21:58:35	read	read_full_excel	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/UpToDate_Drugs/MASTER.xlsx	
+2020-06-15 21:58:57	read	read_full_excel	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/UpToDate_Drugs/MASTER.xlsx	
+2020-06-15 21:59:45	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	read input
+2020-06-15 22:00:02	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	read input
+2020-06-15 22:03:13	write	simply_write_csv	data/output/COVID_SL_MAP_11_02_sandbox_source_exclude_parentheses_like.csv	
+2020-06-15 22:05:56	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	read input
+2020-06-15 22:12:42	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	read input
+2020-06-15 22:13:01	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	read input
+2020-06-15 22:13:19	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	read input
+2020-06-15 22:14:02	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:02	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:02	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:07	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:07	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:07	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:07	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:07	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:07	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:07	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:07	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:07	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:07	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:08	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:08	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:08	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:08	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:08	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:08	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:08	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:08	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:08	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:08	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:08	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:09	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:09	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:09	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:09	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:09	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:09	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:09	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:09	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:09	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:09	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:10	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:10	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:10	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:10	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:10	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:10	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:10	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:10	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:10	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:11	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:11	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:11	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:11	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:11	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:11	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:11	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:11	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:11	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:11	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:12	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:12	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:12	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:12	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:12	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:12	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:12	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:12	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:12	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:12	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:12	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:13	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:13	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:13	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:13	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:13	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:13	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:13	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:13	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:13	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:14	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:14	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:14	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:14	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:14	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:14	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:14	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:14	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:14	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:14	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:15	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:15	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:15	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:15	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:15	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:15	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:15	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:15	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:15	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:15	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:15	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:16	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:16	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:16	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:16	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:16	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:16	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:16	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:16	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:16	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:16	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:17	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:17	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:17	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:17	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:17	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:17	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:17	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:17	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:17	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:17	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:18	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:18	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:18	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:18	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:18	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:18	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:18	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:18	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:18	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:18	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:18	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:19	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:19	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:19	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:19	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:19	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:19	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:19	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:19	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:19	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:19	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:20	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:20	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:20	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:20	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:20	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:20	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:20	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:20	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:20	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:20	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:21	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:21	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:21	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:21	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:21	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:21	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:21	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:21	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:21	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:21	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:21	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:22	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:22	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:22	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:22	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:22	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:22	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:22	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:22	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:22	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:22	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:22	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:23	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:23	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:23	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:23	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:23	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:23	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:23	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:23	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:23	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:25	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:25	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:25	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:25	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:25	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:25	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:25	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:25	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:25	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:25	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:25	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:26	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:26	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:26	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:26	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:26	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:26	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:26	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:26	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:26	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:27	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:27	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:27	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:27	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:27	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:27	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:27	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:27	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:27	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:27	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:27	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:29	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:29	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:29	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:29	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:29	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:29	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:29	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:29	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:29	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:29	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:30	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:30	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:30	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:30	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:30	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:30	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:30	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:30	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:30	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:30	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:30	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:31	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:31	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:31	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:31	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:31	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:31	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:31	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:32	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:32	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:32	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:32	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:32	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:32	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:32	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:32	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:32	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:32	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:33	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:33	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:33	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:33	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:33	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:33	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:33	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:33	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:33	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:35	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:35	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:35	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:35	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:35	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:35	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:35	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:35	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:35	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:35	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:36	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:36	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:36	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:36	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:36	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:36	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:36	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:36	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:36	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:37	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:37	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:37	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:37	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:37	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:37	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:37	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:37	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:37	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:37	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:37	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:39	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:39	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:39	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:39	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:39	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:39	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:39	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:39	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:39	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:39	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:40	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:40	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:40	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:40	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:40	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:40	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:40	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:40	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:40	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:40	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:40	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:41	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:41	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:41	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:41	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:41	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:41	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:41	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:41	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:41	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:41	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:42	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:42	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:42	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:42	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:42	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:42	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:42	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:42	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:42	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:42	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:43	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:43	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:43	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:43	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:43	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:43	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:43	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:43	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:43	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:43	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:43	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:44	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:44	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:44	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:44	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:44	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:44	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:44	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:44	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:44	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:44	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:44	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:45	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:45	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:45	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:45	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:45	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:45	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:45	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:45	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:45	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:45	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:46	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:46	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:46	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:46	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:46	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:46	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:46	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:46	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:46	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:46	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:48	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:48	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:48	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:48	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:48	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:48	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:48	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:48	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:48	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:48	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:50	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:50	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:50	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:50	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:50	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:50	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:50	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:50	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:50	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:50	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:51	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:51	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:51	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:51	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:51	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:51	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:51	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:51	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:51	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:51	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:51	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:52	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:52	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:52	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:52	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:52	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:52	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:52	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:52	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:52	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:52	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:53	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:53	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:53	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:53	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:53	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:53	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:53	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:53	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:53	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:53	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:54	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:54	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:54	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:54	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:54	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:54	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:54	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:54	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:54	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:54	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:54	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:55	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:55	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:55	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:55	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:55	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:55	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:55	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:55	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:55	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:55	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:56	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:56	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:56	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:56	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:56	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:56	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:56	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:56	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:56	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:56	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:56	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:57	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:57	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:57	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:57	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:57	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:57	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:57	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:57	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:57	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:57	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:58	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:58	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:58	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:58	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:58	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:58	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:58	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:58	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:58	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:59	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:59	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:59	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:59	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:59	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:59	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:59	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:59	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:59	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:59	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:14:59	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:00	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:00	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:00	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:00	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:00	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:00	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:00	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:00	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:00	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:00	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:00	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:01	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:01	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:01	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:01	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:01	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:01	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:01	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:01	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:01	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:02	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:02	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:02	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:02	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:02	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:02	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:02	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:02	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:02	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:02	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:02	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:07	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:07	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:07	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:07	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:07	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:07	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:07	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:07	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:07	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:07	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:08	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:08	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:08	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:08	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:08	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:08	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:08	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:08	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:08	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:08	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:09	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:09	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:09	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:09	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:09	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:09	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:09	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:09	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:09	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:09	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:09	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:10	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:10	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:10	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:10	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:10	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:10	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:10	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:10	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:10	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:10	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:11	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:11	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:11	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:11	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:11	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:11	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:11	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:11	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:12	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:12	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:12	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:12	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:12	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:12	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:12	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:12	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:12	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:12	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:12	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:13	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:13	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:13	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:13	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:13	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:13	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:13	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:13	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:13	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:13	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:13	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:14	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:14	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:14	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:14	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:14	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:14	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:14	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:14	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:14	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:15	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:15	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:15	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:15	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:15	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:15	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:15	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:15	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:15	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:15	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:15	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:16	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:16	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:16	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:16	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:16	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:16	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:16	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:16	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:16	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:16	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:16	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:17	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:17	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:17	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:17	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:17	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:17	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:17	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:17	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:17	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:18	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:18	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:18	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:18	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:18	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:18	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:18	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:18	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:18	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:18	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:18	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:19	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:19	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:19	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:19	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:19	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:19	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:19	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:19	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:19	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:19	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:19	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:20	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:20	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:20	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:20	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:20	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:20	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:20	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:20	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:20	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:21	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:21	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:21	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:21	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:21	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:21	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:21	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:21	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:21	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:21	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:22	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:22	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:22	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:22	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:22	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:22	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:22	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:22	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:22	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:22	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:23	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:23	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:23	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:23	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:23	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:23	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:23	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:23	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:23	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:23	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:25	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:25	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:25	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:25	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:25	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:25	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:25	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:25	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:25	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:25	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:25	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:26	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:26	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:26	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:26	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:26	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:26	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:26	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:26	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:26	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:26	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:27	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:27	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:27	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:27	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:27	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:27	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:27	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:27	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:27	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:27	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:27	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:29	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:29	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:29	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:29	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:29	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:29	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:29	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:29	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:29	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:29	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:29	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:30	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:30	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:30	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:30	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:30	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:30	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:30	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:30	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:30	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:31	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:31	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:31	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:31	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:31	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:31	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:31	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:31	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:31	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:31	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:31	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:32	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:32	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:32	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:32	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:32	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:32	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:32	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:32	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:32	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:32	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:32	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:33	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:33	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:33	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:33	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:33	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:33	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:33	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:33	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:33	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:35	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:35	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:35	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:35	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:35	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:35	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:35	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:35	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:35	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:35	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:36	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:36	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:36	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:36	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:36	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:36	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:36	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:36	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:36	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:36	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:37	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:37	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:37	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:37	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:37	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:37	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:37	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:37	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:37	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:37	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:39	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:39	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:39	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:39	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:39	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:39	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:39	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:39	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:39	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:39	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:40	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:40	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:40	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:40	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:40	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:40	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:40	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:40	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:40	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:40	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:40	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:41	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:41	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:41	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:41	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:41	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:41	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:41	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:41	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:41	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:41	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:41	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:42	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:42	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:42	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:42	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:42	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:42	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:42	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:42	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:42	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:42	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:43	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:43	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:43	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:43	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:43	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:43	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:43	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:43	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:43	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:44	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:44	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:44	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:44	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:44	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:44	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:44	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:44	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:44	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:44	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:44	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:45	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:45	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:45	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:45	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:45	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:45	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:45	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:45	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:45	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:45	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:46	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:46	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:46	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:46	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:46	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:46	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:46	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:46	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:46	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:46	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:48	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:48	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:48	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:48	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:48	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:48	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:48	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:48	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:48	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:48	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:50	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:50	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:50	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:50	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:50	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:50	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:50	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:50	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:50	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:50	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:51	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:51	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:51	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:51	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:51	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:51	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:51	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:51	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:51	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:51	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:52	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:52	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:52	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:52	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:52	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:52	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:52	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:52	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:53	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:53	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:53	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:53	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:53	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:53	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:53	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:53	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:53	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:54	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:54	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:54	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:54	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:54	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:54	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:54	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:54	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:54	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:54	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:55	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:55	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:55	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:55	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:55	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:55	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:55	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:55	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:55	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:55	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:55	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:56	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:56	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:56	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:56	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:56	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:56	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:56	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:56	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:56	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:56	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:57	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:57	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:57	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:57	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:57	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:57	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:57	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:57	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:57	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:57	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:58	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:58	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:58	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:58	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:58	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:58	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:58	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:58	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:58	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:58	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:58	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:59	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:59	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:59	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:59	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:59	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:59	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:59	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:59	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:59	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:15:59	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:00	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:00	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:00	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:00	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:00	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:00	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:00	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:00	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:00	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:00	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:01	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:01	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:01	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:01	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:01	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:01	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:01	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:01	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:01	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:01	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:01	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:02	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:02	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:02	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:02	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:02	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:02	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:02	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:02	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:02	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:03	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:04	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:05	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:06	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:07	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:07	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:16:07	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:17:37	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	read input
+2020-06-15 22:18:22	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:22	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:22	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:23	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:23	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:25	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:25	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:26	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:26	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:26	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:27	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:29	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:29	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:30	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:30	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:30	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:31	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:31	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:32	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:32	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:32	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:33	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:33	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:34	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:35	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:35	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:36	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:36	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:36	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:37	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:37	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:39	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:39	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:40	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:40	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:41	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:41	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:41	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:42	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:42	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:43	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:43	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:43	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:44	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:44	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:45	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:45	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:45	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:46	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:46	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:47	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:48	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:48	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:50	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:50	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:51	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:18:51	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:20:08	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	read input
+2020-06-15 22:20:53	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-15 22:24:14	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	read input
+2020-06-15 22:24:57	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-16 09:13:45	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	
+2020-06-16 09:13:46	read	simply_read_csv	data/output/COVID_SL_MAP_11_02_sandbox_source_exclude_parentheses_exact.csv	
+2020-06-16 09:13:47	read	simply_read_csv	data/output/COVID_SL_MAP_11_02_sandbox_source_exclude_parentheses_like.csv	
+2020-06-16 09:13:48	read	simply_read_csv	data/output/COVID_SL_MAP_11_02_sandbox_source_exclude_parentheses_str_as_vector.csv	
+2020-06-16 09:13:49	read	simply_read_csv	data/output/COVID_SL_MAP_11_02_source_first_word.csv	
+2020-06-16 09:13:50	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpR52zt7/filee87a4a03d8a4.csv	
+2020-06-16 09:17:28	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-16 09:50:36	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsx	
+2020-06-16 09:50:42	write	simply_write_csv	data/input/COVID_SL_MAP_12.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsxTAB: MAP_12written to COVID_SL_MAP_12.csv
+2020-06-16 09:50:56	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 09:54:03	write	simply_write_csv	data/output/COVID_SL_MAP_12_02_sandbox_source_exclude_parentheses_like.csv	
+2020-06-16 09:54:29	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 09:57:39	write	simply_write_csv	data/output/COVID_SL_MAP_12_02_sandbox_source_exclude_parentheses_exact.csv	
+2020-06-16 09:57:53	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 10:00:52	write	simply_write_csv	data/output/COVID_SL_MAP_12_02_sandbox_source_exclude_parentheses_str_as_vector.csv	
+2020-06-16 10:01:19	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 10:05:22	write	simply_write_csv	data/output/COVID_SL_MAP_12_02_source_each_word_exact.csv	
+2020-06-16 10:06:12	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 10:13:54	write	simply_write_csv	data/output/COVID_SL_MAP_12_02_source_each_word_like.csv	
+2020-06-16 10:22:08	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 10:24:25	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 10:27:04	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 10:35:41	write	simply_write_csv	data/output/COVID_SL_MAP_12_02_sandbox_source_longest_word_like.csv	
+2020-06-16 10:36:24	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 10:36:49	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 10:54:19	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 10:55:03	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 13:28:44	read	read_full_excel	~/OneDrive - Memorial Sloan Kettering Cancer Center/Glioma/Workfile_OMOP.xlsx	
+2020-06-16 13:28:44	write	simply_write_csv	data/input/GLIOMA_MAP_01.csv	~/OneDrive - Memorial Sloan Kettering Cancer Center/Glioma/Workfile_OMOP.xlsxTAB: MAP_01written to GLIOMA_MAP_01.csv
+2020-06-16 13:29:06	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	read input
+2020-06-16 13:39:42	write	simply_write_csv	data/output/GLIOMA_MAP_01_01_source_as_is.csv	
+2020-06-16 13:40:06	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	read input
+2020-06-16 13:40:24	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	read input
+2020-06-16 13:40:33	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	read input
+2020-06-16 13:41:49	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	read input
+2020-06-16 13:42:38	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	read input
+2020-06-16 13:43:38	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	read input
+2020-06-16 13:44:22	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	read input
+2020-06-16 13:46:41	write	simply_write_csv	joblog.csv	
+2020-06-16 13:47:12	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	read input
+2020-06-16 13:47:56	write	simply_write_csv	data/output/GLIOMA_MAP_01_02_sandbox_source_exclude_parentheses_exact.csv	
+2020-06-16 13:48:08	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	read input
+2020-06-16 13:49:07	write	simply_write_csv	data/output/GLIOMA_MAP_01_02_sandbox_source_exclude_parentheses_like.csv	
+2020-06-16 13:50:57	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	read input
+2020-06-16 13:51:31	write	simply_write_csv	data/output/GLIOMA_MAP_01_02_sandbox_source_exclude_parentheses_str_as_vector.csv	
+2020-06-16 13:51:57	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	read input
+2020-06-16 13:56:57	write	simply_write_csv	data/output/GLIOMA_MAP_01_02_source_each_word_exact.csv	
+2020-06-16 14:01:25	read	read_full_excel	~/OneDrive - Memorial Sloan Kettering Cancer Center/Glioma/Workfile_OMOP.xlsx	
+2020-06-16 14:01:26	write	simply_write_csv	data/input/GLIOMA_MAP_01.csv	~/OneDrive - Memorial Sloan Kettering Cancer Center/Glioma/Workfile_OMOP.xlsxTAB: MAP_01written to GLIOMA_MAP_01.csv
+2020-06-16 14:01:46	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	read input
+2020-06-16 14:05:17	write	simply_write_csv	data/output/GLIOMA_MAP_01_01_source_as_is.csv	
+2020-06-16 14:05:23	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	read input
+2020-06-16 14:05:53	write	simply_write_csv	data/output/GLIOMA_MAP_01_02_sandbox_source_exclude_parentheses_exact.csv	
+2020-06-16 14:05:58	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	read input
+2020-06-16 14:06:30	write	simply_write_csv	data/output/GLIOMA_MAP_01_02_sandbox_source_exclude_parentheses_str_as_vector.csv	
+2020-06-16 14:06:33	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	read input
+2020-06-16 14:07:04	write	simply_write_csv	data/output/GLIOMA_MAP_01_02_sandbox_source_exclude_parentheses_like.csv	
+2020-06-16 14:07:12	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	read input
+2020-06-16 14:07:52	write	simply_write_csv	data/output/GLIOMA_MAP_01_02_source_each_word_exact.csv	
+2020-06-16 14:07:57	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	read input
+2020-06-16 14:17:23	write	simply_write_csv	data/output/GLIOMA_MAP_01_02_source_each_word_like.csv	
+2020-06-16 14:19:42	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	01_search_source
+2020-06-16 14:20:05	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	01_search_source
+2020-06-16 14:20:07	write	simply_write_csv	output/input/GLIOMA_MAP_01_03_source_numbers.csv	
+2020-06-16 14:20:32	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	01_search_source
+2020-06-16 14:20:34	write	simply_write_csv	data/output/GLIOMA_MAP_01_03_source_numbers.csv	
+2020-06-16 14:20:53	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	01_search_source
+2020-06-16 14:22:17	write	simply_write_csv	data/output/GLIOMA_MAP_01_03_source_numbers_as_words.csv	
+2020-06-16 14:22:26	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	
+2020-06-16 14:22:35	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	
+2020-06-16 14:22:36	read	simply_read_csv	data/output/GLIOMA_MAP_01_01_source_as_is.csv	
+2020-06-16 14:22:36	read	simply_read_csv	data/output/GLIOMA_MAP_01_02_sandbox_source_exclude_parentheses_exact.csv	
+2020-06-16 14:22:36	read	simply_read_csv	data/output/GLIOMA_MAP_01_02_sandbox_source_exclude_parentheses_like.csv	
+2020-06-16 14:22:36	read	simply_read_csv	data/output/GLIOMA_MAP_01_02_sandbox_source_exclude_parentheses_str_as_vector.csv	
+2020-06-16 14:22:36	read	simply_read_csv	data/output/GLIOMA_MAP_01_02_source_each_word_exact.csv	
+2020-06-16 14:22:36	read	simply_read_csv	data/output/GLIOMA_MAP_01_02_source_each_word_like.csv	
+2020-06-16 14:22:36	read	simply_read_csv	data/output/GLIOMA_MAP_01_03_source_numbers_as_words.csv	
+2020-06-16 14:22:36	read	simply_read_csv	data/output/GLIOMA_MAP_01_03_source_numbers.csv	
+2020-06-16 14:27:36	read	simply_read_csv	data/input/GLIOMA_MAP_01.csv	
+2020-06-16 14:27:37	read	simply_read_csv	data/output/GLIOMA_MAP_01_01_source_as_is.csv	
+2020-06-16 14:27:37	read	simply_read_csv	data/output/GLIOMA_MAP_01_02_sandbox_source_exclude_parentheses_exact.csv	
+2020-06-16 14:27:37	read	simply_read_csv	data/output/GLIOMA_MAP_01_02_sandbox_source_exclude_parentheses_like.csv	
+2020-06-16 14:27:37	read	simply_read_csv	data/output/GLIOMA_MAP_01_02_sandbox_source_exclude_parentheses_str_as_vector.csv	
+2020-06-16 14:27:37	read	simply_read_csv	data/output/GLIOMA_MAP_01_02_source_each_word_exact.csv	
+2020-06-16 14:27:37	read	simply_read_csv	data/output/GLIOMA_MAP_01_02_source_each_word_like.csv	
+2020-06-16 14:27:37	read	simply_read_csv	data/output/GLIOMA_MAP_01_03_source_numbers_as_words.csv	
+2020-06-16 14:27:37	read	simply_read_csv	data/output/GLIOMA_MAP_01_03_source_numbers.csv	
+2020-06-16 14:27:50	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpDcAtoc/filef3c82beab56e.csv	
+2020-06-16 14:40:40	read	read_full_excel	~/OneDrive - Memorial Sloan Kettering Cancer Center/Glioma/Workfile_OMOP.xlsx	
+2020-06-16 14:40:41	write	simply_write_csv	data/input/GLIOMA_MAP_02.csv	~/OneDrive - Memorial Sloan Kettering Cancer Center/Glioma/Workfile_OMOP.xlsxTAB: MAP_02written to GLIOMA_MAP_02.csv
+2020-06-16 14:40:43	read	simply_read_csv	data/input/GLIOMA_MAP_02.csv	read input
+2020-06-16 14:41:38	write	simply_write_csv	data/output/GLIOMA_MAP_02_01_source_as_is.csv	
+2020-06-16 14:41:41	read	simply_read_csv	data/input/GLIOMA_MAP_02.csv	read input
+2020-06-16 14:42:09	write	simply_write_csv	data/output/GLIOMA_MAP_02_02_sandbox_source_exclude_parentheses_str_as_vector.csv	
+2020-06-16 14:42:11	read	simply_read_csv	data/input/GLIOMA_MAP_02.csv	read input
+2020-06-16 14:42:39	write	simply_write_csv	data/output/GLIOMA_MAP_02_02_sandbox_source_exclude_parentheses_like.csv	
+2020-06-16 14:42:47	read	simply_read_csv	data/input/GLIOMA_MAP_02.csv	read input
+2020-06-16 14:43:41	write	simply_write_csv	data/output/GLIOMA_MAP_02_01_source_as_is.csv	
+2020-06-16 14:43:55	read	simply_read_csv	data/input/GLIOMA_MAP_02.csv	read input
+2020-06-16 14:44:21	write	simply_write_csv	data/output/GLIOMA_MAP_02_02_sandbox_source_exclude_parentheses_exact.csv	
+2020-06-16 14:44:26	read	simply_read_csv	data/input/GLIOMA_MAP_02.csv	read input
+2020-06-16 14:44:52	write	simply_write_csv	data/output/GLIOMA_MAP_02_02_sandbox_source_exclude_parentheses_str_as_vector.csv	
+2020-06-16 14:44:56	read	simply_read_csv	data/input/GLIOMA_MAP_02.csv	read input
+2020-06-16 14:45:23	write	simply_write_csv	data/output/GLIOMA_MAP_02_02_sandbox_source_exclude_parentheses_like.csv	
+2020-06-16 14:45:23	read	simply_read_csv	data/input/GLIOMA_MAP_02.csv	read input
+2020-06-16 14:45:55	write	simply_write_csv	data/output/GLIOMA_MAP_02_02_source_each_word_exact.csv	
+2020-06-16 14:46:07	read	simply_read_csv	data/input/GLIOMA_MAP_02.csv	01_search_source
+2020-06-16 14:46:08	write	simply_write_csv	data/output/GLIOMA_MAP_02_03_source_numbers.csv	
+2020-06-16 14:46:14	read	simply_read_csv	data/input/GLIOMA_MAP_02.csv	01_search_source
+2020-06-16 14:46:16	write	simply_write_csv	data/output/GLIOMA_MAP_02_03_source_numbers_as_words.csv	
+2020-06-16 14:46:35	read	simply_read_csv	data/input/GLIOMA_MAP_02.csv	01_search_source
+2020-06-16 14:47:30	write	simply_write_csv	data/output/GLIOMA_MAP_02_04_source_after_colon.csv	
+2020-06-16 14:47:41	read	simply_read_csv	data/input/GLIOMA_MAP_02.csv	
+2020-06-16 14:47:41	read	simply_read_csv	data/output/GLIOMA_MAP_02_01_source_as_is.csv	
+2020-06-16 14:47:41	read	simply_read_csv	data/output/GLIOMA_MAP_02_02_sandbox_source_exclude_parentheses_exact.csv	
+2020-06-16 14:47:41	read	simply_read_csv	data/output/GLIOMA_MAP_02_02_sandbox_source_exclude_parentheses_like.csv	
+2020-06-16 14:47:41	read	simply_read_csv	data/output/GLIOMA_MAP_02_02_sandbox_source_exclude_parentheses_str_as_vector.csv	
+2020-06-16 14:47:41	read	simply_read_csv	data/output/GLIOMA_MAP_02_02_source_each_word_exact.csv	
+2020-06-16 14:47:41	read	simply_read_csv	data/output/GLIOMA_MAP_02_03_source_numbers_as_words.csv	
+2020-06-16 14:47:41	read	simply_read_csv	data/output/GLIOMA_MAP_02_03_source_numbers.csv	
+2020-06-16 14:47:41	read	simply_read_csv	data/output/GLIOMA_MAP_02_04_source_after_colon.csv	
+2020-06-16 14:47:41	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpDcAtoc/filef3c81e55830e.csv	
+2020-06-16 14:55:38	read	simply_read_csv	data/input/GLIOMA_MAP_02.csv	01_search_source
+2020-06-16 14:55:40	write	simply_write_csv	data/output/GLIOMA_MAP_02_03_source_numbers_as_words.csv	
+2020-06-16 14:56:47	read	simply_read_csv	data/input/GLIOMA_MAP_02.csv	01_search_source
+2020-06-16 14:56:49	write	simply_write_csv	data/output/GLIOMA_MAP_02_03_source_numbers_as_words.csv	
+2020-06-16 14:57:04	read	simply_read_csv	data/input/GLIOMA_MAP_02.csv	01_search_source
+2020-06-16 14:57:05	write	simply_write_csv	data/output/GLIOMA_MAP_02_03_source_numbers.csv	
+2020-06-16 14:57:53	read	simply_read_csv	data/input/GLIOMA_MAP_02.csv	01_search_source
+2020-06-16 14:57:54	write	simply_write_csv	data/output/GLIOMA_MAP_02_03_source_numbers.csv	
+2020-06-16 14:58:10	read	simply_read_csv	data/input/GLIOMA_MAP_02.csv	01_search_source
+2020-06-16 14:58:12	write	simply_write_csv	data/output/GLIOMA_MAP_02_03_source_numbers.csv	
+2020-06-16 15:04:48	read	simply_read_csv	data/input/GLIOMA_MAP_02.csv	01_search_source
+2020-06-16 15:04:50	write	simply_write_csv	data/output/GLIOMA_MAP_02_03_source_numbers.csv	
+2020-06-16 15:05:00	read	simply_read_csv	data/input/GLIOMA_MAP_02.csv	01_search_source
+2020-06-16 15:05:01	write	simply_write_csv	data/output/GLIOMA_MAP_02_03_source_numbers_as_words.csv	
+2020-06-16 15:05:05	read	simply_read_csv	data/input/GLIOMA_MAP_02.csv	
+2020-06-16 15:05:05	read	simply_read_csv	data/output/GLIOMA_MAP_02_01_source_as_is.csv	
+2020-06-16 15:05:05	read	simply_read_csv	data/output/GLIOMA_MAP_02_02_sandbox_source_exclude_parentheses_exact.csv	
+2020-06-16 15:05:05	read	simply_read_csv	data/output/GLIOMA_MAP_02_02_sandbox_source_exclude_parentheses_like.csv	
+2020-06-16 15:05:05	read	simply_read_csv	data/output/GLIOMA_MAP_02_02_sandbox_source_exclude_parentheses_str_as_vector.csv	
+2020-06-16 15:05:05	read	simply_read_csv	data/output/GLIOMA_MAP_02_02_source_each_word_exact.csv	
+2020-06-16 15:05:05	read	simply_read_csv	data/output/GLIOMA_MAP_02_03_source_numbers_as_words.csv	
+2020-06-16 15:05:05	read	simply_read_csv	data/output/GLIOMA_MAP_02_03_source_numbers.csv	
+2020-06-16 15:05:05	read	simply_read_csv	data/output/GLIOMA_MAP_02_04_source_after_colon.csv	
+2020-06-16 15:05:05	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpDcAtoc/filef3c85fe3017e.csv	
+2020-06-16 18:22:15	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsx	
+2020-06-16 18:22:21	write	simply_write_csv	data/input/COVID_SLMAP_12.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsxTAB: MAP_12written to COVID_SLMAP_12.csv
+2020-06-16 19:41:28	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 19:51:48	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 19:53:44	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 19:54:07	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 20:01:11	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 20:03:06	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 20:07:01	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 20:08:41	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 20:11:16	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 20:12:31	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 20:15:57	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 20:17:06	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 20:21:11	write	simply_write_csv	data/output/COVID_SL_MAP_12_02_source_exclude_icdo3_code.csv	
+2020-06-16 20:21:20	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 20:23:34	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 20:34:43	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 20:35:35	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 20:43:20	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 20:51:14	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 20:56:24	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 21:02:18	write	simply_write_csv	data/output/COVID_SL_MAP_12_02_source_in_parentheses_exact_as_terms.csv	
+2020-06-16 21:05:02	write	simply_write_csv	data/output/COVID_SL_MAP_12_02_source_in_parentheses_exact_as_terms.csv	
+2020-06-16 21:05:39	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 21:12:38	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 23:45:33	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	read input
+2020-06-16 23:50:56	write	simply_write_csv	data/output/COVID_SL_MAP_12_02_source_longest_word_exact.csv	
+2020-06-17 01:56:20	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	
+2020-06-17 01:56:21	read	simply_read_csv	data/output/COVID_SL_MAP_12_02_sandbox_source_exclude_parentheses_exact.csv	
+2020-06-17 01:56:22	read	simply_read_csv	data/output/COVID_SL_MAP_12_02_sandbox_source_exclude_parentheses_like.csv	
+2020-06-17 01:56:23	read	simply_read_csv	data/output/COVID_SL_MAP_12_02_sandbox_source_exclude_parentheses_str_as_vector.csv	
+2020-06-17 01:56:24	read	simply_read_csv	data/output/COVID_SL_MAP_12_02_sandbox_source_longest_word_like.csv	
+2020-06-17 01:56:25	read	simply_read_csv	data/output/COVID_SL_MAP_12_02_source_each_word_exact.csv	
+2020-06-17 01:56:26	read	simply_read_csv	data/output/COVID_SL_MAP_12_02_source_each_word_like.csv	
+2020-06-17 01:56:27	read	simply_read_csv	data/output/COVID_SL_MAP_12_02_source_exclude_icdo3_code.csv	
+2020-06-17 01:56:28	read	simply_read_csv	data/output/COVID_SL_MAP_12_02_source_in_parentheses_exact_as_terms.csv	
+2020-06-17 01:56:29	read	simply_read_csv	data/output/COVID_SL_MAP_12_02_source_longest_word_exact.csv	
+2020-06-17 01:56:59	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	
+2020-06-17 01:57:00	read	simply_read_csv	data/output/COVID_SL_MAP_12_02_sandbox_source_exclude_parentheses_exact.csv	
+2020-06-17 01:57:01	read	simply_read_csv	data/output/COVID_SL_MAP_12_02_sandbox_source_exclude_parentheses_like.csv	
+2020-06-17 01:57:02	read	simply_read_csv	data/output/COVID_SL_MAP_12_02_sandbox_source_exclude_parentheses_str_as_vector.csv	
+2020-06-17 01:57:03	read	simply_read_csv	data/output/COVID_SL_MAP_12_02_sandbox_source_longest_word_like.csv	
+2020-06-17 01:57:04	read	simply_read_csv	data/output/COVID_SL_MAP_12_02_source_each_word_exact.csv	
+2020-06-17 01:57:05	read	simply_read_csv	data/output/COVID_SL_MAP_12_02_source_each_word_like.csv	
+2020-06-17 01:57:06	read	simply_read_csv	data/output/COVID_SL_MAP_12_02_source_exclude_icdo3_code.csv	
+2020-06-17 01:57:08	read	simply_read_csv	data/output/COVID_SL_MAP_12_02_source_in_parentheses_exact_as_terms.csv	
+2020-06-17 01:57:09	read	simply_read_csv	data/output/COVID_SL_MAP_12_02_source_longest_word_exact.csv	
+2020-06-17 01:57:10	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZXni6U/file196b1e808b3f.csv	
+2020-06-17 02:27:20	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsx	Load: MAP_13
+2020-06-17 02:27:24	write	simply_write_csv	data/input/COVID_SL_MAP_13.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsxTAB: MAP_13written to COVID_SL_MAP_13.csv
+2020-06-17 02:27:33	read	simply_read_csv	data/input/COVID_SL_MAP_13.csv	read input
+2020-06-17 02:28:21	read	simply_read_csv	data/input/COVID_SL_MAP_13.csv	read input
+2020-06-17 02:32:23	write	simply_write_csv	data/output/COVID_SL_MAP_13_02_source_each_word_exact.csv	
+2020-06-17 02:34:11	read	simply_read_csv	data/input/COVID_SL_MAP_13.csv	read input
+2020-06-17 02:37:55	read	simply_read_csv	data/input/COVID_SL_MAP_13.csv	read input
+2020-06-17 02:38:11	read	simply_read_csv	data/input/COVID_SL_MAP_13.csv	read input
+2020-06-17 02:41:13	write	simply_write_csv	data/output/COVID_SL_MAP_13_02_source_exclude_parentheses_like.csv	
+2020-06-17 02:43:36	write	simply_write_csv	data/output/COVID_SL_MAP_13_02_source_exclude_parentheses_like.csv	
+2020-06-17 02:44:21	read	simply_read_csv	data/input/COVID_SL_MAP_13.csv	read input
+2020-06-17 02:46:04	write	simply_write_csv	data/output/COVID_SL_MAP_13_02_source_exclude_parentheses_like.csv	
+2020-06-17 02:47:00	read	simply_read_csv	data/input/COVID_SL_MAP_13.csv	read input
+2020-06-17 02:50:02	write	simply_write_csv	data/output/COVID_SL_MAP_13_02_source_exclude_parentheses_exact.csv	
+2020-06-17 02:50:04	read	simply_read_csv	data/input/COVID_SL_MAP_13.csv	read input
+2020-06-17 02:53:13	write	simply_write_csv	data/output/COVID_SL_MAP_13_02_source_in_parentheses_exact_as_terms.csv	
+2020-06-17 02:53:15	read	simply_read_csv	data/input/COVID_SL_MAP_13.csv	read input
+2020-06-17 02:56:15	write	simply_write_csv	data/output/COVID_SL_MAP_13_05_source_str_as_vector.csv	
+2020-06-17 02:56:19	read	simply_read_csv	data/input/COVID_SL_MAP_13.csv	
+2020-06-17 02:56:20	read	simply_read_csv	data/output/COVID_SL_MAP_13_02_source_each_word_exact.csv	
+2020-06-17 02:56:21	read	simply_read_csv	data/output/COVID_SL_MAP_13_02_source_exclude_parentheses_exact.csv	
+2020-06-17 02:56:21	read	simply_read_csv	data/output/COVID_SL_MAP_13_02_source_exclude_parentheses_like.csv	
+2020-06-17 02:56:22	read	simply_read_csv	data/output/COVID_SL_MAP_13_02_source_in_parentheses_exact_as_terms.csv	
+2020-06-17 02:56:22	read	simply_read_csv	data/output/COVID_SL_MAP_13_05_source_str_as_vector.csv	
+2020-06-17 02:56:22	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZXni6U/file196b11cad2b.csv	
+2020-06-17 03:01:18	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-17 03:02:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-17 03:02:36	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-17 03:03:11	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-17 03:03:43	read	simply_read_csv	data/input/COVID_SL_MAP_13.csv	read input
+2020-06-17 03:06:35	read	simply_read_csv	data/input/COVID_SL_MAP_13.csv	read input
+2020-06-17 03:07:19	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-17 03:08:59	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZXni6U/file196b32d93154.csv	
+2020-06-17 03:09:36	read	simply_read_csv	data/input/COVID_SL_MAP_13.csv	read input
+2020-06-17 03:12:00	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-17 03:33:17	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZXni6U/file196b317b1e10.csv	
+2020-06-17 03:39:56	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsx	
+2020-06-17 03:40:58	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/COVID_Parsed_2020-05-27.xlsx	
+2020-06-17 03:42:45	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/COVID_Parsed_2020-05-27.xlsx	
+2020-06-17 03:43:46	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/COVID_Parsed_2020-05-27.xlsx	
+2020-06-17 03:45:20	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsx	
+2020-06-17 03:45:23	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/COVID_Parsed_2020-05-27.xlsx	
+2020-06-17 03:45:47	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/COVID_Parsed_2020-05-27.xlsx	
+2020-06-17 03:46:57	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/COVID_Parsed_2020-05-27.xlsx	
+2020-06-17 03:57:17	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZXni6U/file196b36ecbdef.csv	
+2020-06-17 03:58:27	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZXni6U/file196b14ea78d5.csv	
+2020-06-17 09:45:52	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsx	
+2020-06-17 09:45:57	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/COVID_Parsed_2020-05-27.xlsx	
+2020-06-17 09:48:26	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZXni6U/file196b2652a33e.csv	
+2020-06-17 09:55:50	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZXni6U/file196b38431b4a.csv	
+2020-06-17 09:59:07	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/COVID_Parsed_2020-05-27.xlsx	
+2020-06-17 09:59:50	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/COVID_Parsed_2020-05-27.xlsx	
+2020-06-17 10:00:26	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZXni6U/file196b969eebf.csv	
+2020-06-17 10:04:33	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZXni6U/file196b9b9426d.csv	
+2020-06-17 10:06:33	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZXni6U/file196b61b80717.csv	
+2020-06-17 10:16:17	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsx	Load: MAP_15
+2020-06-17 10:16:24	write	simply_write_csv	data/input/COVID_SL_MAP_15.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsxTAB: MAP_15written to COVID_SL_MAP_15.csv
+2020-06-17 10:24:09	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	read input
+2020-06-17 14:40:30	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	read input
+2020-06-17 14:40:53	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	read input
+2020-06-17 14:41:51	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	read input
+2020-06-17 14:43:28	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	read input
+2020-06-17 14:43:52	write	simply_write_csv	data/output/COVID_SL_MAP_15_01_source_as_is_exact.csv	
+2020-06-17 14:46:03	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	read input
+2020-06-17 14:46:22	write	simply_write_csv	data/output/COVID_SL_MAP_15_01_source_as_is_like.csv	
+2020-06-17 14:46:44	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	read input
+2020-06-17 14:46:55	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	read input
+2020-06-17 14:47:15	write	simply_write_csv	data/output/COVID_SL_MAP_15_01_source_as_is_string.csv	
+2020-06-17 14:47:31	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	read input
+2020-06-17 14:47:50	write	simply_write_csv	data/output/COVID_SL_MAP_15_02_source_each_word_exact.csv	
+2020-06-17 14:47:54	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	read input
+2020-06-17 14:48:13	write	simply_write_csv	data/output/COVID_SL_MAP_15_02_source_each_word_like.csv	
+2020-06-17 14:48:16	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	read input
+2020-06-17 14:48:35	write	simply_write_csv	data/output/COVID_SL_MAP_15_02_source_each_word_like_space_after.csv	
+2020-06-17 14:51:07	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	read input
+2020-06-17 14:51:20	write	simply_write_csv	data/output/COVID_SL_MAP_15_01_source_as_is_exact.csv	
+2020-06-17 14:54:43	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	read input
+2020-06-17 14:54:56	write	simply_write_csv	data/output/COVID_SL_MAP_15_01_source_as_is_like.csv	
+2020-06-17 14:55:08	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	read input
+2020-06-17 14:55:21	write	simply_write_csv	data/output/COVID_SL_MAP_15_01_source_as_is_string.csv	
+2020-06-17 14:55:30	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	read input
+2020-06-17 14:55:42	write	simply_write_csv	data/output/COVID_SL_MAP_15_02_source_each_word_exact.csv	
+2020-06-17 14:55:47	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	read input
+2020-06-17 14:55:59	write	simply_write_csv	data/output/COVID_SL_MAP_15_02_source_each_word_like.csv	
+2020-06-17 14:56:04	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	read input
+2020-06-17 14:56:16	write	simply_write_csv	data/output/COVID_SL_MAP_15_02_source_each_word_like_space_after.csv	
+2020-06-17 14:56:18	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	read input
+2020-06-17 14:56:30	write	simply_write_csv	data/output/COVID_SL_MAP_15_02_source_each_word_like_space_before.csv	
+2020-06-17 14:56:33	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	read input
+2020-06-17 14:56:45	write	simply_write_csv	data/output/COVID_SL_MAP_15_02_source_exclude_parentheses_exact.csv	
+2020-06-17 14:56:49	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	read input
+2020-06-17 14:57:01	write	simply_write_csv	data/output/COVID_SL_MAP_15_02_source_exclude_parentheses_str_as_vector.csv	
+2020-06-17 14:57:07	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	read input
+2020-06-17 14:57:20	write	simply_write_csv	data/output/COVID_SL_MAP_15_02_source_first_word.csv	
+2020-06-17 14:57:52	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	read input
+2020-06-17 14:58:05	write	simply_write_csv	data/output/COVID_SL_MAP_15_02_source_first_word.csv	
+2020-06-17 14:58:08	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	read input
+2020-06-17 14:58:20	write	simply_write_csv	data/output/COVID_SL_MAP_15_02_source_in_parentheses_exact.csv	
+2020-06-17 14:58:39	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	01_search_source
+2020-06-17 14:59:12	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	
+2020-06-17 14:59:17	read	simply_read_csv	data/output/COVID_SL_MAP_15_01_source_as_is_exact.csv	
+2020-06-17 14:59:17	read	simply_read_csv	data/output/COVID_SL_MAP_15_01_source_as_is_like.csv	
+2020-06-17 14:59:17	read	simply_read_csv	data/output/COVID_SL_MAP_15_01_source_as_is_string.csv	
+2020-06-17 14:59:17	read	simply_read_csv	data/output/COVID_SL_MAP_15_02_source_each_word_exact.csv	
+2020-06-17 14:59:17	read	simply_read_csv	data/output/COVID_SL_MAP_15_02_source_each_word_like_space_after.csv	
+2020-06-17 14:59:17	read	simply_read_csv	data/output/COVID_SL_MAP_15_02_source_each_word_like_space_before.csv	
+2020-06-17 14:59:17	read	simply_read_csv	data/output/COVID_SL_MAP_15_02_source_each_word_like.csv	
+2020-06-17 14:59:17	read	simply_read_csv	data/output/COVID_SL_MAP_15_02_source_exclude_parentheses_exact.csv	
+2020-06-17 14:59:17	read	simply_read_csv	data/output/COVID_SL_MAP_15_02_source_exclude_parentheses_str_as_vector.csv	
+2020-06-17 14:59:17	read	simply_read_csv	data/output/COVID_SL_MAP_15_02_source_first_word.csv	
+2020-06-17 14:59:17	read	simply_read_csv	data/output/COVID_SL_MAP_15_02_source_in_parentheses_exact.csv	
+2020-06-17 14:59:17	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZXni6U/file196b7e37ed1b.csv	
+2020-06-17 18:27:40	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	Load: MAP_00
+2020-06-17 18:27:48	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	Load: MAP_00
+2020-06-17 18:28:00	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	Load: MAP_00
+2020-06-17 18:28:31	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	Load: MAP_00
+2020-06-17 18:28:32	write	simply_write_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_00written to COVID_SL_ROUND2_MAP_00.csv
+2020-06-17 18:32:07	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 18:39:31	write	copy_to_clipboard		
+2020-06-17 18:44:43	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	Load: MAP_00
+2020-06-17 18:44:45	write	simply_write_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_00written to COVID_SL_ROUND2_MAP_00.csv
+2020-06-17 18:44:50	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 18:45:29	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_00_01_source_as_is_exact.csv	
+2020-06-17 18:45:50	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 18:46:17	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_00_01_source_as_is_exact.csv	
+2020-06-17 18:53:15	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 18:53:41	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/output/COVID_SL_ROUND2_MAP_00_01_source_as_is_exact.csv	
+2020-06-17 18:54:16	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 18:54:43	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/output/COVID_SL_ROUND2_MAP_00_01_source_as_is_exact.csv	
+2020-06-17 18:55:05	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 18:55:31	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/output/COVID_SL_ROUND2_MAP_00_01_source_as_is_exact.csv	
+2020-06-17 18:56:23	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 18:56:50	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/output/COVID_SL_ROUND2_MAP_00_01_source_as_is_exact.csv	
+2020-06-17 18:57:53	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 18:58:19	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/output/COVID_SL_ROUND2_MAP_00_01_source_as_is_exact.csv	
+2020-06-17 18:59:46	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 19:03:14	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 19:03:41	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/output/COVID_SL_ROUND2_MAP_00_01_source_as_is_exact.csv	
+2020-06-17 19:05:32	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 19:05:57	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_00_01_source_as_is_exact.csv	
+2020-06-17 19:09:08	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 19:20:50	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_00_01_source_as_is_string.csv	
+2020-06-17 19:27:15	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 19:34:21	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_00_01_source_as_is_like.csv	
+2020-06-17 19:35:55	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 19:36:30	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_00_01_source_as_is_like.csv	
+2020-06-17 20:03:43	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 20:05:40	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 20:06:34	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 20:08:20	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 20:09:08	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 20:15:17	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 20:16:47	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 20:18:15	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 20:20:15	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 20:23:31	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_each_word_exact.csv	
+2020-06-17 20:23:45	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 20:26:15	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 20:27:44	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 20:30:18	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/output/COVID_SL_ROUND2_MAP_00_02_source_each_word_like.csv	
+2020-06-17 20:33:47	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 20:34:33	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/output/COVID_SL_ROUND2_MAP_00_02_source_exclude_parentheses_exact.csv	
+2020-06-17 20:34:46	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 20:35:06	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_exclude_parentheses_exact.csv	
+2020-06-17 20:36:40	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 20:37:50	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/output/COVID_SL_ROUND2_MAP_00_02_source_exclude_parentheses_like.csv	
+2020-06-17 20:39:17	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 20:40:40	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/output/COVID_SL_ROUND2_MAP_00_02_source_exclude_parentheses_string.csv	
+2020-06-17 20:45:02	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 20:45:26	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 20:45:38	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/output/COVID_SL_ROUND2_MAP_00_02_source_each_word_like_space_after.csv	
+2020-06-17 20:45:44	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 20:46:30	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 20:47:09	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_in_parentheses_exact.csv	
+2020-06-17 20:52:58	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 20:53:15	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/output/COVID_SL_ROUND2_MAP_00_02_source_in_parentheses_exact_as_terms.csv	
+2020-06-17 20:53:23	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	read input
+2020-06-17 20:53:38	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/output/COVID_SL_ROUND2_MAP_00_02_source_each_word_like_space_before.csv	
+2020-06-17 20:53:40	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_in_parentheses_exact_as_terms.csv	
+2020-06-17 20:56:12	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	
+2020-06-17 20:56:13	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_01_source_as_is_exact.csv	
+2020-06-17 20:56:13	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_01_source_as_is_like.csv	
+2020-06-17 20:56:13	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_01_source_as_is_string.csv	
+2020-06-17 20:56:13	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_each_word_exact.csv	
+2020-06-17 20:56:13	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_each_word_like_space_after.csv	
+2020-06-17 20:56:13	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_each_word_like_space_before.csv	
+2020-06-17 20:56:13	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_each_word_like.csv	
+2020-06-17 20:56:13	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_exclude_parentheses_exact.csv	
+2020-06-17 20:56:13	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_exclude_parentheses_like.csv	
+2020-06-17 20:56:13	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_exclude_parentheses_string.csv	
+2020-06-17 20:56:13	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_in_parentheses_exact_as_terms.csv	
+2020-06-17 20:56:13	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_in_parentheses_exact.csv	
+2020-06-17 20:56:13	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp4W2dF5/file34401920c383.csv	
+2020-06-17 20:57:35	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	
+2020-06-17 20:57:36	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_01_source_as_is_exact.csv	
+2020-06-17 20:57:36	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_01_source_as_is_like.csv	
+2020-06-17 20:57:36	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_01_source_as_is_string.csv	
+2020-06-17 20:57:36	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_each_word_exact.csv	
+2020-06-17 20:57:36	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_each_word_like_space_after.csv	
+2020-06-17 20:57:36	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_each_word_like_space_before.csv	
+2020-06-17 20:57:36	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_each_word_like.csv	
+2020-06-17 20:57:36	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_exclude_parentheses_exact.csv	
+2020-06-17 20:57:36	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_exclude_parentheses_like.csv	
+2020-06-17 20:57:36	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_exclude_parentheses_string.csv	
+2020-06-17 20:57:36	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_in_parentheses_exact_as_terms.csv	
+2020-06-17 20:57:36	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_in_parentheses_exact.csv	
+2020-06-17 20:57:36	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp4W2dF5/file34403603da58.csv	
+2020-06-17 20:57:51	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	
+2020-06-17 20:57:52	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_01_source_as_is_exact.csv	
+2020-06-17 20:57:52	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_01_source_as_is_like.csv	
+2020-06-17 20:57:52	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_01_source_as_is_string.csv	
+2020-06-17 20:57:52	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_each_word_exact.csv	
+2020-06-17 20:57:52	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_each_word_like_space_after.csv	
+2020-06-17 20:57:52	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_each_word_like_space_before.csv	
+2020-06-17 20:57:52	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_each_word_like.csv	
+2020-06-17 20:57:52	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_exclude_parentheses_exact.csv	
+2020-06-17 20:57:52	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_exclude_parentheses_like.csv	
+2020-06-17 20:57:52	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_exclude_parentheses_string.csv	
+2020-06-17 20:57:52	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_in_parentheses_exact_as_terms.csv	
+2020-06-17 20:57:52	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_00_02_source_in_parentheses_exact.csv	
+2020-06-17 20:57:52	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp4W2dF5/file344036f3e31c.csv	
+2020-06-17 22:27:19	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	Load: MAP_01
+2020-06-17 22:27:21	write	simply_write_csv	data/input/COVID_SL_ROUND2_MAP_01.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_01written to COVID_SL_ROUND2_MAP_01.csv
+2020-06-17 22:29:04	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_01.csv	read input
+2020-06-17 22:31:08	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_01.csv	read input
+2020-06-17 22:38:00	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_01.csv	read input
+2020-06-17 22:39:37	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_01_06_terms.csv	
+2020-06-17 22:39:37	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_01.csv	read input
+2020-06-17 22:39:45	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_01.csv	read input
+2020-06-17 22:40:54	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_01.csv	read input
+2020-06-17 22:41:10	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_01.csv	read input
+2020-06-17 22:42:55	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_01_06_terms_string.csv	
+2020-06-17 22:57:33	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_01.csv	read input
+2020-06-17 22:58:03	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_01.csv	
+2020-06-17 22:58:05	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_01_06_terms_string.csv	
+2020-06-17 22:58:05	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_01_06_terms.csv	
+2020-06-17 22:58:05	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp4W2dF5/file34407a2e188c.csv	
+2020-06-17 23:09:57	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	Load: MAP_02
+2020-06-17 23:09:59	write	simply_write_csv	data/input/COVID_SL_ROUND2_MAP_02.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_02written to COVID_SL_ROUND2_MAP_02.csv
+2020-06-17 23:10:08	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_02.csv	read input
+2020-06-17 23:10:38	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_02_06_terms_string.csv	
+2020-06-17 23:11:49	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	Load: MAP_02
+2020-06-17 23:11:51	write	simply_write_csv	data/input/COVID_SL_ROUND2_MAP_02.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_02written to COVID_SL_ROUND2_MAP_02.csv
+2020-06-17 23:12:06	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_02.csv	read input
+2020-06-17 23:12:28	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_02_01_source_as_is_exact.csv	
+2020-06-17 23:12:47	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_02.csv	read input
+2020-06-17 23:13:10	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_02_01_source_as_is_string.csv	
+2020-06-17 23:13:14	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_02.csv	read input
+2020-06-17 23:13:42	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_02_02_source_each_word_exact.csv	
+2020-06-17 23:13:46	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_02.csv	read input
+2020-06-17 23:14:26	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_02_02_source_each_word_like.csv	
+2020-06-17 23:14:33	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_02.csv	read input
+2020-06-17 23:14:52	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_02_02_source_in_parentheses_exact.csv	
+2020-06-17 23:14:56	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_02.csv	read input
+2020-06-17 23:15:15	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_02_02_source_in_parentheses_exact_as_terms.csv	
+2020-06-17 23:15:18	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_02.csv	read input
+2020-06-17 23:15:37	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_02_02_source_no_parentheses_exact.csv	
+2020-06-17 23:15:44	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_02.csv	read input
+2020-06-17 23:16:02	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_02_02_source_no_parentheses_like.csv	
+2020-06-17 23:16:07	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_02.csv	read input
+2020-06-17 23:16:26	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_02_02_source_no_parentheses_string.csv	
+2020-06-17 23:16:46	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_02.csv	
+2020-06-17 23:16:46	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_02_01_source_as_is_exact.csv	
+2020-06-17 23:16:46	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_02_01_source_as_is_string.csv	
+2020-06-17 23:16:46	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_02_02_source_each_word_exact.csv	
+2020-06-17 23:16:46	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_02_02_source_each_word_like.csv	
+2020-06-17 23:16:46	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_02_02_source_in_parentheses_exact_as_terms.csv	
+2020-06-17 23:16:46	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_02_02_source_in_parentheses_exact.csv	
+2020-06-17 23:16:46	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_02_02_source_no_parentheses_exact.csv	
+2020-06-17 23:16:46	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_02_02_source_no_parentheses_like.csv	
+2020-06-17 23:16:46	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_02_02_source_no_parentheses_string.csv	
+2020-06-17 23:16:46	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_02_06_terms_string.csv	
+2020-06-17 23:16:46	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp4W2dF5/file3440187539c2.csv	
+2020-06-17 23:38:13	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	Load: MAP_03
+2020-06-17 23:38:15	write	simply_write_csv	data/input/COVID_SL_ROUND2_MAP_03.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_03written to COVID_SL_ROUND2_MAP_03.csv
+2020-06-17 23:41:02	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	Load: MAP_03
+2020-06-17 23:41:04	write	simply_write_csv	data/input/COVID_SL_ROUND2_MAP_03.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_03written to COVID_SL_ROUND2_MAP_03.csv
+2020-06-17 23:41:11	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_03.csv	read input
+2020-06-17 23:41:35	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_03.csv	read input
+2020-06-17 23:41:58	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_03_01_source_as_is_exact.csv	
+2020-06-17 23:42:09	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_03.csv	read input
+2020-06-17 23:42:30	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_03_06_terms_exact.csv	
+2020-06-17 23:42:33	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_03.csv	read input
+2020-06-17 23:42:58	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_03_06_terms_string.csv	
+2020-06-17 23:43:05	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_03.csv	read input
+2020-06-17 23:43:33	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_03_02_source_each_word_exact.csv	
+2020-06-17 23:43:44	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_03.csv	read input
+2020-06-17 23:44:02	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_03_02_source_no_parentheses_string.csv	
+2020-06-17 23:44:06	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_03.csv	read input
+2020-06-17 23:44:25	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_03_02_source_no_parentheses_like.csv	
+2020-06-17 23:44:29	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_03.csv	read input
+2020-06-17 23:44:48	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_03_02_source_no_parentheses_exact.csv	
+2020-06-17 23:44:52	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_03.csv	read input
+2020-06-17 23:45:10	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_03_02_source_in_parentheses_exact_as_terms.csv	
+2020-06-17 23:45:14	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_03.csv	read input
+2020-06-17 23:45:32	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_03_02_source_in_parentheses_exact.csv	
+2020-06-17 23:45:36	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_03.csv	read input
+2020-06-17 23:46:15	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_03_02_source_each_word_like.csv	
+2020-06-17 23:46:22	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_03.csv	
+2020-06-17 23:46:22	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_03_01_source_as_is_exact.csv	
+2020-06-17 23:46:22	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_03_02_source_each_word_exact.csv	
+2020-06-17 23:46:22	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_03_02_source_each_word_like.csv	
+2020-06-17 23:46:22	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_03_02_source_in_parentheses_exact_as_terms.csv	
+2020-06-17 23:46:22	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_03_02_source_in_parentheses_exact.csv	
+2020-06-17 23:46:22	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_03_02_source_no_parentheses_exact.csv	
+2020-06-17 23:46:22	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_03_02_source_no_parentheses_like.csv	
+2020-06-17 23:46:22	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_03_02_source_no_parentheses_string.csv	
+2020-06-17 23:46:22	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_03_06_terms_exact.csv	
+2020-06-17 23:46:22	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_03_06_terms_string.csv	
+2020-06-17 23:46:22	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp4W2dF5/file34401f816a4.csv	
+2020-06-23 09:10:09	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	Load: MAP_04
+2020-06-23 09:10:12	write	simply_write_csv	data/input/COVID_SL_ROUND2_MAP_04.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_04written to COVID_SL_ROUND2_MAP_04.csv
+2020-06-23 09:10:54	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_04.csv	read input
+2020-06-23 09:11:21	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_04_01_source_as_is_exact.csv	
+2020-06-23 09:11:23	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_04.csv	read input
+2020-06-23 09:11:48	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_04.csv	read input
+2020-06-23 09:12:48	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_04_01_source_as_is_string.csv	
+2020-06-23 09:12:59	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_04.csv	
+2020-06-23 09:12:59	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_04_01_source_as_is_exact.csv	
+2020-06-23 09:12:59	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_04_01_source_as_is_string.csv	
+2020-06-23 09:12:59	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmphO7Mmo/file1fe45e0a697.csv	
+2020-06-23 09:19:01	read	read_clipboard		
+2020-06-23 09:19:10	read	read_clipboard		
+2020-06-23 09:19:15	read	read_clipboard		
+2020-06-23 09:25:22	write	copy_to_clipboard		
+2020-06-23 09:27:29	write	copy_to_clipboard		
+2020-06-23 09:30:04	read	read_clipboard		
+2020-06-23 09:30:06	write	copy_to_clipboard		
+2020-06-23 09:30:55	write	copy_to_clipboard		
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_06.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_07.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_08.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_09.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_10.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_11.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_12.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_13.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_14.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_15.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_16.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_17.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_18.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_19.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_20.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_21.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_22.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_23.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_24.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_25.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_26.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_27.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_28.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_29.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_30.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_31.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_32.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_MAP_33.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_Batch 2.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_DIAGNOSIS_b_09_i_naaccr.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_DIAGNOSIS_b_09_i_naaccr2.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_DIAGNOSIS_b_09_ii.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_DIAGNOSISb09i_naaccr3.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_METASTASES.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_METS_03.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_COMPLETE_MAP_CANCER_DIAGNOSIS_A.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_FAILED_PARSING.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_CANCER_METS_01.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_CANCER_METS_02A.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_01.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_02.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_03.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_04.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_05.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_06.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_07.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_08.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_00.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_01.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_02.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_03.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_04.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_05.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_06.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_07.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_08.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_09.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_10.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_11.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_12.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_13.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_14.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_15.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_16.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_17.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_MEERA_SUBSET.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_NAACCR4.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_NAACCR5.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_NAACCR6.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Meera_other_forms_PARSED_DD.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_DIAGNOSIS_b_09_i_naaccr.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_DIAGNOSIS_b_09_i_naaccr2.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_DIAGNOSIS_b_09_ii.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_DIAGNOSISb09i_naaccr3.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_METS_03.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_02.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_03.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_04.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_05.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_06.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_07.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_MAP_00.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_MAP_01.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_MAP_02.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_MAP_03.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_MAP_05.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_MAP_07.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_MAP_08.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_MAP_09.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_MAP_10.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_MAP_11.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_MAP_12.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_MAP_13.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_MAP_14.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_MAP_15.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_MAP_16.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_NAACCR4.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND2_NAACCR5.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND3_Core Variables Meera Subset.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_ROUND3_MAP_00.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_SL_cancer_diagnosis.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_SL_MAP_00.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_SL_MAP_01.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_SL_MAP_02.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_SL_MAP_03.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_SL_MAP_04.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_SL_MAP_05.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_SL_MAP_06.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_SL_MAP_07.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_SL_MAP_09.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_SL_MAP_10.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_SL_MAP_13.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_01.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_02.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_03.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_04.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_SLMAP_12.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Workfile_Main.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Workfile_Map_04.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Workfile_Map_05.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Workfile_Map3.csv	
+2020-06-23 09:33:25	read	simply_read_csv	data/input/COVID_Workfile.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_06.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_07.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_08.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_09.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_10.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_11.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_12.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_13.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_14.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_15.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_16.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_17.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_18.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_19.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_20.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_21.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_22.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_23.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_24.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_25.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_26.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_27.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_28.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_29.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_30.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_31.csv	
+2020-06-23 09:33:44	read	simply_read_csv	data/input/COVID_MAP_32.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_MAP_33.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_Batch 2.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_DIAGNOSIS_b_09_i_naaccr.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_DIAGNOSIS_b_09_i_naaccr2.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_DIAGNOSIS_b_09_ii.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_DIAGNOSISb09i_naaccr3.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_METASTASES.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_METS_03.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_COMPLETE_MAP_CANCER_DIAGNOSIS_A.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_FAILED_PARSING.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_CANCER_METS_01.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_CANCER_METS_02A.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_01.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_02.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_03.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_04.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_05.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_06.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_07.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_08.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_00.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_01.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_02.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_03.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_04.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_05.csv	
+2020-06-23 09:33:45	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_06.csv	
+2020-06-23 09:33:46	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_07.csv	
+2020-06-23 09:33:46	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_08.csv	
+2020-06-23 09:33:46	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_09.csv	
+2020-06-23 09:33:46	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_10.csv	
+2020-06-23 09:33:46	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_11.csv	
+2020-06-23 09:33:46	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_12.csv	
+2020-06-23 09:33:46	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_13.csv	
+2020-06-23 09:33:46	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_14.csv	
+2020-06-23 09:33:46	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_15.csv	
+2020-06-23 09:33:46	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_16.csv	
+2020-06-23 09:33:46	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_17.csv	
+2020-06-23 09:33:46	read	simply_read_csv	data/input/COVID_Meera_other_forms_MEERA_SUBSET.csv	
+2020-06-23 09:33:46	read	simply_read_csv	data/input/COVID_Meera_other_forms_NAACCR4.csv	
+2020-06-23 09:33:46	read	simply_read_csv	data/input/COVID_Meera_other_forms_NAACCR5.csv	
+2020-06-23 09:33:46	read	simply_read_csv	data/input/COVID_Meera_other_forms_NAACCR6.csv	
+2020-06-23 09:33:46	read	simply_read_csv	data/input/COVID_Meera_other_forms_PARSED_DD.csv	
+2020-06-23 09:33:51	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_DIAGNOSIS_b_09_i_naaccr.csv	
+2020-06-23 09:33:51	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_DIAGNOSIS_b_09_i_naaccr2.csv	
+2020-06-23 09:33:51	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_DIAGNOSIS_b_09_ii.csv	
+2020-06-23 09:33:51	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_DIAGNOSISb09i_naaccr3.csv	
+2020-06-23 09:33:51	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_METS_03.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_02.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_03.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_04.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_05.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_06.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_07.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND2_MAP_00.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND2_MAP_01.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND2_MAP_02.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND2_MAP_03.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND2_MAP_05.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND2_MAP_07.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND2_MAP_08.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND2_MAP_09.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND2_MAP_10.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND2_MAP_11.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND2_MAP_12.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND2_MAP_13.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND2_MAP_14.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND2_MAP_15.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND2_MAP_16.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND2_NAACCR4.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND2_NAACCR5.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND3_Core Variables Meera Subset.csv	
+2020-06-23 09:33:52	read	simply_read_csv	data/input/COVID_ROUND3_MAP_00.csv	
+2020-06-23 09:33:54	read	simply_read_csv	data/input/COVID_SL_cancer_diagnosis.csv	
+2020-06-23 09:33:54	read	simply_read_csv	data/input/COVID_SL_MAP_00.csv	
+2020-06-23 09:33:56	read	simply_read_csv	data/input/COVID_SL_MAP_01.csv	
+2020-06-23 09:33:58	read	simply_read_csv	data/input/COVID_SL_MAP_02.csv	
+2020-06-23 09:33:59	read	simply_read_csv	data/input/COVID_SL_MAP_03.csv	
+2020-06-23 09:34:01	read	simply_read_csv	data/input/COVID_SL_MAP_04.csv	
+2020-06-23 09:34:03	read	simply_read_csv	data/input/COVID_SL_MAP_05.csv	
+2020-06-23 09:34:05	read	simply_read_csv	data/input/COVID_SL_MAP_06.csv	
+2020-06-23 09:34:07	read	simply_read_csv	data/input/COVID_SL_MAP_07.csv	
+2020-06-23 09:34:08	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	
+2020-06-23 09:34:10	read	simply_read_csv	data/input/COVID_SL_MAP_09.csv	
+2020-06-23 09:34:12	read	simply_read_csv	data/input/COVID_SL_MAP_10.csv	
+2020-06-23 09:34:13	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	
+2020-06-23 09:34:15	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	
+2020-06-23 09:34:17	read	simply_read_csv	data/input/COVID_SL_MAP_13.csv	
+2020-06-23 09:34:19	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	
+2020-06-23 09:34:26	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	
+2020-06-23 09:34:27	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_01.csv	
+2020-06-23 09:34:28	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_02.csv	
+2020-06-23 09:34:29	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_03.csv	
+2020-06-23 09:34:30	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_04.csv	
+2020-06-23 09:34:31	read	simply_read_csv	data/input/COVID_SLMAP_12.csv	
+2020-06-23 09:34:33	read	simply_read_csv	data/input/COVID_Workfile_Main.csv	
+2020-06-23 09:34:33	read	simply_read_csv	data/input/COVID_Workfile_Map_04.csv	
+2020-06-23 09:34:33	read	simply_read_csv	data/input/COVID_Workfile_Map_05.csv	
+2020-06-23 09:34:33	read	simply_read_csv	data/input/COVID_Workfile_Map3.csv	
+2020-06-23 09:34:33	read	simply_read_csv	data/input/COVID_Workfile.csv	
+2020-06-23 09:39:51	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmphO7Mmo/file1fe462bdd6c1.csv	
+2020-06-23 09:45:57	write	copy_to_clipboard		
+2020-06-23 09:56:43	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmphO7Mmo/file1fe46dc7c769.csv	
+2020-06-23 09:59:13	read	simply_read_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmphO7Mmo/file1fe46dc7c769.csv	
+2020-06-23 10:03:17	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmphO7Mmo/file1fe45a2ffa1d.csv	
+2020-06-23 10:15:38	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	Load: MAP_05
+2020-06-23 10:15:41	write	simply_write_csv	data/input/COVID_SL_ROUND2_MAP_05.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_05written to COVID_SL_ROUND2_MAP_05.csv
+2020-06-23 10:16:06	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_05.csv	read input
+2020-06-23 10:16:34	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_05_01_source_as_is_exact.csv	
+2020-06-23 10:23:14	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_05.csv	read input
+2020-06-23 10:40:59	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_05.csv	read input
+2020-06-23 10:41:04	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_05_01_source_as_is_exact.csv	
+2020-06-23 10:41:07	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_05.csv	read input
+2020-06-23 10:41:11	write	simply_write_csv	data/output/COVID_SL_ROUND2_MAP_05_01_source_as_is_string.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_06.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_07.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_08.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_09.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_10.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_11.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_12.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_13.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_14.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_15.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_16.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_17.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_18.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_19.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_20.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_21.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_22.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_23.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_24.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_25.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_26.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_27.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_28.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_29.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_30.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_31.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_32.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_MAP_33.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_Meera_other_forms_Batch 2.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_DIAGNOSIS_b_09_i_naaccr.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_DIAGNOSIS_b_09_i_naaccr2.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_DIAGNOSIS_b_09_ii.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_DIAGNOSISb09i_naaccr3.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_METASTASES.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_METS_03.csv	
+2020-06-23 11:13:11	read	simply_read_csv	data/input/COVID_Meera_other_forms_COMPLETE_MAP_CANCER_DIAGNOSIS_A.csv	
+2020-06-23 11:13:12	read	simply_read_csv	data/input/COVID_Meera_other_forms_FAILED_PARSING.csv	
+2020-06-23 11:13:12	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_CANCER_METS_01.csv	
+2020-06-23 11:13:12	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_CANCER_METS_02A.csv	
+2020-06-23 11:13:12	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_01.csv	
+2020-06-23 11:13:12	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_02.csv	
+2020-06-23 11:13:12	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_03.csv	
+2020-06-23 11:13:12	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_04.csv	
+2020-06-23 11:13:12	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_05.csv	
+2020-06-23 11:13:12	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_06.csv	
+2020-06-23 11:13:12	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_07.csv	
+2020-06-23 11:13:12	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_08.csv	
+2020-06-23 11:13:12	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_00.csv	
+2020-06-23 11:13:12	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_01.csv	
+2020-06-23 11:13:12	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_02.csv	
+2020-06-23 11:13:12	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_03.csv	
+2020-06-23 11:13:12	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_04.csv	
+2020-06-23 11:13:12	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_05.csv	
+2020-06-23 11:13:12	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_06.csv	
+2020-06-23 11:13:12	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_07.csv	
+2020-06-23 11:13:12	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_08.csv	
+2020-06-23 11:13:12	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_09.csv	
+2020-06-23 11:13:12	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_10.csv	
+2020-06-23 11:13:12	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_11.csv	
+2020-06-23 11:13:12	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_12.csv	
+2020-06-23 11:13:13	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_13.csv	
+2020-06-23 11:13:13	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_14.csv	
+2020-06-23 11:13:13	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_15.csv	
+2020-06-23 11:13:13	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_16.csv	
+2020-06-23 11:13:13	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_17.csv	
+2020-06-23 11:13:13	read	simply_read_csv	data/input/COVID_Meera_other_forms_MEERA_SUBSET.csv	
+2020-06-23 11:13:13	read	simply_read_csv	data/input/COVID_Meera_other_forms_NAACCR4.csv	
+2020-06-23 11:13:13	read	simply_read_csv	data/input/COVID_Meera_other_forms_NAACCR5.csv	
+2020-06-23 11:13:13	read	simply_read_csv	data/input/COVID_Meera_other_forms_NAACCR6.csv	
+2020-06-23 11:13:13	read	simply_read_csv	data/input/COVID_Meera_other_forms_PARSED_DD.csv	
+2020-06-23 11:13:19	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_DIAGNOSIS_b_09_i_naaccr.csv	
+2020-06-23 11:13:19	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_DIAGNOSIS_b_09_i_naaccr2.csv	
+2020-06-23 11:13:19	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_DIAGNOSIS_b_09_ii.csv	
+2020-06-23 11:13:19	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_DIAGNOSISb09i_naaccr3.csv	
+2020-06-23 11:13:19	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_METS_03.csv	
+2020-06-23 11:13:19	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_02.csv	
+2020-06-23 11:13:19	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_03.csv	
+2020-06-23 11:13:19	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_04.csv	
+2020-06-23 11:13:19	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_05.csv	
+2020-06-23 11:13:19	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_06.csv	
+2020-06-23 11:13:19	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_07.csv	
+2020-06-23 11:13:19	read	simply_read_csv	data/input/COVID_ROUND2_MAP_00.csv	
+2020-06-23 11:13:19	read	simply_read_csv	data/input/COVID_ROUND2_MAP_01.csv	
+2020-06-23 11:13:19	read	simply_read_csv	data/input/COVID_ROUND2_MAP_02.csv	
+2020-06-23 11:13:19	read	simply_read_csv	data/input/COVID_ROUND2_MAP_03.csv	
+2020-06-23 11:13:19	read	simply_read_csv	data/input/COVID_ROUND2_MAP_05.csv	
+2020-06-23 11:13:19	read	simply_read_csv	data/input/COVID_ROUND2_MAP_07.csv	
+2020-06-23 11:13:19	read	simply_read_csv	data/input/COVID_ROUND2_MAP_08.csv	
+2020-06-23 11:13:19	read	simply_read_csv	data/input/COVID_ROUND2_MAP_09.csv	
+2020-06-23 11:13:19	read	simply_read_csv	data/input/COVID_ROUND2_MAP_10.csv	
+2020-06-23 11:13:20	read	simply_read_csv	data/input/COVID_ROUND2_MAP_11.csv	
+2020-06-23 11:13:20	read	simply_read_csv	data/input/COVID_ROUND2_MAP_12.csv	
+2020-06-23 11:13:20	read	simply_read_csv	data/input/COVID_ROUND2_MAP_13.csv	
+2020-06-23 11:13:20	read	simply_read_csv	data/input/COVID_ROUND2_MAP_14.csv	
+2020-06-23 11:13:20	read	simply_read_csv	data/input/COVID_ROUND2_MAP_15.csv	
+2020-06-23 11:13:20	read	simply_read_csv	data/input/COVID_ROUND2_MAP_16.csv	
+2020-06-23 11:13:20	read	simply_read_csv	data/input/COVID_ROUND2_NAACCR4.csv	
+2020-06-23 11:13:20	read	simply_read_csv	data/input/COVID_ROUND2_NAACCR5.csv	
+2020-06-23 11:13:20	read	simply_read_csv	data/input/COVID_ROUND3_Core Variables Meera Subset.csv	
+2020-06-23 11:13:20	read	simply_read_csv	data/input/COVID_ROUND3_MAP_00.csv	
+2020-06-23 11:13:21	read	simply_read_csv	data/input/COVID_SL_cancer_diagnosis.csv	
+2020-06-23 11:13:21	read	simply_read_csv	data/input/COVID_SL_MAP_00.csv	
+2020-06-23 11:13:23	read	simply_read_csv	data/input/COVID_SL_MAP_01.csv	
+2020-06-23 11:13:24	read	simply_read_csv	data/input/COVID_SL_MAP_02.csv	
+2020-06-23 11:13:26	read	simply_read_csv	data/input/COVID_SL_MAP_03.csv	
+2020-06-23 11:13:28	read	simply_read_csv	data/input/COVID_SL_MAP_04.csv	
+2020-06-23 11:13:30	read	simply_read_csv	data/input/COVID_SL_MAP_05.csv	
+2020-06-23 11:13:33	read	simply_read_csv	data/input/COVID_SL_MAP_06.csv	
+2020-06-23 11:13:34	read	simply_read_csv	data/input/COVID_SL_MAP_07.csv	
+2020-06-23 11:13:36	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	
+2020-06-23 11:13:38	read	simply_read_csv	data/input/COVID_SL_MAP_09.csv	
+2020-06-23 11:13:40	read	simply_read_csv	data/input/COVID_SL_MAP_10.csv	
+2020-06-23 11:13:42	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	
+2020-06-23 11:13:44	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	
+2020-06-23 11:13:45	read	simply_read_csv	data/input/COVID_SL_MAP_13.csv	
+2020-06-23 11:13:47	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	
+2020-06-23 11:13:54	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	
+2020-06-23 11:13:55	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_01.csv	
+2020-06-23 11:13:56	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_02.csv	
+2020-06-23 11:13:57	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_03.csv	
+2020-06-23 11:13:59	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_04.csv	
+2020-06-23 11:14:00	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_05.csv	
+2020-06-23 11:14:01	read	simply_read_csv	data/input/COVID_SLMAP_12.csv	
+2020-06-23 11:14:02	read	simply_read_csv	data/input/COVID_Workfile_Main.csv	
+2020-06-23 11:14:02	read	simply_read_csv	data/input/COVID_Workfile_Map_04.csv	
+2020-06-23 11:14:02	read	simply_read_csv	data/input/COVID_Workfile_Map_05.csv	
+2020-06-23 11:14:02	read	simply_read_csv	data/input/COVID_Workfile_Map3.csv	
+2020-06-23 11:14:02	read	simply_read_csv	data/input/COVID_Workfile.csv	
+2020-06-23 14:21:53	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	Load: MAP_06
+2020-06-23 14:21:56	write	simply_write_csv	data/input/COVID_SL_ROUND2_MAP_06.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_06written to COVID_SL_ROUND2_MAP_06.csv
+2020-06-23 14:22:10	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_06.csv	read input
+2020-06-23 14:24:02	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_06.csv	read input
+2020-06-23 14:25:30	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_06.csv	read input
+2020-06-23 14:26:15	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_06.csv	read input
+2020-06-23 14:26:39	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_06.csv	read input
+2020-06-23 14:26:59	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/output/COVID_SL_ROUND2_MAP_06_01_source_as_is_exact.csv	
+2020-06-23 14:31:04	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/output/COVID_SL_ROUND2_MAP_06_01_source_as_is_like.csv	
+2020-06-23 14:31:10	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/output/COVID_SL_ROUND2_MAP_06_01_source_as_is_string.csv	
+2020-06-23 14:53:50	read	simply_read_csv	data/input/COVID_MAP_06.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_07.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_08.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_09.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_10.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_11.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_12.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_13.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_14.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_15.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_16.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_17.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_18.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_19.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_20.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_21.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_22.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_23.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_24.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_25.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_26.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_27.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_28.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_29.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_30.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_31.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_32.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_MAP_33.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_Meera_other_forms_Batch 2.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_DIAGNOSIS_b_09_i_naaccr.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_DIAGNOSIS_b_09_i_naaccr2.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_DIAGNOSIS_b_09_ii.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_DIAGNOSISb09i_naaccr3.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_METASTASES.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_METS_03.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_Meera_other_forms_COMPLETE_MAP_CANCER_DIAGNOSIS_A.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_Meera_other_forms_FAILED_PARSING.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_CANCER_METS_01.csv	
+2020-06-23 14:53:51	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_CANCER_METS_02A.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_01.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_02.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_03.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_04.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_05.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_06.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_07.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_08.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_00.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_01.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_02.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_03.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_04.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_05.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_06.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_07.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_08.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_09.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_10.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_11.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_12.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_13.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_14.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_15.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_16.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_17.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_MEERA_SUBSET.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_NAACCR4.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_NAACCR5.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_NAACCR6.csv	
+2020-06-23 14:53:52	read	simply_read_csv	data/input/COVID_Meera_other_forms_PARSED_DD.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_DIAGNOSIS_b_09_i_naaccr.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_DIAGNOSIS_b_09_i_naaccr2.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_DIAGNOSIS_b_09_ii.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_DIAGNOSISb09i_naaccr3.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_METS_03.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_02.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_03.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_04.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_05.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_06.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_07.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_MAP_00.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_MAP_01.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_MAP_02.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_MAP_03.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_MAP_05.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_MAP_07.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_MAP_08.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_MAP_09.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_MAP_10.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_MAP_11.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_MAP_12.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_MAP_13.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_MAP_14.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_MAP_15.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_MAP_16.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_NAACCR4.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND2_NAACCR5.csv	
+2020-06-23 14:53:58	read	simply_read_csv	data/input/COVID_ROUND3_Core Variables Meera Subset.csv	
+2020-06-23 14:53:59	read	simply_read_csv	data/input/COVID_ROUND3_MAP_00.csv	
+2020-06-23 14:54:00	read	simply_read_csv	data/input/COVID_SL_cancer_diagnosis.csv	
+2020-06-23 14:54:00	read	simply_read_csv	data/input/COVID_SL_MAP_00.csv	
+2020-06-23 14:54:02	read	simply_read_csv	data/input/COVID_SL_MAP_01.csv	
+2020-06-23 14:54:03	read	simply_read_csv	data/input/COVID_SL_MAP_02.csv	
+2020-06-23 14:54:05	read	simply_read_csv	data/input/COVID_SL_MAP_03.csv	
+2020-06-23 14:54:07	read	simply_read_csv	data/input/COVID_SL_MAP_04.csv	
+2020-06-23 14:54:08	read	simply_read_csv	data/input/COVID_SL_MAP_05.csv	
+2020-06-23 14:54:10	read	simply_read_csv	data/input/COVID_SL_MAP_06.csv	
+2020-06-23 14:54:12	read	simply_read_csv	data/input/COVID_SL_MAP_07.csv	
+2020-06-23 14:54:13	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	
+2020-06-23 14:54:15	read	simply_read_csv	data/input/COVID_SL_MAP_09.csv	
+2020-06-23 14:54:17	read	simply_read_csv	data/input/COVID_SL_MAP_10.csv	
+2020-06-23 14:54:18	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	
+2020-06-23 14:54:20	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	
+2020-06-23 14:54:22	read	simply_read_csv	data/input/COVID_SL_MAP_13.csv	
+2020-06-23 14:54:23	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	
+2020-06-23 14:54:29	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	
+2020-06-23 14:54:30	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_01.csv	
+2020-06-23 14:54:31	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_02.csv	
+2020-06-23 14:54:32	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_03.csv	
+2020-06-23 14:54:33	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_04.csv	
+2020-06-23 14:54:33	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_05.csv	
+2020-06-23 14:54:35	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_06.csv	
+2020-06-23 14:54:36	read	simply_read_csv	data/input/COVID_SLMAP_12.csv	
+2020-06-23 14:54:37	read	simply_read_csv	data/input/COVID_Workfile_Main.csv	
+2020-06-23 14:54:37	read	simply_read_csv	data/input/COVID_Workfile_Map_04.csv	
+2020-06-23 14:54:37	read	simply_read_csv	data/input/COVID_Workfile_Map_05.csv	
+2020-06-23 14:54:37	read	simply_read_csv	data/input/COVID_Workfile_Map3.csv	
+2020-06-23 14:54:37	read	simply_read_csv	data/input/COVID_Workfile.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_06.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_07.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_08.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_09.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_10.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_11.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_12.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_13.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_14.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_15.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_16.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_17.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_18.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_19.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_20.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_21.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_22.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_23.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_24.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_25.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_26.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_27.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_28.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_29.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_30.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_31.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_32.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_MAP_33.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_Meera_other_forms_Batch 2.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_DIAGNOSIS_b_09_i_naaccr.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_DIAGNOSIS_b_09_i_naaccr2.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_DIAGNOSIS_b_09_ii.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_DIAGNOSISb09i_naaccr3.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_METASTASES.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_METS_03.csv	
+2020-06-23 14:54:58	read	simply_read_csv	data/input/COVID_Meera_other_forms_COMPLETE_MAP_CANCER_DIAGNOSIS_A.csv	
+2020-06-23 14:54:59	read	simply_read_csv	data/input/COVID_Meera_other_forms_FAILED_PARSING.csv	
+2020-06-23 14:54:59	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_CANCER_METS_01.csv	
+2020-06-23 14:54:59	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_CANCER_METS_02A.csv	
+2020-06-23 14:54:59	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_01.csv	
+2020-06-23 14:54:59	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_02.csv	
+2020-06-23 14:54:59	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_03.csv	
+2020-06-23 14:54:59	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_04.csv	
+2020-06-23 14:54:59	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_05.csv	
+2020-06-23 14:54:59	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_06.csv	
+2020-06-23 14:54:59	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_07.csv	
+2020-06-23 14:54:59	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_08.csv	
+2020-06-23 14:54:59	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_00.csv	
+2020-06-23 14:54:59	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_01.csv	
+2020-06-23 14:54:59	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_02.csv	
+2020-06-23 14:54:59	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_03.csv	
+2020-06-23 14:54:59	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_04.csv	
+2020-06-23 14:54:59	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_05.csv	
+2020-06-23 14:54:59	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_06.csv	
+2020-06-23 14:54:59	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_07.csv	
+2020-06-23 14:54:59	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_08.csv	
+2020-06-23 14:54:59	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_09.csv	
+2020-06-23 14:54:59	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_10.csv	
+2020-06-23 14:54:59	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_11.csv	
+2020-06-23 14:54:59	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_12.csv	
+2020-06-23 14:55:00	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_13.csv	
+2020-06-23 14:55:00	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_14.csv	
+2020-06-23 14:55:00	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_15.csv	
+2020-06-23 14:55:00	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_16.csv	
+2020-06-23 14:55:00	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_17.csv	
+2020-06-23 14:55:00	read	simply_read_csv	data/input/COVID_Meera_other_forms_MEERA_SUBSET.csv	
+2020-06-23 14:55:00	read	simply_read_csv	data/input/COVID_Meera_other_forms_NAACCR4.csv	
+2020-06-23 14:55:00	read	simply_read_csv	data/input/COVID_Meera_other_forms_NAACCR5.csv	
+2020-06-23 14:55:00	read	simply_read_csv	data/input/COVID_Meera_other_forms_NAACCR6.csv	
+2020-06-23 14:55:00	read	simply_read_csv	data/input/COVID_Meera_other_forms_PARSED_DD.csv	
+2020-06-23 14:55:05	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_DIAGNOSIS_b_09_i_naaccr.csv	
+2020-06-23 14:55:05	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_DIAGNOSIS_b_09_i_naaccr2.csv	
+2020-06-23 14:55:05	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_DIAGNOSIS_b_09_ii.csv	
+2020-06-23 14:55:05	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_DIAGNOSISb09i_naaccr3.csv	
+2020-06-23 14:55:05	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_METS_03.csv	
+2020-06-23 14:55:05	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_02.csv	
+2020-06-23 14:55:05	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_03.csv	
+2020-06-23 14:55:05	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_04.csv	
+2020-06-23 14:55:05	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_05.csv	
+2020-06-23 14:55:06	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_06.csv	
+2020-06-23 14:55:06	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_07.csv	
+2020-06-23 14:55:06	read	simply_read_csv	data/input/COVID_ROUND2_MAP_00.csv	
+2020-06-23 14:55:06	read	simply_read_csv	data/input/COVID_ROUND2_MAP_01.csv	
+2020-06-23 14:55:06	read	simply_read_csv	data/input/COVID_ROUND2_MAP_02.csv	
+2020-06-23 14:55:06	read	simply_read_csv	data/input/COVID_ROUND2_MAP_03.csv	
+2020-06-23 14:55:06	read	simply_read_csv	data/input/COVID_ROUND2_MAP_05.csv	
+2020-06-23 14:55:06	read	simply_read_csv	data/input/COVID_ROUND2_MAP_07.csv	
+2020-06-23 14:55:06	read	simply_read_csv	data/input/COVID_ROUND2_MAP_08.csv	
+2020-06-23 14:55:06	read	simply_read_csv	data/input/COVID_ROUND2_MAP_09.csv	
+2020-06-23 14:55:06	read	simply_read_csv	data/input/COVID_ROUND2_MAP_10.csv	
+2020-06-23 14:55:06	read	simply_read_csv	data/input/COVID_ROUND2_MAP_11.csv	
+2020-06-23 14:55:06	read	simply_read_csv	data/input/COVID_ROUND2_MAP_12.csv	
+2020-06-23 14:55:06	read	simply_read_csv	data/input/COVID_ROUND2_MAP_13.csv	
+2020-06-23 14:55:06	read	simply_read_csv	data/input/COVID_ROUND2_MAP_14.csv	
+2020-06-23 14:55:06	read	simply_read_csv	data/input/COVID_ROUND2_MAP_15.csv	
+2020-06-23 14:55:06	read	simply_read_csv	data/input/COVID_ROUND2_MAP_16.csv	
+2020-06-23 14:55:06	read	simply_read_csv	data/input/COVID_ROUND2_NAACCR4.csv	
+2020-06-23 14:55:06	read	simply_read_csv	data/input/COVID_ROUND2_NAACCR5.csv	
+2020-06-23 14:55:06	read	simply_read_csv	data/input/COVID_ROUND3_Core Variables Meera Subset.csv	
+2020-06-23 14:55:06	read	simply_read_csv	data/input/COVID_ROUND3_MAP_00.csv	
+2020-06-23 14:55:07	read	simply_read_csv	data/input/COVID_SL_cancer_diagnosis.csv	
+2020-06-23 14:55:07	read	simply_read_csv	data/input/COVID_SL_MAP_00.csv	
+2020-06-23 14:55:09	read	simply_read_csv	data/input/COVID_SL_MAP_01.csv	
+2020-06-23 14:55:11	read	simply_read_csv	data/input/COVID_SL_MAP_02.csv	
+2020-06-23 14:55:13	read	simply_read_csv	data/input/COVID_SL_MAP_03.csv	
+2020-06-23 14:55:15	read	simply_read_csv	data/input/COVID_SL_MAP_04.csv	
+2020-06-23 14:55:17	read	simply_read_csv	data/input/COVID_SL_MAP_05.csv	
+2020-06-23 14:55:19	read	simply_read_csv	data/input/COVID_SL_MAP_06.csv	
+2020-06-23 14:55:20	read	simply_read_csv	data/input/COVID_SL_MAP_07.csv	
+2020-06-23 14:55:22	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	
+2020-06-23 14:55:24	read	simply_read_csv	data/input/COVID_SL_MAP_09.csv	
+2020-06-23 14:55:25	read	simply_read_csv	data/input/COVID_SL_MAP_10.csv	
+2020-06-23 14:55:27	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	
+2020-06-23 14:55:28	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	
+2020-06-23 14:55:30	read	simply_read_csv	data/input/COVID_SL_MAP_13.csv	
+2020-06-23 14:55:32	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	
+2020-06-23 14:55:37	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	
+2020-06-23 14:55:38	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_01.csv	
+2020-06-23 14:55:39	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_02.csv	
+2020-06-23 14:55:40	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_03.csv	
+2020-06-23 14:55:41	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_04.csv	
+2020-06-23 14:55:42	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_05.csv	
+2020-06-23 14:55:43	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_06.csv	
+2020-06-23 14:55:44	read	simply_read_csv	data/input/COVID_SLMAP_12.csv	
+2020-06-23 14:55:45	read	simply_read_csv	data/input/COVID_Workfile_Main.csv	
+2020-06-23 14:55:45	read	simply_read_csv	data/input/COVID_Workfile_Map_04.csv	
+2020-06-23 14:55:45	read	simply_read_csv	data/input/COVID_Workfile_Map_05.csv	
+2020-06-23 14:55:45	read	simply_read_csv	data/input/COVID_Workfile_Map3.csv	
+2020-06-23 14:55:45	read	simply_read_csv	data/input/COVID_Workfile.csv	
+2020-06-23 15:01:04	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJkzEBf/file247d46b6703.csv	
+2020-06-23 15:10:02	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	Load: MAP_06
+2020-06-23 15:10:05	write	simply_write_csv	data/input/COVID_SL_ROUND2_MAP_06.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_06written to COVID_SL_ROUND2_MAP_06.csv
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_06.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_07.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_08.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_09.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_10.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_11.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_12.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_13.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_14.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_15.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_16.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_17.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_18.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_19.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_20.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_21.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_22.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_23.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_24.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_25.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_26.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_27.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_28.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_29.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_30.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_31.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_32.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_MAP_33.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_Meera_other_forms_Batch 2.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_DIAGNOSIS_b_09_i_naaccr.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_DIAGNOSIS_b_09_i_naaccr2.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_DIAGNOSIS_b_09_ii.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_DIAGNOSISb09i_naaccr3.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_METASTASES.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_Meera_other_forms_CANCER_METS_03.csv	
+2020-06-23 16:52:47	read	simply_read_csv	data/input/COVID_Meera_other_forms_COMPLETE_MAP_CANCER_DIAGNOSIS_A.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_FAILED_PARSING.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_CANCER_METS_01.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_CANCER_METS_02A.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_01.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_02.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_03.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_04.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_05.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_06.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_07.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_08.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_00.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_01.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_02.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_03.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_04.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_05.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_06.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_07.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_08.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_09.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_10.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_11.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_12.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_13.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_14.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_15.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_16.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_17.csv	
+2020-06-23 16:52:48	read	simply_read_csv	data/input/COVID_Meera_other_forms_MEERA_SUBSET.csv	
+2020-06-23 16:52:49	read	simply_read_csv	data/input/COVID_Meera_other_forms_NAACCR4.csv	
+2020-06-23 16:52:49	read	simply_read_csv	data/input/COVID_Meera_other_forms_NAACCR5.csv	
+2020-06-23 16:52:49	read	simply_read_csv	data/input/COVID_Meera_other_forms_NAACCR6.csv	
+2020-06-23 16:52:49	read	simply_read_csv	data/input/COVID_Meera_other_forms_PARSED_DD.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_DIAGNOSIS_b_09_i_naaccr.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_DIAGNOSIS_b_09_i_naaccr2.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_DIAGNOSIS_b_09_ii.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_DIAGNOSISb09i_naaccr3.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_CANCER_METS_03.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_02.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_03.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_04.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_05.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_06.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_07.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_MAP_00.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_MAP_01.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_MAP_02.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_MAP_03.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_MAP_05.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_MAP_07.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_MAP_08.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_MAP_09.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_MAP_10.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_MAP_11.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_MAP_12.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_MAP_13.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_MAP_14.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_MAP_15.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_MAP_16.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_NAACCR4.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND2_NAACCR5.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND3_Core Variables Meera Subset.csv	
+2020-06-23 16:52:54	read	simply_read_csv	data/input/COVID_ROUND3_MAP_00.csv	
+2020-06-23 16:52:55	read	simply_read_csv	data/input/COVID_SL_cancer_diagnosis.csv	
+2020-06-23 16:52:55	read	simply_read_csv	data/input/COVID_SL_MAP_00.csv	
+2020-06-23 16:52:57	read	simply_read_csv	data/input/COVID_SL_MAP_01.csv	
+2020-06-23 16:52:58	read	simply_read_csv	data/input/COVID_SL_MAP_02.csv	
+2020-06-23 16:53:00	read	simply_read_csv	data/input/COVID_SL_MAP_03.csv	
+2020-06-23 16:53:02	read	simply_read_csv	data/input/COVID_SL_MAP_04.csv	
+2020-06-23 16:53:03	read	simply_read_csv	data/input/COVID_SL_MAP_05.csv	
+2020-06-23 16:53:04	read	simply_read_csv	data/input/COVID_SL_MAP_06.csv	
+2020-06-23 16:53:06	read	simply_read_csv	data/input/COVID_SL_MAP_07.csv	
+2020-06-23 16:53:07	read	simply_read_csv	data/input/COVID_SL_MAP_08.csv	
+2020-06-23 16:53:09	read	simply_read_csv	data/input/COVID_SL_MAP_09.csv	
+2020-06-23 16:53:11	read	simply_read_csv	data/input/COVID_SL_MAP_10.csv	
+2020-06-23 16:53:12	read	simply_read_csv	data/input/COVID_SL_MAP_11.csv	
+2020-06-23 16:53:13	read	simply_read_csv	data/input/COVID_SL_MAP_12.csv	
+2020-06-23 16:53:15	read	simply_read_csv	data/input/COVID_SL_MAP_13.csv	
+2020-06-23 16:53:17	read	simply_read_csv	data/input/COVID_SL_MAP_15.csv	
+2020-06-23 16:53:22	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_00.csv	
+2020-06-23 16:53:23	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_01.csv	
+2020-06-23 16:53:24	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_02.csv	
+2020-06-23 16:53:25	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_03.csv	
+2020-06-23 16:53:26	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_04.csv	
+2020-06-23 16:53:27	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_05.csv	
+2020-06-23 16:53:29	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_06.csv	
+2020-06-23 16:53:30	read	simply_read_csv	data/input/COVID_SLMAP_12.csv	
+2020-06-23 16:53:32	read	simply_read_csv	data/input/COVID_Workfile_Main.csv	
+2020-06-23 16:53:32	read	simply_read_csv	data/input/COVID_Workfile_Map_04.csv	
+2020-06-23 16:53:32	read	simply_read_csv	data/input/COVID_Workfile_Map_05.csv	
+2020-06-23 16:53:32	read	simply_read_csv	data/input/COVID_Workfile_Map3.csv	
+2020-06-23 16:53:32	read	simply_read_csv	data/input/COVID_Workfile.csv	
+2020-06-23 16:57:44	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJkzEBf/file247d2b9f773c.csv	
+2020-06-23 17:54:33	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	Load: Sheet1
+2020-06-23 17:54:50	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	Load: Sheet1
+2020-06-23 17:54:58	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	Load: Sheet1
+2020-06-23 17:55:05	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	Load: Sheet1
+2020-06-23 17:55:29	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	Load: Sheet 1
+2020-06-23 17:55:29	write	simply_write_csv	data/input/COVID_SL_concomitant_medicationsSheet 1.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsxTAB: Sheet 1written to COVID_SL_concomitant_medicationsSheet 1.csv
+2020-06-23 17:56:01	read	simply_read_csv	data/input/COVID_SL_concomitant_medicationsSheet 1.csv	read input
+2020-06-23 17:56:40	read	simply_read_csv	data/input/COVID_SL_concomitant_medicationsSheet 1.csv	read input
+2020-06-23 17:57:01	read	simply_read_csv	data/input/COVID_SL_concomitant_medicationsSheet 1.csv	read input
+2020-06-23 17:58:41	read	simply_read_csv	data/input/COVID_SL_concomitant_medicationsSheet 1.csv	read input
+2020-06-23 18:01:45	read	simply_read_csv	data/input/COVID_SL_concomitant_medicationsSheet 1.csv	read input
+2020-06-23 18:02:01	read	simply_read_csv	data/input/COVID_SL_concomitant_medicationsSheet 1.csv	read input
+2020-06-23 18:02:11	write	simply_write_csv	data/output/COVID_SL_concomitant_medicationsSheet 1_01_source_as_is_exact.csv	
+2020-06-23 18:02:16	read	simply_read_csv	data/input/COVID_SL_concomitant_medicationsSheet 1.csv	read input
+2020-06-23 18:03:12	write	simply_write_csv	data/output/COVID_SL_concomitant_medicationsSheet 1_01_source_as_is_like.csv	
+2020-06-23 18:03:16	read	simply_read_csv	data/input/COVID_SL_concomitant_medicationsSheet 1.csv	read input
+2020-06-23 18:04:03	write	simply_write_csv	data/output/COVID_SL_concomitant_medicationsSheet 1_01_source_as_is_string.csv	
+2020-06-23 18:04:07	read	simply_read_csv	data/input/COVID_SL_concomitant_medicationsSheet 1.csv	read input
+2020-06-23 18:04:38	write	simply_write_csv	data/output/COVID_SL_concomitant_medicationsSheet 1_02_source_each_word_exact.csv	
+2020-06-23 18:04:43	read	simply_read_csv	data/input/COVID_SL_concomitant_medicationsSheet 1.csv	read input
+2020-06-23 18:05:40	write	simply_write_csv	data/output/COVID_SL_concomitant_medicationsSheet 1_02_source_each_word_like.csv	
+2020-06-23 18:06:00	read	simply_read_csv	data/input/COVID_SL_concomitant_medicationsSheet 1.csv	read input
+2020-06-23 18:13:32	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	Load: MAP_06
+2020-06-23 18:13:35	write	simply_write_csv	data/input/COVID_SL_preingestionMAP_06.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_06written to COVID_SL_preingestionMAP_06.csv
+2020-06-23 18:14:52	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	Load: MAP_06
+2020-06-23 18:14:55	write	simply_write_csv	data/input/COVID_SL_preingestion_MAP_06.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_06written to COVID_SL_preingestion_MAP_06.csv
+2020-06-23 18:15:00	read	simply_read_csv	data/input/COVID_SL_preingestion_MAP_06.csv	read input
+2020-06-23 18:15:19	read	simply_read_csv	data/input/COVID_SL_preingestion_MAP_06.csv	read input
+2020-06-23 18:15:25	write	simply_write_csv	data/output/COVID_SL_preingestion_MAP_06_01_source_as_is_exact.csv	
+2020-06-23 18:15:42	read	simply_read_csv	data/input/COVID_SL_preingestion_MAP_06.csv	read input
+2020-06-23 18:16:15	read	simply_read_csv	data/input/COVID_SL_preingestion_MAP_06.csv	read input
+2020-06-23 18:18:44	write	simply_write_csv	data/output/COVID_SL_preingestion_MAP_06_02_source_each_word_exact.csv	
+2020-06-23 18:18:51	read	simply_read_csv	data/input/COVID_SL_preingestion_MAP_06.csv	read input
+2020-06-23 18:19:20	read	simply_read_csv	data/input/COVID_SL_preingestion_MAP_06.csv	
+2020-06-23 18:19:20	read	simply_read_csv	data/output/COVID_SL_preingestion_MAP_06_01_source_as_is_exact.csv	
+2020-06-23 18:19:20	read	simply_read_csv	data/output/COVID_SL_preingestion_MAP_06_02_source_each_word_exact.csv	
+2020-06-23 18:19:20	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp98Qjf7/file387a2130dff0.csv	
+2020-06-23 18:29:49	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/cancer_status.xlsx	Load: Sheet1
+2020-06-23 18:29:55	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/cancer_status.xlsx	Load: Sheet1
+2020-06-23 18:30:17	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/cancer_status.xlsx	Load: Sheet1
+2020-06-23 18:30:17	write	simply_write_csv	data/input/COVID_SL_preingestion_Sheet1.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/cancer_status.xlsxTAB: Sheet1written to COVID_SL_preingestion_Sheet1.csv
+2020-06-23 18:30:26	read	simply_read_csv	data/input/COVID_SL_preingestion_Sheet1.csv	read input
+2020-06-23 18:31:14	write	simply_write_csv	data/output/COVID_SL_preingestion_Sheet1_06_terms_exact.csv	
+2020-06-23 18:31:34	read	simply_read_csv	data/input/COVID_SL_preingestion_Sheet1.csv	read input
+2020-06-23 18:31:39	write	simply_write_csv	data/output/COVID_SL_preingestion_Sheet1_06_terms_exact.csv	
+2020-06-23 18:31:43	read	simply_read_csv	data/input/COVID_SL_preingestion_Sheet1.csv	read input
+2020-06-23 18:32:50	write	simply_write_csv	data/output/COVID_SL_preingestion_Sheet1_06_terms_string.csv	
+2020-06-23 18:33:00	read	simply_read_csv	data/input/COVID_SL_preingestion_Sheet1.csv	
+2020-06-23 18:33:00	read	simply_read_csv	data/output/COVID_SL_preingestion_Sheet1_06_terms_exact.csv	
+2020-06-23 18:33:00	read	simply_read_csv	data/output/COVID_SL_preingestion_Sheet1_06_terms_string.csv	
+2020-06-23 18:33:00	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp98Qjf7/file387afbe1696.csv	
+2020-06-23 18:40:44	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/cancer_status.xlsx	Load: Sheet2
+2020-06-23 18:40:44	write	simply_write_csv	data/input/COVID_SL_preingestion_Sheet2.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/cancer_status.xlsxTAB: Sheet2written to COVID_SL_preingestion_Sheet2.csv
+2020-06-23 18:40:47	read	simply_read_csv	data/input/COVID_SL_preingestion_Sheet2.csv	read input
+2020-06-23 18:41:17	write	simply_write_csv	data/output/COVID_SL_preingestion_Sheet2_06_terms_exact.csv	
+2020-06-23 18:41:19	read	simply_read_csv	data/input/COVID_SL_preingestion_Sheet2.csv	read input
+2020-06-23 18:42:05	write	simply_write_csv	data/output/COVID_SL_preingestion_Sheet2_06_terms_string.csv	
+2020-06-23 18:42:25	read	simply_read_csv	data/input/COVID_SL_preingestion_Sheet2.csv	
+2020-06-23 18:42:25	read	simply_read_csv	data/output/COVID_SL_preingestion_Sheet2_06_terms_exact.csv	
+2020-06-23 18:42:25	read	simply_read_csv	data/output/COVID_SL_preingestion_Sheet2_06_terms_string.csv	
+2020-06-23 18:42:25	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp98Qjf7/file387a8bcd9ed.csv	
+2020-06-23 19:19:59	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	Load: Sheet 1
+2020-06-23 19:19:59	write	simply_write_csv	data/input/COVID_SL_preingestion_Sheet 1.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsxTAB: Sheet 1written to COVID_SL_preingestion_Sheet 1.csv
+2020-06-23 19:20:13	read	simply_read_csv	data/input/COVID_SL_preingestion_Sheet 1.csv	read input
+2020-06-23 19:20:27	read	simply_read_csv	data/input/COVID_SL_preingestion_Sheet 1.csv	read input
+2020-06-23 19:20:48	read	simply_read_csv	data/input/COVID_SL_preingestion_Sheet 1.csv	read input
+2020-06-23 19:21:04	read	simply_read_csv	data/input/COVID_SL_preingestion_Sheet 1.csv	read input
+2020-06-23 19:21:25	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	Load: Sheet 1
+2020-06-23 19:21:25	write	simply_write_csv	data/input/COVID_SL_preingestion_concom_medsSheet 1.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsxTAB: Sheet 1written to COVID_SL_preingestion_concom_medsSheet 1.csv
+2020-06-23 19:21:35	read	simply_read_csv	data/input/COVID_SL_preingestion_concom_medsSheet 1.csv	read input
+2020-06-23 19:21:54	read	simply_read_csv	data/input/COVID_SL_preingestion_concom_medsSheet 1.csv	read input
+2020-06-23 19:22:04	write	simply_write_csv	data/output/COVID_SL_preingestion_concom_medsSheet 1_01_source_as_is_exact.csv	
+2020-06-23 19:22:14	read	simply_read_csv	data/input/COVID_SL_preingestion_concom_medsSheet 1.csv	read input
+2020-06-23 19:22:25	write	simply_write_csv	data/output/COVID_SL_preingestion_concom_medsSheet 1_02_source_each_word_exact.csv	
+2020-06-23 19:22:49	read	simply_read_csv	data/input/COVID_SL_preingestion_concom_medsSheet 1.csv	read input
+2020-06-23 19:23:00	write	simply_write_csv	data/output/COVID_SL_preingestion_concom_medsSheet 1_01_source_as_is_exact.csv	
+2020-06-23 19:23:04	read	simply_read_csv	data/input/COVID_SL_preingestion_concom_medsSheet 1.csv	read input
+2020-06-23 19:23:16	write	simply_write_csv	data/output/COVID_SL_preingestion_concom_medsSheet 1_02_source_each_word_exact.csv	
+2020-06-23 19:23:59	read	simply_read_csv	data/input/COVID_SL_preingestion_concom_medsSheet 1.csv	read input
+2020-06-23 19:24:11	write	simply_write_csv	data/output/COVID_SL_preingestion_concom_medsSheet 1_02_source_longest_word_exact.csv	
+2020-06-23 19:24:15	read	simply_read_csv	data/input/COVID_SL_preingestion_concom_medsSheet 1.csv	
+2020-06-23 19:24:15	read	simply_read_csv	data/output/COVID_SL_preingestion_concom_medsSheet 1_01_source_as_is_exact.csv	
+2020-06-23 19:24:15	read	simply_read_csv	data/output/COVID_SL_preingestion_concom_medsSheet 1_02_source_each_word_exact.csv	
+2020-06-23 19:24:15	read	simply_read_csv	data/output/COVID_SL_preingestion_concom_medsSheet 1_02_source_longest_word_exact.csv	
+2020-06-23 19:24:15	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp98Qjf7/file387a5cf23d4c.csv	
+2020-06-23 19:32:21	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	Load: Sheet1
+2020-06-23 19:32:22	write	simply_write_csv	data/input/COVID_SL_preingestion_concom_medsSheet1.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsxTAB: Sheet1written to COVID_SL_preingestion_concom_medsSheet1.csv
+2020-06-23 19:32:28	read	simply_read_csv	data/input/COVID_SL_preingestion_concom_medsSheet1.csv	read input
+2020-06-23 19:33:39	write	simply_write_csv	data/output/COVID_SL_preingestion_concom_medsSheet1_06_terms_exact.csv	
+2020-06-23 19:33:43	read	simply_read_csv	data/input/COVID_SL_preingestion_concom_medsSheet1.csv	read input
+2020-06-23 19:35:08	write	simply_write_csv	data/output/COVID_SL_preingestion_concom_medsSheet1_06_terms_string.csv	
+2020-06-23 19:35:22	read	simply_read_csv	data/input/COVID_SL_preingestion_concom_medsSheet1.csv	
+2020-06-23 19:35:22	read	simply_read_csv	data/output/COVID_SL_preingestion_concom_medsSheet1_06_terms_exact.csv	
+2020-06-23 19:35:22	read	simply_read_csv	data/output/COVID_SL_preingestion_concom_medsSheet1_06_terms_string.csv	
+2020-06-23 19:35:22	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp98Qjf7/file387a23967840.csv	
+2020-06-23 19:42:29	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	Load: Sheet2
+2020-06-23 19:42:29	write	simply_write_csv	data/input/COVID_SL_preingestion_concom_medsSheet2.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsxTAB: Sheet2written to COVID_SL_preingestion_concom_medsSheet2.csv
+2020-06-23 19:42:29	read	simply_read_csv	data/input/COVID_SL_preingestion_concom_medsSheet2.csv	read input
+2020-06-23 19:42:39	write	simply_write_csv	data/output/COVID_SL_preingestion_concom_medsSheet2_06_terms_string.csv	
+2020-06-23 19:43:21	read	simply_read_csv	data/input/COVID_SL_preingestion_concom_medsSheet2.csv	
+2020-06-23 19:43:21	read	simply_read_csv	data/output/COVID_SL_preingestion_concom_medsSheet2_06_terms_string.csv	
+2020-06-23 19:43:21	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp98Qjf7/file387a6bb0c400.csv	
+2020-06-23 19:54:06	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	Load: Sheet3
+2020-06-23 19:54:06	write	simply_write_csv	data/input/COVID_SL_preingestion_concom_medsSheet3.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsxTAB: Sheet3written to COVID_SL_preingestion_concom_medsSheet3.csv
+2020-06-23 20:14:50	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	Load: MAP_06
+2020-06-23 20:14:53	write	simply_write_csv	data/input/COVID_SL_preingestion_concom_medsMAP_06.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_06written to COVID_SL_preingestion_concom_medsMAP_06.csv
+2020-06-23 20:15:13	read	simply_read_csv	data/input/COVID_SL_preingestion_concom_medsMAP_06.csv	read input
+2020-06-23 20:15:48	read	simply_read_csv	data/input/COVID_SL_preingestion_concom_medsMAP_06.csv	read input
+2020-06-23 20:15:54	write	simply_write_csv	data/output/COVID_SL_preingestion_concom_medsMAP_06_01_source_as_is_exact.csv	
+2020-06-23 20:16:02	read	simply_read_csv	data/input/COVID_SL_preingestion_concom_medsMAP_06.csv	
+2020-06-23 20:16:03	read	simply_read_csv	data/output/COVID_SL_preingestion_concom_medsMAP_06_01_source_as_is_exact.csv	
+2020-06-23 20:16:03	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp98Qjf7/file387a735795bd.csv	
+2020-06-23 20:43:15	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	Load: MAP_06
+2020-06-23 20:43:18	write	simply_write_csv	data/input/COVID_SL_preingestion_cardiology_MAP_06.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_06written to COVID_SL_preingestion_cardiology_MAP_06.csv
+2020-06-23 20:43:22	read	simply_read_csv	data/input/COVID_SL_preingestion_cardiology_MAP_06.csv	read input
+2020-06-23 20:44:42	write	simply_write_csv	data/output/COVID_SL_preingestion_cardiology_MAP_06_01_source_as_is_exact.csv	
+2020-06-23 20:44:48	read	simply_read_csv	data/input/COVID_SL_preingestion_cardiology_MAP_06.csv	read input
+2020-06-23 20:46:30	write	simply_write_csv	data/output/COVID_SL_preingestion_cardiology_MAP_06_01_source_as_is_like.csv	
+2020-06-23 20:46:34	read	simply_read_csv	data/input/COVID_SL_preingestion_cardiology_MAP_06.csv	read input
+2020-06-23 20:47:35	write	simply_write_csv	data/output/COVID_SL_preingestion_cardiology_MAP_06_02_source_each_word_exact.csv	
+2020-06-23 20:48:13	read	simply_read_csv	data/input/COVID_SL_preingestion_cardiology_MAP_06.csv	read input
+2020-06-23 20:48:18	write	simply_write_csv	data/output/COVID_SL_preingestion_cardiology_MAP_06_06_terms_exact.csv	
+2020-06-23 20:48:23	read	simply_read_csv	data/input/COVID_SL_preingestion_cardiology_MAP_06.csv	
+2020-06-23 20:48:23	read	simply_read_csv	data/output/COVID_SL_preingestion_cardiology_MAP_06_01_source_as_is_exact.csv	
+2020-06-23 20:48:23	read	simply_read_csv	data/output/COVID_SL_preingestion_cardiology_MAP_06_01_source_as_is_like.csv	
+2020-06-23 20:48:23	read	simply_read_csv	data/output/COVID_SL_preingestion_cardiology_MAP_06_02_source_each_word_exact.csv	
+2020-06-23 20:48:23	read	simply_read_csv	data/output/COVID_SL_preingestion_cardiology_MAP_06_06_terms_exact.csv	
+2020-06-23 20:48:23	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp98Qjf7/file387a5f1b1c7c.csv	
+2020-06-23 20:57:46	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid_cardiology_testing.xlsx	Load: Sheet1
+2020-06-23 20:57:46	write	simply_write_csv	data/input/COVID_SL_preingestion_cardiology_Sheet1.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid_cardiology_testing.xlsxTAB: Sheet1written to COVID_SL_preingestion_cardiology_Sheet1.csv
+2020-06-23 20:57:56	read	simply_read_csv	data/input/COVID_SL_preingestion_cardiology_Sheet1.csv	read input
+2020-06-23 20:58:37	write	simply_write_csv	data/output/COVID_SL_preingestion_cardiology_Sheet1_06_terms_exact.csv	
+2020-06-23 20:58:40	read	simply_read_csv	data/input/COVID_SL_preingestion_cardiology_Sheet1.csv	read input
+2020-06-23 20:59:40	write	simply_write_csv	data/output/COVID_SL_preingestion_cardiology_Sheet1_06_terms_string.csv	
+2020-06-23 20:59:45	read	simply_read_csv	data/input/COVID_SL_preingestion_cardiology_Sheet1.csv	
+2020-06-23 20:59:45	read	simply_read_csv	data/output/COVID_SL_preingestion_cardiology_Sheet1_06_terms_exact.csv	
+2020-06-23 20:59:45	read	simply_read_csv	data/output/COVID_SL_preingestion_cardiology_Sheet1_06_terms_string.csv	
+2020-06-23 20:59:45	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp98Qjf7/file387a6ceb41ab.csv	
+2020-06-23 21:04:57	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid_cardiology_testing.xlsx	Load: Sheet2
+2020-06-23 21:04:57	write	simply_write_csv	data/input/COVID_SL_preingestion_cardiology_Sheet2.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid_cardiology_testing.xlsxTAB: Sheet2written to COVID_SL_preingestion_cardiology_Sheet2.csv
+2020-06-23 21:05:05	read	simply_read_csv	data/input/COVID_SL_preingestion_cardiology_Sheet2.csv	read input
+2020-06-23 21:05:28	write	simply_write_csv	data/output/COVID_SL_preingestion_cardiology_Sheet2_06_terms_exact.csv	
+2020-06-23 21:05:33	read	simply_read_csv	data/input/COVID_SL_preingestion_cardiology_Sheet2.csv	read input
+2020-06-23 21:06:01	write	simply_write_csv	data/output/COVID_SL_preingestion_cardiology_Sheet2_06_terms_string.csv	
+2020-06-23 21:06:05	read	simply_read_csv	data/input/COVID_SL_preingestion_cardiology_Sheet2.csv	
+2020-06-23 21:06:05	read	simply_read_csv	data/output/COVID_SL_preingestion_cardiology_Sheet2_06_terms_exact.csv	
+2020-06-23 21:06:05	read	simply_read_csv	data/output/COVID_SL_preingestion_cardiology_Sheet2_06_terms_string.csv	
+2020-06-23 21:06:05	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp98Qjf7/file387a4924796a.csv	
+2020-06-23 21:08:39	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid_cardiology_testing.xlsx	Load: Sheet3
+2020-06-23 21:08:40	write	simply_write_csv	data/input/COVID_SL_preingestion_cardiology_Sheet3.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid_cardiology_testing.xlsxTAB: Sheet3written to COVID_SL_preingestion_cardiology_Sheet3.csv
+2020-06-23 21:08:46	read	simply_read_csv	data/input/COVID_SL_preingestion_cardiology_Sheet3.csv	read input
+2020-06-23 21:08:50	write	simply_write_csv	data/output/COVID_SL_preingestion_cardiology_Sheet3_02_source_each_word_exact.csv	
+2020-06-23 21:08:53	read	simply_read_csv	data/input/COVID_SL_preingestion_cardiology_Sheet3.csv	read input
+2020-06-23 21:09:04	write	simply_write_csv	data/output/COVID_SL_preingestion_cardiology_Sheet3_06_terms_exact.csv	
+2020-06-23 21:09:06	read	simply_read_csv	data/input/COVID_SL_preingestion_cardiology_Sheet3.csv	read input
+2020-06-23 21:09:19	write	simply_write_csv	data/output/COVID_SL_preingestion_cardiology_Sheet3_06_terms_string.csv	
+2020-06-23 21:09:21	read	simply_read_csv	data/input/COVID_SL_preingestion_cardiology_Sheet3.csv	
+2020-06-23 21:09:21	read	simply_read_csv	data/output/COVID_SL_preingestion_cardiology_Sheet3_02_source_each_word_exact.csv	
+2020-06-23 21:09:21	read	simply_read_csv	data/output/COVID_SL_preingestion_cardiology_Sheet3_06_terms_exact.csv	
+2020-06-23 21:09:21	read	simply_read_csv	data/output/COVID_SL_preingestion_cardiology_Sheet3_06_terms_string.csv	
+2020-06-23 21:09:21	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp98Qjf7/file387a799f43a9.csv	
+2020-06-24 20:23:04	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsx	Load: MAP_00
+2020-06-24 20:23:13	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsx	Load: MAP_00
+2020-06-24 20:23:21	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsx	Load: MAP_00
+2020-06-24 20:23:48	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsx	Load: MAP_00
+2020-06-24 20:23:49	write	simply_write_csv	data/input/ESOPHAGUS_MAP_00.csv	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsxTAB: MAP_00written to ESOPHAGUS_MAP_00.csv
+2020-06-24 20:24:01	read	simply_read_csv	data/input/ESOPHAGUS_MAP_00.csv	read input
+2020-06-24 20:25:56	read	simply_read_csv	data/input/ESOPHAGUS_MAP_00.csv	read input
+2020-06-24 20:29:14	read	simply_read_csv	data/input/ESOPHAGUS_MAP_00.csv	read input
+2020-06-24 20:30:13	read	simply_read_csv	data/input/ESOPHAGUS_MAP_00.csv	read input
+2020-06-24 20:39:27	read	simply_read_csv	data/input/ESOPHAGUS_MAP_00.csv	read input
+2020-06-24 20:43:26	read	simply_read_csv	data/input/ESOPHAGUS_MAP_00.csv	read input
+2020-06-24 20:43:38	read	simply_read_csv	data/input/ESOPHAGUS_MAP_00.csv	read input
+2020-06-24 20:43:58	read	simply_read_csv	data/input/ESOPHAGUS_MAP_00.csv	read input
+2020-06-24 20:59:10	read	simply_read_csv	data/input/ESOPHAGUS_MAP_00.csv	read input
+2020-06-24 20:59:33	read	simply_read_csv	data/input/ESOPHAGUS_MAP_00.csv	read input
+2020-06-24 21:00:21	write	simply_write_csv	data/output/ESOPHAGUS_MAP_00_02_source_each_word_exact.csv	
+2020-06-24 21:00:34	read	simply_read_csv	data/input/ESOPHAGUS_MAP_00.csv	
+2020-06-24 21:00:34	read	simply_read_csv	data/output/ESOPHAGUS_MAP_00_02_source_each_word_exact.csv	
+2020-06-24 21:00:34	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmpu0M6B6/file67e97ea18073.csv	
+2020-06-24 21:08:35	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsx	Load: MAP_00
+2020-06-24 21:08:35	write	simply_write_csv	data/input/ESOPHAGUS_MAP_00.csv	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsxTAB: MAP_00written to ESOPHAGUS_MAP_00.csv
+2020-06-24 21:08:44	read	simply_read_csv	data/input/ESOPHAGUS_MAP_00.csv	read input
+2020-06-24 21:09:28	read	simply_read_csv	data/input/ESOPHAGUS_MAP_00.csv	read input
+2020-06-24 21:09:35	write	simply_write_csv	data/output/ESOPHAGUS_MAP_00_02_source_each_word_exact.csv	
+2020-06-24 21:12:38	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/output/ESOPHAGUS_MAP_00_02_source_each_word_like.csv	
+2020-06-24 21:12:52	read	simply_read_csv	data/input/ESOPHAGUS_MAP_00.csv	
+2020-06-24 21:12:52	read	simply_read_csv	data/output/ESOPHAGUS_MAP_00_02_source_each_word_exact.csv	
+2020-06-24 21:12:52	read	simply_read_csv	data/output/ESOPHAGUS_MAP_00_02_source_each_word_like.csv	
+2020-06-24 21:12:52	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmpu0M6B6/file67e968899b7a.csv	
+2020-06-24 21:14:10	read	simply_read_csv	data/input/ESOPHAGUS_MAP_00.csv	
+2020-06-24 21:14:10	read	simply_read_csv	data/output/ESOPHAGUS_MAP_00_02_source_each_word_exact.csv	
+2020-06-24 21:14:10	read	simply_read_csv	data/output/ESOPHAGUS_MAP_00_02_source_each_word_like.csv	
+2020-06-24 21:14:10	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmpu0M6B6/file67e9223e9c34.csv	
+2020-06-24 21:40:18	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsx	Load: MAP_01
+2020-06-24 21:40:19	write	simply_write_csv	data/input/ESOPHAGUS_MAP_01.csv	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsxTAB: MAP_01written to ESOPHAGUS_MAP_01.csv
+2020-06-24 21:40:26	read	simply_read_csv	data/input/ESOPHAGUS_MAP_01.csv	read input
+2020-06-24 21:41:33	write	simply_write_csv	data/output/ESOPHAGUS_MAP_01_06_terms_exact.csv	
+2020-06-24 21:41:40	read	simply_read_csv	data/input/ESOPHAGUS_MAP_01.csv	read input
+2020-06-24 21:43:27	write	simply_write_csv	data/output/ESOPHAGUS_MAP_01_06_terms_string.csv	
+2020-06-24 21:44:05	read	simply_read_csv	data/input/ESOPHAGUS_MAP_01.csv	read input
+2020-06-24 21:46:05	write	simply_write_csv	data/output/ESOPHAGUS_MAP_01_06_terms_string_synonym.csv	
+2020-06-24 21:46:15	read	simply_read_csv	data/input/ESOPHAGUS_MAP_01.csv	
+2020-06-24 21:46:15	read	simply_read_csv	data/output/ESOPHAGUS_MAP_01_06_terms_exact.csv	
+2020-06-24 21:46:15	read	simply_read_csv	data/output/ESOPHAGUS_MAP_01_06_terms_string_synonym.csv	
+2020-06-24 21:46:15	read	simply_read_csv	data/output/ESOPHAGUS_MAP_01_06_terms_string.csv	
+2020-06-24 21:46:15	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmpu0M6B6/file67e93c812b7c.csv	
+2020-06-24 22:03:54	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsx	Load: MAP_02
+2020-06-24 22:03:56	write	simply_write_csv	data/input/ESOPHAGUS_MAP_02.csv	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsxTAB: MAP_02written to ESOPHAGUS_MAP_02.csv
+2020-06-24 22:04:04	read	simply_read_csv	data/input/ESOPHAGUS_MAP_02.csv	read input
+2020-06-24 22:05:12	read	simply_read_csv	data/input/ESOPHAGUS_MAP_02.csv	read input
+2020-06-24 22:05:38	write	simply_write_csv	data/output/ESOPHAGUS_MAP_02_06_terms_exact.csv	
+2020-06-24 22:05:39	read	simply_read_csv	data/input/ESOPHAGUS_MAP_02.csv	read input
+2020-06-24 22:06:28	write	simply_write_csv	data/output/ESOPHAGUS_MAP_02_02_source_each_word_exact.csv	
+2020-06-24 22:06:31	read	simply_read_csv	data/input/ESOPHAGUS_MAP_02.csv	read input
+2020-06-24 22:08:21	write	simply_write_csv	data/output/ESOPHAGUS_MAP_02_02_source_each_word_like.csv	
+2020-06-24 22:08:37	read	simply_read_csv	data/input/ESOPHAGUS_MAP_02.csv	
+2020-06-24 22:08:37	read	simply_read_csv	data/output/ESOPHAGUS_MAP_02_02_source_each_word_exact.csv	
+2020-06-24 22:08:37	read	simply_read_csv	data/output/ESOPHAGUS_MAP_02_02_source_each_word_like.csv	
+2020-06-24 22:08:37	read	simply_read_csv	data/output/ESOPHAGUS_MAP_02_06_terms_exact.csv	
+2020-06-24 22:08:37	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmpu0M6B6/file67e96da70e73.csv	
+2020-06-25 06:35:00	read	simply_read_csv	data/input/ESOPHAGUS_MAP_02.csv	read input
+2020-06-25 06:36:13	write	simply_write_csv	data/output/ESOPHAGUS_MAP_02_02_source_each_word_exact.csv	
+2020-06-25 08:46:34	read	simply_read_csv	data/input/ESOPHAGUS_MAP_02.csv	
+2020-06-25 08:46:34	read	simply_read_csv	data/output/ESOPHAGUS_MAP_02_02_source_each_word_exact.csv	
+2020-06-25 08:46:34	read	simply_read_csv	data/output/ESOPHAGUS_MAP_02_02_source_each_word_like.csv	
+2020-06-25 08:46:34	read	simply_read_csv	data/output/ESOPHAGUS_MAP_02_06_terms_exact.csv	
+2020-06-25 08:46:35	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpVWsAGZ/file80b95412a08a.csv	
+2020-06-25 09:21:45	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsx	Load: TEST
+2020-06-25 09:21:46	write	simply_write_csv	data/input/ESOPHAGUS_TEST.csv	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsxTAB: TESTwritten to ESOPHAGUS_TEST.csv
+2020-06-25 09:21:53	read	simply_read_csv	data/input/ESOPHAGUS_TEST.csv	read input
+2020-06-25 09:22:16	read	simply_read_csv	data/input/ESOPHAGUS_TEST.csv	read input
+2020-06-25 09:22:25	read	simply_read_csv	data/input/ESOPHAGUS_TEST.csv	read input
+2020-06-25 09:22:48	read	simply_read_csv	data/input/ESOPHAGUS_TEST.csv	read input
+2020-06-25 09:23:33	read	simply_read_csv	data/input/ESOPHAGUS_TEST.csv	read input
+2020-06-25 09:23:46	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpVWsAGZ/file80b912e9ef25.csv	
+2020-06-25 09:24:49	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsx	Load: TEST
+2020-06-25 09:24:59	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpVWsAGZ/file80b93c536fd6.csv	
+2020-06-25 09:25:27	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpVWsAGZ/file80b99d3698b.csv	
+2020-06-25 09:26:44	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpVWsAGZ/file80b916b629b7.csv	
+2020-06-25 09:35:33	read	simply_read_csv	data/input/ESOPHAGUS_TEST.csv	
+2020-06-25 09:35:51	read	simply_read_csv	data/input/ESOPHAGUS_TEST.csv	
+2020-06-25 09:35:59	read	simply_read_csv	data/input/ESOPHAGUS_TEST.csv	
+2020-06-25 09:36:40	read	simply_read_csv	data/input/ESOPHAGUS_TEST.csv	
+2020-06-25 09:38:51	read	simply_read_csv	data/input/ESOPHAGUS_TEST.csv	
+2020-06-25 09:40:03	read	simply_read_csv	data/input/ESOPHAGUS_TEST.csv	
+2020-06-25 09:48:49	read	simply_read_csv	data/input/ESOPHAGUS_TEST.csv	
+2020-06-25 09:48:58	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsx	Load: TEST
+2020-06-25 09:50:45	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsx	Load: TEST
+2020-06-25 09:51:40	read	simply_read_csv	data/input/ESOPHAGUS_TEST.csv	
+2020-06-25 09:52:40	read	simply_read_csv	data/input/ESOPHAGUS_TEST.csv	
+2020-06-25 09:53:09	read	simply_read_csv	data/input/ESOPHAGUS_TEST.csv	read input
+2020-06-25 09:53:31	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsx	
+2020-06-25 09:54:38	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsx	Load: TEST
+2020-06-25 09:54:39	write	simply_write_csv	data/input/ESOPHAGUS_TEST.csv	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsxTAB: TESTwritten to ESOPHAGUS_TEST.csv
+2020-06-25 09:54:39	read	simply_read_csv	data/input/ESOPHAGUS_TEST.csv	
+2020-06-25 09:54:45	read	simply_read_csv	data/input/ESOPHAGUS_TEST.csv	read input
+2020-06-25 09:54:56	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsx	Load: TEST
+2020-06-25 09:57:12	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsx	Load: TEST
+2020-06-25 09:57:45	read	simply_read_csv	data/input/ESOPHAGUS_TEST.csv	
+2020-06-25 09:57:55	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsx	Load: TEST
+2020-06-25 09:57:56	write	simply_write_csv	data/input/ESOPHAGUS_TEST.csv	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsxTAB: TESTwritten to ESOPHAGUS_TEST.csv
+2020-06-25 09:57:56	read	simply_read_csv	data/input/ESOPHAGUS_TEST.csv	
+2020-06-25 09:58:06	read	simply_read_csv	data/input/ESOPHAGUS_TEST.csv	read input
+2020-06-25 10:12:53	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsx	Load: TEST
+2020-06-25 10:12:54	write	simply_write_csv	data/ESOPHAGUS/input/TEST.csv	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsxTAB: TESTwritten to TEST.csv
+2020-06-25 10:12:54	read	simply_read_csv	data/ESOPHAGUS/input/TEST.csv	
+2020-06-25 10:17:02	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsx	Load: MAP_03
+2020-06-25 10:17:03	write	simply_write_csv	data/ESOPHAGUS/input/MAP_03.csv	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsxTAB: MAP_03written to MAP_03.csv
+2020-06-25 10:17:03	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 10:17:11	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 10:17:53	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 10:18:04	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 10:18:04	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 10:18:37	write	simply_write_csv	data/ESOPHAGUS/output/MAP_03_02_source_each_word_exact.csv	
+2020-06-25 10:18:42	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 10:18:43	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 10:19:23	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 10:19:27	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 10:19:30	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 10:19:52	write	simply_write_csv	data/ESOPHAGUS/output/MAP_03_02_source_each_word_exact.csv	
+2020-06-25 10:19:56	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 10:19:57	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 10:21:16	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 10:21:17	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 10:21:36	write	simply_write_csv	data/ESOPHAGUS/output/MAP_03_01_source_as_is_location.csv	
+2020-06-25 10:22:07	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 10:22:07	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 10:24:16	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 10:24:16	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 10:24:52	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 10:24:52	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 10:34:48	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 10:34:48	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 10:45:33	write	simply_write_csv	data/ESOPHAGUS/output/MAP_03_02_source_each_word_location.csv	
+2020-06-25 10:46:05	read	read_full_excel	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/UpToDate_Drugs/MASTER.xlsx	
+2020-06-25 12:16:45	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 12:16:46	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 12:19:16	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 12:19:16	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 12:20:53	write	simply_write_csv	data/ESOPHAGUS/output/MAP_03_02_source_each_word_chemidplus_synonyms.csv	
+2020-06-25 12:23:27	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 12:23:29	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 12:25:33	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 12:25:34	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 12:26:21	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 12:26:23	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 12:27:11	write	simply_write_csv	data/ESOPHAGUS/output/MAP_03_02_source_each_word_chemidplus_synonyms.csv	
+2020-06-25 12:27:53	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 12:27:55	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 12:28:45	write	simply_write_csv	data/ESOPHAGUS/output/MAP_03_02_source_each_word_chemidplus_synonyms.csv	
+2020-06-25 12:33:50	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 12:33:52	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 12:35:03	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 12:35:05	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 12:39:41	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 12:39:43	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 12:42:57	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 12:42:59	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 12:51:25	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 12:51:25	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 12:51:32	read	read_full_excel	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/UpToDate_Drugs/MASTER.xlsx	
+2020-06-25 12:55:43	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 12:55:43	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 12:55:50	read	read_full_excel	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/UpToDate_Drugs/MASTER.xlsx	
+2020-06-25 12:56:29	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 12:56:29	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 12:56:36	read	read_full_excel	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/UpToDate_Drugs/MASTER.xlsx	
+2020-06-25 12:59:47	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 12:59:47	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 12:59:54	read	read_full_excel	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/UpToDate_Drugs/MASTER.xlsx	
+2020-06-25 13:11:28	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 13:11:28	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 13:11:35	read	read_full_excel	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/UpToDate_Drugs/MASTER.xlsx	
+2020-06-25 13:11:51	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 13:11:51	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 13:11:58	read	read_full_excel	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/UpToDate_Drugs/MASTER.xlsx	
+2020-06-25 13:13:35	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 13:13:35	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 13:13:42	read	read_full_excel	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/UpToDate_Drugs/MASTER.xlsx	
+2020-06-25 13:14:02	write	simply_write_csv	data/ESOPHAGUS/output/MAP_03_02_source_each_word_uptodate.csv	
+2020-06-25 13:15:27	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-25 13:18:52	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 13:18:55	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 13:19:00	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 13:20:02	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-25 13:22:15	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-25 13:24:12	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-25 13:25:34	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 13:25:34	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 13:26:30	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 13:26:30	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 13:26:38	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-25 13:31:42	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 13:31:42	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 13:31:49	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-25 13:32:17	write	simply_write_csv	data/ESOPHAGUS/output/MAP_03_02_source_each_word_cancer.gov.csv	
+2020-06-25 13:33:55	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 13:34:18	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	read input
+2020-06-25 13:34:24	read	simply_read_csv	/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv	
+2020-06-25 13:34:50	write	simply_write_csv	data/ESOPHAGUS/output/MAP_03_02_source_each_word_cancer.gov.csv	
+2020-06-25 13:35:24	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 13:35:47	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 13:35:47	read	simply_read_csv	data/input/COVID_Meera_other_forms_MAP_03.csv	
+2020-06-25 13:35:47	read	simply_read_csv	data/input/COVID_ROUND2_MAP_03.csv	
+2020-06-25 13:35:47	read	simply_read_csv	data/input/COVID_SL_MAP_03.csv	
+2020-06-25 13:35:47	read	simply_read_csv	data/input/COVID_SL_ROUND2_MAP_03.csv	
+2020-06-25 13:35:47	read	simply_read_csv	data/output/COVID_SL_MAP_03_03_source_inside_parentheses_as_terms.csv	
+2020-06-25 13:35:48	read	simply_read_csv	data/output/COVID_SL_MAP_03_03_source_no_parentheses.csv	
+2020-06-25 13:35:49	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_03_01_source_as_is_exact.csv	
+2020-06-25 13:35:49	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_03_02_source_each_word_exact.csv	
+2020-06-25 13:35:49	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_03_02_source_each_word_like.csv	
+2020-06-25 13:35:49	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_03_02_source_in_parentheses_exact_as_terms.csv	
+2020-06-25 13:35:49	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_03_02_source_in_parentheses_exact.csv	
+2020-06-25 13:35:49	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_03_02_source_no_parentheses_exact.csv	
+2020-06-25 13:35:49	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_03_02_source_no_parentheses_like.csv	
+2020-06-25 13:35:49	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_03_02_source_no_parentheses_string.csv	
+2020-06-25 13:35:49	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_03_06_terms_exact.csv	
+2020-06-25 13:35:49	read	simply_read_csv	data/output/COVID_SL_ROUND2_MAP_03_06_terms_string.csv	
+2020-06-25 13:36:21	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 13:37:22	read	simply_read_csv	data/ESOPHAGUS/output/MAP_03_01_source_as_is_location.csv	
+2020-06-25 13:37:22	read	simply_read_csv	data/ESOPHAGUS/output/MAP_03_02_source_each_word_cancer.gov.csv	
+2020-06-25 13:37:22	read	simply_read_csv	data/ESOPHAGUS/output/MAP_03_02_source_each_word_chemidplus_synonyms.csv	
+2020-06-25 13:37:22	read	simply_read_csv	data/ESOPHAGUS/output/MAP_03_02_source_each_word_exact.csv	
+2020-06-25 13:37:22	read	simply_read_csv	data/ESOPHAGUS/output/MAP_03_02_source_each_word_location.csv	
+2020-06-25 13:37:22	read	simply_read_csv	data/ESOPHAGUS/output/MAP_03_02_source_each_word_uptodate.csv	
+2020-06-25 13:37:39	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 13:37:39	read	simply_read_csv	data/ESOPHAGUS/input/MAP_03.csv	
+2020-06-25 13:37:39	read	simply_read_csv	data/ESOPHAGUS/output/MAP_03_01_source_as_is_location.csv	
+2020-06-25 13:37:39	read	simply_read_csv	data/ESOPHAGUS/output/MAP_03_02_source_each_word_cancer.gov.csv	
+2020-06-25 13:37:39	read	simply_read_csv	data/ESOPHAGUS/output/MAP_03_02_source_each_word_chemidplus_synonyms.csv	
+2020-06-25 13:37:39	read	simply_read_csv	data/ESOPHAGUS/output/MAP_03_02_source_each_word_exact.csv	
+2020-06-25 13:37:39	read	simply_read_csv	data/ESOPHAGUS/output/MAP_03_02_source_each_word_location.csv	
+2020-06-25 13:37:39	read	simply_read_csv	data/ESOPHAGUS/output/MAP_03_02_source_each_word_uptodate.csv	
+2020-06-25 13:37:39	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp8f8AQ0/file94fb725a8215.csv	
+2020-06-25 13:59:27	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsx	Load: MAP_04
+2020-06-25 13:59:28	write	simply_write_csv	data/ESOPHAGUS/input/MAP_04.csv	~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsxTAB: MAP_04written to MAP_04.csv
+2020-06-25 13:59:28	read	simply_read_csv	data/ESOPHAGUS/input/MAP_04.csv	
+2020-06-25 14:00:03	read	simply_read_csv	data/ESOPHAGUS/input/MAP_04.csv	
+2020-06-25 14:00:16	read	simply_read_csv	data/ESOPHAGUS/input/MAP_04.csv	read input
+2020-06-25 14:00:34	write	simply_write_csv	data/ESOPHAGUS/output/MAP_04_02_source_each_word_location.csv	
+2020-06-25 14:01:37	read	simply_read_csv	data/ESOPHAGUS/input/MAP_04.csv	
+2020-06-25 14:01:51	read	simply_read_csv	data/ESOPHAGUS/input/MAP_04.csv	read input
+2020-06-25 14:02:44	write	simply_write_csv	data/ESOPHAGUS/output/MAP_04_02_source_each_word_chemidplus_synonyms.csv	
+2020-06-25 14:04:27	read	simply_read_csv	data/ESOPHAGUS/input/MAP_04.csv	
+2020-06-25 14:04:40	read	simply_read_csv	data/ESOPHAGUS/input/MAP_04.csv	read input
+2020-06-25 14:05:00	write	simply_write_csv	data/ESOPHAGUS/output/MAP_04_02_source_each_word_exact.csv	
+2020-06-25 14:05:57	read	simply_read_csv	data/ESOPHAGUS/input/MAP_04.csv	
+2020-06-25 14:06:06	read	simply_read_csv	data/ESOPHAGUS/input/MAP_04.csv	read input
+2020-06-25 14:07:06	write	simply_write_csv	data/ESOPHAGUS/output/MAP_04_02_source_each_word_like.csv	
+2020-06-25 14:08:01	read	simply_read_csv	data/ESOPHAGUS/input/MAP_04.csv	
+2020-06-25 14:08:01	read	simply_read_csv	data/ESOPHAGUS/input/MAP_04.csv	read input
+2020-06-25 14:08:22	write	simply_write_csv	data/ESOPHAGUS/output/MAP_04_06_terms_exact.csv	
+2020-06-25 14:08:25	read	simply_read_csv	data/ESOPHAGUS/input/MAP_04.csv	
+2020-06-25 14:08:25	read	simply_read_csv	data/ESOPHAGUS/input/MAP_04.csv	read input
+2020-06-25 14:08:45	write	simply_write_csv	data/ESOPHAGUS/output/MAP_04_06_terms_string.csv	
+2020-06-25 14:08:55	read	simply_read_csv	data/ESOPHAGUS/input/MAP_04.csv	
+2020-06-25 14:08:55	read	simply_read_csv	data/ESOPHAGUS/input/MAP_04.csv	
+2020-06-25 14:08:55	read	simply_read_csv	data/ESOPHAGUS/output/MAP_04_02_source_each_word_chemidplus_synonyms.csv	
+2020-06-25 14:08:55	read	simply_read_csv	data/ESOPHAGUS/output/MAP_04_02_source_each_word_exact.csv	
+2020-06-25 14:08:55	read	simply_read_csv	data/ESOPHAGUS/output/MAP_04_02_source_each_word_like.csv	
+2020-06-25 14:08:55	read	simply_read_csv	data/ESOPHAGUS/output/MAP_04_02_source_each_word_location.csv	
+2020-06-25 14:08:55	read	simply_read_csv	data/ESOPHAGUS/output/MAP_04_06_terms_exact.csv	
+2020-06-25 14:08:55	read	simply_read_csv	data/ESOPHAGUS/output/MAP_04_06_terms_string.csv	
+2020-06-25 14:08:56	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp8f8AQ0/file94fb7189592e.csv	
+2020-06-25 14:30:11	read	read_clipboard		
+2020-06-27 11:35:58	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/Workfile.xlsx	Load: MAP_00
+2020-06-27 11:35:58	write	simply_write_csv	data/ESOPHAGUS/input/MAP_00.csv	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/Workfile.xlsxTAB: MAP_00written to MAP_00.csv
+2020-06-27 11:35:58	read	simply_read_csv	data/ESOPHAGUS/input/MAP_00.csv	
+2020-06-27 11:36:58	read	simply_read_csv	data/ESOPHAGUS/input/MAP_00.csv	
+2020-06-27 11:36:58	read	simply_read_csv	data/ESOPHAGUS/input/MAP_00.csv	read input

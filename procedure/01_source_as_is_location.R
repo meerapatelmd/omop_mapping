@@ -109,7 +109,7 @@ if (interactive()) {
                         }
 
                         final_output <- output %>%
-                                                purrr::map(rubix::vector_to_tibble, new_col = new_col_name) %>%
+                                                purrr::map(rubix::vector_to_tibble, new_col = !!new_col_name) %>%
                                                 dplyr::bind_rows(.id = "routine_id")
 
 

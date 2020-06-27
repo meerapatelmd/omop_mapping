@@ -26,7 +26,9 @@ input2 <-
         input %>%
         dplyr::select(routine_id,
                 any_of(workfile_colnames),
-                      ends_with(" Concept"))
+                 `MSK Concept Type`,
+                `MSK Concept`)
+
 
 # Separate `Concept` columns based on \n
 input3 <-

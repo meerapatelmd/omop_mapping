@@ -467,3 +467,292 @@ Timestamp	Activity Type	Function	File	Details
 2020-06-10 22:07:04	write	simply_write_csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Standard Library/covid19_treatment_before_baseline.csv	
 2020-06-10 22:07:04	write	simply_write_csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Standard Library/covid19_vitals.csv	
 2020-06-10 22:07:04	write	simply_write_csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Standard Library/patient_characteristics.csv	
+2020-06-16 15:16:45	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsx	
+2020-06-16 15:17:31	read	read_full_excel	~/OneDrive - Memorial Sloan Kettering Cancer Center/Glioma/Workfile_OMOP.xlsx	
+2020-06-16 15:17:31	write	simply_write_csv	input/GLIOMA__MAP_03.csv	~/OneDrive - Memorial Sloan Kettering Cancer Center/Glioma/Workfile_OMOP.xlsxTAB: MAP_03written to GLIOMA__MAP_03.csv
+2020-06-16 15:17:38	read	simply_read_csv	input/GLIOMA__MAP_03.csv	process_workfile.R
+2020-06-16 15:21:08	read	simply_read_csv	input/GLIOMA__MAP_03.csv	
+2020-06-16 15:21:46	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpDcAtoc/filef3c843a5545c.csv	
+2020-06-16 15:35:46	write	copy_to_clipboard		
+2020-06-16 15:45:38	read	simply_read_csv	~/OneDrive - Memorial Sloan Kettering Cancer Center/Glioma/gliomas_topbraid_export.csv	
+2020-06-16 15:50:38	write	copy_to_clipboard		
+2020-06-16 15:55:45	write	copy_to_clipboard		
+2020-06-16 15:57:14	write	copy_to_clipboard		
+2020-06-16 16:12:14	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpDcAtoc/filef3c84e716cb7.csv	
+2020-06-16 16:17:24	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpDcAtoc/filef3c84546bcbf.csv	
+2020-06-16 16:22:17	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpDcAtoc/filef3c83ba34a3b.csv	
+2020-06-17 12:16:15	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsx	
+2020-06-17 12:16:19	write	simply_write_csv	input/COVID_SL__MAP_15.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsxTAB: MAP_15written to COVID_SL__MAP_15.csv
+2020-06-17 12:17:29	read	simply_read_csv	input/COVID_SL__MAP_15.csv	process_workfile.R
+2020-06-17 12:20:31	read	simply_read_csv	input/COVID_SL__MAP_15.csv	process_workfile.R
+2020-06-17 12:20:41	read	simply_read_csv	input/COVID_SL__MAP_15.csv	process_workfile.R
+2020-06-17 12:22:31	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsx	
+2020-06-17 12:22:36	write	simply_write_csv	input/COVID_SL__MAP_15.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsxTAB: MAP_15written to COVID_SL__MAP_15.csv
+2020-06-17 12:22:51	read	simply_read_csv	input/COVID_SL__MAP_15.csv	process_workfile.R
+2020-06-17 12:30:47	read	simply_read_csv	input/COVID_SL__MAP_15.csv	process_workfile.R
+2020-06-17 12:36:41	read	simply_read_csv	input/COVID_SL__MAP_15.csv	
+2020-06-17 12:38:58	read	simply_read_csv	input/COVID_SL__MAP_15.csv	
+2020-06-17 12:43:18	write	copy_to_clipboard		
+2020-06-17 12:43:51	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZXni6U/file196b4b7ed806.csv	
+2020-06-17 12:44:49	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZXni6U/file196b749898a2.csv	
+2020-06-17 12:54:12	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZXni6U/file196b6e84d264.csv	
+2020-06-17 12:55:33	write	write_temp_xlsx	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZXni6U/file196b5210dbeb.xlsx	
+2020-06-17 12:55:33	write	write_full_excel	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZXni6U/file196b5210dbeb.xlsx	
+2020-06-17 13:10:14	write	copy_to_clipboard		
+2020-06-23 11:18:21	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	
+2020-06-23 11:18:23	write	simply_write_csv	input/COVID_SL__MAP_05.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_05written to COVID_SL__MAP_05.csv
+2020-06-23 11:19:25	read	simply_read_csv	input/COVID_SL__MAP_05.csv	process_workfile.R
+2020-06-23 11:19:56	read	simply_read_csv	input/COVID_SL__MAP_05.csv	
+2020-06-23 11:22:14	read	simply_read_csv	input/COVID_SL__MAP_05.csv	
+2020-06-23 11:22:46	read	simply_read_csv	input/COVID_SL__MAP_05.csv	
+2020-06-23 11:23:05	read	simply_read_csv	input/COVID_SL__MAP_05.csv	
+2020-06-23 11:23:31	read	simply_read_csv	input/COVID_SL__MAP_05.csv	
+2020-06-23 11:25:28	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJkzEBf/file247d79579085.csv	
+2020-06-23 11:26:04	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJkzEBf/file247d63d149ff.csv	
+2020-06-23 11:26:58	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJkzEBf/file247dad440a9.csv	
+2020-06-23 11:28:37	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJkzEBf/file247d15822d0.csv	
+2020-06-23 11:28:51	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJkzEBf/file247d55e92a22.csv	
+2020-06-23 11:35:39	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJkzEBf/file247d1a2bb5c9.csv	
+2020-06-23 11:39:14	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	
+2020-06-23 11:39:16	write	simply_write_csv	input/COVID_SL_MAP_05.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_05written to COVID_SL_MAP_05.csv
+2020-06-23 11:39:21	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 11:39:30	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 11:45:33	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJkzEBf/file247d74cf11a4.csv	
+2020-06-23 11:45:38	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJkzEBf/file247d468f61e5.csv	
+2020-06-23 11:49:37	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	
+2020-06-23 11:49:39	write	simply_write_csv	input/COVID_SL_MAP_05.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_05written to COVID_SL_MAP_05.csv
+2020-06-23 11:49:47	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 11:49:56	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 11:50:19	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJkzEBf/file247d17df0f07.csv	
+2020-06-23 12:04:54	write	write_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_testing.xlsx	
+2020-06-23 12:07:04	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:07:20	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:07:57	write	write_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_serology_testing.xlsx	
+2020-06-23 12:11:26	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:11:33	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:15:05	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	
+2020-06-23 12:15:08	write	simply_write_csv	input/COVID_SL_MAP_05.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_05written to COVID_SL_MAP_05.csv
+2020-06-23 12:15:11	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:15:18	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:18:09	write	write_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_noninvasive_ventilation_support.xlsx	
+2020-06-23 12:20:46	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:20:53	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:21:44	write	write_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_chest_imaging_admission_icu.xlsx	
+2020-06-23 12:22:54	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:23:03	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:27:37	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	
+2020-06-23 12:27:39	write	simply_write_csv	input/COVID_SL_MAP_05.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_05written to COVID_SL_MAP_05.csv
+2020-06-23 12:27:49	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:27:58	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:30:50	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	
+2020-06-23 12:30:52	write	simply_write_csv	input/COVID_SL_MAP_05.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_05written to COVID_SL_MAP_05.csv
+2020-06-23 12:30:57	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:31:07	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:35:02	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:35:11	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:37:58	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	
+2020-06-23 12:38:01	write	simply_write_csv	input/COVID_SL_MAP_05.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_05written to COVID_SL_MAP_05.csv
+2020-06-23 12:38:03	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:38:13	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:39:15	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:40:01	write	write_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_treatment_before_baseline.xlsx	
+2020-06-23 12:41:09	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:41:17	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:44:37	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:44:44	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:46:55	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	
+2020-06-23 12:46:57	write	simply_write_csv	input/COVID_SL_MAP_05.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_05written to COVID_SL_MAP_05.csv
+2020-06-23 12:47:01	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:47:07	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 12:47:45	write	write_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_invasive_ventilation_support_initiation.xlsx	
+2020-06-23 13:18:33	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	
+2020-06-23 13:23:36	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	
+2020-06-23 13:27:30	read	simply_read_csv	input/COVID_SL_MAP_05.csv	
+2020-06-23 13:28:10	write	copy_to_clipboard		
+2020-06-23 13:53:15	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	
+2020-06-23 13:53:29	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	
+2020-06-23 13:53:31	write	simply_write_csv	input/COVID_SL_MAP_06.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_06written to COVID_SL_MAP_06.csv
+2020-06-23 13:53:55	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 13:54:03	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 13:58:01	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 13:59:05	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	
+2020-06-23 13:59:07	write	simply_write_csv	input/COVID_SL_MAP_06.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_06written to COVID_SL_MAP_06.csv
+2020-06-23 13:59:30	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 14:00:47	write	simply_write_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 14:03:34	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 14:04:54	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJkzEBf/file247d675d81d5.csv	
+2020-06-23 14:06:19	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 14:11:21	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJkzEBf/file247d64182bad.csv	
+2020-06-23 14:14:37	write	write_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_infection.xlsx	
+2020-06-23 14:28:35	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 14:29:15	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 14:29:38	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 14:29:56	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 14:30:21	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 14:30:56	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	
+2020-06-23 14:30:59	write	simply_write_csv	input/COVID_SL_MAP_06.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_06written to COVID_SL_MAP_06.csv
+2020-06-23 14:31:03	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 14:31:36	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 14:35:06	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 14:40:11	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 14:41:00	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 14:41:06	write	simply_write_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 14:41:15	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 14:42:01	write	write_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	
+2020-06-23 14:45:10	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 14:45:24	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 14:46:19	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	
+2020-06-23 14:46:21	write	simply_write_csv	input/COVID_SL_MAP_06.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_06written to COVID_SL_MAP_06.csv
+2020-06-23 14:46:28	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 14:46:39	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 14:46:58	write	write_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_infection.xlsx	
+2020-06-23 15:10:58	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	
+2020-06-23 15:11:01	write	simply_write_csv	input/COVID_SL_MAP_06.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_06written to COVID_SL_MAP_06.csv
+2020-06-23 15:11:14	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 15:11:24	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 15:12:14	write	write_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_infection.xlsx	
+2020-06-23 15:16:34	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 15:24:43	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	
+2020-06-23 15:24:46	write	simply_write_csv	input/COVID_SL_MAP_06.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_06written to COVID_SL_MAP_06.csv
+2020-06-23 15:24:51	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 15:24:59	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 15:25:36	write	write_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_infection.xlsx	
+2020-06-23 15:27:53	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 15:28:00	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 15:28:14	write	write_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_treatment_before_baseline.xlsx	
+2020-06-23 15:35:19	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 15:35:23	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 15:35:23	write	write_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_treatment_before_baseline.xlsx	
+2020-06-23 15:36:21	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	
+2020-06-23 15:36:23	write	simply_write_csv	input/COVID_SL_MAP_06.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsxTAB: MAP_06written to COVID_SL_MAP_06.csv
+2020-06-23 15:36:29	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 15:37:32	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJkzEBf/file247d2792b463.csv	
+2020-06-23 15:38:52	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 15:38:57	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 15:38:59	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 15:39:05	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 15:39:26	write	write_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_treatment_before_baseline.xlsx	
+2020-06-23 15:39:35	write	write_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_treatment_before_baseline.xlsx	
+2020-06-23 15:40:11	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJkzEBf/file247d5f7aadff.csv	
+2020-06-23 18:52:52	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/cancer_status.xlsx	
+2020-06-23 18:52:52	write	simply_write_csv	input/COVID_SL_Sheet3.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/cancer_status.xlsxTAB: Sheet3written to COVID_SL_Sheet3.csv
+2020-06-23 18:52:59	read	simply_read_csv	input/COVID_SL_Sheet3.csv	
+2020-06-23 18:53:08	read	simply_read_csv	input/COVID_SL_Sheet3.csv	
+2020-06-23 18:53:44	write	write_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/.xlsx	
+2020-06-23 18:55:02	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp98Qjf7/file387a17119087.csv	
+2020-06-23 18:59:29	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx	
+2020-06-23 19:00:04	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 19:00:19	read	simply_read_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 19:01:00	write	simply_write_csv	input/COVID_SL_MAP_06.csv	
+2020-06-23 19:01:22	write	write_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	
+2020-06-23 19:08:09	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	
+2020-06-23 19:08:42	write	simply_write_csv	input/COVID_SL_Sheet 1.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsxTAB: Sheet 1written to COVID_SL_Sheet 1.csv
+2020-06-23 19:09:01	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	
+2020-06-23 19:09:47	read	simply_read_csv	input/COVID_SL_Sheet 1.csv	
+2020-06-23 19:10:44	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	
+2020-06-23 19:10:56	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	
+2020-06-23 19:11:51	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	
+2020-06-23 19:12:07	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	
+2020-06-23 19:12:07	write	simply_write_csv	input/COVID_SL_covid19_concomitant_medications__Sheet 1.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsxTAB: Sheet 1written to COVID_SL_covid19_concomitant_medications__Sheet 1.csv
+2020-06-23 19:12:13	read	simply_read_csv	input/COVID_SL_covid19_concomitant_medications__Sheet 1.csv	
+2020-06-23 19:14:22	read	simply_read_csv	input/COVID_SL_covid19_concomitant_medications__Sheet 1.csv	
+2020-06-23 19:15:32	read	simply_read_csv	input/COVID_SL_covid19_concomitant_medications__Sheet 1.csv	
+2020-06-23 19:15:52	read	simply_read_csv	input/COVID_SL_covid19_concomitant_medications__Sheet 1.csv	
+2020-06-23 19:16:38	read	simply_read_csv	input/COVID_SL_covid19_concomitant_medications__Sheet 1.csv	
+2020-06-23 19:17:22	write	simply_write_csv	input/COVID_SL_covid19_concomitant_medications__Sheet 1.csv	
+2020-06-23 19:17:55	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp98Qjf7/file387a33ee3946.csv	
+2020-06-23 19:18:37	read	simply_read_csv	input/COVID_SL_covid19_concomitant_medications__Sheet 1.csv	
+2020-06-23 19:54:49	read	simply_read_csv	input/COVID_SL_covid19_concomitant_medications__Sheet 1.csv	
+2020-06-23 19:55:33	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	
+2020-06-23 19:56:44	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	
+2020-06-23 19:57:21	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	
+2020-06-23 19:57:38	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	
+2020-06-23 19:57:55	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	
+2020-06-23 19:58:04	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	
+2020-06-23 19:58:16	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	
+2020-06-23 20:00:35	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	
+2020-06-23 20:01:13	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx	
+2020-06-23 20:01:42	write	simply_write_csv	input/COVID_SL_covid19_concomitant_medications__Sheet3.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsxTAB: Sheet3written to COVID_SL_covid19_concomitant_medications__Sheet3.csv
+2020-06-23 20:02:26	read	simply_read_csv	input/COVID_SL_covid19_concomitant_medications__Sheet3.csv	
+2020-06-23 20:03:25	read	simply_read_csv	input/COVID_SL_covid19_concomitant_medications__Sheet3.csv	
+2020-06-23 20:04:38	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp98Qjf7/file387a258c518b.csv	
+2020-06-23 20:23:35	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_oxygen_support.xlsx	
+2020-06-23 20:23:35	write	simply_write_csv	input/COVID_SL_covid19_oxygen_support_Sheet1.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_oxygen_support.xlsxTAB: Sheet1written to COVID_SL_covid19_oxygen_support_Sheet1.csv
+2020-06-23 20:23:46	read	simply_read_csv	input/COVID_SL_covid19_oxygen_support_Sheet1.csv	
+2020-06-23 20:23:57	read	simply_read_csv	input/COVID_SL_covid19_oxygen_support_Sheet1.csv	
+2020-06-23 20:24:28	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp98Qjf7/file387a788ac72f.csv	
+2020-06-23 21:13:21	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid_cardiology_testing.xlsx	
+2020-06-23 21:13:21	write	simply_write_csv	input/COVID_SL_covid19_cardiology__Sheet4.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid_cardiology_testing.xlsxTAB: Sheet4written to COVID_SL_covid19_cardiology__Sheet4.csv
+2020-06-23 21:13:29	read	simply_read_csv	input/COVID_SL_covid19_cardiology__Sheet4.csv	
+2020-06-23 21:14:51	write	simply_write_csv	input/COVID_SL_covid19_cardiology__Sheet4.csv	
+2020-06-23 21:14:51	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp98Qjf7/file387a47134aa0.csv	
+2020-06-23 21:27:39	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_bleeding_events.xlsx	
+2020-06-23 21:28:28	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_bleeding_events.xlsx	
+2020-06-23 21:28:28	write	simply_write_csv	input/COVID_SL_covid19_bleeding__Sheet1.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_bleeding_events.xlsxTAB: Sheet1written to COVID_SL_covid19_bleeding__Sheet1.csv
+2020-06-23 21:28:36	read	simply_read_csv	input/COVID_SL_covid19_bleeding__Sheet1.csv	
+2020-06-23 21:28:37	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp98Qjf7/file387a34630419.csv	
+2020-06-26 21:09:26	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/01 Need Last QA/covid19_thrombotic_events.xlsx	
+2020-06-26 21:09:27	write	simply_write_csv	input/COVID_SL_covid19_thrombotic_events__Sheet1.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/01 Need Last QA/covid19_thrombotic_events.xlsxTAB: Sheet1written to COVID_SL_covid19_thrombotic_events__Sheet1.csv
+2020-06-26 21:10:59	read	simply_read_csv	input/COVID_SL_covid19_thrombotic_events__Sheet1.csv	
+2020-06-26 21:11:11	read	simply_read_csv	input/COVID_SL_covid19_thrombotic_events__Sheet1.csv	
+2020-06-26 21:11:39	read	simply_read_csv	input/COVID_SL_covid19_thrombotic_events__Sheet1.csv	
+2020-06-26 21:17:31	read	simply_read_csv	input/COVID_SL_covid19_thrombotic_events__Sheet1.csv	
+2020-06-26 21:17:53	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJRLZeG/filec651ef82527.csv	
+2020-06-26 22:27:15	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/01 Need Last QA/cancer_diagnosis.xlsx	
+2020-06-26 22:27:15	write	simply_write_csv	input/COVID_SL_cancer_diagnosis__Sheet1.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/01 Need Last QA/cancer_diagnosis.xlsxTAB: Sheet1written to COVID_SL_cancer_diagnosis__Sheet1.csv
+2020-06-26 22:29:13	read	simply_read_csv	input/COVID_SL_cancer_diagnosis__Sheet1.csv	
+2020-06-26 22:29:29	read	simply_read_csv	input/COVID_SL_cancer_diagnosis__Sheet1.csv	
+2020-06-26 22:30:04	read	simply_read_csv	input/COVID_SL_cancer_diagnosis__Sheet1.csv	
+2020-06-26 22:30:37	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJRLZeG/filec65228a66de.csv	
+2020-06-26 22:31:18	read	simply_read_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJRLZeG/filec65228a66de.csv	
+2020-06-26 22:33:42	read	simply_read_csv	input/COVID_SL_cancer_diagnosis__Sheet1.csv	
+2020-06-26 22:34:37	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJRLZeG/filec6534b5dfe2.csv	
+2020-06-26 22:35:04	read	simply_read_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJRLZeG/filec6534b5dfe2.csv	
+2020-06-26 22:38:20	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/PreIngestion_Standard_Library.xlsx	
+2020-06-26 22:38:22	write	simply_write_csv	input/COVID_SL_Odysseus__MAP_06.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/PreIngestion_Standard_Library.xlsxTAB: MAP_06written to COVID_SL_Odysseus__MAP_06.csv
+2020-06-26 22:39:18	read	simply_read_csv	input/COVID_SL_Odysseus__MAP_06.csv	
+2020-06-26 22:39:34	read	simply_read_csv	input/COVID_SL_Odysseus__MAP_06.csv	
+2020-06-26 22:42:32	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/PreIngestion_Standard_Library.xlsx	
+2020-06-26 22:42:35	write	simply_write_csv	input/COVID_SL_Odysseus__MAP_06.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/PreIngestion_Standard_Library.xlsxTAB: MAP_06written to COVID_SL_Odysseus__MAP_06.csv
+2020-06-26 22:43:00	read	simply_read_csv	input/COVID_SL_Odysseus__MAP_06.csv	
+2020-06-26 22:43:24	read	simply_read_csv	input/COVID_SL_Odysseus__MAP_06.csv	
+2020-06-26 22:44:14	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpDz90RY/file17524d88c322.csv	
+2020-06-26 22:47:16	read	simply_read_csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/01 Need Last QA/processed.csv	
+2020-06-26 22:47:30	read	simply_read_csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/01 Need Last QA/processed.csv	
+2020-06-26 22:47:33	write	write_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/01 Need Last QA/cancer_directed_medications.xlsx	
+2020-06-26 22:47:34	write	write_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/01 Need Last QA/covid19_labs_piped.xlsx	
+2020-06-26 22:47:34	write	write_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/01 Need Last QA/cancer_diagnosis.xlsx	
+2020-06-26 22:47:34	write	write_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/01 Need Last QA/cancer_radiation_therapy.xlsx	
+2020-06-26 23:05:57	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_diagnosis.xlsx	
+2020-06-26 23:05:57	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_directed_medications.xlsx	
+2020-06-26 23:05:57	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_radiation_therapy.xlsx	
+2020-06-26 23:05:59	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_diagnosis.xlsx	
+2020-06-26 23:05:59	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_directed_medications.xlsx	
+2020-06-26 23:06:00	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_radiation_therapy.xlsx	
+2020-06-26 23:06:02	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_diagnosis.xlsx	
+2020-06-26 23:06:02	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_directed_medications.xlsx	
+2020-06-26 23:06:02	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_radiation_therapy.xlsx	
+2020-06-26 23:06:03	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_diagnosis.xlsx	
+2020-06-26 23:06:04	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_directed_medications.xlsx	
+2020-06-26 23:06:04	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_radiation_therapy.xlsx	
+2020-06-26 23:06:05	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_diagnosis.xlsx	
+2020-06-26 23:06:05	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_directed_medications.xlsx	
+2020-06-26 23:06:06	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_radiation_therapy.xlsx	
+2020-06-26 23:06:07	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_diagnosis.xlsx	
+2020-06-26 23:06:07	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_directed_medications.xlsx	
+2020-06-26 23:06:08	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_radiation_therapy.xlsx	
+2020-06-26 23:06:09	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_diagnosis.xlsx	
+2020-06-26 23:06:09	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_directed_medications.xlsx	
+2020-06-26 23:06:09	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_radiation_therapy.xlsx	
+2020-06-26 23:06:11	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_diagnosis.xlsx	
+2020-06-26 23:06:50	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_diagnosis.xlsx	
+2020-06-26 23:06:50	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_directed_medications.xlsx	
+2020-06-26 23:06:50	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_radiation_therapy.xlsx	
+2020-06-26 23:06:53	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_diagnosis.xlsx	
+2020-06-26 23:06:53	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_directed_medications.xlsx	
+2020-06-26 23:06:54	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/02 Pre-QA/cancer_radiation_therapy.xlsx	
+2020-06-26 23:07:15	write	simply_write_csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/03 Post Form QA/02_output.csv	
+2020-06-27 00:23:12	read	simply_read_csv	input/COVID_SL_Odysseus__MAP_06.csv	
+2020-06-27 11:15:44	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/Workfile.xlsx	
+2020-06-27 11:17:18	write	copy_to_clipboard		
+2020-06-27 11:26:27	write	copy_to_clipboard		

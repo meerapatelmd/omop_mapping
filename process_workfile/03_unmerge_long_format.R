@@ -11,7 +11,7 @@ if (file.exists(path_to_output_fn)) {
 
 
 # input <- read_terminal_workfile(routine = "02_process.R")
-input <- broca::simply_read_csv(path_to_input_fn)
+input <- read_terminal_workfile()
 
 # Converting to true NA
 input <-
@@ -20,18 +20,25 @@ input <-
         dplyr::mutate_all(stringr::str_replace_na) %>%
         dplyr::mutate_all(stringr::str_replace_all, "^NA$", NA_character_)
 
-
-input2 <-
-        input %>%
-        tidyr::pivot_wider(names_from = `MSK Concept Type`,
-                           values_from = `MSK Concept`)
-
+# Removing prefixes in merged concepts
 input3 <-
-        input2 %>%
-        chariot::unmerge_concepts(concept_col = `Fact`)
+        input %>%
+        dplyr::mutate_at(vars(!!terminal_col), stringr::str_replace_all, "(^.*?)(: )(.*$)", "\\3") %>%
+        chariot::unmerge_concepts(concept_col = terminal_col, remove = FALSE)
 
+# If the concept is "NEW", then have it reflected in the concept_id column
+input4 <-
+        input3 %>%
+        dplyr::mutate(concept_id = ifelse(`MSK Concept` %in% c("NEW"),
+                                          "NEW",
+                                          concept_id))
 
-broca::copy_to_clipboard(input3)
+# If terminal column is populated, but concept_id is still empty
+qa1 <-input4 %>%
+        dplyr::filter(is.na(concept_id),
+                      !is.na(`MSK Concept`))
+
+broca::view_as_xlsx(input4)
 
 # Select only the original parsed redcap column names and `Concept` columns
 input2 <-

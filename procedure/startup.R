@@ -8,18 +8,18 @@ source('/Users/patelm9/GitHub/omop_mapping/procedure/config/variables.R')
 
 # If the input_fn does not exist in the input subdir, it is written to the input subdir to the input_fn provided above
 if (grepl("[.]xlsx$", origin_fn) == TRUE) {
-                input_fn <- paste0(input_file_stem, origin_tab, ".csv")
-                path_to_input_fn <- paste0("data/input/", input_fn)
+                input_fn <- paste0(origin_tab, ".csv")
+                path_to_input_fn <- paste0(path_to_input_dir, "/", input_fn)
                 if (!file.exists(path_to_input_fn)) {
                         # origin_data <- broca::read_full_excel(origin_fn,
                         #                                       log_details = paste0("Load: ", origin_tab))
                         # input <- origin_data[[origin_tab]]
 
 
-                        input <- read_origin(log_details = paste0("Load: ", origin_tab))
+                        origin <- read_origin(log_details = paste0("Load: ", origin_tab))
 
                         input <-
-                                input %>%
+                                origin %>%
                                 dplyr::mutate_all(stringr::str_replace_all,
                                                       "[^ -~\n]", "")
 

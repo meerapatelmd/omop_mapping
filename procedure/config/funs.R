@@ -16,11 +16,14 @@ clean_env <-
 
 create_path_to_output_fn <-
         function() {
-                if (interactive()) {
-                paste0(stringr::str_replace(path_to_input_fn, "(^.*[/]{1})(.*?)([.]{1}csv$)", "data/output/\\2_"), cave::strip_fn(cave::present_script_path()), ".csv")
-                } else {
-                       paste0("/Users/patelm9/GitHub/omop_mapping/procedure/", stringr::str_replace(path_to_input_fn, "(^.*[/]{1})(.*?)([.]{1}csv$)", "data/output/\\2_"), cave::strip_fn(cave::present_script_path()), ".csv")
+                path_from_wd <- paste0(path_to_output_dir, "/", origin_tab,"_", cave::strip_fn(cave::present_script_path()), ".csv")
 
+                if (interactive()) {
+
+                        return(path_from_wd)
+
+                } else {
+                       paste0("/Users/patelm9/GitHub/omop_mapping/procedure/", path_from_wd)
                 }
         }
 
@@ -220,15 +223,35 @@ read_input <-
                                 }
                         }
 
+                if (terminal_col == "MSK Concept") {
+
+                        x <- broca::simply_read_csv(path_to_input_fn,
+                                                    log_details = "read input") %>%
+                                normalize_na() %>%
+                                dplyr::mutate_all(as.character) %>%
+                                dplyr::filter(`MSK Concept Type` == "Fact")
+
+                        x <- apply_input_filters(x)
+
+                } else if (terminal_col == "Fact") {
+
+                        x <- broca::simply_read_csv(path_to_input_fn,
+                                                    log_details = "read input") %>%
+                                normalize_na() %>%
+                                dplyr::mutate_all(as.character)
 
 
-                x <- broca::simply_read_csv(path_to_input_fn,
-                                            log_details = "read input") %>%
-                        normalize_na() %>%
-                        dplyr::mutate_all(as.character) %>%
-                        dplyr::filter(`MSK Concept Type` == "Fact")
+                        x <- apply_input_filters(x)
 
-                x <- apply_input_filters(x)
+                } else {
+
+                        x <- broca::simply_read_csv(path_to_input_fn,
+                                                    log_details = "read input") %>%
+                                normalize_na() %>%
+                                dplyr::mutate_all(as.character)
+
+                        x <- apply_input_filters(x)
+                }
 
                 cat("\n")
 
@@ -261,6 +284,21 @@ read_input <-
 
                 return(x)
 
+        }
+
+
+read_origin <-
+        function(...) {
+
+                if (broca::is_excel(origin_fn)) {
+                        origin_data <- broca::read_full_excel(origin_fn,
+                                                              ...)
+                        origin_data[[origin_tab]]
+                } else if (broca::is_csv(origin_fn)) {
+                        broca::simply_read_csv(origin_fn, ...)
+                } else {
+                        stop("Invalid originating file.")
+                }
         }
 
 
@@ -359,6 +397,34 @@ try_catch_as_na_df <-
                                                 rubix::vector_to_tibble(!!new_col_name))
 
         }
+
+#########
+## QA Input ##
+#########
+# Make sure all columns are in the input
+startup_qa <-
+        function() {
+                x <- broca::simply_read_csv(path_to_csv = path_to_input_fn)
+                if (!(source_col %in% colnames(x))) {
+                        stop("`source_col` not in input.")
+                }
+
+                if (!(terminal_col %in% colnames(x))) {
+                        stop("`terminal_col` not in input.")
+                }
+
+        }
+
+# View input columns if failed qa
+view_columns <-
+        function() {
+                x <- broca::simply_read_csv(path_to_csv = path_to_input_fn)
+                secretary::typewrite_bold("Columns in input:")
+                colnames(x) %>%
+                        purrr::map(function(x) secretary::typewrite(x, tabs = 1))
+
+        }
+
 
 
 ##################
@@ -507,16 +573,149 @@ lookup_cancer_gov_dictionary <-
                                 }
         }
 
-lookup_uptodate_dictionary <-
-        function(phrase) {
-                dictionary <- broca::read_full_excel("/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/UpToDate_Drugs/MASTER.xlsx")
 
-                dictionary$MASTER %>%
-                        dplyr::filter_all(function(x) grepl(phrase,
-                                                            x,
-                                                            ignore.case = TRUE) == TRUE)
+search_cancer.gov_dictionary <-
+        function(phrase) {
+                if (!exists("cg_dict", envir = globalenv())) {
+                        cg_dict <<- broca::simply_read_csv("/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/CancerGov_Drugs/DrugDictionary.csv") %>%
+                                dplyr::mutate(`Code String` = stringr::str_remove_all(`Code name`, "[-]")) %>%
+                                tidyr::pivot_longer(cols = c('Abbreviation',
+                                                             'Chemical structure',
+                                                             'Synonym',
+                                                             'Foreign brand name',
+                                                             'Code name',
+                                                             'US brand name',
+                                                             'Acronym',
+                                                             'Code String'),
+                                                    names_to = "Synonym Type",
+                                                    values_to = "Synonym",
+                                                    values_drop_na = TRUE) %>%
+                                dplyr::select(-`Input File`)
+                }
+
+                cg_dict %>%
+                        rubix::filter_at_grepl(Synonym,
+                                               grepl_phrase = phrase)
+
         }
 
+search_drug_in_uptodate <-
+        function(drug, all_names = TRUE) {
+                if (!exists("uptodate_drug_dict", envir = globalenv())) {
+                        uptodate_drug_dict <<- broca::read_full_excel("/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/UpToDate_Drugs/MASTER.xlsx")
+                }
+
+                if (all_names) {
+                        name_cols <-
+                                c("DRUG",
+                                  "Brand Names: US",
+                                  "Brand Names: Canada")
+
+                        output <- list()
+                        for (i in 1:length(name_cols)) {
+                                output[[i]] <-
+                                        uptodate_drug_dict$MASTER %>%
+                                        rubix::filter_at_grepl(!!name_cols[i],
+                                                               grepl_phrase = drug)
+                        }
+
+                        output <- dplyr::bind_rows(output)
+
+                } else {
+                        output <-
+                                uptodate_drug_dict$MASTER %>%
+                                rubix::filter_at_grepl(DRUG,
+                                                       grepl_phrase = drug)
+                }
+
+                return(output)
+        }
+
+search_uptodate <-
+        function(drug) {
+                if (!exists("uptodate_drug_dict", envir = globalenv())) {
+                        uptodate_drug_dict <<- broca::read_full_excel("/Users/patelm9/GitHub/KMI/biblio-tech/DICTIONARY/UpToDate_Drugs/MASTER.xlsx")
+                }
+
+                if (!exists("uptodate_lookup", envir = globalenv())) {
+                        uptodate_lookup <<-
+                                uptodate_drug_dict$MASTER %>%
+                                tidyr::pivot_longer(cols = !DRUG,
+                                                    names_to = "Variable",
+                                                    values_to = "Value",
+                                                    values_drop_na = TRUE)
+
+                }
+
+                output_01 <-
+                uptodate_lookup %>%
+                        rubix::filter_at_grepl(Value,
+                                               grepl_phrase = drug)
+
+
+                if (nrow(output_01) > 0) {
+
+                output_01 %>%
+                        tidyr::separate_rows(Value,
+                                             sep = "[\r\n]") %>%
+                        rubix::filter_at_grepl(Value,
+                                               grepl_phrase = drug) %>%
+                                rubix::call_mr_clean()
+                } else {
+                        output_01
+                }
+
+
+        }
+
+synonyms_from_chemidplus <-
+        function(phrase,
+                 type = "contains") {
+
+                require(httr)
+                require(rvest)
+
+                url <- paste0("https://chem.nlm.nih.gov/chemidplus/name/", type, "/",  phrase)
+                url = police::try_catch_error_as_null(url(url, "rb"))
+
+                if (!is.null(url)) {
+                        resp <- police::try_catch_error_as_null(read_html(url))
+                        close(url)
+
+                if (!is.null(resp)) {
+                        resp <-
+                        resp %>%
+                                html_nodes("#names") %>%
+                                html_text() %>%
+                                strsplit(split = "\n") %>%
+                                unlist() %>%
+                                stringr::str_remove_all("Systematic Name|Names and Synonyms|Results Name|Name of Substance|MeSH Heading|Synonyms|[^ -~]") %>%
+                                trimws("both") %>%
+                                centipede::no_blank() %>%
+                                unique()
+
+                        return(resp)
+
+                        Sys.sleep(3)
+                        closeAllConnections()
+                        gc()
+
+                } else {
+                        return(resp)
+                        Sys.sleep(3)
+                        closeAllConnections()
+                        gc()
+                }
+                } else {
+                        return(url)
+                        Sys.sleep(3)
+                        closeAllConnections()
+                        gc()
+                }
+
+                closeAllConnections()
+                gc()
+        }
 
 ##################
 ## Typewrite    ##
