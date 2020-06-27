@@ -3,8 +3,8 @@
 ####################
 set_this_wd <-
         function() {
-                if ("/Users/patelm9/GitHub/omop_mapping/procedure" != getwd()) {
-                        setwd("/Users/patelm9/GitHub/omop_mapping/procedure")
+                if ("/Users/patelm9/GitHub/omop_mapping/01 procedure/" != getwd()) {
+                                setwd("/Users/patelm9/GitHub/omop_mapping/01 procedure/")
                 }
         }
 
