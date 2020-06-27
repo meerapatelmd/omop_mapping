@@ -116,9 +116,4 @@ input <- read_terminal_workfile()
                 }
 
         }
-
-
-
-
-
 }

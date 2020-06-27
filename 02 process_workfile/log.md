@@ -756,3 +756,32 @@ Timestamp	Activity Type	Function	File	Details
 2020-06-27 11:15:44	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/Workfile.xlsx	
 2020-06-27 11:17:18	write	copy_to_clipboard		
 2020-06-27 11:26:27	write	copy_to_clipboard		
+2020-06-27 15:27:23	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Glioma REDCap Standardization - KMI Only - KMI Only/Glioma_Workfile.xlsx	
+2020-06-27 15:27:23	write	simply_write_csv	data/GLIOMA/Glioma_Workfile/input/MAP_03.csv	~/Memorial Sloan Kettering Cancer Center/Glioma REDCap Standardization - KMI Only - KMI Only/Glioma_Workfile.xlsxTAB: MAP_03written to MAP_03.csv
+2020-06-27 15:27:36	read	simply_read_csv	data/GLIOMA/Glioma_Workfile/input/MAP_03.csv	
+2020-06-27 15:33:04	read	simply_read_csv	data/GLIOMA/Glioma_Workfile/input/MAP_03.csv	
+2020-06-27 15:33:09	read	simply_read_csv	data/GLIOMA/Glioma_Workfile/input/MAP_03.csv	
+2020-06-27 15:35:45	read	simply_read_csv	data/GLIOMA/Glioma_Workfile/input/MAP_03.csv	
+2020-06-27 15:37:15	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmppMhtOY/file30ac2cbf90c.csv	
+2020-06-27 15:43:24	read	simply_read_csv	data/GLIOMA/Glioma_Workfile/input/MAP_03.csv	
+2020-06-27 15:43:24	write	simply_write_csv	data/GLIOMA/Glioma_Workfile/output/MAP_03_02_process.csv	
+2020-06-27 15:44:11	read	simply_read_csv	data/GLIOMA/Glioma_Workfile/output/MAP_03_02_process.csv	
+2020-06-27 15:47:21	read	simply_read_csv	data/GLIOMA/Glioma_Workfile/input/MAP_03.csv	
+2020-06-27 15:53:59	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmppMhtOY/file30ac1e65bdbb.csv	
+2020-06-27 15:55:19	write	simply_write_csv	data/GLIOMA/Glioma_Workfile/output/MAP_03_03_add_observation_group.csv	
+2020-06-27 15:57:29	read	simply_read_csv	data/GLIOMA/Glioma_Workfile/input/MAP_03.csv	
+2020-06-27 15:59:26	read	simply_read_csv	data/GLIOMA/Glioma_Workfile/output/MAP_03_02_process.csv	
+2020-06-27 15:59:26	read	simply_read_csv	data/GLIOMA/Glioma_Workfile/output/MAP_03_03_add_observation_group.csv	
+2020-06-27 16:00:43	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmppMhtOY/file30ac3747e148.csv	
+2020-06-27 16:09:27	read	simply_read_csv	data/GLIOMA/Glioma_Workfile/output/MAP_03_02_process.csv	
+2020-06-27 16:09:27	read	simply_read_csv	data/GLIOMA/Glioma_Workfile/output/MAP_03_03_add_observation_group.csv	
+2020-06-27 16:09:28	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmppMhtOY/file30ac57118013.csv	
+2020-06-27 16:18:22	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmppMhtOY/file30ac39d3c93f.csv	
+2020-06-27 16:25:00	read	simply_read_csv	data/GLIOMA/Glioma_Workfile/output/MAP_03_02_process.csv	
+2020-06-27 16:25:00	read	simply_read_csv	data/GLIOMA/Glioma_Workfile/output/MAP_03_03_add_observation_group.csv	
+2020-06-27 16:26:01	read	simply_read_csv	data/GLIOMA/Glioma_Workfile/output/MAP_03_02_process.csv	
+2020-06-27 16:26:01	read	simply_read_csv	data/GLIOMA/Glioma_Workfile/output/MAP_03_03_add_observation_group.csv	
+2020-06-27 16:29:38	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmppMhtOY/file30ac7776bc36.csv	
+2020-06-27 16:35:26	read	simply_read_csv	data/GLIOMA/Glioma_Workfile/output/MAP_03_02_process.csv	
+2020-06-27 16:35:26	read	simply_read_csv	data/GLIOMA/Glioma_Workfile/output/MAP_03_03_add_observation_group.csv	
+2020-06-27 16:35:27	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmppMhtOY/file30ac2f462f65.csv	

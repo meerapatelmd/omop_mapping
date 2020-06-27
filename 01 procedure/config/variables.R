@@ -7,9 +7,9 @@ standard_concepts <- NULL
 invalid_reasons <- c(NA, "NA")
 
 # Project Setup
-project_name <- "ESOPHAGUS"
-origin_fn <-  "~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/Workfile.xlsx"
-origin_tab <- "MAP_00"
+project_name <- "GLIOMA"
+origin_fn <-  "~/Memorial Sloan Kettering Cancer Center/Glioma REDCap Standardization - KMI Only - KMI Only/Glioma_Workfile.xlsx"
+origin_tab <- "MAP_03"
 
 
 # Target Columns: column where queries are sourced from. Note that the column called "CONCEPT" has been changed to "SOURCE" in this routine since the merge of OMOP concepts is functionalized to be called `Concept`.
@@ -34,12 +34,16 @@ source_skip_nchar <- 5
 path_to_project_data <- paste0("data/", project_name)
 cave::create_dir_if_not_exist(path_to_project_data)
 
+# Creating source file subdir if it does not exist
+path_to_file_subdir <- paste0(path_to_project_data, "/", cave::strip_fn(origin_fn))
+cave::create_dir_if_not_exist(path_to_file_subdir)
+
 # Creating subdirectories
-path_to_input_dir <- paste0(path_to_project_data, "/input")
+path_to_input_dir <- paste0(path_to_file_subdir, "/input")
 cave::create_dir_if_not_exist(path_to_input_dir)
-path_to_output_dir <- paste0(path_to_project_data, "/output")
+path_to_output_dir <- paste0(path_to_file_subdir, "/output")
 cave::create_dir_if_not_exist(path_to_output_dir)
-path_to_settings_dir <- paste0(path_to_project_data, "/settings")
+path_to_settings_dir <- paste0(path_to_file_subdir, "/settings")
 cave::create_dir_if_not_exist(path_to_settings_dir)
 
 # Creating settings object

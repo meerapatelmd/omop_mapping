@@ -43,8 +43,8 @@ if (grepl("[.]xlsx$", origin_fn) == TRUE) {
                         if (!("CONCEPT_COUNT" %in% colnames(input))) {
                                 input <-
                                         input %>%
-                                        dplyr::group_by_at(vars(!!terminal_col)) %>%
-                                        dplyr::mutate(CONCEPT_COUNT = length(!!terminal_col))
+                                        dplyr::group_by_at(vars(!!source_col)) %>%
+                                        dplyr::mutate(CONCEPT_COUNT = length(!!source_col))
                         }
 
 

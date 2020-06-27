@@ -211,7 +211,7 @@ filter_for_settings <-
 ## Apply More Filters to Input ##
 #################################
 read_input <-
-        function() {
+        function(all_types = FALSE) {
 
                 apply_input_filters <-
                         function(.data) {
@@ -299,6 +299,57 @@ read_origin <-
                 } else {
                         stop("Invalid originating file.")
                 }
+        }
+
+
+read_raw_input <-
+        function() {
+
+                if (terminal_col == "MSK Concept") {
+
+                        x <- broca::simply_read_csv(path_to_input_fn,
+                                                    log_details = "read input") %>%
+                                normalize_na() %>%
+                                dplyr::mutate_all(as.character)
+
+                } else if (terminal_col == "Fact") {
+
+                        x <- broca::simply_read_csv(path_to_input_fn,
+                                                    log_details = "read input") %>%
+                                normalize_na() %>%
+                                dplyr::mutate_all(as.character)
+
+                } else {
+
+                        x <- broca::simply_read_csv(path_to_input_fn,
+                                                    log_details = "read input") %>%
+                                normalize_na() %>%
+                                dplyr::mutate_all(as.character)
+                }
+
+                cat("\n")
+
+                secretary::typewrite(crayon::bold("Terminal Column:"), terminal_col)
+
+                cat("\n")
+
+                print(
+                        x %>%
+                                dplyr::select(!!terminal_col) %>%
+                                dplyr::mutate_at(vars(!!terminal_col),
+                                                 function(x)
+                                                         ifelse(is.na(x),
+                                                                "Unmapped",
+                                                                "Mapped")) %>%
+                                group_by_at(vars(!!terminal_col)) %>%
+                                summarize(COUNT = n(), .groups = "drop") %>%
+                                dplyr::ungroup()
+                )
+
+                cat("\n")
+
+                return(x)
+
         }
 
 

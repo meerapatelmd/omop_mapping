@@ -1,7 +1,7 @@
 rm(list = ls())
 source("setup.R")
 
-path_to_output_fn <- paste0(stringr::str_replace(path_to_input_fn, "(^.*?[/]{1})(.*?)([.]{1}csv$)", "output/\\2_"), cave::strip_fn(cave::present_script_path()), ".csv")
+path_to_output_fn <- paste0(path_to_output_dir, "/", cave::strip_fn(path_to_input_fn), "_", cave::strip_fn(cave::present_script_path()), ".csv")
 
 if (file.exists(path_to_output_fn)) {
         secretary::typewrite_warning(path_to_output_fn, "already exists and will be overwritten.")
@@ -9,53 +9,42 @@ if (file.exists(path_to_output_fn)) {
 }
 
 
-
 # input <- read_terminal_workfile(routine = "02_process.R")
-input <- read_terminal_workfile()
+input <-
+        list.files(path_to_output_dir, pattern = origin_terminal_tab, full.names = TRUE) %>%
+        rubix::map_names_set(broca::simply_read_csv)
+
+
+input2 <-
+        dplyr::left_join(input$`data/GLIOMA/Glioma_Workfile/output/MAP_03_03_add_observation_group.csv`,
+                         input$`data/GLIOMA/Glioma_Workfile/output/MAP_03_02_process.csv`)
 
 # Converting to true NA
-input <-
-        input %>%
+input2 <-
+        input2 %>%
         dplyr::mutate_all(stringr::str_remove_all, "[\r\n\t]") %>%
         dplyr::mutate_all(stringr::str_replace_na) %>%
         dplyr::mutate_all(stringr::str_replace_all, "^NA$", NA_character_)
 
-input <-
-        input %>%
+input2 <-
+        input2 %>%
         dplyr::distinct()
 
-input <-
-        input %>%
+input2 <-
+        input2 %>%
         separate_rows("MSK Concept",
                       sep = "\n")
 
-# if (!("Observation Group" %in% input$`MSK Concept Type`)) {
-#         secretary::typewrite("Observation Group is missing.")
-#         obs_gp <- readline("Enter: ")
-#         obs_gp <- chariot::get_merged_concept_id(obs_gp)
-#         input <-
-#                 dplyr::bind_rows(input,
-#                                  input %>%
-#                                 dplyr::mutate("MSK Concept Type" = "Observation Group") %>%
-#                                 dplyr::mutate("MSK Concept" = obs_gp))
-#
-#         broca::simply_write_csv(x = input,
-#                                 file = path_to_input_fn)
-#
-# }
-
-
-
 input2a <-
-        input %>%
-        tidyr::pivot_wider(id_cols = c(FORM, VARIABLE, FIELD_TYPE, FIELD_LABEL, CHOICES, PV, PV_CODE, CORE_VARIABLES, TYPE, CONCEPT),
+        input2 %>%
+        tidyr::pivot_wider(id_cols = c(FORM, VARIABLE, FIELD_TYPE, FIELD_LABEL, CHOICES, PV, PV_CODE, TYPE, CONCEPT),
                         names_from = `MSK Concept Type`,
                            values_from = `MSK Concept`,
                         values_fn = list(`MSK Concept` = function(x) paste(unique(x), collapse = "\n")))
 
 input2b <-
-        input %>%
-        tidyr::pivot_wider(id_cols = c(FORM, VARIABLE, FIELD_TYPE, FIELD_LABEL, CHOICES, PV, PV_CODE, CORE_VARIABLES, TYPE, CONCEPT),
+        input2 %>%
+        tidyr::pivot_wider(id_cols = c(FORM, VARIABLE, FIELD_TYPE, PV, PV_CODE, TYPE, CONCEPT),
                            names_from = `MSK Concept Type`,
                            values_from = `MSK Concept`,
                            values_fn = list(`MSK Concept` = function(x) length(unique(!is.na(x)))))
@@ -66,30 +55,39 @@ input2b <-
 qa1 <-
         all(input2b$`Observation Group` == 1)
 
+if (qa1 != TRUE) {
+        stop("Not all concepts have exactly 1 Observation Group.")
+}
+
 qa2 <-
         all(input2b$Fact >= 1)
 
+if (qa2 != TRUE|is.na(qa2)) {
+        secretary::typewrite_warning("There are some unmapped Facts:")
+        secretary::typewrite_italic(input2b$Fact[!(input2b$Fact >=1)] %>% unique(), tabs = 3)
+}
 
-# If a concept has more than 1 Fact, any non-NA Attributes +/- Modifiers, it will be a one-to-many shape in ingestion format
+
+# If a concept has more than 1 Fact, the number will be in "MSK_CONCEPT_ID"
 input2b <-
         input2b %>%
         dplyr::mutate(MSK_CONCEPT_ID = "") %>%
-        dplyr::mutate(MSK_CONCEPT_ID = ifelse(Fact > 1, "NEW", MSK_CONCEPT_ID))
+        dplyr::mutate(MSK_CONCEPT_ID = ifelse(!is.na(Fact) && Fact > 1, as.character(Fact), MSK_CONCEPT_ID))
 
 
-if ("Attribute" %in% colnames(input2b)) {
-        input2b <-
-                input2b %>%
-                dplyr::mutate(MSK_CONCEPT_ID = ifelse(!is.na(Attribute), "NEW", MSK_CONCEPT_ID))
-
-}
-
-if ("Modifier" %in% colnames(input2b)) {
-        input2b <-
-                input2b %>%
-                dplyr::mutate(MSK_CONCEPT_ID = ifelse(!is.na(Modifier), "NEW", MSK_CONCEPT_ID))
-
-}
+# if ("Attribute" %in% colnames(input2b)) {
+#         input2b <-
+#                 input2b %>%
+#                 dplyr::mutate(MSK_CONCEPT_ID = ifelse(!is.na(Attribute), "NEW", MSK_CONCEPT_ID))
+#
+# }
+#
+# if ("Modifier" %in% colnames(input2b)) {
+#         input2b <-
+#                 input2b %>%
+#                 dplyr::mutate(MSK_CONCEPT_ID = ifelse(!is.na(Modifier), "NEW", MSK_CONCEPT_ID))
+#
+# }
 
 input2b <-
         input2b %>%
@@ -103,23 +101,29 @@ input3 <-
 
 input4 <-
         input3 %>%
-        chariot::unmerge_concepts(concept_col = `Fact`, remove = FALSE)
+        chariot::unmerge_concepts(concept_col = Fact, remove = FALSE)
 
 #If MSK_CONCEPT_ID is not "NEW", it takes the concept_id
-output <-
-        input4 %>%
-        dplyr::mutate(MSK_CONCEPT_ID = ifelse(MSK_CONCEPT_ID != "NEW",
-                                              paste0("MSK", concept_id),
-                                              MSK_CONCEPT_ID))
+output <- input4
+output$MSK_CONCEPT_ID <-
+output$MSK_CONCEPT_ID %>%
+        purrr::map2(output$concept_id, function(x, y) ifelse(x == "" && !is.na(y),
+                                                             paste0("MSK", y),
+                                                             x)) %>%
+        unlist()
 
-if (is.null(filter_for_form)) {
-        broca::view_as_csv(output)
-} else {
-        output_fn <- paste0("~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/", filter_for_form, ".xlsx")
+output2 <- output
+output2$MSK_CONCEPT_ID <-
+        output2$MSK_CONCEPT_ID %>%
+        purrr::map2(output2$Fact, function(x, y) ifelse(x == "" && y == "NEW",
+                                                             "NEW",
+                                                             x)) %>%
+        unlist()
 
-        broca::write_full_excel(output,
-                                file = output_fn)
-}
+broca::view_as_csv(output2)
+
+
+secretary::typewrite_bold("Save the file as `Preingestion` file.")
 
 # broca::copy_to_clipboard(input3)
 #

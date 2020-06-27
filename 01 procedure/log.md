@@ -5195,3 +5195,72 @@ Timestamp	Activity Type	Function	File	Details
 2020-06-27 11:35:58	read	simply_read_csv	data/ESOPHAGUS/input/MAP_00.csv	
 2020-06-27 11:36:58	read	simply_read_csv	data/ESOPHAGUS/input/MAP_00.csv	
 2020-06-27 11:36:58	read	simply_read_csv	data/ESOPHAGUS/input/MAP_00.csv	read input
+2020-06-27 11:54:34	write	simply_write_csv	data/ESOPHAGUS/output/MAP_00_01_source_as_is_exact.csv	
+2020-06-27 12:00:50	read	simply_read_csv	~/GitHub/KMI/standardization-projects/esophagus/Annotated_Data_Dictionary.csv	
+2020-06-27 12:01:27	read	simply_read_csv	~/GitHub/MSK-patelm9/escritoire/10.Esophagus/data_without_phi/STGIEsophagogastricSandbox_DataDictionary_2020-06-24.csv	
+2020-06-27 12:03:23	read	simply_read_csv	~/GitHub/KMI/standardization-projects/esophagus/Annotated_Data_Dictionary.csv	
+2020-06-27 12:04:22	read	simply_read_csv	~/GitHub/KMI/standardization-projects/esophagus/Annotated_Data_Dictionary.csv	
+2020-06-27 12:04:42	read	simply_read_csv	~/GitHub/MSK-patelm9/escritoire/10.Esophagus/data_without_phi/STGIEsophagogastricSandbox_DataDictionary_2020-06-24.csv	
+2020-06-27 12:05:10	read	simply_read_csv	~/GitHub/MSK-patelm9/escritoire/10.Esophagus/data_without_phi/STGIEsophagogastricSandbox_DataDictionary_2020-06-24.csv	
+2020-06-27 12:05:32	read	simply_read_csv	~/GitHub/KMI/standardization-projects/esophagus/Annotated_Data_Dictionary.csv	
+2020-06-27 12:05:33	read	simply_read_csv	~/GitHub/MSK-patelm9/escritoire/10.Esophagus/data_without_phi/STGIEsophagogastricSandbox_DataDictionary_2020-06-24.csv	
+2020-06-27 12:06:31	read	simply_read_csv	~/GitHub/MSK-patelm9/escritoire/10.Esophagus/data_without_phi/STGIEsophagogastricSandbox_DataDictionary_2020-06-24.csv	
+2020-06-27 12:09:55	read	simply_read_csv	data/ESOPHAGUS/input/MAP_00.csv	read input
+2020-06-27 12:13:48	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpzgysW7/file2102115b5af.csv	
+2020-06-27 12:18:00	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpzgysW7/file2102384af4b7.csv	
+2020-06-27 12:25:03	write	simply_write_csv	data/ESOPHAGUS/input/MAP_00.csv	
+2020-06-27 12:25:15	read	simply_read_csv	data/ESOPHAGUS/input/MAP_00.csv	read input
+2020-06-27 12:25:22	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpzgysW7/file2102599b465b.csv	
+2020-06-27 12:31:59	read	simply_read_csv	data/ESOPHAGUS/input/MAP_00.csv	read input
+2020-06-27 12:36:53	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/Workfile.xlsx	Load: MAP_00
+2020-06-27 12:36:53	write	simply_write_csv	data/ESOPHAGUS/input/MAP_00.csv	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/Workfile.xlsxTAB: MAP_00written to MAP_00.csv
+2020-06-27 12:36:53	read	simply_read_csv	data/ESOPHAGUS/input/MAP_00.csv	
+2020-06-27 12:37:11	read	simply_read_csv	~/GitHub/KMI/standardization-projects/esophagus/Annotated_Data_Dictionary.csv	
+2020-06-27 12:37:12	read	simply_read_csv	~/GitHub/MSK-patelm9/escritoire/10.Esophagus/data_without_phi/STGIEsophagogastricSandbox_DataDictionary_2020-06-24.csv	
+2020-06-27 12:37:12	read	simply_read_csv	~/GitHub/MSK-patelm9/escritoire/10.Esophagus/data_without_phi/STGIEsophagogastricSandbox_DataDictionary_2020-06-24.csv	
+2020-06-27 12:37:19	read	simply_read_csv	data/ESOPHAGUS/input/MAP_00.csv	read input
+2020-06-27 12:38:27	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpzgysW7/file210214f93b53.csv	
+2020-06-27 12:41:05	write	simply_write_csv	data/ESOPHAGUS/input/MAP_00.csv	
+2020-06-27 12:41:17	read	simply_read_csv	data/ESOPHAGUS/input/MAP_00.csv	read input
+2020-06-27 12:42:21	read	simply_read_csv	data/ESOPHAGUS/input/MAP_00.csv	
+2020-06-27 12:42:21	read	simply_read_csv	data/ESOPHAGUS/input/MAP_00.csv	
+2020-06-27 12:42:21	read	simply_read_csv	data/ESOPHAGUS/output/MAP_00_01_source_as_is_exact.csv	
+2020-06-27 12:42:21	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpzgysW7/file210242080224.csv	
+2020-06-27 12:58:12	read	read_clipboard		
+2020-06-27 13:00:37	write	copy_to_clipboard		
+2020-06-27 13:02:45	write	copy_to_clipboard		
+2020-06-27 13:02:52	write	copy_to_clipboard		
+2020-06-27 13:21:14	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/Esophagus_Workfile.xlsx	Load: MAP_01
+2020-06-27 13:21:15	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Workfile/input/MAP_01.csv	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/Esophagus_Workfile.xlsxTAB: MAP_01written to MAP_01.csv
+2020-06-27 13:21:15	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Workfile/input/MAP_01.csv	
+2020-06-27 13:21:38	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Workfile/input/MAP_01.csv	read input
+2020-06-27 13:22:40	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Workfile/input/MAP_01.csv	read input
+2020-06-27 13:23:33	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Workfile/input/MAP_01.csv	read input
+2020-06-27 13:29:11	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Workfile/input/MAP_01.csv	
+2020-06-27 13:29:11	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Workfile/input/MAP_01.csv	read input
+2020-06-27 13:29:33	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/ESOPHAGUS/Esophagus_Workfile/output/MAP_01_01_source_as_is_exact.csv	
+2020-06-27 13:31:09	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Workfile/output/MAP_01_02_source_each_word_exact_nonplural.csv	
+2020-06-27 13:31:22	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Workfile/input/MAP_01.csv	
+2020-06-27 13:32:16	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Workfile/input/MAP_01.csv	
+2020-06-27 13:32:16	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Workfile/input/MAP_01.csv	read input
+2020-06-27 13:32:31	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Workfile/input/MAP_01.csv	
+2020-06-27 13:32:32	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Workfile/input/MAP_01.csv	read input
+2020-06-27 13:33:16	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/ESOPHAGUS/Esophagus_Workfile/output/MAP_01_02_source_each_word_exact.csv	
+2020-06-27 13:35:08	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Workfile/output/MAP_01_02_source_each_word_like_nonplural.csv	
+2020-06-27 13:43:04	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/ESOPHAGUS/Esophagus_Workfile/output/MAP_01_02_source_each_word_like.csv	
+2020-06-27 13:43:20	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Workfile/input/MAP_01.csv	
+2020-06-27 13:43:20	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Workfile/input/MAP_01.csv	
+2020-06-27 13:43:20	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Workfile/output/MAP_01_01_source_as_is_exact.csv	
+2020-06-27 13:43:20	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Workfile/output/MAP_01_02_source_each_word_exact_nonplural.csv	
+2020-06-27 13:43:20	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Workfile/output/MAP_01_02_source_each_word_exact.csv	
+2020-06-27 13:43:20	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Workfile/output/MAP_01_02_source_each_word_like_nonplural.csv	
+2020-06-27 13:43:20	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Workfile/output/MAP_01_02_source_each_word_like.csv	
+2020-06-27 13:43:20	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpzgysW7/file21026b674f8d.csv	
+2020-06-27 14:25:56	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/Esophagus_Workfile.xlsx	Load: MAP_02
+2020-06-27 14:25:57	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Workfile/input/MAP_02.csv	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/Esophagus_Workfile.xlsxTAB: MAP_02written to MAP_02.csv
+2020-06-27 14:25:57	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Workfile/input/MAP_02.csv	
+2020-06-27 14:27:04	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Workfile/input/MAP_02.csv	read input
+2020-06-27 14:32:22	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpzgysW7/file21024a465552.csv	
+2020-06-27 15:06:51	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Glioma REDCap Standardization - KMI Only - KMI Only/Glioma_Workfile.xlsx	Load: MAP_03
+2020-06-27 15:06:52	write	simply_write_csv	data/GLIOMA/Glioma_Workfile/input/MAP_03.csv	~/Memorial Sloan Kettering Cancer Center/Glioma REDCap Standardization - KMI Only - KMI Only/Glioma_Workfile.xlsxTAB: MAP_03written to MAP_03.csv
+2020-06-27 15:06:52	read	simply_read_csv	data/GLIOMA/Glioma_Workfile/input/MAP_03.csv	
