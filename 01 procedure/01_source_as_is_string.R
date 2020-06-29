@@ -107,6 +107,8 @@ if (interactive()) {
                                                                         rubix::vector_to_tibble(!!new_col_name)
                                                         }
 
+                                                typewrite_source_progress(input_concept = input_concept)
+
                                         } else {
                                                 output[[i]] <- NA
                                                 output[[i]] <-
@@ -259,6 +261,8 @@ if (interactive()) {
                                                         output[[i]] %>%
                                                         rubix::vector_to_tibble(!!new_col_name)
                                         }
+
+                                        typewrite_source_progress(input_concept = input_concept)
 
                                 } else {
                                         output[[i]] <- NA

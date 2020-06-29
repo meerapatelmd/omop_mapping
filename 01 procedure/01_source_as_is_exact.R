@@ -107,6 +107,8 @@ if (interactive()) {
                                                                         rubix::vector_to_tibble(!!new_col_name)
                                                         }
 
+                                                typewrite_source_progress(input_concept = input_concept)
+
                                         } else {
                                                 output[[i]] <- NA
                                                 output[[i]] <-
@@ -117,7 +119,7 @@ if (interactive()) {
                                         names(output)[i] <- input_routine_id
 
                                         typewrite_progress(i = i, input3)
-                                        rm(list = colnames(input_row))
+                                       rm(list = colnames(input_row))
                                         rm(input_row)
                         }
 
@@ -260,6 +262,8 @@ if (interactive()) {
                                                         rubix::vector_to_tibble(!!new_col_name)
                                         }
 
+                                        typewrite_source_progress(input_concept = input_concept)
+
                                 } else {
                                         output[[i]] <- NA
                                         output[[i]] <-
@@ -270,6 +274,7 @@ if (interactive()) {
                                 names(output)[i] <- input_routine_id
 
                                 typewrite_progress(i = i, input3)
+
                                 rm(list = colnames(input_row))
                                 rm(input_row)
                         }

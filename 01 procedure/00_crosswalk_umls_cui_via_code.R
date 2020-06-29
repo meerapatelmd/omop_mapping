@@ -84,8 +84,11 @@ if (interactive()) {
                                                 # Search if output concept is NA, meaning unmapped
                                                  if (is.na(output_concept)) {
 
-                                                         secretary::typewrite(input_concept)
-                                                         secretary::typewrite(input_cui)
+
+                                                         cat("\n")
+                                                         secretary::typewrite(crayon::bold("Concept: "), input_concept)
+                                                         secretary::typewrite(crayon::bold("CUI: "), input_cui)
+                                                         cat("\n")
 
 
                                                          output_a <-

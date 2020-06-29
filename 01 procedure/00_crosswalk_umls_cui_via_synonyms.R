@@ -84,20 +84,30 @@ if (interactive()) {
                                                 # Search if output concept is NA, meaning unmapped
                                                  if (is.na(output_concept)) {
 
-                                                         secretary::typewrite(input_concept)
-                                                         secretary::typewrite(input_cui)
+                                                         cat("\n")
+                                                         secretary::typewrite(crayon::bold("Concept: "), input_concept)
+                                                         secretary::typewrite(crayon::bold("CUI: "), input_cui)
+                                                         cat("\n")
 
 
                                                          output[[i]] <-
                                                                  rubix::vector_to_tibble(
                                                                          metaorite::query_cui(input_cui) %>%
                                                                                  dplyr::select(STR) %>%
-                                                                                 dplyr::distinct() %>%
                                                                                  rubix::mutate_all_rm_multibyte_chars() %>%
-                                                                                 rubix::arrange_by_nchar(STR, desc = TRUE) %>%
+                                                                                 dplyr::mutate_at(vars(STR), tolower) %>%
+                                                                                 dplyr::distinct() %>%
+                                                                                 dplyr::mutate(nchar_str = centipede::nchar_lower_letter(STR)) %>%
+                                                                                 dplyr::filter(nchar_str >= source_skip_nchar) %>%
+                                                                                 rubix::arrange_by_nchar(STR, desc = FALSE) %>%
+                                                                                 #dplyr::slice(1:5) %>%
                                                                                  unlist() %>%
+                                                                                 tolower() %>%
+                                                                                 unique() %>%
                                                                                  cave::vector_to_string(),
                                                                          !!new_col_name)
+
+                                                         #secretary::press_enter()
 
                                                                 # Search if input concept is above the character number threshold
                                                                 # if (nchar(input_concept) > source_skip_nchar) {

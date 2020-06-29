@@ -5342,3 +5342,349 @@ Timestamp	Activity Type	Function	File	Details
 2020-06-27 19:45:04	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_02.csv	
 2020-06-27 19:45:05	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_02.csv	read input
 2020-06-27 19:46:51	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_02_00_crosswalk_umls_cui_via_code.csv	
+2020-06-27 19:48:54	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_02.csv	
+2020-06-27 19:49:05	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_02.csv	
+2020-06-27 19:49:07	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_02.csv	read input
+2020-06-27 19:50:49	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_02_00_crosswalk_umls_cui_via_code.csv	
+2020-06-27 19:58:48	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_02.csv	
+2020-06-27 19:58:48	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_02.csv	
+2020-06-27 19:58:48	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_02_00_crosswalk_umls_cui_via_code.csv	
+2020-06-27 19:58:48	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpinX1RH/file455f7cc47284.csv	
+2020-06-27 19:59:03	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_02.csv	read input
+2020-06-27 19:59:18	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_02.csv	read input
+2020-06-27 19:59:46	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_02.csv	read input
+2020-06-27 20:00:11	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_02.csv	read input
+2020-06-27 20:03:04	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_02.csv	
+2020-06-27 20:03:04	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_02.csv	read input
+2020-06-27 20:08:27	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_02.csv	read input
+2020-06-27 20:34:50	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_01_06_terms_exact.csv	
+2020-06-27 20:35:03	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_02_06_terms_exact.csv	
+2020-06-27 20:35:39	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_02.csv	
+2020-06-27 20:35:39	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_02.csv	read input
+2020-06-27 20:36:51	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_02_06_terms_exact.csv	
+2020-06-27 20:37:00	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_02.csv	
+2020-06-27 20:37:00	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_02.csv	
+2020-06-27 20:37:00	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_02_00_crosswalk_umls_cui_via_code.csv	
+2020-06-27 20:37:00	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_02_06_terms_exact.csv	
+2020-06-27 20:37:00	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpinX1RH/file455f63b02618.csv	
+2020-06-27 20:39:21	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsx	Load: MAP_03
+2020-06-27 20:39:22	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsxTAB: MAP_03written to MAP_03.csv
+2020-06-27 20:39:22	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	
+2020-06-27 20:40:05	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 20:42:12	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:05:29	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	
+2020-06-27 21:05:29	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:05:30	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:18	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	
+2020-06-27 21:06:18	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:20	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:20	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:20	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:20	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:21	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:21	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:21	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:21	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:22	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:22	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:22	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:23	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:23	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:23	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:23	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:24	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:24	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:24	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:24	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:25	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:25	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:25	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:25	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:26	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:26	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:26	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:26	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:27	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:27	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:27	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:27	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:27	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:28	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:28	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:28	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:28	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:29	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:29	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:29	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:29	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:29	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:30	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:30	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:30	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:30	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:31	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:31	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:31	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:31	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:32	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:32	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:06:32	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:09:28	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	
+2020-06-27 21:09:29	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:09:36	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_01_06_terms_string.csv	
+2020-06-27 21:10:51	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	
+2020-06-27 21:10:52	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:12:01	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	
+2020-06-27 21:12:01	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:15:15	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:17:35	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:26:46	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_03_01_source_as_is_exact.csv	
+2020-06-27 21:30:57	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	
+2020-06-27 21:30:57	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	read input
+2020-06-27 21:32:55	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_03_01_source_as_is_exact.csv	
+2020-06-27 21:33:05	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	
+2020-06-27 21:33:14	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	
+2020-06-27 21:33:19	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	
+2020-06-27 21:33:19	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_03.csv	
+2020-06-27 21:33:19	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_03_01_source_as_is_exact.csv	
+2020-06-27 21:33:19	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpinX1RH/file455f51a29ffb.csv	
+2020-06-27 21:44:51	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsx	Load: MAP_04
+2020-06-27 21:44:51	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_04.csv	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsxTAB: MAP_04written to MAP_04.csv
+2020-06-27 21:44:51	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_04.csv	
+2020-06-27 21:45:01	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_04.csv	
+2020-06-27 21:45:01	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_04.csv	read input
+2020-06-27 21:46:41	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_04_01_source_as_is_exact.csv	
+2020-06-27 21:46:45	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_04.csv	
+2020-06-27 21:46:45	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_04.csv	
+2020-06-27 21:46:45	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_04_01_source_as_is_exact.csv	
+2020-06-27 21:46:45	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpinX1RH/file455fbb5419c.csv	
+2020-06-27 21:49:46	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsx	Load: MAP_05
+2020-06-27 21:49:47	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_05.csv	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsxTAB: MAP_05written to MAP_05.csv
+2020-06-27 21:49:47	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_05.csv	
+2020-06-27 21:49:53	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_05.csv	
+2020-06-27 21:49:53	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_05.csv	read input
+2020-06-27 21:51:30	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_05_01_source_as_is_exact.csv	
+2020-06-27 21:51:33	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_05.csv	
+2020-06-27 21:51:33	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_05.csv	
+2020-06-27 21:51:33	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_05_01_source_as_is_exact.csv	
+2020-06-27 21:51:33	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpinX1RH/file455f28e66ec5.csv	
+2020-06-27 21:53:19	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsx	Load: MAP_06
+2020-06-27 21:53:20	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsxTAB: MAP_06written to MAP_06.csv
+2020-06-27 21:53:20	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	
+2020-06-27 21:53:27	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	
+2020-06-27 21:53:27	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	read input
+2020-06-27 21:55:04	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_06_01_source_as_is_exact.csv	
+2020-06-27 21:55:08	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	
+2020-06-27 21:55:08	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	
+2020-06-27 21:55:08	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_06_01_source_as_is_exact.csv	
+2020-06-27 21:55:08	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpinX1RH/file455f30725c7d.csv	
+2020-06-27 21:58:14	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	
+2020-06-27 21:58:25	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	read input
+2020-06-27 21:58:52	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	read input
+2020-06-27 21:59:33	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	
+2020-06-27 21:59:33	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	read input
+2020-06-27 22:00:28	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_06_06_terms_exact.csv	
+2020-06-27 22:00:38	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	
+2020-06-27 22:00:38	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	
+2020-06-27 22:00:38	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_06_01_source_as_is_exact.csv	
+2020-06-27 22:00:38	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_06_06_terms_exact.csv	
+2020-06-27 22:00:38	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpinX1RH/file455f5bece4d8.csv	
+2020-06-27 22:01:05	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	
+2020-06-27 22:01:12	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	
+2020-06-27 22:01:15	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	read input
+2020-06-27 22:02:10	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_06_06_terms_exact.csv	
+2020-06-27 22:02:14	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	
+2020-06-27 22:02:14	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	
+2020-06-27 22:02:14	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_06_01_source_as_is_exact.csv	
+2020-06-27 22:02:14	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_06_06_terms_exact.csv	
+2020-06-27 22:02:14	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpinX1RH/file455f1da4500e.csv	
+2020-06-27 22:02:20	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	
+2020-06-27 22:02:20	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	read input
+2020-06-27 22:11:17	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_06_01_source_as_is_string.csv	
+2020-06-27 22:13:05	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	
+2020-06-27 22:13:14	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	
+2020-06-27 22:13:17	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	read input
+2020-06-27 22:14:42	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_06_01_source_as_is_string.csv	
+2020-06-27 22:14:48	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	
+2020-06-27 22:14:48	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	
+2020-06-27 22:14:48	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_06_01_source_as_is_exact.csv	
+2020-06-27 22:14:48	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_06_01_source_as_is_string.csv	
+2020-06-27 22:14:48	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_06_06_terms_exact.csv	
+2020-06-27 22:14:48	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp3tuD3O/file537058cbc38f.csv	
+2020-06-27 22:14:54	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	
+2020-06-27 22:14:54	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_06.csv	read input
+2020-06-27 22:15:52	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_06_06_terms_string_capped.csv	
+2020-06-27 22:29:53	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsx	Load: MAP_09
+2020-06-27 22:29:54	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_09.csv	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsxTAB: MAP_09written to MAP_09.csv
+2020-06-27 22:29:54	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_09.csv	
+2020-06-27 22:30:36	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_09.csv	
+2020-06-27 22:30:36	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_09.csv	read input
+2020-06-27 22:31:58	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_09_01_source_as_is_string.csv	
+2020-06-27 22:32:01	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_09.csv	
+2020-06-27 22:32:01	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_09.csv	read input
+2020-06-27 22:33:27	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_09_01_source_as_is_exact.csv	
+2020-06-27 22:34:00	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_09.csv	
+2020-06-27 22:34:01	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_09.csv	read input
+2020-06-27 22:35:15	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_09_01_source_as_is_exact.csv	
+2020-06-27 22:35:18	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_09.csv	
+2020-06-27 22:35:20	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_09.csv	read input
+2020-06-27 22:36:33	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_09_01_source_as_is_string.csv	
+2020-06-27 22:36:37	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_09.csv	
+2020-06-27 22:36:38	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_09.csv	
+2020-06-27 22:36:38	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_09_01_source_as_is_exact.csv	
+2020-06-27 22:36:38	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_09_01_source_as_is_string.csv	
+2020-06-27 22:36:38	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp3tuD3O/file537029940ed4.csv	
+2020-06-27 22:42:19	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_09.csv	
+2020-06-27 22:42:34	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_09.csv	
+2020-06-27 22:42:44	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_09.csv	
+2020-06-27 22:42:58	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsx	Load: MAP_10
+2020-06-27 22:42:59	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_10.csv	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsxTAB: MAP_10written to MAP_10.csv
+2020-06-27 22:42:59	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_10.csv	
+2020-06-27 22:43:02	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_10.csv	
+2020-06-27 22:43:02	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_10.csv	read input
+2020-06-27 22:43:40	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_10.csv	read input
+2020-06-27 22:43:59	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_10.csv	read input
+2020-06-27 22:50:43	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_10.csv	read input
+2020-06-27 22:52:42	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_10.csv	read input
+2020-06-27 22:56:39	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_10_02_source_no_parentheses_exact.csv	
+2020-06-27 22:56:45	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_10.csv	
+2020-06-27 22:56:45	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_10.csv	read input
+2020-06-27 22:57:45	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_10.csv	
+2020-06-27 22:57:45	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_10.csv	read input
+2020-06-27 23:00:17	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_10_02_source_no_parentheses_exact.csv	
+2020-06-27 23:00:34	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_10.csv	
+2020-06-27 23:00:34	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_10.csv	read input
+2020-06-27 23:00:51	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_10.csv	
+2020-06-27 23:00:51	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_10.csv	
+2020-06-27 23:00:51	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_10_02_source_no_parentheses_exact.csv	
+2020-06-27 23:00:51	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp3tuD3O/file537077f345e0.csv	
+2020-06-27 23:02:41	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_10.csv	read input
+2020-06-27 23:03:34	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_10.csv	read input
+2020-06-27 23:03:38	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_10.csv	read input
+2020-06-27 23:03:51	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_10.csv	read input
+2020-06-27 23:09:14	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_10_02_source_no_parentheses_string.csv	
+2020-06-27 23:09:23	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_10.csv	
+2020-06-27 23:09:23	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_10.csv	read input
+2020-06-27 23:11:47	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_10_02_source_no_parentheses_string.csv	
+2020-06-27 23:11:58	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_10.csv	
+2020-06-27 23:11:58	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_10.csv	
+2020-06-27 23:11:58	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_10_02_source_no_parentheses_exact.csv	
+2020-06-27 23:11:58	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_10_02_source_no_parentheses_string.csv	
+2020-06-27 23:11:58	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp3tuD3O/file537070446ff7.csv	
+2020-06-27 23:16:32	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsx	Load: MAP_11
+2020-06-27 23:16:33	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_11.csv	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsxTAB: MAP_11written to MAP_11.csv
+2020-06-27 23:16:33	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_11.csv	
+2020-06-27 23:16:38	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_11.csv	
+2020-06-27 23:16:38	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_11.csv	read input
+2020-06-27 23:19:26	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_11_02_source_no_parentheses_string.csv	
+2020-06-27 23:19:32	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_11.csv	
+2020-06-27 23:19:32	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_11.csv	
+2020-06-27 23:19:32	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_11_02_source_no_parentheses_string.csv	
+2020-06-27 23:19:32	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp3tuD3O/file537034e16310.csv	
+2020-06-27 23:25:07	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsx	Load: MAP_12
+2020-06-27 23:25:09	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_12.csv	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsxTAB: MAP_12written to MAP_12.csv
+2020-06-27 23:25:09	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_12.csv	
+2020-06-27 23:25:36	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_12.csv	
+2020-06-27 23:25:36	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_12.csv	read input
+2020-06-27 23:27:14	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_12_01_source_as_is_exact.csv	
+2020-06-27 23:27:17	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_12.csv	
+2020-06-27 23:27:17	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_12.csv	read input
+2020-06-27 23:28:48	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_12_01_source_as_is_string.csv	
+2020-06-27 23:28:55	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_12.csv	
+2020-06-27 23:28:55	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_12.csv	
+2020-06-27 23:28:55	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_12_01_source_as_is_exact.csv	
+2020-06-27 23:28:55	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_12_01_source_as_is_string.csv	
+2020-06-27 23:28:55	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp3tuD3O/file5370392eca8f.csv	
+2020-06-27 23:40:14	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsx	Load: MAP_13
+2020-06-27 23:40:15	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_13.csv	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsxTAB: MAP_13written to MAP_13.csv
+2020-06-27 23:40:15	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_13.csv	
+2020-06-27 23:40:28	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_13.csv	
+2020-06-27 23:40:28	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_13.csv	read input
+2020-06-27 23:41:22	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_10_01_source_as_is_exact.csv	
+2020-06-27 23:42:20	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_13.csv	
+2020-06-27 23:42:21	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_13.csv	read input
+2020-06-27 23:42:57	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_13.csv	
+2020-06-27 23:42:57	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_13.csv	read input
+2020-06-27 23:43:53	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_13.csv	
+2020-06-27 23:43:53	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_13.csv	read input
+2020-06-27 23:44:09	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_13.csv	
+2020-06-27 23:44:09	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_13.csv	read input
+2020-06-27 23:45:11	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_13_00_crosswalk_umls_cui_via_synonyms.csv	
+2020-06-27 23:45:27	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_13.csv	
+2020-06-27 23:45:27	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_13.csv	
+2020-06-27 23:45:27	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_13_00_crosswalk_umls_cui_via_synonyms.csv	
+2020-06-27 23:45:27	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp3tuD3O/file5370551e7cb.csv	
+2020-06-27 23:52:41	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_10_01_source_as_is_string.csv	
+2020-06-28 00:32:58	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsx	Load: MAP_14
+2020-06-28 00:32:59	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_14.csv	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsxTAB: MAP_14written to MAP_14.csv
+2020-06-28 00:32:59	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_14.csv	
+2020-06-28 00:33:29	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_14.csv	
+2020-06-28 00:34:16	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_14.csv	
+2020-06-28 00:34:31	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_14.csv	
+2020-06-28 00:34:31	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_14.csv	read input
+2020-06-28 00:39:52	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsx	Load: MAP_14
+2020-06-28 00:39:53	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_14.csv	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsxTAB: MAP_14written to MAP_14.csv
+2020-06-28 00:39:53	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_14.csv	
+2020-06-28 00:40:06	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_14.csv	
+2020-06-28 00:40:07	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_14.csv	read input
+2020-06-28 00:41:04	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_14_00_crosswalk_umls_cui_via_synonyms.csv	
+2020-06-28 00:41:28	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_14.csv	
+2020-06-28 00:41:28	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_14.csv	
+2020-06-28 00:41:28	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_14_00_crosswalk_umls_cui_via_synonyms.csv	
+2020-06-28 00:41:28	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp3tuD3O/file537019452ea9.csv	
+2020-06-28 00:43:06	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsx	Load: MAP_15
+2020-06-28 00:43:07	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_15.csv	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsxTAB: MAP_15written to MAP_15.csv
+2020-06-28 00:43:07	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_15.csv	
+2020-06-28 00:43:32	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_15.csv	
+2020-06-28 00:43:32	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_15.csv	read input
+2020-06-28 01:10:49	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_15_06_terms_exact.csv	
+2020-06-28 01:12:55	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_15.csv	
+2020-06-28 01:12:55	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_15.csv	
+2020-06-28 01:12:55	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_15_06_terms_exact.csv	
+2020-06-28 01:12:55	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp3tuD3O/file5370cfa6635.csv	
+2020-06-28 12:52:41	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsx	Load: MAP_16
+2020-06-28 12:52:42	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_16.csv	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsxTAB: MAP_16written to MAP_16.csv
+2020-06-28 12:52:42	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_16.csv	
+2020-06-28 12:53:08	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_16.csv	
+2020-06-28 12:53:08	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_16.csv	read input
+2020-06-28 12:56:47	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsx	Load: MAP_16
+2020-06-28 12:56:48	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_16.csv	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsxTAB: MAP_16written to MAP_16.csv
+2020-06-28 12:56:48	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_16.csv	
+2020-06-28 12:56:52	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_16.csv	
+2020-06-28 12:56:52	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_16.csv	read input
+2020-06-28 13:21:06	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_16_06_terms_string.csv	
+2020-06-28 13:30:03	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_16.csv	
+2020-06-28 13:30:03	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_16.csv	
+2020-06-28 13:30:03	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_16_06_terms_string.csv	
+2020-06-28 13:30:03	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp3tuD3O/file5370294c1252.csv	
+2020-06-28 13:42:23	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsx	Load: MAP_17
+2020-06-28 13:42:25	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_17.csv	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsxTAB: MAP_17written to MAP_17.csv
+2020-06-28 13:42:25	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_17.csv	
+2020-06-28 13:45:41	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_17.csv	
+2020-06-28 13:45:41	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_17.csv	read input
+2020-06-28 13:47:52	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_17.csv	
+2020-06-28 13:47:52	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_17.csv	read input
+2020-06-28 13:48:50	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_17_00_crosswalk_umls_cui_via_synonyms.csv	
+2020-06-28 13:48:58	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_17.csv	
+2020-06-28 13:48:58	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_17.csv	
+2020-06-28 13:48:58	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_17_00_crosswalk_umls_cui_via_synonyms.csv	
+2020-06-28 13:48:58	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp3tuD3O/file537079fefe38.csv	
+2020-06-28 13:50:13	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsx	Load: MAP_18
+2020-06-28 13:50:14	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_18.csv	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsxTAB: MAP_18written to MAP_18.csv
+2020-06-28 13:50:14	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_18.csv	
+2020-06-28 13:50:23	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_18.csv	
+2020-06-28 13:50:23	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_18.csv	read input
+2020-06-28 13:51:24	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_18_06_terms_exact.csv	
+2020-06-28 13:52:33	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_18.csv	
+2020-06-28 13:52:36	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_18.csv	read input
+2020-06-28 13:53:32	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_18_06_terms_exact.csv	
+2020-06-28 13:54:01	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_18.csv	
+2020-06-28 13:54:01	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_18.csv	read input
+2020-06-28 13:54:58	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_18_06_terms_string.csv	
+2020-06-28 13:58:45	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_18.csv	
+2020-06-28 13:58:45	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_18.csv	
+2020-06-28 13:58:45	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_18_06_terms_exact.csv	
+2020-06-28 13:58:45	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_18_06_terms_string.csv	
+2020-06-28 13:58:45	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp3tuD3O/file53701d4c6e8d.csv	
+2020-06-28 20:04:28	read	read_clipboard		
+2020-06-28 20:07:01	write	copy_to_clipboard		

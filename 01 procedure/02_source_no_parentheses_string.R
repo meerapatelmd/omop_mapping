@@ -129,6 +129,7 @@ if (interactive()) {
                                         names(output)[i] <- input_routine_id
 
                                         typewrite_progress(i = i, input3)
+                                        typewrite_source_progress(input_concept = input_concept)
                                         rm(list = colnames(input_row))
                                         rm(input_row)
                         }
@@ -297,6 +298,7 @@ if (interactive()) {
                                         names(output)[i] <- input_routine_id
 
                                         typewrite_progress(i = i, input3)
+                                        typewrite_source_progress(input_concept = input_concept)
                                         rm(list = colnames(input_row))
                                         rm(input_row)
                                 }

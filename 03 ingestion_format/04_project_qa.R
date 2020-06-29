@@ -1,5 +1,5 @@
 # Files are split by form in the following path:
-path_to_files <- paste0(path_to_output_dir, "/03_content_qa")
+path_to_files <- paste0(path_to_output_dir, "/04_project_qa")
 
 # Creating dir for each file
 routine_path <- paste0(path_to_output_dir, "/", cave::strip_fn(cave::present_script_path()))

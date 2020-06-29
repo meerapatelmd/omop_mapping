@@ -256,6 +256,8 @@ read_input <-
                 cat("\n")
 
                 secretary::typewrite(crayon::bold("Terminal Column:"), terminal_col)
+                secretary::typewrite(crayon::bold("Source Column:"), source_col)
+                secretary::typewrite(crayon::bold("Term Column:"), term_col)
 
                 if (exists("additional_filters", envir = globalenv())) {
 
@@ -950,6 +952,58 @@ typewrite_progress <-
 
 
         }
+
+
+typewrite_source_progress <-
+        function(input_concept) {
+
+                if (is.data.frame(input)) {
+
+                        if (!exists("net_input", envir = globalenv())) {
+                                net_input <<-
+                                        input %>%
+                                        dplyr::filter_at(vars(!!terminal_col), all_vars(is.na(.))) %>%
+                                        dplyr::select(!!source_col) %>%
+                                        dplyr::distinct() %>%
+                                        unlist() %>%
+                                        centipede::no_na()
+                        }
+
+                        if (input_concept %in% net_input) {
+
+                        net_df <-
+                                tibble(net_input) %>%
+                                rowid_to_column("source_progress") %>%
+                                # No duplicate concepts to prevent backtracking of the percentage progress
+                                group_by(net_input) %>%
+                                mutate(count = n()) %>%
+                                dplyr::filter(count == 1) %>%
+                                ungroup()
+
+                        total_max <- max(net_df$source_progress)
+
+                        current_i <-
+                        net_df %>%
+                                dplyr::filter(net_input == input_concept) %>%
+                                dplyr::select(source_progress) %>%
+                                unlist() %>%
+                                unname()
+
+
+                        fraction_completed <- current_i/total_max*100
+                        fraction_completed <- signif(fraction_completed, 2)
+
+
+                                cat("\n")
+                                secretary::typewrite(crayon::yellow(Sys.time()))
+                                secretary::typewrite(crayon::yellow(fraction_completed, "percent of filtered input complete."))
+                                secretary::typewrite(crayon::yellow(current_i, "out of", total_max))
+                                cat("\n")
+                        }
+
+                }
+        }
+
 
 
 typewrite_complete <-
