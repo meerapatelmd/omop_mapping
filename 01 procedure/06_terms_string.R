@@ -78,7 +78,14 @@ if (interactive()) {
                         if (is.na(output_concept)) {
 
                                 if (!is.na(terms_string)) {
-                                        AllTerms <- cave::string_to_vector(terms_string)
+                                        if (grepl("^c[(]{1}.*[)]{1}$", terms_string)) {
+
+                                                AllTerms <- cave::string_to_vector(terms_string)
+
+                                        } else {
+
+                                                AllTerms <- terms_string
+                                        }
 
                                         secretary::typewrite(crayon::bold("Concept:"), input_concept)
                                         secretary::typewrite(crayon::bold("Search Terms:"))
@@ -88,7 +95,7 @@ if (interactive()) {
 
                                         output[[i]] <-
                                                 AllTerms %>%
-                                                rubix::map_names_set(function(x) query_phrase_in_athena(phrase = x, type = type))
+                                                rubix::map_names_set(function(x) query_phrase_in_athena(phrase = x, type = type, synonym = FALSE))
 
                                         output[[i]] <-
                                                 dplyr::bind_rows(output[[i]], .id = "Search Term") %>%

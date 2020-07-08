@@ -6,32 +6,28 @@ input <- read_terminal_workfile()
 
 
 # Converting to true NA
-        input <-
-                input %>%
-                dplyr::mutate_all(stringr::str_remove_all, "[\r\n\t]") %>%
-                dplyr::mutate_all(stringr::str_replace_na) %>%
-                dplyr::mutate_all(stringr::str_replace_all, "^NA$", NA_character_) %>%
-                dplyr::mutate_all(stringr::str_replace_all, "^$", NA_character_)
+input <-
+        input %>%
+        dplyr::mutate_all(stringr::str_remove_all, "[\r\n\t]") %>%
+        dplyr::mutate_all(stringr::str_replace_na) %>%
+        dplyr::mutate_all(stringr::str_replace_all, "^NA$", NA_character_) %>%
+        dplyr::mutate_all(stringr::str_replace_all, "^$", NA_character_)
 
 
 
-        # Select only the original parsed redcap column names and `Concept` columns
-        input2 <-
-                input %>%
-                dplyr::select(routine_id,
-                              any_of(workfile_colnames),
-                              `MSK Concept Type`,
-                              `MSK Concept`)
+# Select only the original parsed redcap column names and `Concept` columns
+input2 <-
+        input %>%
+        dplyr::select(routine_id,
+                      any_of(workfile_colnames),
+                      `MSK Concept Type`,
+                      `MSK Concept`)
 
-        # Separate `Concept` columns based on \n
-        input3 <-
-                input2 %>%
-                tidyr::separate_rows(`MSK Concept`,
-                                     sep = "\n")
+
 
         #The following 2 step was added because in the subsequent QA step, any "NA" was being flagged as requiring correction
-        input4 <-
-                input3 %>%
+        input3 <-
+                input2 %>%
                 dplyr::mutate_all(stringr::str_replace_na) %>%
                 dplyr::mutate_all(stringr::str_replace_all, "^NA$", NA_character_)
 
@@ -39,13 +35,13 @@ input <- read_terminal_workfile()
 
         # QA the Concept strip so the unmerge process will be error free (ie [V] [S] {concept id} {concept name} works)
         qa1 <-
-                input4 %>%
+                input3 %>%
                 filter_at(vars(`MSK Concept`),
                           any_vars(grepl("^.*[:]{0,1}[ ]{0,1}\\[", .) == FALSE)) %>%
                 filter_at(vars(`MSK Concept`),
                           any_vars(!is.na(.))) %>%
                 filter_at(vars(`MSK Concept`),
-                          any_vars(!(. %in% "NEW")))
+                          any_vars((grepl("^NEW", .) == FALSE)))
 
 
         if (nrow(qa1) > 0) {
@@ -116,4 +112,4 @@ input <- read_terminal_workfile()
                 }
 
         }
-}
+

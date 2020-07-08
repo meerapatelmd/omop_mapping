@@ -6,7 +6,7 @@
                 target_col <- source_col
 
                 # Search Settings
-                types <- c("exact", "like") # Can be either or both of c("exact", "like"), but "like" is not advised because the return can be a massive number of rows
+                types <- c("exact", "string", "like") # Can be either or both of c("exact", "like"), but "like" is not advised because the return can be a massive number of rows
 
 
                 # Normalize NAs because some are "NA" and others are true NA
@@ -27,9 +27,7 @@
 
                 # Getting words
                 input4 <-
-                        strsplit(input3, split = word_split) %>%
-                        unlist() %>%
-                        trimws("both") %>%
+                        input3 %>%
                         centipede::no_blank() %>%
                         stringr::str_remove_all("[']{1}|[?]{1}") %>%
                         unique()
@@ -52,8 +50,8 @@
 
                                 secretary::typewrite(crayon::bold("Phrase:"), input_word)
 
-                                x <- chariot::query_phrase(phrase = input_word,
-                                                                   type = type)
+                                x <- query_phrase_in_athena(phrase = input_word,
+                                                            type = type)
 
                                 typewrite_percent_progress(i = i,
                                                            input5)

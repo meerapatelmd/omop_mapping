@@ -89,34 +89,20 @@ if (interactive()) {
                                                                         output[[i]] <-
                                                                                 query_phrase_in_athena(phrase = input_concept, type = type) %>%
                                                                                 chariot::merge_concepts(into = `Concept`) %>%
-                                                                                dplyr::select(!!new_col_name := `Concept`)
-
-                                                                } else {
-                                                                        output[[i]] <- NA
-                                                                        output[[i]] <-
-                                                                                output[[i]] %>%
-                                                                                rubix::vector_to_tibble(!!new_col_name)
-                                                                }
+                                                                                dplyr::select(!!new_col_name := `Concept`) %>%
+                                                                                dplyr::slice(1:250)
 
 
+                                                                        names(output)[i] <- input_routine_id
 
-                                                        } else {
-                                                                output[[i]] <- NA
-                                                                output[[i]] <-
-                                                                        output[[i]] %>%
-                                                                        rubix::vector_to_tibble(!!new_col_name)
+                                                                 }
+
+
                                                         }
 
                                                 typewrite_source_progress(input_concept = input_concept)
 
-                                        } else {
-                                                output[[i]] <- NA
-                                                output[[i]] <-
-                                                        output[[i]] %>%
-                                                        rubix::vector_to_tibble(!!new_col_name)
                                         }
-
-                                        names(output)[i] <- input_routine_id
 
                                         typewrite_progress(i = i, input3)
                                         rm(list = colnames(input_row))
@@ -124,6 +110,8 @@ if (interactive()) {
                         }
 
                         final_output <- output %>%
+                                                purrr::keep(~!is.null(.)) %>%
+                                                purrr::keep(~nrow(.)>0) %>%
                                                 dplyr::bind_rows(.id = "routine_id")
 
 
@@ -279,6 +267,7 @@ if (interactive()) {
                         }
 
                         final_output <- output %>%
+                                purrr::keep(~nrow(.)>0) %>%
                                 dplyr::bind_rows(.id = "routine_id")
 
 

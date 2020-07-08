@@ -785,3 +785,264 @@ Timestamp	Activity Type	Function	File	Details
 2020-06-27 16:35:26	read	simply_read_csv	data/GLIOMA/Glioma_Workfile/output/MAP_03_02_process.csv	
 2020-06-27 16:35:26	read	simply_read_csv	data/GLIOMA/Glioma_Workfile/output/MAP_03_03_add_observation_group.csv	
 2020-06-27 16:35:27	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmppMhtOY/file30ac2f462f65.csv	
+2020-06-29 10:16:02	read	read_clipboard		
+2020-06-29 10:21:02	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_StandardLibrary_Workfile.xlsx	
+2020-06-29 10:21:04	write	simply_write_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_06.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_StandardLibrary_Workfile.xlsxTAB: MAP_06written to MAP_06.csv
+2020-06-29 10:24:44	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_06.csv	
+2020-06-29 10:26:06	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_StandardLibrary_Workfile.xlsx	
+2020-06-29 10:26:08	write	simply_write_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_06.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_StandardLibrary_Workfile.xlsxTAB: MAP_06written to MAP_06.csv
+2020-06-29 10:26:16	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_06.csv	
+2020-06-29 10:26:25	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_06.csv	
+2020-06-29 10:30:14	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_06.csv	
+2020-06-29 10:30:47	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_06.csv	
+2020-06-29 10:31:33	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpW6P0jp/file72f0aff330d.csv	
+2020-06-29 10:45:21	read	read_clipboard		
+2020-06-29 11:06:38	read	read_clipboard		
+2020-06-29 11:07:49	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_StandardLibrary_Workfile.xlsx	
+2020-06-29 11:11:30	write	copy_to_clipboard		
+2020-06-29 11:14:00	read	read_clipboard		
+2020-06-29 11:14:34	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_StandardLibrary_Workfile.xlsx	
+2020-06-29 11:16:21	write	copy_to_clipboard		
+2020-06-29 11:16:57	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpW6P0jp/file72f036979af2.csv	
+2020-06-29 11:46:02	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_StandardLibrary_Workfile.xlsx	
+2020-06-29 11:46:05	write	simply_write_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_07.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_StandardLibrary_Workfile.xlsxTAB: MAP_07written to MAP_07.csv
+2020-06-29 11:46:17	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_07.csv	
+2020-06-29 11:46:23	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpW6P0jp/file72f06603375f.csv	
+2020-06-29 11:48:02	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_07.csv	
+2020-06-29 11:48:15	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_07.csv	
+2020-06-29 11:48:32	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpW6P0jp/file72f05d28724b.csv	
+2020-06-29 12:10:35	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_StandardLibrary_Workfile.xlsx	
+2020-06-29 12:10:38	write	simply_write_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_07.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_StandardLibrary_Workfile.xlsxTAB: MAP_07written to MAP_07.csv
+2020-06-29 12:11:07	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_07.csv	
+2020-06-29 12:11:21	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_07.csv	
+2020-06-29 12:13:00	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_07.csv	
+2020-06-29 12:16:28	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpW6P0jp/file72f0363a52d8.csv	
+2020-06-29 12:22:05	read	read_clipboard		
+2020-06-29 12:22:46	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpW6P0jp/file72f03d0ad89a.csv	
+2020-06-29 12:34:25	read	read_clipboard		
+2020-06-29 12:34:42	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpW6P0jp/file72f0250c524b.csv	
+2020-06-29 12:42:46	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_StandardLibrary_Workfile.xlsx	
+2020-06-29 12:42:48	write	simply_write_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_07.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_StandardLibrary_Workfile.xlsxTAB: MAP_07written to MAP_07.csv
+2020-06-29 12:43:01	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_07.csv	
+2020-06-29 12:46:30	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_07.csv	
+2020-06-29 12:47:50	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_StandardLibrary_Workfile.xlsx	
+2020-06-29 12:47:52	write	simply_write_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_07.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_StandardLibrary_Workfile.xlsxTAB: MAP_07written to MAP_07.csv
+2020-06-29 12:47:57	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_07.csv	
+2020-06-29 12:51:01	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_07.csv	
+2020-06-29 13:03:21	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_07.csv	
+2020-06-29 19:01:09	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_07.csv	
+2020-06-29 19:07:24	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_07.csv	
+2020-06-29 20:06:34	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_07.csv	
+2020-06-29 20:12:50	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_StandardLibrary_Workfile.xlsx	
+2020-06-29 20:13:09	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Archive/Meera_StandardLibrary_Workfile.xlsx	
+2020-06-29 20:13:12	write	simply_write_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_08.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Archive/Meera_StandardLibrary_Workfile.xlsxTAB: MAP_08written to MAP_08.csv
+2020-06-29 20:13:22	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_08.csv	
+2020-06-29 20:20:03	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_08.csv	
+2020-06-29 20:20:04	write	simply_write_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/output/MAP_08_00_add_observation_group.csv	
+2020-06-29 20:20:37	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_08.csv	
+2020-06-29 20:30:20	write	copy_to_clipboard		
+2020-06-29 20:31:35	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpdgwDJD/file89803bad29d1.csv	
+2020-06-29 20:36:18	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Archive/Meera_StandardLibrary_Workfile.xlsx	
+2020-06-29 20:36:21	write	simply_write_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_09.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Archive/Meera_StandardLibrary_Workfile.xlsxTAB: MAP_09written to MAP_09.csv
+2020-06-29 20:36:24	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_09.csv	
+2020-06-29 20:36:24	write	simply_write_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/output/MAP_09_00_add_observation_group.csv	
+2020-06-29 20:36:32	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_09.csv	
+2020-06-29 20:41:17	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_09.csv	
+2020-06-29 20:41:30	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpdgwDJD/file89806e8287c5.csv	
+2020-06-29 20:45:40	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Archive/Meera_StandardLibrary_Workfile.xlsx	
+2020-06-29 20:45:43	write	simply_write_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_10.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Archive/Meera_StandardLibrary_Workfile.xlsxTAB: MAP_10written to MAP_10.csv
+2020-06-29 20:45:45	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_10.csv	
+2020-06-29 20:45:46	write	simply_write_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/output/MAP_10_00_add_observation_group.csv	
+2020-06-29 20:45:53	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_10.csv	
+2020-06-29 20:51:13	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpdgwDJD/file89807de9b42f.csv	
+2020-06-29 20:55:16	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpdgwDJD/file89803c8f2892.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_06.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_07.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_08.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_09.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_10.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_11.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_12.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_13.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_14.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_15.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_16.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_17.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_18.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_19.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_20.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_21.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_22.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_23.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_24.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_25.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_26.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_27.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_28.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_29.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_30.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_31.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_32.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_MAP_33.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_Batch 2.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_CANCER_DIAGNOSIS_b_09_i_naaccr.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_CANCER_DIAGNOSIS_b_09_i_naaccr2.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_CANCER_DIAGNOSIS_b_09_ii.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_CANCER_DIAGNOSISb09i_naaccr3.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_CANCER_METASTASES.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_CANCER_METS_03.csv	
+2020-06-29 21:01:12	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_COMPLETE_MAP_CANCER_DIAGNOSIS_A.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_FAILED_PARSING.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_IP_CANCER_METS_01.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_IP_CANCER_METS_02A.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_01.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_02.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_03.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_04.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_05.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_06.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_07.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_IP_MAP_CANCER_DIAGNOSIS_B_08.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_MAP_00.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_MAP_01.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_MAP_02.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_MAP_03.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_MAP_04.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_MAP_05.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_MAP_06.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_MAP_07.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_MAP_08.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_MAP_09.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_MAP_10.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_MAP_11.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_MAP_12.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_MAP_13.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_MAP_14.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_MAP_15.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_MAP_16.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_MAP_17.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_MEERA_SUBSET.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_NAACCR4.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_NAACCR5.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_NAACCR6.csv	
+2020-06-29 21:01:13	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Meera_other_forms_PARSED_DD.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_CANCER_DIAGNOSIS_b_09_i_naaccr.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_CANCER_DIAGNOSIS_b_09_i_naaccr2.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_CANCER_DIAGNOSIS_b_09_ii.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_CANCER_DIAGNOSISb09i_naaccr3.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_CANCER_METS_03.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_02.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_03.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_04.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_05.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_06.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_IP_MAP_CANCER_DIAGNOSIS_B_07.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_MAP_00.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_MAP_01.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_MAP_02.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_MAP_03.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_MAP_05.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_MAP_07.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_MAP_08.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_MAP_09.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_MAP_10.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_MAP_11.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_MAP_12.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_MAP_13.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_MAP_14.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_MAP_15.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_MAP_16.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_NAACCR4.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND2_NAACCR5.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND3_Core Variables Meera Subset.csv	
+2020-06-29 21:01:19	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_ROUND3_MAP_00.csv	
+2020-06-29 21:01:21	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_cancer_diagnosis.csv	
+2020-06-29 21:01:21	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_concomitant_medicationsSheet 1.csv	
+2020-06-29 21:01:21	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_MAP_00.csv	
+2020-06-29 21:01:23	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_MAP_01.csv	
+2020-06-29 21:01:25	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_MAP_02.csv	
+2020-06-29 21:01:27	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_MAP_03.csv	
+2020-06-29 21:01:29	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_MAP_04.csv	
+2020-06-29 21:01:31	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_MAP_05.csv	
+2020-06-29 21:01:33	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_MAP_06.csv	
+2020-06-29 21:01:35	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_MAP_07.csv	
+2020-06-29 21:01:36	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_MAP_08.csv	
+2020-06-29 21:01:38	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_MAP_09.csv	
+2020-06-29 21:01:40	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_MAP_10.csv	
+2020-06-29 21:01:41	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_MAP_11.csv	
+2020-06-29 21:01:43	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_MAP_12.csv	
+2020-06-29 21:01:45	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_MAP_13.csv	
+2020-06-29 21:01:47	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_MAP_15.csv	
+2020-06-29 21:01:53	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_preingestion_cardiology_MAP_06.csv	
+2020-06-29 21:01:54	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_preingestion_cardiology_Sheet1.csv	
+2020-06-29 21:01:54	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_preingestion_cardiology_Sheet2.csv	
+2020-06-29 21:01:54	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_preingestion_cardiology_Sheet3.csv	
+2020-06-29 21:01:54	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_preingestion_concom_medsMAP_06.csv	
+2020-06-29 21:01:55	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_preingestion_concom_medsSheet 1.csv	
+2020-06-29 21:01:55	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_preingestion_concom_medsSheet1.csv	
+2020-06-29 21:01:55	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_preingestion_concom_medsSheet2.csv	
+2020-06-29 21:01:55	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_preingestion_concom_medsSheet3.csv	
+2020-06-29 21:01:55	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_preingestion_MAP_06.csv	
+2020-06-29 21:01:56	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_preingestion_Sheet 1.csv	
+2020-06-29 21:01:56	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_preingestion_Sheet1.csv	
+2020-06-29 21:01:56	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_preingestion_Sheet2.csv	
+2020-06-29 21:01:56	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_preingestionMAP_06.csv	
+2020-06-29 21:01:57	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_ROUND2_MAP_00.csv	
+2020-06-29 21:01:59	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_ROUND2_MAP_01.csv	
+2020-06-29 21:01:59	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_ROUND2_MAP_02.csv	
+2020-06-29 21:02:01	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_ROUND2_MAP_03.csv	
+2020-06-29 21:02:02	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_ROUND2_MAP_04.csv	
+2020-06-29 21:02:03	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_ROUND2_MAP_05.csv	
+2020-06-29 21:02:04	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SL_ROUND2_MAP_06.csv	
+2020-06-29 21:02:04	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_SLMAP_12.csv	
+2020-06-29 21:02:06	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Workfile_Main.csv	
+2020-06-29 21:02:06	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Workfile_Map_04.csv	
+2020-06-29 21:02:06	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Workfile_Map_05.csv	
+2020-06-29 21:02:06	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Workfile_Map3.csv	
+2020-06-29 21:02:06	read	simply_read_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/input/COVID_Workfile.csv	
+2020-06-29 21:06:12	read	read_clipboard		
+2020-06-29 21:06:30	read	read_clipboard		
+2020-06-29 21:08:26	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_10.csv	
+2020-06-29 21:09:31	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpdgwDJD/file89806438d0c0.csv	
+2020-06-29 21:10:11	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpdgwDJD/file8980610707fc.csv	
+2020-06-29 21:33:13	read	read_clipboard		
+2020-06-29 21:35:25	write	copy_to_clipboard		
+2020-06-29 21:35:47	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpdgwDJD/file89803580081.csv	
+2020-06-29 21:36:48	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Archive/Meera_StandardLibrary_Workfile.xlsx	
+2020-06-29 21:37:09	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Archive/Meera_StandardLibrary_Workfile.xlsx	
+2020-06-29 21:37:12	write	simply_write_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_11.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Archive/Meera_StandardLibrary_Workfile.xlsxTAB: MAP_11written to MAP_11.csv
+2020-06-29 21:37:18	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_11.csv	
+2020-06-29 21:37:18	write	simply_write_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/output/MAP_11_00_add_observation_group.csv	
+2020-06-29 21:37:24	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_11.csv	
+2020-06-29 21:37:45	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpdgwDJD/file89804333bc26.csv	
+2020-06-29 21:39:57	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpdgwDJD/file89802cefacbb.csv	
+2020-06-29 21:41:23	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpdgwDJD/file89802b354009.csv	
+2020-06-29 21:58:47	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_11.csv	
+2020-06-29 23:12:14	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Archive/Meera_StandardLibrary_Workfile.xlsx	
+2020-06-29 23:12:17	write	simply_write_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_12.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Archive/Meera_StandardLibrary_Workfile.xlsxTAB: MAP_12written to MAP_12.csv
+2020-06-29 23:12:28	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_12.csv	
+2020-06-29 23:12:29	write	simply_write_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/output/MAP_12_00_add_observation_group.csv	
+2020-06-29 23:12:34	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_12.csv	
+2020-06-29 23:13:11	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpdgwDJD/file898046ae3a8b.csv	
+2020-06-29 23:14:17	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Archive/Meera_StandardLibrary_Workfile.xlsx	
+2020-06-29 23:14:20	write	simply_write_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_12.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Archive/Meera_StandardLibrary_Workfile.xlsxTAB: MAP_12written to MAP_12.csv
+2020-06-29 23:14:27	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_12.csv	
+2020-06-29 23:14:28	write	simply_write_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/output/MAP_12_00_add_observation_group.csv	
+2020-06-29 23:14:33	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_12.csv	
+2020-06-29 23:14:48	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpdgwDJD/file898058859fed.csv	
+2020-06-29 23:16:04	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_12.csv	
+2020-06-29 23:16:13	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_12.csv	
+2020-06-29 23:16:14	write	simply_write_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/output/MAP_12_02_process.csv	
+2020-06-29 23:17:09	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_12.csv	
+2020-06-29 23:19:14	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_12.csv	
+2020-06-29 23:47:32	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpdgwDJD/file89802e312d11.csv	
+2020-06-29 23:52:05	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Archive/Meera_StandardLibrary_Workfile.xlsx	
+2020-06-29 23:52:08	write	simply_write_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_13.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Archive/Meera_StandardLibrary_Workfile.xlsxTAB: MAP_13written to MAP_13.csv
+2020-06-29 23:52:10	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_13.csv	
+2020-06-29 23:52:11	write	simply_write_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/output/MAP_13_00_add_observation_group.csv	
+2020-06-29 23:52:16	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_13.csv	
+2020-06-29 23:52:25	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpdgwDJD/file89806b4eea65.csv	
+2020-06-29 23:52:48	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_13.csv	
+2020-06-29 23:52:57	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_13.csv	
+2020-06-30 00:19:46	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpdgwDJD/file8980787448b1.csv	
+2020-06-30 00:57:28	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpdgwDJD/file898063141231.csv	

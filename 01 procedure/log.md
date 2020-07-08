@@ -5688,3 +5688,544 @@ Timestamp	Activity Type	Function	File	Details
 2020-06-28 13:58:45	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp3tuD3O/file53701d4c6e8d.csv	
 2020-06-28 20:04:28	read	read_clipboard		
 2020-06-28 20:07:01	write	copy_to_clipboard		
+2020-07-02 18:40:37	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: regimens
+2020-07-02 18:40:37	write	simply_write_csv	data/BREAST/Source of Truth Mapping/input/regimens.csv	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsxTAB: regimenswritten to regimens.csv
+2020-07-02 18:40:37	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/regimens.csv	
+2020-07-02 18:41:07	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/regimens.csv	
+2020-07-02 18:41:07	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/regimens.csv	read input
+2020-07-02 18:49:57	write	simply_write_csv	data/BREAST/Source of Truth Mapping/output/regimens_02_source_each_word_exact.csv	
+2020-07-02 18:52:24	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/regimens.csv	
+2020-07-02 18:52:24	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/regimens.csv	read input
+2020-07-02 19:03:23	write	simply_write_csv	data/BREAST/Source of Truth Mapping/output/regimens_02_source_each_word_like.csv	
+2020-07-02 19:03:38	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/regimens.csv	
+2020-07-02 19:03:38	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/regimens.csv	
+2020-07-02 19:03:38	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/regimens_02_source_each_word_exact.csv	
+2020-07-02 19:03:38	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/regimens_02_source_each_word_like.csv	
+2020-07-02 19:03:38	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpTONQfT/file6706636f7c3a.csv	
+2020-07-02 19:06:15	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/regimens.csv	
+2020-07-02 19:06:18	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/regimens.csv	read input
+2020-07-02 19:06:57	write	simply_write_csv	data/BREAST/Source of Truth Mapping/output/regimens_02_source_each_word_exact.csv	
+2020-07-02 19:07:00	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/regimens.csv	
+2020-07-02 19:07:00	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/regimens.csv	
+2020-07-02 19:07:00	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/regimens_02_source_each_word_exact.csv	
+2020-07-02 19:07:00	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/regimens_02_source_each_word_like.csv	
+2020-07-02 19:07:00	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpTONQfT/file670663a9724e.csv	
+2020-07-02 19:07:38	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/regimens.csv	
+2020-07-02 19:07:42	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/regimens.csv	
+2020-07-02 19:07:44	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/regimens.csv	read input
+2020-07-02 19:08:22	write	simply_write_csv	data/BREAST/Source of Truth Mapping/output/regimens_02_source_each_word_exact.csv	
+2020-07-02 19:08:25	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/regimens.csv	
+2020-07-02 19:08:27	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/regimens.csv	read input
+2020-07-02 19:09:13	write	simply_write_csv	data/BREAST/Source of Truth Mapping/output/regimens_02_source_each_word_like.csv	
+2020-07-02 19:09:16	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/regimens.csv	
+2020-07-02 19:09:16	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/regimens.csv	
+2020-07-02 19:09:16	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/regimens_02_source_each_word_exact.csv	
+2020-07-02 19:09:16	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/regimens_02_source_each_word_like.csv	
+2020-07-02 19:09:16	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpTONQfT/file670698f9200.csv	
+2020-07-02 19:29:37	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: REGIMEN_MAP_00
+2020-07-02 19:29:42	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: REGIMEN_MAP_00
+2020-07-02 19:29:59	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: REGIMENS_MAP_00
+2020-07-02 19:29:59	write	simply_write_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsxTAB: REGIMENS_MAP_00written to REGIMENS_MAP_00.csv
+2020-07-02 19:29:59	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	
+2020-07-02 19:38:34	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	
+2020-07-02 19:38:40	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	
+2020-07-02 19:38:40	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	read input
+2020-07-02 19:38:46	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	
+2020-07-02 19:38:46	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	read input
+2020-07-02 19:39:31	write	simply_write_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_00_02_source_each_word_like.csv	
+2020-07-02 19:45:51	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	
+2020-07-02 19:46:17	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	read input
+2020-07-02 20:15:32	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	
+2020-07-02 20:15:40	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	
+2020-07-02 20:15:46	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	
+2020-07-02 20:15:48	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	read input
+2020-07-02 20:17:45	write	copy_to_clipboard		
+2020-07-02 20:21:47	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	
+2020-07-02 20:21:53	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	
+2020-07-02 20:21:56	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	read input
+2020-07-02 20:29:56	write	copy_to_clipboard		
+2020-07-02 20:35:40	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	
+2020-07-02 20:35:48	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	
+2020-07-02 20:35:51	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	read input
+2020-07-02 20:53:51	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	
+2020-07-02 20:53:52	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	
+2020-07-02 20:53:57	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	
+2020-07-02 20:54:01	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	read input
+2020-07-02 21:33:34	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	
+2020-07-02 21:33:45	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	read input
+2020-07-02 21:34:33	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	
+2020-07-02 21:34:39	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	read input
+2020-07-02 21:35:36	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	
+2020-07-02 21:35:39	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	read input
+2020-07-02 21:39:19	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	
+2020-07-02 21:39:23	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	
+2020-07-02 21:39:29	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	read input
+2020-07-02 21:40:36	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	
+2020-07-02 21:40:36	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_00.csv	read input
+2020-07-02 22:24:40	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmpe18ehx/file78dc259f1142.csv	
+2020-07-02 22:25:22	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmpe18ehx/file78dc6e261759.csv	
+2020-07-02 22:31:01	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: REGIMENS_MAP_01
+2020-07-02 22:31:02	write	simply_write_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsxTAB: REGIMENS_MAP_01written to REGIMENS_MAP_01.csv
+2020-07-02 22:31:02	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	
+2020-07-02 22:31:40	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	
+2020-07-02 22:31:44	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	read input
+2020-07-02 22:32:07	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	
+2020-07-02 22:32:18	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	
+2020-07-02 22:32:20	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	read input
+2020-07-02 22:35:33	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	
+2020-07-02 22:35:36	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	read input
+2020-07-02 22:49:56	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmpe18ehx/file78dc3400fbbd.csv	
+2020-07-02 22:58:36	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	
+2020-07-02 22:58:36	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	read input
+2020-07-02 23:01:26	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	
+2020-07-02 23:01:26	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	read input
+2020-07-02 23:02:45	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	
+2020-07-02 23:02:45	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	read input
+2020-07-02 23:02:55	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	
+2020-07-02 23:02:57	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	
+2020-07-02 23:02:57	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	read input
+2020-07-02 23:05:29	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	
+2020-07-02 23:05:29	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	read input
+2020-07-02 23:15:35	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	
+2020-07-02 23:16:07	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	
+2020-07-02 23:16:07	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	read input
+2020-07-02 23:25:00	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	
+2020-07-02 23:25:01	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	read input
+2020-07-02 23:25:50	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	
+2020-07-02 23:25:50	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	read input
+2020-07-02 23:26:09	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	
+2020-07-02 23:26:09	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	read input
+2020-07-02 23:27:15	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	
+2020-07-02 23:27:16	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	read input
+2020-07-02 23:30:18	write	simply_write_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_01_02_source_each_word_like_cancergov.csv	
+2020-07-02 23:32:31	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	
+2020-07-02 23:32:31	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	
+2020-07-02 23:32:31	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_01_02_source_each_word_like_cancergov.csv	
+2020-07-02 23:32:31	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp5HQiPJ/file7fd3432adfc9.csv	
+2020-07-02 23:33:32	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	
+2020-07-02 23:33:35	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	read input
+2020-07-02 23:35:36	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	
+2020-07-02 23:35:39	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	read input
+2020-07-02 23:38:42	write	simply_write_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_01_02_source_each_word_like_cancergov.csv	
+2020-07-04 20:07:42	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_01.csv	
+2020-07-04 20:07:54	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: REGIMENS_MAP_02
+2020-07-04 20:07:54	write	simply_write_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_02.csv	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsxTAB: REGIMENS_MAP_02written to REGIMENS_MAP_02.csv
+2020-07-04 20:07:54	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_02.csv	
+2020-07-04 20:08:48	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_02.csv	
+2020-07-04 20:08:59	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_02.csv	
+2020-07-04 20:08:59	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_02.csv	read input
+2020-07-04 20:09:27	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_02.csv	
+2020-07-04 20:09:29	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_02.csv	
+2020-07-04 20:09:30	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_02.csv	read input
+2020-07-04 20:20:30	write	simply_write_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_02_02_source_each_word_exact.csv	
+2020-07-04 20:21:22	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_02.csv	
+2020-07-04 20:21:22	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_02.csv	read input
+2020-07-04 20:22:34	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_02.csv	
+2020-07-04 20:22:34	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_02.csv	read input
+2020-07-04 20:23:29	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_02.csv	
+2020-07-04 20:23:29	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_02.csv	read input
+2020-07-04 20:38:04	write	simply_write_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_02_02_source_each_hemonc_monotherapy.csv	
+2020-07-04 20:39:29	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_02.csv	
+2020-07-04 20:40:33	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_02.csv	
+2020-07-04 20:40:33	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_02.csv	
+2020-07-04 20:40:33	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_02_02_source_each_hemonc_monotherapy.csv	
+2020-07-04 20:40:33	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_02_02_source_each_word_exact.csv	
+2020-07-04 20:40:33	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpWi5hJL/file923b5e29127.csv	
+2020-07-04 20:49:48	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: REGIMENS_MAP_03
+2020-07-04 20:49:48	write	simply_write_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsxTAB: REGIMENS_MAP_03written to REGIMENS_MAP_03.csv
+2020-07-04 20:49:48	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	
+2020-07-04 20:53:54	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	
+2020-07-04 20:53:54	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	read input
+2020-07-04 20:54:55	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	
+2020-07-04 20:54:56	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	read input
+2020-07-04 20:56:36	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	
+2020-07-04 20:56:36	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	read input
+2020-07-04 20:57:44	write	simply_write_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_03_02_source_each_word_exact_pivot_by_class.csv	
+2020-07-04 21:32:55	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	
+2020-07-04 21:32:59	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	
+2020-07-04 21:32:59	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	read input
+2020-07-04 21:33:25	write	simply_write_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_03_02_source_each_hemonc_monotherapy.csv	
+2020-07-04 21:33:44	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	
+2020-07-04 21:34:52	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	read input
+2020-07-04 21:35:16	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	
+2020-07-04 21:35:16	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	
+2020-07-04 21:35:16	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_03_02_source_each_hemonc_monotherapy.csv	
+2020-07-04 21:35:16	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_03_02_source_each_word_exact_pivot_by_class.csv	
+2020-07-04 21:35:16	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpHNZqKJ/file9a5329541dd2.csv	
+2020-07-04 21:35:44	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	
+2020-07-04 21:35:50	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	read input
+2020-07-04 22:19:04	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	
+2020-07-04 22:19:07	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	read input
+2020-07-04 22:23:14	write	copy_to_clipboard		
+2020-07-04 22:46:25	write	simply_write_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_03_02_source_each_word_exact_pivot_by_class.csv	
+2020-07-04 22:58:03	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	
+2020-07-04 22:58:05	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	read input
+2020-07-04 22:59:04	write	simply_write_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_03_02_source_each_word_exact_pivot_by_class.csv	
+2020-07-04 23:14:13	write	simply_write_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_03_02_source_each_word_exact_pivot_by_class.csv	
+2020-07-04 23:14:27	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	
+2020-07-04 23:14:27	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	
+2020-07-04 23:14:27	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_03_02_source_each_hemonc_monotherapy.csv	
+2020-07-04 23:14:27	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_03_02_source_each_word_exact_pivot_by_class.csv	
+2020-07-04 23:14:50	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_03_02_source_each_hemonc_monotherapy.csv	
+2020-07-04 23:14:50	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_03_02_source_each_word_exact_pivot_by_class.csv	
+2020-07-04 23:16:37	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp9jeUI8/filea1803d78d7de.csv	
+2020-07-04 23:18:30	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	
+2020-07-04 23:18:32	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	read input
+2020-07-04 23:18:53	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	
+2020-07-04 23:18:58	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	
+2020-07-04 23:19:00	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	read input
+2020-07-04 23:19:13	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	
+2020-07-04 23:19:18	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	read input
+2020-07-04 23:21:41	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	
+2020-07-04 23:21:43	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	read input
+2020-07-04 23:23:31	write	simply_write_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_03_02_source_each_word_exact_pivot_by_class.csv	
+2020-07-04 23:23:40	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	
+2020-07-04 23:23:40	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_03.csv	
+2020-07-04 23:23:40	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_03_02_source_each_hemonc_monotherapy.csv	
+2020-07-04 23:23:40	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_03_02_source_each_word_exact_pivot_by_class.csv	
+2020-07-04 23:23:48	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp9jeUI8/filea18052e56b64.csv	
+2020-07-04 23:45:20	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: REGIMENS_MAP_04
+2020-07-04 23:45:21	write	simply_write_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_04.csv	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsxTAB: REGIMENS_MAP_04written to REGIMENS_MAP_04.csv
+2020-07-04 23:45:21	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_04.csv	
+2020-07-04 23:46:10	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_04.csv	
+2020-07-04 23:46:15	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_04.csv	read input
+2020-07-04 23:46:35	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_04.csv	
+2020-07-04 23:46:37	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_04.csv	read input
+2020-07-04 23:47:15	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_04.csv	
+2020-07-04 23:47:15	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_04.csv	read input
+2020-07-04 23:50:04	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_04.csv	
+2020-07-04 23:50:06	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_04.csv	read input
+2020-07-05 00:21:45	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_04.csv	
+2020-07-05 00:22:27	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_04.csv	
+2020-07-05 00:22:30	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_04.csv	read input
+2020-07-05 00:38:59	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_04.csv	
+2020-07-05 00:38:59	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_04.csv	read input
+2020-07-05 01:55:21	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: REGIMENS_MAP_05
+2020-07-05 01:55:22	write	simply_write_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_05.csv	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsxTAB: REGIMENS_MAP_05written to REGIMENS_MAP_05.csv
+2020-07-05 01:55:22	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_05.csv	
+2020-07-05 01:56:51	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_05.csv	
+2020-07-05 01:57:29	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_05.csv	read input
+2020-07-05 02:00:13	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_05.csv	read input
+2020-07-05 02:29:50	write	simply_write_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_05_07_hemonc_component_to_regimen_relationship.csv	
+2020-07-05 02:30:00	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_05.csv	
+2020-07-05 02:30:00	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_05.csv	
+2020-07-05 02:30:00	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_05_07_hemonc_component_to_regimen_relationship.csv	
+2020-07-05 02:30:00	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZndcAc/fileb21b2343c4bd.csv	
+2020-07-07 08:44:29	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsx	Load: MAP_05
+2020-07-07 08:44:31	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsxTAB: MAP_05written to MAP_05.csv
+2020-07-07 08:44:31	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	
+2020-07-07 08:45:10	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	
+2020-07-07 08:45:27	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	
+2020-07-07 08:45:27	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	read input
+2020-07-07 08:45:43	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	
+2020-07-07 08:45:46	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	
+2020-07-07 08:45:47	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	read input
+2020-07-07 08:55:35	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	
+2020-07-07 08:55:40	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	
+2020-07-07 08:55:40	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	read input
+2020-07-07 08:55:56	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	read input
+2020-07-07 08:56:09	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	read input
+2020-07-07 08:56:43	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsx	Load: MAP_05
+2020-07-07 08:56:44	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsxTAB: MAP_05written to MAP_05.csv
+2020-07-07 08:56:44	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	
+2020-07-07 08:56:48	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	
+2020-07-07 08:56:48	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	read input
+2020-07-07 08:57:00	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	read input
+2020-07-07 08:57:16	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	read input
+2020-07-07 08:57:50	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsx	Load: MAP_05
+2020-07-07 08:57:52	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsxTAB: MAP_05written to MAP_05.csv
+2020-07-07 08:57:52	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	
+2020-07-07 08:57:58	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	read input
+2020-07-07 08:58:05	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	
+2020-07-07 08:58:05	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	read input
+2020-07-07 08:59:32	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	read input
+2020-07-07 09:11:58	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	
+2020-07-07 09:11:59	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	read input
+2020-07-07 09:13:45	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	
+2020-07-07 09:13:46	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	read input
+2020-07-07 09:14:20	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_05_01_source_as_is_string.csv	
+2020-07-07 09:14:26	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_05_01_source_as_is_string.csv	
+2020-07-07 09:14:30	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	
+2020-07-07 09:14:36	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	
+2020-07-07 09:14:36	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_05.csv	
+2020-07-07 09:14:36	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_05_01_source_as_is_string.csv	
+2020-07-07 09:14:36	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp4vxXEe/file4416529c54b1.csv	
+2020-07-07 09:21:35	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsx	Load: MAP_06
+2020-07-07 09:21:37	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_06.csv	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsxTAB: MAP_06written to MAP_06.csv
+2020-07-07 09:21:37	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_06.csv	
+2020-07-07 09:22:21	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_06.csv	read input
+2020-07-07 09:27:24	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_06.csv	read input
+2020-07-07 09:28:11	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_06.csv	
+2020-07-07 09:28:11	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_06.csv	read input
+2020-07-07 09:32:17	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/procedure/data/ESOPHAGUS/Esophagus_Analysis/output/MAP_06_02_source_each_word_exact.csv	
+2020-07-07 09:38:53	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_06.csv	
+2020-07-07 09:38:53	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_06.csv	read input
+2020-07-07 09:39:10	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_06_02_source_each_word_exact.csv	
+2020-07-07 09:39:16	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_06.csv	
+2020-07-07 09:39:16	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_06.csv	
+2020-07-07 09:39:16	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_06_02_source_each_word_exact.csv	
+2020-07-07 09:39:16	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp4vxXEe/file4416cc15e86.csv	
+2020-07-07 09:39:28	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_06.csv	
+2020-07-07 09:39:28	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_06.csv	read input
+2020-07-07 09:41:53	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_06.csv	
+2020-07-07 09:41:53	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_06.csv	read input
+2020-07-07 09:42:14	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_06.csv	
+2020-07-07 09:42:14	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_06.csv	read input
+2020-07-07 09:42:48	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_06.csv	
+2020-07-07 09:42:48	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_06.csv	read input
+2020-07-07 09:43:21	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_06.csv	
+2020-07-07 09:43:21	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_06.csv	read input
+2020-07-07 09:48:35	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsx	Load: MAP_07
+2020-07-07 09:48:38	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_07.csv	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsxTAB: MAP_07written to MAP_07.csv
+2020-07-07 09:48:38	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_07.csv	
+2020-07-07 09:48:49	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_07.csv	
+2020-07-07 09:48:50	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_07.csv	read input
+2020-07-07 10:02:02	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_07_02_source_each_word_like.csv	
+2020-07-07 10:08:43	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_07.csv	
+2020-07-07 10:08:43	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_07.csv	
+2020-07-07 10:08:43	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_07_02_source_each_word_like.csv	
+2020-07-07 10:08:43	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp4vxXEe/file44162cdb348.csv	
+2020-07-07 10:21:50	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsx	Load: MAP_08
+2020-07-07 10:21:53	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsxTAB: MAP_08written to MAP_08.csv
+2020-07-07 10:21:53	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 10:22:06	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 10:22:06	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	read input
+2020-07-07 10:22:54	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 10:22:54	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	read input
+2020-07-07 10:24:16	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 10:24:16	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	read input
+2020-07-07 10:40:41	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 10:40:45	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 10:40:45	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	read input
+2020-07-07 10:52:54	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 10:52:54	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	read input
+2020-07-07 10:54:52	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 10:54:52	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	read input
+2020-07-07 10:55:26	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 10:55:26	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	read input
+2020-07-07 10:55:41	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 10:55:41	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	read input
+2020-07-07 10:56:00	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 10:56:00	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	read input
+2020-07-07 10:57:49	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_08_06_terms_exact.csv	
+2020-07-07 10:58:24	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 10:58:24	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	read input
+2020-07-07 10:59:19	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 10:59:19	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	read input
+2020-07-07 10:59:53	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 10:59:53	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	read input
+2020-07-07 11:01:24	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_08_06_terms_string.csv	
+2020-07-07 11:02:17	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 11:02:24	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 11:02:29	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 11:02:29	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 11:02:29	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_08_06_terms_exact.csv	
+2020-07-07 11:02:29	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_08_06_terms_string.csv	
+2020-07-07 11:02:29	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpKbOTEv/file4d4928f7e5ea.csv	
+2020-07-07 11:04:24	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 11:04:24	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	read input
+2020-07-07 11:04:49	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 11:04:49	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	read input
+2020-07-07 11:08:16	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_08_06_terms_exact_synonym.csv	
+2020-07-07 11:08:25	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 11:08:25	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 11:08:25	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_08_06_terms_exact_synonym.csv	
+2020-07-07 11:08:25	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_08_06_terms_exact.csv	
+2020-07-07 11:08:25	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_08_06_terms_string.csv	
+2020-07-07 11:08:42	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 11:08:44	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	read input
+2020-07-07 11:08:58	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_08_06_terms_exact_synonym.csv	
+2020-07-07 11:09:03	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 11:09:03	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 11:09:03	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_08_06_terms_exact_synonym.csv	
+2020-07-07 11:09:03	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_08_06_terms_exact.csv	
+2020-07-07 11:09:03	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_08_06_terms_string.csv	
+2020-07-07 11:09:03	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpKbOTEv/file4d491fe94ec0.csv	
+2020-07-07 11:13:04	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 11:13:05	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	read input
+2020-07-07 11:13:46	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 11:13:46	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	read input
+2020-07-07 11:14:01	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	
+2020-07-07 11:14:01	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_08.csv	read input
+2020-07-07 11:17:37	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_08_06_new_terms_string_synonym.csv	
+2020-07-07 11:17:59	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsx	Load: MAP_09
+2020-07-07 11:18:01	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_09.csv	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsxTAB: MAP_09written to MAP_09.csv
+2020-07-07 11:18:01	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_09.csv	
+2020-07-07 11:18:06	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_09.csv	
+2020-07-07 11:18:06	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_09.csv	read input
+2020-07-07 11:18:20	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_09_06_terms_string_synonym.csv	
+2020-07-07 11:18:29	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_09.csv	
+2020-07-07 11:18:29	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_09.csv	
+2020-07-07 11:18:29	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_09_06_terms_string_synonym.csv	
+2020-07-07 11:18:29	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpKbOTEv/file4d491f859466.csv	
+2020-07-07 11:21:04	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsx	Load: MAP_10
+2020-07-07 11:21:06	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_10.csv	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsxTAB: MAP_10written to MAP_10.csv
+2020-07-07 11:21:06	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_10.csv	
+2020-07-07 11:21:39	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_10.csv	
+2020-07-07 11:21:59	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_10.csv	read input
+2020-07-07 11:39:19	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_10_01_definitions_terms_chemidplus.csv	
+2020-07-07 11:40:27	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_10_01_definitions_terms_chemidplus.csv	
+2020-07-07 11:53:51	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_10_01_definitions_terms_chemidplus.csv	
+2020-07-07 11:59:57	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_10_01_definitions_terms_chemidplus.csv	
+2020-07-07 12:00:29	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_10.csv	
+2020-07-07 12:00:30	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_10.csv	read input
+2020-07-07 12:00:51	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_10_01_definitions_terms_chemidplus.csv	
+2020-07-07 12:01:29	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_10.csv	
+2020-07-07 12:01:29	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_10.csv	
+2020-07-07 12:01:29	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_10_01_definitions_terms_chemidplus.csv	
+2020-07-07 12:01:29	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpKbOTEv/file4d492e378221.csv	
+2020-07-07 12:07:19	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsx	Load: MAP_11
+2020-07-07 12:07:23	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_11.csv	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsxTAB: MAP_11written to MAP_11.csv
+2020-07-07 12:07:23	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_11.csv	
+2020-07-07 12:07:31	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_11.csv	
+2020-07-07 12:07:55	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_11.csv	
+2020-07-07 12:07:55	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_11.csv	read input
+2020-07-07 12:11:16	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsx	Load: MAP_11
+2020-07-07 12:11:19	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_11.csv	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsxTAB: MAP_11written to MAP_11.csv
+2020-07-07 12:11:19	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_11.csv	
+2020-07-07 12:11:29	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_11.csv	
+2020-07-07 12:11:29	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_11.csv	read input
+2020-07-07 12:15:37	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_11_06_terms_exact.csv	
+2020-07-07 12:16:13	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_11.csv	
+2020-07-07 12:16:13	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_11.csv	
+2020-07-07 12:16:13	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_11_06_terms_exact.csv	
+2020-07-07 12:16:14	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpKbOTEv/file4d493e405c3b.csv	
+2020-07-07 12:16:50	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_11.csv	
+2020-07-07 12:16:50	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_11.csv	read input
+2020-07-07 12:21:19	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_11_06_terms_exact_synonym.csv	
+2020-07-07 12:21:37	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_11.csv	
+2020-07-07 12:21:37	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_11.csv	
+2020-07-07 12:21:37	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_11_06_terms_exact_synonym.csv	
+2020-07-07 12:21:37	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_11_06_terms_exact.csv	
+2020-07-07 12:21:37	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpKbOTEv/file4d497367456a.csv	
+2020-07-07 12:22:57	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_11.csv	
+2020-07-07 12:22:57	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_11.csv	read input
+2020-07-07 12:29:42	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_11_06_new_terms_string_synonym.csv	
+2020-07-07 12:35:06	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_11.csv	
+2020-07-07 12:35:06	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_11.csv	
+2020-07-07 12:35:06	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_11_06_new_terms_string_synonym.csv	
+2020-07-07 12:35:06	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_11_06_terms_exact_synonym.csv	
+2020-07-07 12:35:06	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_11_06_terms_exact.csv	
+2020-07-07 12:35:06	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpKbOTEv/file4d49fe6d57.csv	
+2020-07-07 13:20:51	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsx	Load: MAP_12
+2020-07-07 13:20:55	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_12.csv	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsxTAB: MAP_12written to MAP_12.csv
+2020-07-07 13:20:55	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_12.csv	
+2020-07-07 13:21:23	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_12.csv	
+2020-07-07 13:21:24	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_12.csv	read input
+2020-07-07 13:21:40	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_12_02_source_each_word_exact.csv	
+2020-07-07 13:21:47	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_12.csv	
+2020-07-07 13:21:47	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_12.csv	read input
+2020-07-07 13:22:43	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_12_02_source_each_word_like.csv	
+2020-07-07 13:22:59	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_12.csv	
+2020-07-07 13:22:59	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_12.csv	read input
+2020-07-07 13:23:21	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_12_01_source_as_is_string.csv	
+2020-07-07 13:23:29	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_12.csv	
+2020-07-07 13:23:29	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_12.csv	
+2020-07-07 13:23:29	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_12_01_source_as_is_string.csv	
+2020-07-07 13:23:29	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_12_02_source_each_word_exact.csv	
+2020-07-07 13:23:29	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_12_02_source_each_word_like.csv	
+2020-07-07 13:23:29	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpKbOTEv/file4d491bd5b5b0.csv	
+2020-07-07 13:42:41	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsx	Load: MAP_13
+2020-07-07 13:42:44	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_13.csv	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsxTAB: MAP_13written to MAP_13.csv
+2020-07-07 13:42:44	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_13.csv	
+2020-07-07 13:43:02	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_13.csv	
+2020-07-07 13:43:02	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_13.csv	read input
+2020-07-07 13:43:55	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_13_06_terms_exact.csv	
+2020-07-07 13:44:17	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_13.csv	
+2020-07-07 13:44:17	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_13.csv	read input
+2020-07-07 13:46:50	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_13_06_terms_string.csv	
+2020-07-07 13:47:04	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_13.csv	
+2020-07-07 13:47:04	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_13.csv	
+2020-07-07 13:47:04	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_13_06_terms_exact.csv	
+2020-07-07 13:47:04	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_13_06_terms_string.csv	
+2020-07-07 13:47:04	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpKbOTEv/file4d496b8b4416.csv	
+2020-07-07 14:02:01	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsx	Load: MAP_14
+2020-07-07 14:02:15	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsx	Load: MAP_14
+2020-07-07 14:02:56	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsx	Load: MAP_14
+2020-07-07 14:02:58	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_14.csv	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsxTAB: MAP_14written to MAP_14.csv
+2020-07-07 14:02:58	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_14.csv	
+2020-07-07 14:03:09	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_14.csv	
+2020-07-07 14:03:09	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_14.csv	read input
+2020-07-07 14:03:18	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_14_02_source_each_word_exact.csv	
+2020-07-07 14:03:23	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_14.csv	
+2020-07-07 14:03:23	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_14.csv	read input
+2020-07-07 14:03:36	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_14_02_source_each_word_like.csv	
+2020-07-07 14:03:57	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_14.csv	
+2020-07-07 14:03:59	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_14.csv	
+2020-07-07 14:04:01	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_14.csv	read input
+2020-07-07 14:04:28	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_14_02_source_each_word_like.csv	
+2020-07-07 14:04:32	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_14.csv	
+2020-07-07 14:04:35	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_14.csv	read input
+2020-07-07 14:04:55	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_14_02_source_each_word_exact.csv	
+2020-07-07 14:05:09	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_14.csv	
+2020-07-07 14:05:09	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_14.csv	read input
+2020-07-07 14:05:18	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_14_01_source_as_is_string.csv	
+2020-07-07 14:05:57	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_14.csv	
+2020-07-07 14:05:57	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_14.csv	
+2020-07-07 14:05:57	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_14_01_source_as_is_string.csv	
+2020-07-07 14:05:57	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_14_02_source_each_word_exact.csv	
+2020-07-07 14:05:57	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_14_02_source_each_word_like.csv	
+2020-07-07 14:05:57	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpKbOTEv/file4d494233783.csv	
+2020-07-07 14:15:38	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsx	Load: MAP_15
+2020-07-07 14:15:41	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_15.csv	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsxTAB: MAP_15written to MAP_15.csv
+2020-07-07 14:15:41	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_15.csv	
+2020-07-07 14:15:51	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_15.csv	
+2020-07-07 14:15:52	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_15.csv	read input
+2020-07-07 14:17:33	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_15_02_source_each_word_exact.csv	
+2020-07-07 14:17:42	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_15.csv	
+2020-07-07 14:17:42	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_15.csv	read input
+2020-07-07 14:24:34	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_15_02_source_each_word_exact_synonym.csv	
+2020-07-07 14:38:24	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_15.csv	
+2020-07-07 14:38:24	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_15.csv	
+2020-07-07 14:38:24	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_15_02_source_each_word_exact_synonym.csv	
+2020-07-07 14:38:24	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_15_02_source_each_word_exact.csv	
+2020-07-07 14:38:25	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpKbOTEv/file4d4943e60ed6.csv	
+2020-07-07 14:47:54	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsx	Load: MAP_16
+2020-07-07 14:47:59	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_16.csv	~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsxTAB: MAP_16written to MAP_16.csv
+2020-07-07 14:47:59	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_16.csv	
+2020-07-07 14:48:15	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_16.csv	
+2020-07-07 14:48:15	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_16.csv	read input
+2020-07-07 14:48:53	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_16_06_terms_exact.csv	
+2020-07-07 14:49:00	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_16.csv	
+2020-07-07 14:49:00	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_16.csv	read input
+2020-07-07 14:50:14	write	simply_write_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_16_06_terms_string.csv	
+2020-07-07 14:50:57	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_16.csv	
+2020-07-07 14:50:57	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/input/MAP_16.csv	
+2020-07-07 14:50:57	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_16_06_terms_exact.csv	
+2020-07-07 14:50:57	read	simply_read_csv	data/ESOPHAGUS/Esophagus_Analysis/output/MAP_16_06_terms_string.csv	
+2020-07-07 14:50:57	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpKbOTEv/file4d4934d8266d.csv	
+2020-07-07 15:05:22	read	read_clipboard		
+2020-07-07 15:05:35	read	read_clipboard		
+2020-07-07 15:09:31	write	copy_to_clipboard		
+2020-07-07 15:10:02	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpKbOTEv/file4d4975c99b93.csv	
+2020-07-08 14:38:23	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsx	Load: MAP_20
+2020-07-08 14:38:26	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsxTAB: MAP_20written to MAP_20.csv
+2020-07-08 14:38:26	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 14:39:45	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 14:40:12	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 14:41:00	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 14:41:19	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 14:41:27	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 14:41:27	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 15:04:49	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 15:04:49	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 15:05:34	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 15:05:34	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 15:13:01	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_20_01_source_as_is_string.csv	
+2020-07-08 15:13:06	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 15:13:08	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 15:13:39	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_20_01_source_as_is_string.csv	
+2020-07-08 15:13:52	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 15:13:52	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 15:13:52	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_20_01_source_as_is_string.csv	
+2020-07-08 15:13:52	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmpe8CcWK/file7a2220bfb5c4.csv	
+2020-07-08 15:14:07	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 15:14:07	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 15:22:30	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 15:22:56	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 15:23:13	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 17:03:02	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 17:04:22	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 17:05:47	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 17:06:31	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 17:10:14	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input

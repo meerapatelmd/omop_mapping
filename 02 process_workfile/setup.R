@@ -1,8 +1,8 @@
 # Process a complete or semi-complete workfile for pre-ingestion
 
 rm(list = ls())
-if ("/Users/patelm9/GitHub/omop_mapping/process_workfile" != getwd()) {
-        setwd("/Users/patelm9/GitHub/omop_mapping/process_workfile")
+if ("/Users/patelm9/GitHub/omop_mapping/02 process_workfile" != getwd()) {
+        setwd("/Users/patelm9/GitHub/omop_mapping/02 process_workfile")
 }
 
 source('utils.R')
@@ -23,23 +23,22 @@ if (!file.exists(path_to_input_fn)) {
 
                 if ("routine_id" %in% colnames(input)) {
 
-                        input <-
-                                input %>%
-                                dplyr::mutate_at(vars(routine_id), as.character) %>%
-                                dplyr::select(-starts_with("Source "), -any_of(c("routine_id")))  %>%
-                                tidyr::separate_rows(!!terminal_col,
-                                                sep = "\n") %>%
-                                dplyr::mutate_all(~na_if(., "")) %>%
-                                tibble::rowid_to_column("routine_id")
+                        input <- input %>%
+                                        dplyr::select(-routine_id)
 
-                } else {
+                }
+
+                secretary::typewrite(crayon::bold("Row count before separate rows:"), nrow(input))
+
                         input <-
                                 input %>%
                                 dplyr::select(-starts_with("Source "))  %>%
                                 tidyr::separate_rows(!!terminal_col,
-                                                     sep = "\n") %>%
+                                                     sep = "\n|\r\n") %>%
                                 dplyr::mutate_all(~na_if(., "")) %>%
                                 rowid_to_column(var = "routine_id")
+
+                secretary::typewrite(crayon::bold("Row count after separate rows:"), nrow(input))
                 }
 
 
@@ -48,17 +47,34 @@ if (!file.exists(path_to_input_fn)) {
                         rubix::mutate_if_not_exist(column_name = "MSK Concept Type",
                                                    value = "Fact")
 
-                if (!is.null(filter_for_form)) {
-                        input <-
-                                input %>%
-                                dplyr::filter(FORM %in% filter_for_form)
+
+                #QA for typos
+                if (any(!(input$`MSK Concept Type` %in% c("Observation Group",
+                                                        "Fact",
+                                                        "Lead Fact",
+                                                        "Attribute",
+                                                        "Modifier")))) {
+
+
+                        secretary::typewrite_error("The following is not a MSK Concept Type:")
+
+                        input$`MSK Concept Type`[!(input$`MSK Concept Type` %in% c("Observation Group",
+                                                                                   "Fact",
+                                                                                   "Lead Fact",
+                                                                                   "Attribute",
+                                                                                   "Modifier"))] %>%
+                                purrr::map(~secretary::typewrite(., tabs = 1))
+
+                        stop("MSK Concept Types not recognized.")
+
+
                 }
 
         # Copy Input to input folder
         broca::simply_write_csv(x = input,
                                 file = path_to_input_fn,
                                 log_details = paste0(origin_fn, "TAB: ", origin_terminal_tab, "written to ", input_fn))
-        } else {
+         } else {
                 secretary::typewrite("Need to write short format section, such as the QA below")
                 # Make sure that all the mapped concepts (Fact, Modifier and Attribute are included in the output)
                 ## Pre-melt
@@ -106,5 +122,5 @@ if (!file.exists(path_to_input_fn)) {
                                         log_details = paste0(origin_fn, "TAB: ", origin_terminal_tab, "written to ", input_fn))
         }
 
-}
 
+}

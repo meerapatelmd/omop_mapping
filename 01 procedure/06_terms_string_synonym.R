@@ -9,10 +9,10 @@ if (interactive()) {
         source("startup.R")
 
         # Set search parameters
-        type <- "exact"
+        type <- "string"
 
         # Create output variables
-        new_col_name <- "Terms Exact Synonym"
+        new_col_name <- "Terms String Synonym"
         path_to_output_fn <- create_path_to_output_fn()
 
         # Temporary stop if the output file exists
@@ -78,7 +78,11 @@ if (interactive()) {
                         if (is.na(output_concept)) {
 
                                 if (!is.na(terms_string)) {
-                                        AllTerms <- cave::string_to_vector(terms_string)
+                                        if (grepl("^c[(]{1}.*[)]{1}$", terms_string)) {
+                                                AllTerms <- cave::string_to_vector(terms_string)
+                                        } else {
+                                                AllTerms <- terms_string
+                                        }
 
                                         secretary::typewrite(crayon::bold("Concept:"), input_concept)
                                         secretary::typewrite(crayon::bold("Search Terms:"))

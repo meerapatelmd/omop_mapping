@@ -25,16 +25,23 @@ c('routine_id',
 'CONCEPT')
 
 read_terminal_workfile <-
-        function(terminal_col) {
+        function(terminal_col, invert = FALSE) {
 
                 terminal_col <- enquo(terminal_col)
 
                 x <- broca::simply_read_csv(path_to_input_fn)
 
                 if (!is.null(filter_for_form)) {
+
+                        if (invert) {
+                                x <- x %>%
+                                        dplyr::filter(!(FORM %in% filter_for_form))
+
+                        } else {
                         x <- x %>%
                                 rubix::filter_for_vector(filter_col = FORM,
                                                          inclusion_vector = filter_for_form)
+                        }
                 }
 
                 if (nrow(x) == 0) {

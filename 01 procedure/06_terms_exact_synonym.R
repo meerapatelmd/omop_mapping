@@ -12,7 +12,7 @@ if (interactive()) {
         type <- "exact"
 
         # Create output variables
-        new_col_name <- "Terms Exact"
+        new_col_name <- "Terms Exact Synonym"
         path_to_output_fn <- create_path_to_output_fn()
 
         # Temporary stop if the output file exists
@@ -95,7 +95,7 @@ if (interactive()) {
 
                                         output[[i]] <-
                                                 AllTerms %>%
-                                                rubix::map_names_set(function(x) query_phrase_in_athena(phrase = x, type = type))
+                                                rubix::map_names_set(function(x) chariot::query_phrase_synonym(phrase = x, type = type))
 
                                         output[[i]] <-
                                                 dplyr::bind_rows(output[[i]], .id = "Search Term") %>%

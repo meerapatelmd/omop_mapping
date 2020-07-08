@@ -1103,3 +1103,29 @@ Timestamp	Activity Type	Function	File	Details
 2020-06-26 22:26:01	read	read_full_excel	/Users/patelm9/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/01 Need Last QA/covid19_labs_piped.xlsx	
 2020-06-26 22:27:04	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/01 Need Last QA/cancer_diagnosis.xlsx	
 2020-06-26 22:27:04	write	simply_write_csv	input/COVID_SL_cancer_diagnosis__Sheet1.csv	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/To Ingestion/01 Need Last QA/cancer_diagnosis.xlsxTAB: Sheet1written to COVID_SL_cancer_diagnosis__Sheet1.csv
+2020-06-29 13:59:03	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_COVID_StandardLibrary.xlsx	
+2020-06-29 13:59:56	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Tatyana_for_comparison.xlsx	
+2020-06-29 14:10:57	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmphZHg4J/file7cc313fea854.csv	
+2020-06-29 14:14:17	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmphZHg4J/file7cc362d16d06.csv	
+2020-06-29 20:01:31	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpdgwDJD/file89805bc0655f.csv	
+2020-06-30 15:31:25	read	read_clipboard		
+2020-06-30 15:35:52	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmpe2a7f2/fileb70dc5b233.csv	
+2020-06-30 15:37:24	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmpe2a7f2/fileb7066436cd3.csv	
+2020-06-30 15:43:10	read	read_clipboard		
+2020-06-30 15:43:19	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmpe2a7f2/fileb7041f6d60e.csv	
+2020-06-30 15:45:35	read	read_clipboard		
+2020-06-30 15:46:06	read	read_clipboard		
+2020-06-30 15:47:18	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmpe2a7f2/fileb7024ffc271.csv	
+2020-06-30 15:47:51	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmpe2a7f2/fileb702e2ba73c.csv	
+2020-06-30 15:53:23	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmpe2a7f2/fileb705641508f.csv	
+2020-06-30 15:54:12	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmpe2a7f2/fileb705a100886.csv	
+2020-06-30 15:54:42	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmpe2a7f2/fileb70529fc39b.csv	
+2020-06-30 15:57:00	read	read_clipboard		
+2020-06-30 16:14:29	read	read_clipboard		
+2020-06-30 16:39:37	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpC1VUDC/file10298677331.csv	
+2020-06-30 16:40:05	write	copy_to_clipboard		
+2020-06-30 16:40:28	write	copy_to_clipboard		
+2020-06-30 16:42:00	write	copy_to_clipboard		
+2020-06-30 16:46:08	read	read_clipboard		
+2020-06-30 16:48:00	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpC1VUDC/file102947d4fd94.csv	
+2020-06-30 19:09:55	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpC1VUDC/file1029187586a6.csv	
