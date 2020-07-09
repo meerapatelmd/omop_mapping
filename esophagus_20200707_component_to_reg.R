@@ -381,9 +381,55 @@ if (nrow(qa) > 0) {
 
 }
 
-input_c2 <-
+# Difference between Part B and C is that for the input, any Regimens in the source Component list needs to have their components isolated
+input_c_i <-
         input_c %>%
-        dplyr::select(component_concept_id = concept_id,
+        rubix::filter_for(concept_class_id,
+                          inclusion_vector = "Regimen",
+                          invert = TRUE) %>%
+        rubix::rename_at_prefix(!routine_id,
+                                prefix = "component_")
+
+input_c_ii <-
+        input_c %>%
+        rubix::filter_for(concept_class_id,
+                          inclusion_vector = "Regimen",
+                          invert = FALSE) %>%
+        rubix::rename_at_prefix(!routine_id,
+                                prefix = "regimen_")
+
+input_c_ii_concept2 <-
+        input_c_ii %>%
+        rubix::mutate_to_integer(regimen_concept_id) %>%
+        dplyr::select(regimen_concept_id) %>%
+        chariot::pivot_concept2(names_from = "concept_class_id") %>%
+        dplyr::select(regimen_concept_id = concept_id_1,
+                      Component) %>%
+        tidyr::separate_rows(Component, sep = "\n") %>%
+        chariot::unmerge_concepts(Component) %>%
+        dplyr::filter(!is.na(concept_id)) %>%
+        rubix::rename_at_prefix(!regimen_concept_id,
+                                prefix = "component_") %>%
+        dplyr::select(regimen_concept_id, component_concept_id)
+
+input_c_ii2 <-
+        list(input_c_ii,
+                         input_c_ii_concept2) %>%
+        purrr::map(function(x) x %>% mutate_at(vars(contains("concept_id")), as.integer))
+
+input_c_ii3 <-
+        input_c_ii2 %>%
+        purrr::reduce(left_join)
+
+input_c2 <- list(input_c_i,
+                 input_c_ii3) %>%
+        purrr::map(function(x) x %>% mutate_at(vars(contains("concept_id")), as.integer))
+
+
+input_c3 <-
+        dplyr::bind_rows(input_c2) %>%
+        dplyr::select(component_concept_id,
+                      regimen_concept_id,
                       routine_id) %>%
         dplyr::group_by(routine_id) %>%
         dplyr::mutate(component_count = n()) %>%
@@ -395,6 +441,7 @@ input_c2 <-
 hemonc_regimens <-
         chariot::query_athena("SELECT * FROM concept WHERE vocabulary_id = 'HemOnc' AND concept_class_id = 'Regimen'") %>%
         chariot::filter_for_valid()
+
 
 hemonc_regimen_concept2 <-
         chariot::pivot_concept2(hemonc_regimens %>%
@@ -418,11 +465,12 @@ hemonc_regimen_concept23 <-
         # Remove NA component_counts, which are Regimens that do not have a 'Has antineoplastic' relationship
         dplyr::filter(!is.na(component_count)) %>%
         # Reordering columns: Components with their grouped counts from my map, all hemonc_regimen_concept_ids that each component is associated with in HemOnc
-        dplyr::select(starts_with("component"), everything())
+        dplyr::select(starts_with("component"), everything()) %>%
+        rubix::mutate_to_integer(contains("concept_id"))
 
 # Join map with hemonc regimens by component_concept_id and component_count to get all regimens associated with the source components and their counts with component counts from hemonc
 output_c <-
-        dplyr::left_join(input_c2,
+        dplyr::left_join(input_c3,
                          hemonc_regimen_concept23,
                          by = c("component_concept_id", "component_count"),
                          suffix = c(".map", ".hemonc"))
@@ -452,6 +500,7 @@ output_c2_ii <-
         dplyr::select(routine_id,
                       component_to_regimen_status,
                       component_concept_id,
+                      regimen_concept_id,
                       component_count,
                       hemonc_regimen_concept_id,
                       hemonc_regimen_count,
@@ -479,77 +528,58 @@ if ("0" %in% names(output_c2_ii3)) {
         stop("Cannot make a NEW regimen with component of length 0")
 }
 
-
+output_c2_ii4 <- list()
 if ("1" %in% names(output_c2_ii3)) {
-        output_c2_ii3$`1` <-
+        output_c2_ii4[[1]] <-
                 output_c2_ii3$`1` %>%
                 dplyr::mutate(NewRegimenConcept = paste0("NEW ", component_concept_name, " monotherapy")) %>%
-                dplyr::select(routine_id,NewRegimenConcept) %>%
+                dplyr::select(routine_id,NewRegimenConcept, component_count) %>%
                 dplyr::distinct()
 }
 
 
 if ("2" %in% names(output_c2_ii3)) {
-        output_c2_ii3$`2` <-
+        output_c2_ii4[[2]] <-
                 output_c2_ii3$`2` %>%
                 dplyr::select(routine_id,
-                              component_concept_name) %>%
-                rubix::group_by_unique_aggregate(routine_id,
-                                                 agg.col = component_concept_name,
-                                                 collapse = " and ") %>%
+                              component_concept_name,
+                              component_count) %>%
+                dplyr::group_by(routine_id, component_count) %>%
+                dplyr::arrange(component_concept_name) %>%
+                dplyr::summarize_at(vars(component_concept_name),
+                                    function(x) paste(unique(x), collapse = " and ")) %>%
+                dplyr::ungroup() %>%
                 dplyr::rename(NewRegimenConcept = component_concept_name) %>%
                 dplyr::mutate(NewRegimenConcept = paste0("NEW ", NewRegimenConcept)) %>%
-                dplyr::select(routine_id,NewRegimenConcept)
+                dplyr::select(routine_id,NewRegimenConcept, component_count)
 }
 
-if ("3" %in% names(output_c2_ii3)) {
-        output_c2_ii3$`3` <-
-                output_c2_ii3$`3` %>%
-                dplyr::select(routine_id,
-                              component_concept_name) %>%
-                rubix::group_by_unique_aggregate(routine_id,
-                                                 agg.col = component_concept_name,
-                                                 collapse = ", ") %>%
-                dplyr::rename(NewRegimenConcept = component_concept_name) %>%
-                dplyr::mutate(NewRegimenConcept = paste0("NEW ", NewRegimenConcept)) %>%
-                dplyr::select(routine_id,NewRegimenConcept)
-}
 
-if ("4" %in% names(output_c2_ii3)) {
-        output_c2_ii3$`4` <-
-                output_c2_ii3$`4` %>%
-                dplyr::select(routine_id,
-                              component_concept_name) %>%
-                rubix::group_by_unique_aggregate(routine_id,
-                                                 agg.col = component_concept_name,
-                                                 collapse = ", ") %>%
-                dplyr::rename(NewRegimenConcept = component_concept_name) %>%
-                dplyr::mutate(NewRegimenConcept = paste0("NEW ", NewRegimenConcept)) %>%
-                dplyr::select(routine_id,NewRegimenConcept)
-}
+output_c2_ii4[[3]] <-
+        output_c2_ii3[!(names(output_c2_ii3) %in% c("1","2"))] %>%
+        dplyr::bind_rows() %>%
+        dplyr::select(routine_id,
+                      component_count,
+                      component_concept_name) %>%
+        dplyr::distinct() %>%
+        dplyr::group_by(routine_id, component_count) %>%
+        dplyr::arrange(component_concept_name) %>%
+       dplyr::summarize_at(vars(component_concept_name),
+                           function(x) paste(unique(x), collapse = ", ")) %>%
+        dplyr::ungroup() %>%
+        dplyr::rename(NewRegimenConcept = component_concept_name) %>%
+        dplyr::mutate(NewRegimenConcept = paste0("NEW ", NewRegimenConcept)) %>%
+        dplyr::select(routine_id,NewRegimenConcept, component_count)
 
-if ("5" %in% names(output_c2_ii3)) {
-        output_c2_ii3$`5` <-
-                output_c2_ii3$`5` %>%
-                dplyr::select(routine_id,
-                              component_concept_name) %>%
-                rubix::group_by_unique_aggregate(routine_id,
-                                                 agg.col = component_concept_name,
-                                                 collapse = ", ") %>%
-                dplyr::rename(NewRegimenConcept = component_concept_name) %>%
-                dplyr::mutate(NewRegimenConcept = paste0("NEW ", NewRegimenConcept)) %>%
-                dplyr::select(routine_id,NewRegimenConcept)
-}
 
-output_c2_ii3 <- dplyr::bind_rows(output_c2_ii3, .id = "component_count") %>%
-        dplyr::mutate(component_count = as.integer(component_count))
+output_c2_ii4 <- dplyr::bind_rows(output_c2_ii4)
 
-output_c2_ii4 <-
+output_c2_ii5 <-
         dplyr::left_join(output_c2_ii2,
-                         output_c2_ii3)
+                         output_c2_ii4)
 
 output_c2 <- list(output_c2_i,
-                  output_c2_ii4)
+                  output_c2_ii5)
 
 
 output_c3 <-
@@ -589,7 +619,8 @@ length(unique(output_c6$routine_id))
 
 final_output_c <-
         dplyr::left_join(input,
-                         output_c6)
+                         output_c6,
+                         by = "routine_id")
 
 nrow(input_map) == nrow(final_output_c)
 length(unique(input_map$routine_id)) == length(unique(final_output_c$routine_id))

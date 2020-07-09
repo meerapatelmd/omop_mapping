@@ -6229,3 +6229,46 @@ Timestamp	Activity Type	Function	File	Details
 2020-07-08 17:05:47	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
 2020-07-08 17:06:31	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
 2020-07-08 17:10:14	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 21:23:19	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 21:23:19	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 21:31:38	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 21:31:55	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 21:32:19	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 21:33:00	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 21:33:29	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 21:34:39	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 21:35:46	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 21:37:00	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 21:39:38	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 21:40:40	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 21:41:04	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 21:43:17	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 21:45:17	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 22:31:45	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 22:32:01	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 22:32:02	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 22:33:16	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 22:33:33	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 22:33:35	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 22:34:44	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 22:34:49	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 22:34:49	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 22:35:12	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 22:35:12	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 22:35:12	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 22:36:02	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_20_02_source_each_word_exact.csv	
+2020-07-08 22:36:18	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 22:36:18	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 22:36:18	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_20_01_source_as_is_string.csv	
+2020-07-08 22:36:18	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_20_02_source_each_word_exact.csv	
+2020-07-08 22:36:18	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpN1Dyyw/filea3c63a889d30.csv	
+2020-07-08 22:53:28	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 22:53:35	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 22:53:38	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-08 23:07:13	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_20_02_source_each_word_cascade.csv	
+2020-07-08 23:07:22	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 23:07:22	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-08 23:07:22	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_20_01_source_as_is_string.csv	
+2020-07-08 23:07:22	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_20_02_source_each_word_cascade.csv	
+2020-07-08 23:07:22	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_20_02_source_each_word_exact.csv	
+2020-07-08 23:07:22	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmp7Zn88h/filea46d4adaa455.csv	
