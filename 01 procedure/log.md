@@ -6411,3 +6411,27 @@ Timestamp	Activity Type	Function	File	Details
 2020-07-12 23:45:00	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
 2020-07-12 23:45:24	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	read input
 2020-07-12 23:46:05	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	read input
+2020-07-12 23:46:33	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_source_as_is_exact.csv	
+2020-07-12 23:47:35	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	read input
+2020-07-12 23:49:03	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	read input
+2020-07-12 23:49:37	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_source_as_is_like.csv	
+2020-07-12 23:55:51	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
+2020-07-12 23:55:55	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	read input
+2020-07-12 23:57:46	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_new_source_each_word_exact.csv	
+2020-07-13 00:06:15	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
+2020-07-13 00:06:15	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	read input
+2020-07-13 00:07:05	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
+2020-07-13 00:07:06	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	read input
+2020-07-13 00:08:36	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_new_source_each_word_exact.csv	
+2020-07-13 00:09:57	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
+2020-07-13 00:09:57	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	read input
+2020-07-13 00:10:18	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_source_as_is_string.csv	
+2020-07-13 00:16:49	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_new_source_each_word_exact.csv	
+2020-07-13 00:16:54	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
+2020-07-13 00:17:24	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
+2020-07-13 00:17:24	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	read input
+2020-07-13 00:17:59	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_02_source_each_word_exact.csv	
+2020-07-13 00:18:14	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
+2020-07-13 00:18:14	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	read input
+2020-07-13 00:18:27	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
+2020-07-13 00:18:27	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	read input
