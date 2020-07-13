@@ -1,33 +1,33 @@
 # Search Settings
 # Global filters for all queries to the concept table
-vocabularies <- c("SNOMED")
+vocabularies <- c("HemOnc", "RxNorm", "RxNorm Extension")
 concept_classes <- NULL
 domains <- NULL
 standard_concepts <- NULL
 invalid_reasons <- c(NA, "NA")
 
 # Project Setup
-project_name <- "CBIOPORTAL"
-origin_fn <-  "~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsx"
-origin_tab <- "MAP_20"
+project_name <- "BREAST"
+origin_fn <-  "~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx"
+origin_tab <- "REGIMENS_MAP_10"
 
 
 # Target Columns: column where queries are sourced from. Note that the column called "CONCEPT" has been changed to "SOURCE" in this routine since the merge of OMOP concepts is functionalized to be called `Concept`.
 ## Source Columns: 1:1 concepts
 #input_file_stem <- "ESOPHAGUS_"
-source_col <- "CONCEPT"
+source_col <- "RegimenPart"
 word_split <- "[ ]{1}|[(]{1}|[)]{1}|[,]{1}|[/]{1}|[+]{1}|[-]{1}[>]{1}" #The regex to split() the SOURCE column on to retrieve words for words-based searches
 
 ## Term Columns: series of search terms and phrases to each original concept to further search for the concept. Term columns are manually inputed by an end-user.
 term_col <- NULL
 
 # Terminal Column: name of the column in the input that, if populated, indicates that a concept has been mapped and further search routines are ignored
-terminal_col <- "Fact"
-attribute_col <- NULL
+terminal_col <- "RegimenPart Source Exact"
+attribute_col <- "Component"
 
 # Skip parameters: parameters that signals skipping over a concept
 source_skip_nchar <- 4
-additional_filters <- list("VARIABLE == 'Primary Tumor Site'")
+additional_filters <- NULL
 
 #Additional filters fed into the dplyr filter function to apply to the input. Comment out if no filters should be applied.
 
@@ -94,3 +94,7 @@ rm(settings_to_write)
 
 cat("origin file: ", origin_fn, "\n", file = setting_history_fn, append = TRUE)
 cat("origin tab: ", origin_tab, "\n", file = setting_history_fn, append = TRUE)
+cat("source col: ", source_col, "\n", file = setting_history_fn, append = TRUE)
+cat("term col: ", term_col, "\n", file = setting_history_fn, append = TRUE)
+cat("terminal col: ", terminal_col, "\n", file = setting_history_fn, append = TRUE)
+cat("attribute col: ", attribute_col, "\n", file = setting_history_fn, append = TRUE)

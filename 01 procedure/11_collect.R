@@ -49,6 +49,8 @@ final_output_11 <-
                          all_outputs2,
                          by = colnames(origin))
 
+
+
 ## 2. Are all routine_ids in the origin represented in the output?
 qa2 <- all(origin$routine_id %in% final_output_11$routine_id)
 if (qa2 == FALSE) {

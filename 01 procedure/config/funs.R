@@ -10,21 +10,16 @@ set_this_wd <-
 
 clean_env <-
         function() {
-                rm(list = ls(envir = globalenv()), envir = globalenv())
+                if (interactive()) {
+                        rm(list = ls(envir = globalenv()), envir = globalenv())
+                }
         }
 
 
 create_path_to_output_fn <-
         function() {
-                path_from_wd <- paste0(path_to_output_dir, "/", origin_tab,"_", cave::strip_fn(cave::present_script_path()), ".csv")
+                paste0(getwd(), "/", path_to_output_dir, "/", origin_tab,"_", cave::strip_fn(cave::present_script_path()), ".csv")
 
-                if (interactive()) {
-
-                        return(path_from_wd)
-
-                } else {
-                       paste0("/Users/patelm9/GitHub/omop_mapping/procedure/", path_from_wd)
-                }
         }
 
 brake_if_output_exists <-
@@ -215,51 +210,30 @@ read_input <-
 
                 apply_input_filters <-
                         function(.data) {
+
                                 x <- .data
-                                if (exists("additional_filters", envir = globalenv())) {
+                                if (!is.null(additional_filters)) {
                                         eval(rlang::parse_expr(paste0("x %>% ", paste(paste0("dplyr::filter(", additional_filters, ")"), collapse = " %>% "))))
                                 } else {
                                         x
                                 }
                         }
 
-                if (terminal_col == "MSK Concept") {
-
                         x <- broca::simply_read_csv(path_to_input_fn,
                                                     log_details = "read input") %>%
-                                normalize_na() %>%
                                 dplyr::mutate_all(as.character) %>%
-                                dplyr::filter(`MSK Concept Type` == "Fact")
+                                rubix::normalize_all_to_na()
 
                         x <- apply_input_filters(x)
-
-                } else if (terminal_col == "Fact") {
-
-                        x <- broca::simply_read_csv(path_to_input_fn,
-                                                    log_details = "read input") %>%
-                                normalize_na() %>%
-                                dplyr::mutate_all(as.character)
-
-
-                        x <- apply_input_filters(x)
-
-                } else {
-
-                        x <- broca::simply_read_csv(path_to_input_fn,
-                                                    log_details = "read input") %>%
-                                normalize_na() %>%
-                                dplyr::mutate_all(as.character)
-
-                        x <- apply_input_filters(x)
-                }
 
                 cat("\n")
 
                 secretary::typewrite(crayon::bold("Terminal Column:"), terminal_col)
                 secretary::typewrite(crayon::bold("Source Column:"), source_col)
                 secretary::typewrite(crayon::bold("Term Column:"), term_col)
+                secretary::typewrite(crayon::bold("Attribute Column:"), attribute_col)
 
-                if (exists("additional_filters", envir = globalenv())) {
+                if (!is.null(additional_filters)) {
 
                         secretary::typewrite(crayon::bold("Filters:"))
                         additional_filters %>%
@@ -286,6 +260,13 @@ read_input <-
 
                 return(x)
 
+        }
+
+filter_out_null <-
+        function(output) {
+                output %>%
+                        purrr::keep(~!is.null(.)) %>%
+                        purrr::keep(~nrow(.)>0)
         }
 
 

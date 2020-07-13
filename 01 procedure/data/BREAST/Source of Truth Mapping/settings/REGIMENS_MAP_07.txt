@@ -5,8 +5,8 @@ domains : NULL
 standard_concepts : NULL
 invalid_reasons :  NA, NA 
 origin file:  ~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx 
-origin tab:  REGIMENS_MAP_05 
-source col:  Regimen 
+origin tab:  REGIMENS_MAP_07 
+source col:  RegimenPart 
 term col:  
 terminal col:  Fact 
 attribute col:  Component 

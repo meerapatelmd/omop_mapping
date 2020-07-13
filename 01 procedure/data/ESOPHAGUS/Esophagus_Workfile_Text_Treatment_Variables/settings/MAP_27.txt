@@ -1,0 +1,8 @@
+
+vocabularies :  SNOMED 
+concept_classes : NULL
+domains : NULL
+standard_concepts : NULL
+invalid_reasons :  NA, NA 
+origin file:  ~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/Mapping Files/Esophagus_Workfile_Text_Treatment_Variables.xlsx 
+origin tab:  MAP_27 
