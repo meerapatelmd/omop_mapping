@@ -1,7 +1,7 @@
 
 source("startup.R")
 type <- "exact"
-new_col_name <- "CancerGov Source Exact"
+new_col_name <- "CancerGov Each Word Exact"
 path_to_output_fn <- create_path_to_output_fn()
 # Temporary stop if the output file exists
 brake_if_output_exists()
@@ -56,11 +56,16 @@ for (i in 1:nrow(input3)) {
                 output_concept <- get(terminal_col)
                 input_routine_id <- routine_id
 
+                input_words <-
+                        strsplit(input_concept, split = word_split) %>%
+                        unlist() %>%
+                        unique()
 
 
                 # Searching
                 output[[i]] <-
-                        chariot::query_athena(paste0("SELECT * FROM cancergov_drug_name WHERE drug = '", input_concept, "' OR name = '", input_concept, "'")) %>%
+                        input_words %>%
+                        rubix::map_names_set(function(x) chariot::query_athena(paste0("SELECT * FROM cancergov_drug_name WHERE drug = '", x, "' OR name = '", x, "'"))) %>%
                         dplyr::bind_rows() %>%
                         dplyr::distinct()
 

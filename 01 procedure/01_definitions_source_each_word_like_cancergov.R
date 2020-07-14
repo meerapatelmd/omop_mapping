@@ -1,7 +1,7 @@
 
 source("startup.R")
-type <- "exact"
-new_col_name <- "CancerGov Source Exact"
+type <- "like"
+new_col_name <- "CancerGov Like"
 path_to_output_fn <- create_path_to_output_fn()
 # Temporary stop if the output file exists
 brake_if_output_exists()
@@ -56,16 +56,23 @@ for (i in 1:nrow(input3)) {
                 output_concept <- get(terminal_col)
                 input_routine_id <- routine_id
 
+                input_words <-
+                        strsplit(input_concept, split = word_split) %>%
+                        unlist() %>%
+                        unique()
 
 
                 # Searching
                 output[[i]] <-
-                        chariot::query_athena(paste0("SELECT * FROM cancergov_drug_name WHERE drug = '", input_concept, "' OR name = '", input_concept, "'")) %>%
+                        input_words %>%
+                        rubix::map_names_set(function(x) chariot::query_athena(paste0("SELECT * FROM cancergov_drug_name WHERE drug LIKE '%", x, "%' OR name LIKE '%", x, "%'"))) %>%
                         dplyr::bind_rows() %>%
                         dplyr::distinct()
 
                 # If the search returns results, creating a TERM style string, otherwise, return a "NOT Found" status
                 if (nrow(output[[i]]) > 0) {
+                        print(length(unlist(output[[i]])))
+                        secretary::press_enter()
                         output[[i]] <-
                         unlist(output[[i]]) %>%
                                 cave::vector_to_string() %>%
