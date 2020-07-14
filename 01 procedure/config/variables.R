@@ -9,13 +9,13 @@ invalid_reasons <- c(NA, "NA")
 # Project Setup
 project_name <- "BREAST"
 origin_fn <-  "~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx"
-origin_tab <- "REGIMENS_MAP_14"
+origin_tab <- "REGIMENS_MAP_15"
 
 
 # Target Columns: column where queries are sourced from. Note that the column called "CONCEPT" has been changed to "SOURCE" in this routine since the merge of OMOP concepts is functionalized to be called `Concept`.
 ## Source Columns: 1:1 concepts
 #input_file_stem <- "ESOPHAGUS_"
-source_col <- "RegimenPart"
+source_col <- "Regimen"
 word_split <- "[ ]{1}|[(]{1}|[)]{1}|[,]{1}|[/]{1}|[+]{1}|[-]{1}[>]{1}" #The regex to split() the SOURCE column on to retrieve words for words-based searches
 
 ## Term Columns: series of search terms and phrases to each original concept to further search for the concept. Term columns are manually inputed by an end-user.
@@ -30,7 +30,7 @@ component_col <- NULL
 
 # Skip parameters: parameters that signals skipping over a concept
 source_skip_nchar <- 4
-additional_filters <- list("POSSIBLY_INVESTIGATIONAL == 'TRUE'")
+additional_filters <- NULL
 
 #Additional filters fed into the dplyr filter function to apply to the input. Comment out if no filters should be applied.
 

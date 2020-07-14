@@ -6624,3 +6624,29 @@ Timestamp	Activity Type	Function	File	Details
 2020-07-14 18:15:23	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_14_01_definitions_source_as_is_like_cancergov.csv	
 2020-07-14 18:15:23	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_14_01_definitions_source_each_word_exact_cancergov.csv	
 2020-07-14 18:15:23	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//Rtmpuo59uo/file138c05f96f7de.csv	
+2020-07-14 18:19:40	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_14.csv	read input
+2020-07-14 18:20:22	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: REGIMENS_MAP_15
+2020-07-14 18:20:24	write	simply_write_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_15.csv	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsxTAB: REGIMENS_MAP_15written to REGIMENS_MAP_15.csv
+2020-07-14 18:20:24	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_15.csv	
+2020-07-14 18:20:37	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	
+2020-07-14 18:21:25	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: REGIMENS_MAP_15
+2020-07-14 18:21:26	write	simply_write_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_15.csv	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsxTAB: REGIMENS_MAP_15written to REGIMENS_MAP_15.csv
+2020-07-14 18:21:26	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_15.csv	
+2020-07-14 18:21:36	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_15.csv	read input
+2020-07-14 18:27:24	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_15.csv	read input
+2020-07-14 19:11:04	write	copy_to_clipboard		
+2020-07-14 19:37:19	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_15_07_hemonc_new_regimen_to_component.csv	
+2020-07-14 19:39:06	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_15.csv	read input
+2020-07-14 19:43:26	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_15_07_newest_hemonc_regimen_to_component.csv	
+2020-07-14 19:43:29	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_15.csv	read input
+2020-07-14 19:43:47	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_15.csv	
+2020-07-14 19:43:47	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_15.csv	
+2020-07-14 19:43:47	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_15_07_hemonc_new_regimen_to_component.csv	
+2020-07-14 19:43:47	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_15_07_newest_hemonc_regimen_to_component.csv	
+2020-07-14 19:44:11	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_15.csv	read input
+2020-07-14 19:44:13	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_15_07_newest_hemonc_regimen_to_component.csv	
+2020-07-14 19:44:24	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_15.csv	
+2020-07-14 19:44:24	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_15.csv	
+2020-07-14 19:44:24	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_15_07_hemonc_new_regimen_to_component.csv	
+2020-07-14 19:44:24	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_15_07_newest_hemonc_regimen_to_component.csv	
+2020-07-14 19:44:24	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpdPacPj/file141b67e21e83e.csv	
