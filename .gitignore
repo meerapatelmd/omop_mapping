@@ -9,6 +9,8 @@ data_with_phi/*
 input/*
 output/*
 data/*
+*.rdf
+
 
 
 
