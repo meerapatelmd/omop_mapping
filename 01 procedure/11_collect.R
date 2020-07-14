@@ -9,7 +9,8 @@ origin <-
 # Get all the outputs from this run based on the input_fn pattern
 all_outputs <-
 list.files(path_to_output_dir, full.names = TRUE, pattern = cave::strip_fn(input_fn)) %>%
-       rubix::map_names_set(broca::simply_read_csv)
+       rubix::map_names_set(broca::simply_read_csv) %>%
+        purrr::keep(~nrow(.)>0)
 
 
 # QA on output

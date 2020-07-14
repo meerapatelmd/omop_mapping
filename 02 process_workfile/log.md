@@ -1046,3 +1046,12 @@ Timestamp	Activity Type	Function	File	Details
 2020-06-29 23:52:57	read	simply_read_csv	data/COVID Standard Library/Meera_StandardLibrary_Workfile/input/MAP_13.csv	
 2020-06-30 00:19:46	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpdgwDJD/file8980787448b1.csv	
 2020-06-30 00:57:28	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpdgwDJD/file898063141231.csv	
+2020-07-13 18:48:17	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsx	
+2020-07-13 18:48:19	write	simply_write_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsxTAB: MAP_20written to MAP_20.csv
+2020-07-13 18:48:54	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-13 18:49:02	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-13 18:49:26	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-13 18:50:38	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-13 18:56:28	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-13 19:02:28	write	copy_to_clipboard		
+2020-07-13 19:02:37	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpecvqKa/file11f0910f19566.csv	

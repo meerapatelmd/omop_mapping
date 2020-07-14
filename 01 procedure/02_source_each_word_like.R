@@ -8,6 +8,7 @@ type <- "like"
 
 # Create output variables
 new_col_name <- "Source Each Word Like"
+
 path_to_output_fn <- create_path_to_output_fn()
 
 

@@ -20,8 +20,7 @@ input2 <-
         input %>%
         dplyr::select(routine_id,
                       any_of(workfile_colnames),
-                      `MSK Concept Type`,
-                      `MSK Concept`)
+                      !!terminal_col)
 
 
 
@@ -36,11 +35,11 @@ input2 <-
         # QA the Concept strip so the unmerge process will be error free (ie [V] [S] {concept id} {concept name} works)
         qa1 <-
                 input3 %>%
-                filter_at(vars(`MSK Concept`),
+                filter_at(vars(!!terminal_col),
                           any_vars(grepl("^.*[:]{0,1}[ ]{0,1}\\[", .) == FALSE)) %>%
-                filter_at(vars(`MSK Concept`),
+                filter_at(vars(!!terminal_col),
                           any_vars(!is.na(.))) %>%
-                filter_at(vars(`MSK Concept`),
+                filter_at(vars(!!terminal_col),
                           any_vars((grepl("^NEW", .) == FALSE)))
 
 

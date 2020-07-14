@@ -26,13 +26,13 @@ input2 <-
         input %>%
         dplyr::select(routine_id,
                 any_of(workfile_colnames),
-                starts_with("MSK Concept"))
+                !!terminal_col)
 
 
 # Separate `Concept` columns based on \n
 input3 <-
         input2 %>%
-        separate_rows("MSK Concept",
+        separate_rows(!!terminal_col,
                       sep = "\n")
 
 
@@ -40,16 +40,17 @@ input3 <-
 # Unmerging `MSK Concept` to get the concept_id from the merge strip (`msk_concept_id`)
 output <-
         input3 %>%
-        chariot::unmerge_concepts(`MSK Concept`, remove = FALSE) %>%
+        chariot::unmerge_concepts(!!terminal_col, remove = FALSE) %>%
         dplyr::select(msk_concept_id = concept_id,
                       msk_concept_name = concept_name,
                       routine_id:last_col())
 
 # Creating a fresh `Concept` strip based on msk_concept_id as a part of QA to make sure all the msk_concept_ids exist
 output2_concept <-
-        chariot::left_join_df_to_concept(output %>%
+        chariot::left_join_concept(output %>%
                                                  dplyr::select(msk_concept_id) %>%
                                                  dplyr::distinct() %>%
+                                                dplyr::mutate_all(as.integer) %>%
                                                  # Remove NAs from unmapped concepts because can cause issues with QA downstream
                                                  dplyr::filter_all(any_vars(!is.na(.)))) %>%
         chariot::merge_concepts(into = "MSK Concept") %>%
@@ -59,6 +60,7 @@ output2_concept <-
 
 output2 <-
         output %>%
+        rubix::mutate_to_integer(msk_concept_id) %>%
         dplyr::left_join(output2_concept,
                          by = "msk_concept_id",
                          suffix = c(".current", ".new"))
@@ -67,7 +69,7 @@ output2 <-
 # Are any of the new `MSK Concept` strips NA while the current isn't?
 qa1 <-
         output2 %>%
-        dplyr::filter(is.na(`MSK Concept.new`) && !is.na(`MSK Concept.current`))
+        dplyr::filter(is.na(!!terminal_col) && !is.na(`MSK Concept`))
 
 
 if (nrow(qa1) > 0) {
@@ -75,11 +77,10 @@ if (nrow(qa1) > 0) {
 }
 
 output3 <- output2 %>%
-        dplyr::mutate(`MSK Concept` = coalesce(`MSK Concept.new`, `MSK Concept.current`)) %>%
-        dplyr::select(-starts_with("MSK Concept."))
+        dplyr::select(-!!terminal_col)
 
 output4_concept <-
-        chariot::left_join_df_to_concept(output3 %>%
+        chariot::left_join_concept(output3 %>%
                                                  dplyr::select(msk_concept_id))
 
 

@@ -1130,3 +1130,15 @@ Timestamp	Activity Type	Function	File	Details
 2020-06-30 16:48:00	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpC1VUDC/file102947d4fd94.csv	
 2020-06-30 19:09:55	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpC1VUDC/file1029187586a6.csv	
 2020-07-09 17:02:17	read	read_clipboard		
+2020-07-13 14:13:29	read	read_clipboard		
+2020-07-13 14:13:40	read	read_clipboard		
+2020-07-13 14:13:52	read	read_clipboard		
+2020-07-13 14:16:17	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpOGG8pf/file10fd21ef7fcc3.csv	
+2020-07-13 14:18:49	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpOGG8pf/file10fd226556e31.csv	
+2020-07-13 14:32:34	read	read_full_excel	~/GitHub/KMI/biblio-tech/DICTIONARY/UpToDate_Drugs/MASTER.xlsx	
+2020-07-13 14:48:06	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpvMlchC/file1163c3e40b1c.csv	
+2020-07-13 16:07:38	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpvMlchC/file1163c637934a4.csv	
+2020-07-13 16:08:52	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpvMlchC/file1163c6935596a.csv	
+2020-07-13 18:23:11	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpecvqKa/file11f093cbff470.csv	
+2020-07-13 18:25:31	read	read_clipboard		
+2020-07-13 20:29:51	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_12.csv	read input

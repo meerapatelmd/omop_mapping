@@ -6435,3 +6435,138 @@ Timestamp	Activity Type	Function	File	Details
 2020-07-13 00:18:14	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	read input
 2020-07-13 00:18:27	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
 2020-07-13 00:18:27	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	read input
+2020-07-13 00:19:38	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
+2020-07-13 00:20:17	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
+2020-07-13 00:20:17	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	read input
+2020-07-13 00:20:51	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	read input
+2020-07-13 00:22:11	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
+2020-07-13 00:22:11	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
+2020-07-13 00:22:11	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_new_source_each_word_exact.csv	
+2020-07-13 00:22:11	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_source_as_is_exact.csv	
+2020-07-13 00:22:11	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_source_as_is_like.csv	
+2020-07-13 00:22:11	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_source_as_is_string.csv	
+2020-07-13 00:22:11	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_02_source_each_word_exact.csv	
+2020-07-13 00:22:16	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
+2020-07-13 00:22:16	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
+2020-07-13 00:22:16	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_new_source_each_word_exact.csv	
+2020-07-13 00:22:16	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_source_as_is_exact.csv	
+2020-07-13 00:22:16	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_source_as_is_like.csv	
+2020-07-13 00:22:16	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_source_as_is_string.csv	
+2020-07-13 00:22:16	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_02_source_each_word_exact.csv	
+2020-07-13 00:23:02	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
+2020-07-13 00:23:02	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
+2020-07-13 00:23:02	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_source_as_is_exact.csv	
+2020-07-13 00:23:02	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_source_as_is_like.csv	
+2020-07-13 00:23:02	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_source_as_is_string.csv	
+2020-07-13 00:23:02	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_02_source_each_word_exact.csv	
+2020-07-13 00:24:08	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
+2020-07-13 00:24:08	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
+2020-07-13 00:24:08	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_source_as_is_exact.csv	
+2020-07-13 00:24:08	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_source_as_is_like.csv	
+2020-07-13 00:24:08	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_source_as_is_string.csv	
+2020-07-13 00:24:08	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_02_source_each_word_exact.csv	
+2020-07-13 00:24:08	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJPLgex/file106a8246e6f76.csv	
+2020-07-13 00:26:41	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_02_source_each_word_like.csv	
+2020-07-13 00:41:12	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
+2020-07-13 00:41:12	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	read input
+2020-07-13 00:48:14	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_source_as_is_exact_investigational_drug.csv	
+2020-07-13 00:48:46	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
+2020-07-13 00:48:46	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
+2020-07-13 00:48:46	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_source_as_is_exact_investigational_drug.csv	
+2020-07-13 00:48:46	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_source_as_is_exact.csv	
+2020-07-13 00:48:46	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_source_as_is_like.csv	
+2020-07-13 00:48:46	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_source_as_is_string.csv	
+2020-07-13 00:48:46	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_02_source_each_word_exact.csv	
+2020-07-13 00:48:46	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_02_source_each_word_like.csv	
+2020-07-13 00:48:46	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJPLgex/file106a832c0c5a4.csv	
+2020-07-13 00:49:37	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
+2020-07-13 00:49:37	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_10.csv	
+2020-07-13 00:49:37	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_source_as_is_exact_investigational_drug.csv	
+2020-07-13 00:49:37	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_source_as_is_exact.csv	
+2020-07-13 00:49:37	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_source_as_is_like.csv	
+2020-07-13 00:49:37	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_01_source_as_is_string.csv	
+2020-07-13 00:49:37	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_02_source_each_word_exact.csv	
+2020-07-13 00:49:37	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_10_02_source_each_word_like.csv	
+2020-07-13 00:49:37	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJPLgex/file106a8defac04.csv	
+2020-07-13 00:50:48	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: REGIMENS_MAP_11
+2020-07-13 00:50:50	write	simply_write_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsxTAB: REGIMENS_MAP_11written to REGIMENS_MAP_11.csv
+2020-07-13 00:50:50	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	
+2020-07-13 00:51:08	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	
+2020-07-13 00:51:08	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	read input
+2020-07-13 00:51:23	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_11_01_source_as_is_exact_investigational_drug.csv	
+2020-07-13 00:51:28	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	
+2020-07-13 00:51:28	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	
+2020-07-13 00:51:28	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_11_01_source_as_is_exact_investigational_drug.csv	
+2020-07-13 00:51:28	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJPLgex/file106a8720641c1.csv	
+2020-07-13 00:58:41	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	
+2020-07-13 00:59:07	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	read input
+2020-07-13 00:59:19	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	
+2020-07-13 00:59:29	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	read input
+2020-07-13 01:04:12	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_11_01_source_as_is_exact_investigational_drug.csv	
+2020-07-13 01:04:27	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	
+2020-07-13 01:04:27	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	
+2020-07-13 01:04:27	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_11_01_source_as_is_exact_investigational_drug.csv	
+2020-07-13 01:04:27	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJPLgex/file106a84f9242c4.csv	
+2020-07-13 01:05:49	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	
+2020-07-13 01:06:02	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	read input
+2020-07-13 01:08:06	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_11_01_source_as_is_exact_investigational_drug.csv	
+2020-07-13 01:10:29	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	read input
+2020-07-13 01:11:00	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_11_01_source_as_is_exact_investigational_drug.csv	
+2020-07-13 01:11:05	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	
+2020-07-13 01:11:05	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	
+2020-07-13 01:11:05	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_11_01_source_as_is_exact_investigational_drug.csv	
+2020-07-13 01:11:05	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJPLgex/file106a82e035d04.csv	
+2020-07-13 01:15:05	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	
+2020-07-13 01:15:16	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	read input
+2020-07-13 01:21:32	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	
+2020-07-13 01:21:35	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	read input
+2020-07-13 01:23:05	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_11_01_source_as_is_exact_investigational_drug.csv	
+2020-07-13 01:23:10	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	
+2020-07-13 01:24:05	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	
+2020-07-13 01:24:06	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	
+2020-07-13 01:24:07	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_11_01_source_as_is_exact_investigational_drug.csv	
+2020-07-13 01:27:08	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	
+2020-07-13 01:27:10	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	read input
+2020-07-13 01:28:38	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_11_01_source_as_is_exact_investigational_drug.csv	
+2020-07-13 01:28:44	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	
+2020-07-13 01:28:44	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_11.csv	
+2020-07-13 01:28:44	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_11_01_source_as_is_exact_investigational_drug.csv	
+2020-07-13 01:28:44	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJPLgex/file106a878014646.csv	
+2020-07-13 01:35:50	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: REGIMENS_MAP_12
+2020-07-13 01:36:07	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: REGIMENS_MAP_12
+2020-07-13 01:36:25	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: REGIMENS_MAP_12
+2020-07-13 01:36:32	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: REGIMENS_MAP_12
+2020-07-13 01:36:46	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: REGIMENS_MAP_12
+2020-07-13 01:37:27	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: REGIMENS_MAP_12
+2020-07-13 01:38:03	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: REGIMENS_MAP_12
+2020-07-13 01:38:18	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: REGIMENS_MAP_12
+2020-07-13 01:38:38	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: REGIMENS_MAP_12
+2020-07-13 01:38:40	write	simply_write_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_12.csv	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsxTAB: REGIMENS_MAP_12written to REGIMENS_MAP_12.csv
+2020-07-13 01:38:40	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_12.csv	
+2020-07-13 01:39:03	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_12.csv	
+2020-07-13 01:39:03	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_12.csv	read input
+2020-07-13 01:40:13	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_12_06_terms_exact.csv	
+2020-07-13 01:40:17	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_12.csv	
+2020-07-13 01:40:17	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_12.csv	
+2020-07-13 01:40:17	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_12_06_terms_exact.csv	
+2020-07-13 01:40:17	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpJPLgex/file106a81bacdb37.csv	
+2020-07-13 19:16:40	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_12.csv	
+2020-07-13 20:29:55	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_12.csv	
+2020-07-13 20:29:58	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_12.csv	read input
+2020-07-13 20:30:34	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_12.csv	read input
+2020-07-13 20:30:49	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: REGIMENS_MAP_13
+2020-07-13 20:30:50	write	simply_write_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_13.csv	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsxTAB: REGIMENS_MAP_13written to REGIMENS_MAP_13.csv
+2020-07-13 20:30:50	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_13.csv	
+2020-07-13 20:31:33	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_13.csv	read input
+2020-07-13 20:31:41	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	
+2020-07-13 20:31:57	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_13.csv	
+2020-07-13 20:32:04	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_13.csv	read input
+2020-07-13 20:33:26	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_13.csv	
+2020-07-13 20:33:56	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: REGIMENS_MAP_13
+2020-07-13 20:33:57	write	simply_write_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_13.csv	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsxTAB: REGIMENS_MAP_13written to REGIMENS_MAP_13.csv
+2020-07-13 20:33:57	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_13.csv	
+2020-07-13 20:34:40	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_13.csv	read input
+2020-07-13 20:35:29	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: REGIMENS_MAP_13
+2020-07-13 20:35:31	write	simply_write_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_13.csv	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsxTAB: REGIMENS_MAP_13written to REGIMENS_MAP_13.csv
+2020-07-13 20:35:31	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_13.csv	
+2020-07-13 20:35:38	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_13.csv	read input

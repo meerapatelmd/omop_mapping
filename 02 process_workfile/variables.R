@@ -1,16 +1,15 @@
 # Project Setup
-project_name <- "COVID Standard Library"
+project_name <- "CBIOPORTAL"
 
 # Project Setup
 # Origin: Workfile
-origin_fn <-  "~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Archive/Meera_StandardLibrary_Workfile.xlsx"
-origin_terminal_tab <- "MAP_13"
+origin_fn <-  "~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsx"
+origin_terminal_tab <- "MAP_20"
 
 
 input_format <- "long" #Is input long format by MSK Concept Type or is it short format where Fact, Attribute, and Modifier are cast across?
-terminal_col <- "MSK Concept" #What is the terminal column?
-filter_for_form <- c('covid19_concomitant_medications',
-                        'covid19_oxygen_support', 'covid19_infection', 'covid19_treatment_before_baseline', 'covid19_thrombotic_events', 'covid19_bleeding_events', 'covid19_invasive_ventilation_support_initiation', 'covid19_testing', 'covid19_chest_imaging_admission_icu', 'covid19_cardiology_testing', 'cancer_status', 'covid19_invasive_ventilation_support_initiation_piped', 'covid19_oxygen_support_piped', 'covid19_noninvasive_ventilation_support', 'covid19_noninvasive_ventilation_support_piped', 'covid19_serology_testing', 'covid19_testing_piped', 'covid19_infection_piped', 'covid19_concomitant_medications_piped')
+terminal_col <- "Fact" #What is the terminal column?
+filter_for_form <- NULL
 
 
 # Creating project directory if it does not exist
