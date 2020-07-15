@@ -1,19 +1,50 @@
-# Current mappings are either by component or by regimen and they are being reconciled for a complete representation
-input <- broca::read_full_excel("~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsx")
-input <- input$MAP_26
+##############################################
+### INTRODUCTION
+##############################################
+# Clear env
+# clean_env()
+
+# Source function and vars
+ source("startup.R")
+
+# Set search parameters
+# type <- "Pivot"
+
+# Create output variables
+# new_col_name <- "HemOnc Component to Regimen"
+# path_to_output_fn <- create_path_to_output_fn()
+
+# Temporary stop if the output file exists
+# brake_if_output_exists()
+
+##############################################
+### PRE-PROCEDURE
+##############################################
+# Read input
+input <- read_input()
+path_to_output_fn <- create_path_to_output_fn()
+brake_if_output_exists()
+
 input_map <- input %>%
-        dplyr::select(routine_id,
-                      Component,
-                      Regimen) %>%
+        dplyr::mutate_all(as.character) %>%
         rubix::normalize_all_to_na() %>%
+        dplyr::filter_at(vars(Component), any_vars(!is.na(.))) %>%
+        dplyr::filter_at(vars(Regimen), any_vars(is.na(.))) %>%
+        dplyr::select(routine_id,
+                      Component)
+
+# Create final input object to join with final output object before export
+final_input <- input_map
+
+
+
+
+input_map2 <- input_map %>%
+        #separate by carriage return
+        tidyr::separate_rows(Component,
+                             sep = "\n") %>%
         # remove excess carriage returns
         dplyr::mutate_at(vars(!routine_id), ~stringr::str_remove_all(., "\r"))
-
-# Filtering for only Regimens that do not have a value in the map
-input_map2 <-
-        input_map %>%
-        dplyr::filter(is.na(Regimen)) %>%
-        dplyr::select(-Regimen)
 
 
 ##################################
@@ -21,63 +52,63 @@ input_map2 <-
 # NEW: if there is at least one NEW component, the regimen will be NEW and a label is created
 
 # ***NEED TO UPDATE THE BELOW to a reiteration of the same script later on in this file
-# input_a <-
-#         input_map2 %>%
-#         rubix::filter_at_grepl(Component,
-#                                grepl_phrase = "NEW ",
-#                                evaluates_to = TRUE,
-#                                ignore.case = FALSE
-#                                ) %>%
-#         tidyr::separate_rows(Component,
-#                              sep = "\n") %>%
-#         mutate_all(trimws) %>%
-#         #remove {prefix}[:]
-#         tidyr::extract(Component,
-#                         into = c("Search Term", "ComponentConcept"),
-#                         regex = "(^.*?[:]{1}[ ]{1})(.*$)",
-#                        remove = FALSE) %>%
-#         dplyr::mutate(ComponentConcept = coalesce(ComponentConcept, Component)) %>%
-#         dplyr::select(routine_id, ComponentConcept) %>%
-#         chariot::unmerge_concepts(ComponentConcept, remove = FALSE) %>%
-#         # Include NEW concepts
-#         dplyr::mutate(concept_name = ifelse(grepl("NEW ", ComponentConcept),
-#                                             stringr::str_remove_all(ComponentConcept, "NEW "),
-#                                             concept_name)) %>%
-#         # alphabetical order
-#         dplyr::group_by(routine_id) %>%
-#         dplyr::arrange(concept_name) %>%
-#         dplyr::mutate(component_count = length(concept_name)) %>%
-#         dplyr::ungroup()
-#
-# output_a <- split(input_a, input_a$component_count)
-# if ("1" %in% names(output_a)) {
-#         output_a$`1` <-
-#                 output_a$`1` %>%
-#                 dplyr::mutate(NewRegimen = paste0("NEW ", concept_name, " monotherapy")) %>%
-#                 dplyr::select(routine_id,NewRegimen)
-# }
-#
-# if ("2" %in% names(output_a)) {
-#         output_a$`2` <-
-#                 output_a$`2` %>%
-#                 dplyr::select(routine_id,
-#                               concept_name) %>%
-#                 rubix::group_by_unique_aggregate(routine_id,
-#                                                  agg.col = concept_name,
-#                                                  collapse = " and ") %>%
-#                 dplyr::rename(NewRegimen = concept_name) %>%
-#                 dplyr::mutate(NewRegimen = paste0("NEW ", NewRegimen)) %>%
-#                 dplyr::select(routine_id,NewRegimen)
-# }
-#
-# if (any(as.integer(names(output_a)) > 2)) {
-#         stop("need to write this")
-# }
+input_a <-
+        input_map2 %>%
+        rubix::filter_at_grepl(!!component_col,
+                               grepl_phrase = "NEW ",
+                               evaluates_to = TRUE,
+                               ignore.case = FALSE
+                               ) %>%
+        tidyr::separate_rows(!!component_col,
+                             sep = "\n") %>%
+        mutate_all(trimws) %>%
+        #remove {prefix}[:]
+        tidyr::extract(!!component_col,
+                        into = c("Search Term", "ComponentConcept"),
+                        regex = "(^.*?[:]{1}[ ]{1})(.*$)",
+                       remove = FALSE) %>%
+        dplyr::mutate(ComponentConcept = coalesce(ComponentConcept, Component)) %>%
+        dplyr::select(routine_id, ComponentConcept) %>%
+        chariot::unmerge_concepts(ComponentConcept, remove = FALSE) %>%
+        # Include NEW concepts
+        dplyr::mutate(concept_name = ifelse(grepl("NEW ", ComponentConcept),
+                                            stringr::str_remove_all(ComponentConcept, "NEW "),
+                                            concept_name)) %>%
+        # alphabetical order
+        dplyr::group_by(routine_id) %>%
+        dplyr::arrange(concept_name) %>%
+        dplyr::mutate(component_count = length(concept_name)) %>%
+        dplyr::ungroup()
+
+output_a <- split(input_a, input_a$component_count)
+if ("1" %in% names(output_a)) {
+        output_a$`1` <-
+                output_a$`1` %>%
+                dplyr::mutate(NewRegimen = paste0("NEW ", concept_name, " monotherapy")) %>%
+                dplyr::select(routine_id,NewRegimen)
+}
+
+if ("2" %in% names(output_a)) {
+        output_a$`2` <-
+                output_a$`2` %>%
+                dplyr::select(routine_id,
+                              concept_name) %>%
+                rubix::group_by_unique_aggregate(routine_id,
+                                                 agg.col = concept_name,
+                                                 collapse = " and ") %>%
+                dplyr::rename(NewRegimen = concept_name) %>%
+                dplyr::mutate(NewRegimen = paste0("NEW ", NewRegimen)) %>%
+                dplyr::select(routine_id,NewRegimen)
+}
+
+if (any(as.integer(names(output_a)) > 2)) {
+        stop("need to write this")
+}
 
 final_output_a <-
         dplyr::left_join(input,
-        output_a %>%
-        dplyr::bind_rows())
+                         output_a %>%
+                                 dplyr::bind_rows())
 
 
 nrow(input_map) == nrow(final_output_a)
@@ -94,27 +125,27 @@ broca::view_as_csv(final_output_a)
 # -
 input_b <-
         input_map2 %>%
-        rubix::filter_at_grepl(Component,
+        rubix::filter_at_grepl(!!component_col,
                                grepl_phrase = "NEW ",
                                evaluates_to = FALSE,
                                ignore.case = FALSE
         ) %>%
 
         # pivot longer
-        tidyr::separate_rows(Component,
+        tidyr::separate_rows(!!component_col,
                              sep = "\n") %>%
 
         # trimws to remove any trailing \r\r
-        dplyr::mutate_at(vars(Component), trimws) %>%
+        dplyr::mutate_at(vars(!!component_col), trimws) %>%
 
         # renormalizing to na because trim introduces blank values
         rubix::normalize_all_to_na() %>%
 
         # remove all NA due to multiple spaces in 1:many mappings
-        dplyr::filter(!is.na(Component)) %>%
+        dplyr::filter(!is.na(!!component_col)) %>%
 
         # unmerge to capture concept_id
-        chariot::unmerge_concepts(Component)
+        chariot::unmerge_concepts(!!component_col)
 
 
 qa <-
@@ -202,7 +233,7 @@ output_b2_ii <-
                       hemonc_regimen_concept_id,
                       hemonc_regimen_count,
                       component_concept_name = concept_name
-                      )
+        )
 
 # Creating NEWRegimenConcept label
 output_b2_ii2 <-
@@ -222,7 +253,7 @@ if (qa) {
 }
 
 if ("0" %in% names(output_b2_ii3)) {
-       stop("Cannot make a NEW regimen with component of length 0")
+        stop("Cannot make a NEW regimen with component of length 0")
 }
 
 
@@ -287,15 +318,22 @@ if ("5" %in% names(output_b2_ii3)) {
                 dplyr::select(routine_id,NewRegimenConcept)
 }
 
-output_b2_ii3 <- dplyr::bind_rows(output_b2_ii3, .id = "component_count") %>%
-        dplyr::mutate(component_count = as.integer(component_count))
+if (length(output_b2_ii3)) {
+        output_b2_ii3 <- dplyr::bind_rows(output_b2_ii3, .id = "component_count") %>%
+                dplyr::mutate(component_count = as.integer(component_count))
 
-output_b2_ii4 <-
-        dplyr::left_join(output_b2_ii2,
-                         output_b2_ii3)
+        output_b2_ii4 <-
+                dplyr::left_join(output_b2_ii2,
+                                 output_b2_ii3)
 
-output_b2 <- list(output_b2_i,
-                  output_b2_ii4)
+        output_b2 <- list(output_b2_i,
+                          output_b2_ii4)
+} else {
+        output_b2 <- list(output_b2_i)
+}
+
+
+
 
 
 output_b3 <-
@@ -414,7 +452,7 @@ input_c_ii_concept2 <-
 
 input_c_ii2 <-
         list(input_c_ii,
-                         input_c_ii_concept2) %>%
+             input_c_ii_concept2) %>%
         purrr::map(function(x) x %>% mutate_at(vars(contains("concept_id")), as.integer))
 
 input_c_ii3 <-
@@ -564,8 +602,8 @@ output_c2_ii4[[3]] <-
         dplyr::distinct() %>%
         dplyr::group_by(routine_id, component_count) %>%
         dplyr::arrange(component_concept_name) %>%
-       dplyr::summarize_at(vars(component_concept_name),
-                           function(x) paste(unique(x), collapse = ", ")) %>%
+        dplyr::summarize_at(vars(component_concept_name),
+                            function(x) paste(unique(x), collapse = ", ")) %>%
         dplyr::ungroup() %>%
         dplyr::rename(NewRegimenConcept = component_concept_name) %>%
         dplyr::mutate(NewRegimenConcept = paste0("NEW ", NewRegimenConcept)) %>%
@@ -625,3 +663,10 @@ final_output_c <-
 nrow(input_map) == nrow(final_output_c)
 length(unique(input_map$routine_id)) == length(unique(final_output_c$routine_id))
 broca::view_as_csv(final_output_c)
+final_routine_output <-
+        dplyr::left_join(final_input,
+                         output3)
+
+
+broca::simply_write_csv(final_routine_output,
+                      path_to_output_fn)

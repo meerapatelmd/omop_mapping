@@ -1,0 +1,12 @@
+
+vocabularies :  HemOnc, RxNorm, RxNorm Extension 
+concept_classes : NULL
+domains : NULL
+standard_concepts : NULL
+invalid_reasons :  NA, NA 
+origin file:  ~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx 
+origin tab:  REGIMENS_MAP_21 
+source col:  RegimenPart 
+term col:  CancerGov Source Exact 
+terminal col:  Component 
+attribute col:  

@@ -1142,3 +1142,4 @@ Timestamp	Activity Type	Function	File	Details
 2020-07-13 18:23:11	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpecvqKa/file11f093cbff470.csv	
 2020-07-13 18:25:31	read	read_clipboard		
 2020-07-13 20:29:51	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_12.csv	read input
+2020-07-14 23:35:44	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_16_07_hemonc_component_to_regimen_relationship.csv	

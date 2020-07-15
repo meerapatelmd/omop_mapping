@@ -6,7 +6,7 @@ source("startup.R")
 
 # Set search parameters
 type <- "contains"
-sleep_secs <- 20 # Number of seconds between API calls to prevent 503 messages
+sleep_secs <- 10 # Number of seconds between API calls to prevent 503 messages
 # Create output variables
 new_col_name <- "ChemiDPlus Contains"
 path_to_output_fn <- create_path_to_output_fn()
@@ -50,7 +50,7 @@ if (length(qa1) > 0) {
 ##############################################
 # Create output
 output <- list()
-
+warning <- list()
 # Notify start
 typewrite_start(type = type)
 secretary::typewrite(crayon::bold("Estimated time to completion:"), (sleep_secs*nrow(input3))/60, "minutes")
@@ -74,7 +74,11 @@ for (i in 1:nrow(input3)) {
         secretary::typewrite_bold("Starting", i)
 
         resultset <-
-                testthat::capture_warning(synonyms_from_chemidplus(phrase = input_concept, type = type))
+               synonyms_from_chemidplus(phrase = input_concept, type = type)
+
+        Sys.sleep(5)
+
+        warning[[i]] <-  testthat::capture_warning(synonyms_from_chemidplus(phrase = input_concept, type = type))
 
         if (!is.null(resultset)) {
                 output[[i]] <- resultset
@@ -97,10 +101,11 @@ output2 <- output %>%
                 #Convert warning message of class warning to character
                 rubix::map_names_set(as.character) %>%
                 # Combine 1:many results into a vector string to preserve the 1:1 relationship with routine_id
-                rubix::map_names_set(function(x) ifelse(length(x)>1, cave::vector_to_string(x), x))
+                rubix::map_names_set(function(x) ifelse(length(x)>1, cave::vector_to_string(x), x)) %>%
+        purrr::map(rubix::vector_to_tibble, new_col = !!new_col_name)
 
 
-final_output <- output %>%
+final_output <- output2 %>%
                         dplyr::bind_rows(.id = "routine_id")
 
 
@@ -111,7 +116,7 @@ final_output <- output %>%
 final_output2 <-
 final_output %>%
 rubix::group_by_unique_aggregate(routine_id,
-                                 agg.col = all_of(new_col_name),
+                                 agg.col = !!new_col_name,
                                  collapse = "\n") %>%
 dplyr::mutate_at(vars(!routine_id), substr, 1, 25000)
 
