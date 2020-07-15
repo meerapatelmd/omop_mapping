@@ -6800,3 +6800,31 @@ Timestamp	Activity Type	Function	File	Details
 2020-07-15 03:37:50	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_23.csv	
 2020-07-15 03:37:50	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_23_01_source_as_is_exact.csv	
 2020-07-15 03:37:50	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpQFjAqB/file1473c29450dbf.csv	
+2020-07-15 11:27:36	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: REGIMENS_MAP_24
+2020-07-15 11:27:39	write	simply_write_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_24.csv	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsxTAB: REGIMENS_MAP_24written to REGIMENS_MAP_24.csv
+2020-07-15 11:27:39	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_24.csv	
+2020-07-15 11:27:53	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_24.csv	
+2020-07-15 11:28:04	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_24.csv	
+2020-07-15 11:28:28	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_24.csv	
+2020-07-15 11:28:29	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_24.csv	read input
+2020-07-15 11:30:09	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_24_07_hemonc_component_to_regimen_relationship.csv	
+2020-07-15 11:30:15	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_24.csv	
+2020-07-15 11:30:15	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_24.csv	
+2020-07-15 11:30:15	read	simply_read_csv	data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_24_07_hemonc_component_to_regimen_relationship.csv	
+2020-07-15 11:30:16	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpSzMjsu/file16266216a9771.csv	
+2020-07-15 11:51:12	read	read_clipboard		
+2020-07-15 11:51:44	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpSzMjsu/file162665033a585.csv	
+2020-07-15 12:10:16	read	read_clipboard		
+2020-07-15 12:15:15	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	
+2020-07-15 12:19:37	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpSBe9DK/file16580c116e05.csv	
+2020-07-15 12:28:37	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	
+2020-07-15 12:39:29	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpSBe9DK/file16580657c10e8.csv	
+2020-07-15 12:49:27	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: COMPONENTS_00
+2020-07-15 12:50:22	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: COMPONENTS_00
+2020-07-15 12:50:57	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	Load: COMPONENTS_00
+2020-07-15 12:51:00	write	simply_write_csv	data/BREAST/Source of Truth Mapping/input/COMPONENTS_00.csv	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsxTAB: COMPONENTS_00written to COMPONENTS_00.csv
+2020-07-15 12:51:00	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/COMPONENTS_00.csv	
+2020-07-15 12:52:11	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	
+2020-07-15 12:53:57	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	
+2020-07-15 12:56:30	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpSBe9DK/file16580621de16e.csv	
+2020-07-15 13:00:14	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpSBe9DK/file1658041a617b9.csv	

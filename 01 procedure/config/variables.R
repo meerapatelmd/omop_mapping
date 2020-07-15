@@ -9,20 +9,20 @@ invalid_reasons <- c(NA, "NA")
 # Project Setup
 project_name <- "BREAST"
 origin_fn <-  "~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx"
-origin_tab <- "REGIMENS_MAP_24"
+origin_tab <- "COMPONENTS_00"
 
 
 # Target Columns: column where queries are sourced from. Note that the column called "CONCEPT" has been changed to "SOURCE" in this routine since the merge of OMOP concepts is functionalized to be called `Concept`.
 ## Source Columns: 1:1 concepts
 #input_file_stem <- "ESOPHAGUS_"
-source_col <- "SourceRegimen"
+source_col <- "SourceComponent"
 word_split <- "[ ]{1}|[(]{1}|[)]{1}|[,]{1}|[/]{1}|[+]{1}|[-]{1}[>]{1}" #The regex to split() the SOURCE column on to retrieve words for words-based searches
 
 ## Term Columns: series of search terms and phrases to each original concept to further search for the concept. Term columns are manually inputed by an end-user.
 term_col <- NULL
 
 # Terminal Column: name of the column in the input that, if populated, indicates that a concept has been mapped and further search routines are ignored
-terminal_col <- nullfile()
+terminal_col <- "Component"
 attribute_col <- NULL
 
 regimen_col <- NULL
