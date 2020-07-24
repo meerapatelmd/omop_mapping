@@ -5,8 +5,9 @@ if (interactive()) {
 
         secretary::typewrite("Starting non-interactive session.")
 
-        source('/Users/patelm9/GitHub/omop_mapping/procedure/startup.R')
+        #source('/Users/patelm9/GitHub/omop_mapping/01 procedure/startup.R')
         # Read input
+
         input <- read_input()
         target_col <- source_col
 

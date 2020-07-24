@@ -4,5 +4,9 @@ concept_classes : NULL
 domains : NULL
 standard_concepts : NULL
 invalid_reasons :  NA, NA 
-origin file:  ~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/cBioPortal_Workfile.xlsx 
+origin file:  ~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_Workfile.xlsx 
 origin tab:  MAP_20 
+source col:  CONCEPT 
+term col:  
+terminal col:  Fact 
+attribute col:  

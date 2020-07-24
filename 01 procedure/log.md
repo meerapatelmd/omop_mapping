@@ -6828,3 +6828,32 @@ Timestamp	Activity Type	Function	File	Details
 2020-07-15 12:53:57	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/ewewge - General/Athena_Mapping/Source of Truth Mapping.xlsx	
 2020-07-15 12:56:30	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpSBe9DK/file16580621de16e.csv	
 2020-07-15 13:00:14	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpSBe9DK/file1658041a617b9.csv	
+2020-07-18 00:19:35	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-18 00:20:05	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-18 00:20:16	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-18 00:20:17	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-18 00:20:50	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_20_01_source_as_is_string.csv	
+2020-07-18 00:21:13	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-18 00:21:17	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-18 00:25:01	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/CBIOPORTAL/cBioPortal_Workfile/output/MAP_20_02_source_each_word_cascade.csv	
+2020-07-18 00:27:09	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-18 00:28:18	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-18 00:28:20	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-18 00:29:22	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-18 00:29:28	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-18 00:30:23	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-18 00:32:31	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-18 00:44:02	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZBRbxs/file702319816c92.csv	
+2020-07-18 00:54:10	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZBRbxs/file70232a8f6a7.csv	
+2020-07-18 01:43:34	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZBRbxs/file702316939e57.csv	
+2020-07-18 01:53:49	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZBRbxs/file702332c3c809.csv	
+2020-07-18 01:58:30	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZBRbxs/file702342ebd91.csv	
+2020-07-18 02:04:44	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZBRbxs/file702358cc2a8e.csv	
+2020-07-18 02:08:08	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZBRbxs/file702343fdfe2d.csv	
+2020-07-18 02:10:47	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpZBRbxs/file7023583a5f3a.csv	
+2020-07-18 02:39:38	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-18 02:44:27	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-18 02:44:32	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-18 02:45:18	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-07-18 02:45:18	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-07-20 09:14:25	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input

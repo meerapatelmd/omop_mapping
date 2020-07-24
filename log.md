@@ -1143,3 +1143,42 @@ Timestamp	Activity Type	Function	File	Details
 2020-07-13 18:25:31	read	read_clipboard		
 2020-07-13 20:29:51	read	simply_read_csv	data/BREAST/Source of Truth Mapping/input/REGIMENS_MAP_12.csv	read input
 2020-07-14 23:35:44	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/BREAST/Source of Truth Mapping/output/REGIMENS_MAP_16_07_hemonc_component_to_regimen_relationship.csv	
+2020-07-24 17:33:43	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_IngestionFilev7.xlsx	
+2020-07-24 17:36:45	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_IngestionFilev8.xlsx	
+2020-07-24 17:39:44	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_IngestionFilev8.xlsx	
+2020-07-24 17:41:36	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_IngestionFilev9.xlsx	
+2020-07-24 17:41:47	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_IngestionFilev9.xlsx	
+2020-07-24 17:48:46	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_TopBraid_URIs.xlsx	
+2020-07-24 17:50:14	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_TopBraid_URIs.xlsx	
+2020-07-24 17:50:22	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_TopBraid_URIs.xlsx	
+2020-07-24 17:51:51	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_TopBraid_URIs.xlsx	
+2020-07-24 17:52:21	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_TopBraid_URIs.xlsx	
+2020-07-24 17:52:53	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_TopBraid_URIs.xlsx	
+2020-07-24 17:53:41	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_TopBraid_URIs.xlsx	
+2020-07-24 18:09:52	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_IngestionFilev9.xlsx	
+2020-07-24 18:09:54	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_TopBraid_URIs.xlsx	
+2020-07-24 18:25:39	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_IngestionFilev11.xlsx	
+2020-07-24 18:25:41	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_TopBraid_URIs.xlsx	
+2020-07-24 18:30:31	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_IngestionFilev11.xlsx	
+2020-07-24 18:30:32	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_TopBraid_URIs.xlsx	
+2020-07-24 18:32:17	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_IngestionFilev11.xlsx	
+2020-07-24 18:32:17	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_TopBraid_URIs.xlsx	
+2020-07-24 18:32:31	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpfjZB8f/filebeb62d2f07e.csv	
+2020-07-24 18:33:21	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_IngestionFilev11.xlsx	
+2020-07-24 18:33:21	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_TopBraid_URIs.xlsx	
+2020-07-24 18:33:21	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpfjZB8f/filebeb6ab12e2.csv	
+2020-07-24 18:43:18	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_IngestionFilev11.xlsx	
+2020-07-24 18:43:18	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_TopBraid_URIs.xlsx	
+2020-07-24 18:43:19	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpfjZB8f/filebeb5ac3ccf1.csv	
+2020-07-24 18:46:23	read	simply_read_csv	~/Desktop/CBioPortalREDCapShellForExtrac_DataDictionary_2020-07-24.csv	
+2020-07-24 18:48:18	read	simply_read_csv	~/Desktop/CBioPortalREDCapShellForExtrac_DataDictionary_2020-07-24.csv	
+2020-07-24 18:50:18	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_IngestionFilev11.xlsx	
+2020-07-24 18:50:21	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_TopBraid_URIs.xlsx	
+2020-07-24 18:50:24	read	simply_read_csv	~/Desktop/CBioPortalREDCapShellForExtrac_DataDictionary_2020-07-24.csv	
+2020-07-24 18:59:21	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_IngestionFilev11.xlsx	
+2020-07-24 18:59:22	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_TopBraid_URIs.xlsx	
+2020-07-24 18:59:24	read	simply_read_csv	~/Desktop/CBioPortalREDCapShellForExtrac_DataDictionary_2020-07-24.csv	
+2020-07-24 19:00:26	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_IngestionFilev12.xlsx	
+2020-07-24 19:00:26	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_TopBraid_URIs.xlsx	
+2020-07-24 19:00:26	read	simply_read_csv	~/Desktop/CBioPortalREDCapShellForExtrac_DataDictionary_2020-07-24.csv	
+2020-07-24 19:00:26	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpfjZB8f/filebeb4d3fa876.csv	
