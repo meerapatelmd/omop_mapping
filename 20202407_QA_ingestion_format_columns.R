@@ -1,8 +1,11 @@
 input <-
         broca::read_full_excel("~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_COVID_StandardLibrary2.xlsx")
 
-input <- input$Variables
+ingestionFile <- list(input$Variables,
+              input$Permissible_Values)
 
+names(ingestionFile) <- c("Variables",
+                          "Permissible_Values")
 # uri <-
 #         broca::read_full_excel("~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_TopBraid_URIs.xlsx")
 # uri <- uri$Sheet1
@@ -22,7 +25,7 @@ dd <- dd$`DDict Master Metadata` %>%
 #         dplyr::select(-all_of("NA"))
 
 
-essential_columns <-
+essential_columns_vars <-
         c("PROJECT_URI",
           "PROJECT_ALIAS",
           "FORM_NAME",
@@ -33,12 +36,33 @@ essential_columns <-
           "PHI",
           "MSK_CONCEPT_ID")
 
-input_columns <- colnames(input)
+essential_columns_pvs <-
+        c("PROJECT_URI",
+          "PROJECT_ALIAS",
+          "FORM_NAME",
+          "VARIABLE_FIELD_NAME",
+          "VARIABLE_URI",
+          "FIELD_LABEL",
+          "VARIABLE_TYPE",
+          "PHI",
+          "PV",
+          "PV_CODE",
+          "PV_URI",
+          "MSK_CONCEPT_ID")
 
-qa1 <- essential_columns[!(essential_columns %in% input_columns)]
+ifVarColumns <- colnames(ingestionFile$Variables)
+qa1 <- essential_columns_vars[!(essential_columns_vars %in% ifVarColumns)]
 if (length(qa1)) {
 
         stop("Missing columns: ", paste(qa1, collapse = ", "), ". See qa1 object.")
+
+}
+
+ifPVColumns <- colnames(ingestionFile$Permissible_Values)
+qa2 <- essential_columns_pvs[!(essential_columns_pvs %in% ifPVColumns)]
+if (length(qa2)) {
+
+        stop("Missing columns: ", paste(qa2, collapse = ", "), ". See qa2 object.")
 
 }
 
@@ -67,13 +91,12 @@ qaOutput <-
 input <-
         input %>%
         rubix::bring_to_front(all_of(essential_columns)) %>%
-        dplyr::left_join(uri %>%
-                                 dplyr::select(redcapField,
-                                               redcapFieldLabel) %>%
-                                 dplyr::distinct(),
-                         by = c("FIELD_LABEL" = "redcapFieldLabel")) %>%
-        dplyr::left_join(dd,
-                         by = "FIELD_LABEL")
+        # dplyr::left_join(uri %>%
+        #                          dplyr::select(redcapField,
+        #                                        redcapFieldLabel) %>%
+        #                          dplyr::distinct(),
+        #                  by = c("FIELD_LABEL" = "redcapFieldLabel")) %>%
+        dplyr::left_join(dd)
 
 qa_a <-
         input %>%

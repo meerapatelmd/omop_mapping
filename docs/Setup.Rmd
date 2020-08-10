@@ -1,3 +1,22 @@
+---
+title: "Procedure"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r}
+rm(list = ls())
+library(tidyverse)
+source('/Users/patelm9/GitHub/omop_mapping/01 procedure/config/funs.R')
+set_this_wd()
+source('/Users/patelm9/GitHub/omop_mapping/01 procedure/config/constants.R')
+source('/Users/patelm9/GitHub/omop_mapping/01 procedure/config/variables.R')
+```
+
+
+
+```{r}
 # Search Settings
 # Global filters for all queries to the concept table
 vocabulary_id <- c("SNOMED")
@@ -53,34 +72,11 @@ cave::create_dir_if_not_exist(path_to_settings_dir)
 # Creating settings object
 chariot::createSettings()
 
-# Writing settings for this input_file_stem-origin tab name combo
-setting_history_fn <- paste0(path_to_settings_dir, "/", origin_tab, ".txt")
+```
 
-cat("\n", file = setting_history_fn)
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
 
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
 
-settings_to_write <- .Settings
-while (length(settings_to_write) > 0) {
-        setting <- settings_to_write[[1]]
-        setting_name <- names(settings_to_write)[1]
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
 
-        if (!is.null(setting)) {
-                cat(setting_name, "<-", paste(setting, collapse = ", "), "\n", file = setting_history_fn, append = TRUE)
-        } else {
-                cat(setting_name, ": NULL\n", file = setting_history_fn, append = TRUE)
-        }
-
-        settings_to_write[[1]] <- NULL
-
-        rm(setting)
-        rm(setting_name)
-
-}
-rm(settings_to_write)
-
-cat("origin file: ", origin_fn, "\n", file = setting_history_fn, append = TRUE)
-cat("origin tab: ", origin_tab, "\n", file = setting_history_fn, append = TRUE)
-cat("source col: ", source_col, "\n", file = setting_history_fn, append = TRUE)
-cat("term col: ", term_col, "\n", file = setting_history_fn, append = TRUE)
-cat("terminal col: ", terminal_col, "\n", file = setting_history_fn, append = TRUE)
-cat("attribute col: ", attribute_col, "\n", file = setting_history_fn, append = TRUE)

@@ -1182,3 +1182,26 @@ Timestamp	Activity Type	Function	File	Details
 2020-07-24 19:00:26	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_TopBraid_URIs.xlsx	
 2020-07-24 19:00:26	read	simply_read_csv	~/Desktop/CBioPortalREDCapShellForExtrac_DataDictionary_2020-07-24.csv	
 2020-07-24 19:00:26	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpfjZB8f/filebeb4d3fa876.csv	
+2020-07-29 15:25:45	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_COVID_StandardLibrary.xlsx	
+2020-07-29 15:29:09	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/COVIDScienceDatabase_DataDictionary - KM Master Dictionary.xlsx	
+2020-07-29 15:30:16	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/COVIDScienceDatabase_DataDictionary - KM Master Dictionary.xlsx	
+2020-07-29 15:31:16	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/COVIDScienceDatabase_DataDictionary - KM Master Dictionary.xlsx	
+2020-07-29 16:00:33	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_COVID_StandardLibrary.xlsx	
+2020-07-29 16:00:38	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/COVIDScienceDatabase_DataDictionary - KM Master Dictionary.xlsx	
+2020-07-29 16:01:01	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_COVID_StandardLibrary2.xlsx	
+2020-07-29 16:01:03	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_TopBraid_URIs.xlsx	
+2020-07-29 16:01:23	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_COVID_StandardLibrary2.xlsx	
+2020-07-29 16:01:25	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/COVIDScienceDatabase_DataDictionary - KM Master Dictionary.xlsx	
+2020-07-29 16:03:34	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_COVID_StandardLibrary2.xlsx	
+2020-07-29 16:19:33	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_COVID_StandardLibrary2.xlsx	
+2020-07-29 16:19:43	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/COVIDScienceDatabase_DataDictionary - KM Master Dictionary.xlsx	
+2020-07-29 16:22:20	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_COVID_StandardLibrary2.xlsx	
+2020-07-29 16:22:29	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_COVID_StandardLibrary2.xlsx	
+2020-07-29 16:22:40	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_COVID_StandardLibrary2.xlsx	
+2020-07-29 16:22:57	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_COVID_StandardLibrary2.xlsx	
+2020-07-29 16:23:08	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/COVIDScienceDatabase_DataDictionary - KM Master Dictionary.xlsx	
+2020-07-29 16:25:14	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_COVID_StandardLibrary2.xlsx	
+2020-07-29 16:25:37	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Final Ingestion Files/Meera_COVID_StandardLibrary2.xlsx	
+2020-07-29 16:25:47	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/KM COVID - General/COVIDScienceDatabase_DataDictionary - KM Master Dictionary.xlsx	
+2020-07-29 17:41:53	read	read_clipboard		
+2020-07-29 17:43:09	write	copy_to_clipboard		
