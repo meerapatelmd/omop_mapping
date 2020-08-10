@@ -1,3 +1,4 @@
+library(tidyverse)
 # Source function and vars
 if (interactive()) {
                 source("startup.R")
@@ -7,7 +8,7 @@ if (interactive()) {
 type <- "all"
 
 # Create output variables
-path_to_output_fn <- create_path_to_output_fn()
+outputPath <- createOutputPath()
 
 
 ##############################################
@@ -15,7 +16,11 @@ path_to_output_fn <- create_path_to_output_fn()
 ##############################################
 
 # Temporary stop if the output file exists
-brake_if_output_exists()
+if (interactive()) {
+
+        brake_if_output_exists()
+
+}
 
 ##############################################
 ### PRE-PROCEDURE
@@ -172,6 +177,6 @@ if (qa3 != 0) {
 ### OUTRO
 ##############################################
 broca::simply_write_csv(x = final_routine_output,
-                        file = path_to_output_fn)
+                        file = outputPath)
 
 typewrite_complete()

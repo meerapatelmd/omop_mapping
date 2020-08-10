@@ -1,24 +1,154 @@
 ####################
 ## Operational    ##
 ####################
-set_this_wd <-
+
+setupProjectDirs <-
         function() {
-                if ("/Users/patelm9/GitHub/omop_mapping/01 procedure/" != getwd()) {
-                                setwd("/Users/patelm9/GitHub/omop_mapping/01 procedure/")
-                }
+                # Creating project directory if it does not exist
+                path_to_project_data <- paste0("data/", project_name)
+                cave::create_dir_if_not_exist(path_to_project_data)
+
+                # Creating source file subdir if it does not exist
+                path_to_file_subdir <- paste0(path_to_project_data, "/", cave::strip_fn(origin_fn))
+                cave::create_dir_if_not_exist(path_to_file_subdir)
+
+                # Creating subdirectories
+                path_to_input_dir <- paste0(path_to_file_subdir, "/input")
+                cave::create_dir_if_not_exist(path_to_input_dir)
+                path_to_output_dir <- paste0(path_to_file_subdir, "/output")
+                cave::create_dir_if_not_exist(path_to_output_dir)
+                path_to_settings_dir <- paste0(path_to_file_subdir, "/settings")
+                cave::create_dir_if_not_exist(path_to_settings_dir)
+
+
+                .PATHS <<- list(INPUT = path_to_input_dir,
+                               OUTPUT = path_to_output_dir,
+                               SETTINGS = path_to_settings_dir)
         }
 
-clean_env <-
+saveSettings <-
         function() {
-                if (interactive()) {
-                        rm(list = ls(envir = globalenv()), envir = globalenv())
+
+                # Deleting the current settings file if it exists
+                settingsFile <- paste0(.PATHS$SETTINGS, "/", origin_tab, ".txt")
+
+                if (file.exists(settingsFile)) {
+                        file.remove(settingsFile)
                 }
+
+                # Getting all non-function objects
+                nonFunctObjs <-
+                ls(envir = globalenv(), sorted = FALSE) %>%
+                        rubix::map_names_set(~class(get(.))) %>%
+                        purrr::keep(~!(any(. %in% c("function")))) %>%
+                        names()
+
+                # Grouping R objects based on desired heading
+                Groups <- c("Origin", "Required", "NonRequiredCols", "OutputSettings", "MiscSettings", "Other")
+                Origin <- grep("origin", nonFunctObjs, ignore.case = T, value = TRUE)
+                NonOrigin <- grep("origin", nonFunctObjs, ignore.case = T, value = TRUE, invert = TRUE)
+                Required <- c("project_name", "source_col", "terminal_col")
+                NonRequired <- NonOrigin[!(NonOrigin %in% Required)]
+                NonRequiredCols <- grep("col", NonRequired, ignore.case = TRUE, value = TRUE)
+                OutputSettings <- c("vocabulary_id",
+                                    "concept_class_id",
+                                    "domain_id",
+                                    "standard_concept",
+                                    "invalid_reason")
+                MiscSettings <- c("source_skip_nchar", "additional_filters", "word_split")
+
+
+                # Paste expression in case the settings ever need to be loaded again
+                nonFunctObjsValues <-
+                nonFunctObjs %>%
+                        rubix::map_names_set(function(x) paste0(x, " <- '", get(x, globalenv()), "'")) %>%
+                        unlist() %>%
+                        purrr::map(rubix::vector_to_tibble, new_col = "Expression") %>%
+                        dplyr::bind_rows(.id = "Object") %>%
+                        dplyr::mutate(Group = factor(Object))
+
+                # Adding the Groups each Object belongs to
+                nonFunctObjsValues$Group <-
+                        as.character(
+                        forcats::fct_collapse(nonFunctObjsValues$Group,
+                                              Origin = Origin,
+                                              Required = Required,
+                                              NonRequiredCols = NonRequiredCols,
+                                              OutputSettings = OutputSettings,
+                                              MiscSettings = MiscSettings,
+                                              other_level = "Other"
+                        ))
+
+                # Re-leveling the groups
+                nonFunctObjsValues$Group2 <-
+                        factor(nonFunctObjsValues$Group,
+                               levels = Groups,
+                               labels = 1:length(Groups))
+
+                nonFunctObjsValues2 <-
+                        nonFunctObjsValues %>%
+                        dplyr::filter(Group2 != 6) %>%
+                        rubix::group_by_aggregate(Group, Group2,
+                                                  agg.col = Expression,
+                                                  collapse = "\n") %>%
+                        dplyr::arrange(Group2) %>%
+                        dplyr::transmute(Expression = paste0("# ", Group, "\n", Expression, "\n\n")) %>%
+                        unlist() %>%
+                        paste(collapse = "")
+
+
+                cat(nonFunctObjsValues2, file = settingsFile, sep = "")
+
         }
 
 
-create_path_to_output_fn <-
+createSettingsObj <-
         function() {
-                paste0(getwd(), "/", path_to_output_dir, "/", origin_tab,"_", cave::strip_fn(cave::present_script_path()), ".csv")
+                # Getting all non-function objects
+                nonFunctObjs <-
+                        ls(envir = globalenv(), sorted = FALSE) %>%
+                        rubix::map_names_set(~class(get(.))) %>%
+                        purrr::keep(~!(any(. %in% c("function")))) %>%
+                        names()
+
+                # Grouping R objects based on desired heading
+                Groups <- c("Origin", "Required", "NonRequiredCols", "OutputSettings", "MiscSettings", "Other")
+
+                Origin <- grep("origin", nonFunctObjs, ignore.case = T, value = TRUE)
+                NonOrigin <- grep("origin", nonFunctObjs, ignore.case = T, value = TRUE, invert = TRUE)
+                Required <- c("project_name", "source_col", "terminal_col")
+                NonRequired <- NonOrigin[!(NonOrigin %in% Required)]
+                NonRequiredCols <- grep("col", NonRequired, ignore.case = TRUE, value = TRUE)
+                OutputSettings <- c("vocabulary_id",
+                                    "concept_class_id",
+                                    "domain_id",
+                                    "standard_concept",
+                                    "invalid_reason")
+                MiscSettings <- c("source_skip_nchar", "additional_filters", "word_split")
+
+                Groups <-
+                        list(
+                                Origin = Origin,
+                                Required = Required,
+                                NonRequiredCols = NonRequiredCols,
+                                OutputSettings = OutputSettings,
+                                MiscSettings = MiscSettings
+                        )
+
+                .SETTINGS <<-
+                Groups %>%
+                        rubix::map_names_set(function(x) rubix::map_names_set(x,
+                                                                              function(y) get(y, envir = globalenv())))
+
+                Groups %>%
+                        rubix::map_names_set(function(x) rubix::map_names_set(x,
+                                                                              function(y) rm(list = y, envir = globalenv())))
+
+        }
+
+createOutputPath <-
+        function() {
+                path.expand(paste0(getwd(), "/", path_to_output_dir, "/", origin_tab,"_", cave::strip_fn(cave::present_script_path()), ".csv"))
 
         }
 
@@ -38,193 +168,240 @@ brake_if_output_exists <-
 ## Apply Settings ##
 ####################
 # Creates a settings object containing all the variables required by the filter_for_settings() function
-make_settings <-
-        function(override_vocabularies = NULL,
-                 override_concept_classes = NULL,
-                 override_domains = NULL,
-                 override_standard_concepts = NULL,
-                 override_invalid_reasons = NULL) {
-
-                concept_setting_elements <-
-                        c(
-                                "vocabularies",
-                                "concept_classes",
-                                "domains",
-                                "standard_concepts",
-                                "invalid_reasons"
-                        )
-
-                if (any(!exists(concept_setting_elements, envir = globalenv()))) {
-
-                        stop("filter settings do not exist in .GlobalEnv")
-
-                }
-
-
-                global_settings <-
-                        concept_setting_elements %>%
-                        rubix::map_names_set(get, envir = globalenv())
-
-
-
-                fun_settings <-
-                        list(
-                                "vocabularies" = override_vocabularies,
-                                "concept_classes" = override_concept_classes,
-                                "domains" = override_domains,
-                                "standard_concepts" = override_standard_concepts,
-                                "standard_concepts" = override_standard_concepts
-                        ) %>%
-                        purrr::keep(~!is.null(.))
-
-
-
-                final_settings <- c(fun_settings,
-                                    global_settings[!(names(global_settings) %in% names(fun_settings))])
-
-                final_settings <- final_settings[concept_setting_elements]
-
-                return(final_settings)
-
-        }
+# make_settings <-
+#         function(override_vocabularies = NULL,
+#                  override_concept_classes = NULL,
+#                  override_domains = NULL,
+#                  override_standard_concepts = NULL,
+#                  override_invalid_reasons = NULL) {
+#
+#                 concept_setting_elements <-
+#                         c(
+#                                 "vocabularies",
+#                                 "concept_classes",
+#                                 "domains",
+#                                 "standard_concepts",
+#                                 "invalid_reasons"
+#                         )
+#
+#                 if (any(!exists(concept_setting_elements, envir = globalenv()))) {
+#
+#                         stop("filter settings do not exist in .GlobalEnv")
+#
+#                 }
+#
+#
+#                 global_settings <-
+#                         concept_setting_elements %>%
+#                         rubix::map_names_set(get, envir = globalenv())
+#
+#
+#
+#                 fun_settings <-
+#                         list(
+#                                 "vocabularies" = override_vocabularies,
+#                                 "concept_classes" = override_concept_classes,
+#                                 "domains" = override_domains,
+#                                 "standard_concepts" = override_standard_concepts,
+#                                 "standard_concepts" = override_standard_concepts
+#                         ) %>%
+#                         purrr::keep(~!is.null(.))
+#
+#
+#
+#                 final_settings <- c(fun_settings,
+#                                     global_settings[!(names(global_settings) %in% names(fun_settings))])
+#
+#                 final_settings <- final_settings[concept_setting_elements]
+#
+#                 return(final_settings)
+#
+#         }
 
 
 # Filters the resultset of a concept table search for the settings in variables.R
-dep_filter_for_settings <-
-        function(.data,
-                 override_vocabularies = NULL,
-                 override_concept_classes = NULL,
-                 override_domains = NULL,
-                 override_standard_concepts = NULL,
-                 override_invalid_reasons = NULL)   {
+# dep_filter_for_settings <-
+#         function(.data,
+#                  override_vocabularies = NULL,
+#                  override_concept_classes = NULL,
+#                  override_domains = NULL,
+#                  override_standard_concepts = NULL,
+#                  override_invalid_reasons = NULL)   {
+#
+#
+#                 settings <-
+#                 make_settings(override_vocabularies = override_vocabularies,
+#                               override_concept_classes = override_concept_classes,
+#                                  override_domains = override_domains,
+#                                  override_standard_concepts = override_standard_concepts,
+#                                  override_invalid_reasons = override_invalid_reasons)
+#
+#                 if (!is.null(settings$vocabularies)) {
+#
+#                                 .data <-
+#                                         .data %>%
+#                                         dplyr::filter(vocabulary_id %in% settings$vocabularies)
+#
+#                 }
+#
+#
+#                 if (!is.null(settings$concept_classes)) {
+#
+#                         .data <-
+#                                 .data %>%
+#                                 dplyr::filter(concept_class_id %in% settings$concept_classes)
+#
+#                 }
+#
+#                 if (!is.null(settings$domains)) {
+#
+#                         .data <-
+#                                 .data %>%
+#                                 dplyr::filter(domain_id %in% settings$domains)
+#
+#                 }
+#
+#
+#                 if (!is.null(settings$standard_concepts)) {
+#
+#                         .data <-
+#                                 .data %>%
+#                                 dplyr::filter(standard_concept %in% settings$standard_concepts)
+#
+#                 }
+#
+#                 if (!is.null(settings$invalid_reasons)) {
+#
+#                         .data <-
+#                                 .data %>%
+#                                 dplyr::filter(invalid_reason %in% settings$invalid_reasons)
+#
+#                 }
+#
+#                 return(.data)
+#
+#         }
 
 
-                settings <-
-                make_settings(override_vocabularies = override_vocabularies,
-                              override_concept_classes = override_concept_classes,
-                                 override_domains = override_domains,
-                                 override_standard_concepts = override_standard_concepts,
-                                 override_invalid_reasons = override_invalid_reasons)
-
-                if (!is.null(settings$vocabularies)) {
-
-                                .data <-
-                                        .data %>%
-                                        dplyr::filter(vocabulary_id %in% settings$vocabularies)
-
-                }
-
-
-                if (!is.null(settings$concept_classes)) {
-
-                        .data <-
-                                .data %>%
-                                dplyr::filter(concept_class_id %in% settings$concept_classes)
-
-                }
-
-                if (!is.null(settings$domains)) {
-
-                        .data <-
-                                .data %>%
-                                dplyr::filter(domain_id %in% settings$domains)
-
-                }
-
-
-                if (!is.null(settings$standard_concepts)) {
-
-                        .data <-
-                                .data %>%
-                                dplyr::filter(standard_concept %in% settings$standard_concepts)
-
-                }
-
-                if (!is.null(settings$invalid_reasons)) {
-
-                        .data <-
-                                .data %>%
-                                dplyr::filter(invalid_reason %in% settings$invalid_reasons)
-
-                }
-
-                return(.data)
-
-        }
-
-
-filter_for_settings <-
-        function(.data)   {
-
-                if (!is.null(settings$vocabularies)) {
-
-                        .data <-
-                                .data %>%
-                                dplyr::filter(vocabulary_id %in% settings$vocabularies)
-
-                }
-
-
-                if (!is.null(settings$concept_classes)) {
-
-                        .data <-
-                                .data %>%
-                                dplyr::filter(concept_class_id %in% settings$concept_classes)
-
-                }
-
-                if (!is.null(settings$domains)) {
-
-                        .data <-
-                                .data %>%
-                                dplyr::filter(domain_id %in% settings$domains)
-
-                }
-
-
-                if (!is.null(settings$standard_concepts)) {
-
-                        .data <-
-                                .data %>%
-                                dplyr::filter(standard_concept %in% settings$standard_concepts)
-
-                }
-
-                if (!is.null(settings$invalid_reasons)) {
-
-                        .data <-
-                                .data %>%
-                                dplyr::filter(invalid_reason %in% settings$invalid_reasons)
-
-                }
-
-                return(.data)
-
-        }
+# filter_for_settings <-
+#         function(.data)   {
+#
+#                 if (!is.null(settings$vocabularies)) {
+#
+#                         .data <-
+#                                 .data %>%
+#                                 dplyr::filter(vocabulary_id %in% settings$vocabularies)
+#
+#                 }
+#
+#
+#                 if (!is.null(settings$concept_classes)) {
+#
+#                         .data <-
+#                                 .data %>%
+#                                 dplyr::filter(concept_class_id %in% settings$concept_classes)
+#
+#                 }
+#
+#                 if (!is.null(settings$domains)) {
+#
+#                         .data <-
+#                                 .data %>%
+#                                 dplyr::filter(domain_id %in% settings$domains)
+#
+#                 }
+#
+#
+#                 if (!is.null(settings$standard_concepts)) {
+#
+#                         .data <-
+#                                 .data %>%
+#                                 dplyr::filter(standard_concept %in% settings$standard_concepts)
+#
+#                 }
+#
+#                 if (!is.null(settings$invalid_reasons)) {
+#
+#                         .data <-
+#                                 .data %>%
+#                                 dplyr::filter(invalid_reason %in% settings$invalid_reasons)
+#
+#                 }
+#
+#                 return(.data)
+#
+#         }
 
 #################################
 ## Apply More Filters to Input ##
 #################################
+
+read_origin <-
+        function(...) {
+
+                if (broca::is_excel(origin_fn)) {
+
+                        origin_data <- broca::read_full_excel(origin_fn,
+                                                              ...)
+
+                        origin_data[[origin_tab]]
+
+                } else if (broca::is_csv(origin_fn)) {
+
+                        broca::simply_read_csv(origin_fn, ...)
+
+                } else {
+
+                        stop("Invalid originating file.")
+
+                }
+        }
+
+read_raw_input <-
+        function(verbose = TRUE) {
+
+                x <- broca::simply_read_csv(path_to_input_fn,
+                                            log_details = "read input") %>%
+                        rubix::normalize_all_to_na()
+
+
+                if (verbose) {
+
+                                secretary::typewrite(crayon::bold("Terminal Column:"), terminal_col)
+
+                                cat("\n")
+
+                                print(
+                                        x %>%
+                                                dplyr::select(!!terminal_col) %>%
+                                                dplyr::mutate_at(vars(!!terminal_col),
+                                                                 function(x) ifelse(is.na(x), "Unmapped", "Mapped")) %>%
+                                                group_by_at(vars(!!terminal_col)) %>%
+                                                summarize(COUNT = n(), .groups = "drop") %>%
+                                                dplyr::ungroup()
+                                )
+
+                                cat("\n")
+
+                }
+
+                return(x)
+
+        }
+
+
+
 read_input <-
         function(all_types = FALSE) {
 
-                apply_input_filters <-
-                        function(.data) {
+                raw_input <- read_raw_input()
 
-                                x <- .data
-                                if (!is.null(additional_filters)) {
-                                        eval(rlang::parse_expr(paste0("x %>% ", paste(paste0("dplyr::filter(", additional_filters, ")"), collapse = " %>% "))))
-                                } else {
-                                        x
-                                }
-                        }
-
-                        x <- broca::simply_read_csv(path_to_input_fn,
-                                                    log_details = "read input") %>%
-                                dplyr::mutate_all(as.character) %>%
-                                rubix::normalize_all_to_na()
-
-                        x <- apply_input_filters(x)
+                if (!is.null(additional_filters)) {
+                        input <- raw_input %>%
+                                        rubix::filterList(additional_filters)
+                } else {
+                        input <- raw_input
+                }
 
                 cat("\n")
 
@@ -269,20 +446,6 @@ filter_out_null <-
                         purrr::keep(~nrow(.)>0)
         }
 
-
-read_origin <-
-        function(...) {
-
-                if (broca::is_excel(origin_fn)) {
-                        origin_data <- broca::read_full_excel(origin_fn,
-                                                              ...)
-                        origin_data[[origin_tab]]
-                } else if (broca::is_csv(origin_fn)) {
-                        broca::simply_read_csv(origin_fn, ...)
-                } else {
-                        stop("Invalid originating file.")
-                }
-        }
 
 
 read_raw_input <-

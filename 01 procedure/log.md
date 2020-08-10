@@ -6894,3 +6894,11 @@ Timestamp	Activity Type	Function	File	Details
 2020-08-10 10:51:00	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
 2020-08-10 10:51:04	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
 2020-08-10 12:01:04	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-08-10 15:12:57	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-08-10 15:13:57	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-08-10 15:14:27	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-08-10 15:14:38	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-08-10 16:54:10	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-08-10 16:56:06	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-08-10 16:56:14	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-08-10 16:56:37	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input

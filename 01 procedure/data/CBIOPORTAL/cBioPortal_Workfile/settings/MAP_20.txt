@@ -1,9 +1,27 @@
+# Origin
+origin_fn <- '~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_Workfile.xlsx'
+origin_tab <- 'MAP_20'
 
-vocabulary_id <- SNOMED 
-domain_id <- Observation 
-origin file:  ~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_Workfile.xlsx 
-origin tab:  MAP_20 
-source col:  ONCOTREE_NAME 
-term col:  
-terminal col:  Fact 
-attribute col:  
+# Required
+terminal_col <- 'Fact'
+source_col <- 'CONCEPT'
+project_name <- 'CBIOPORTAL'
+
+# NonRequiredCols
+search_term_col <- ''
+attribute_col <- ''
+regimen_col <- ''
+component_col <- ''
+
+# OutputSettings
+concept_class_id <- ''
+standard_concept <- ''
+invalid_reason <- 'NA'
+domain_id <- 'Observation'
+vocabulary_id <- 'SNOMED'
+
+# MiscSettings
+word_split <- '[ ]{1}|[(]{1}|[)]{1}|[,]{1}|[/]{1}|[+]{1}|[-]{1}[>]{1}'
+source_skip_nchar <- '3'
+additional_filters <- '!is.na(ONCOTREE_NAME)'
+

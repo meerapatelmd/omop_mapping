@@ -1,7 +1,7 @@
 rm(list = ls())
 library(tidyverse)
+setwd("/Users/patelm9/GitHub/omop_mapping/01 procedure/")
 source('/Users/patelm9/GitHub/omop_mapping/01 procedure/config/funs.R')
-set_this_wd()
 source('/Users/patelm9/GitHub/omop_mapping/01 procedure/config/constants.R')
 source('/Users/patelm9/GitHub/omop_mapping/01 procedure/config/variables.R')
 
