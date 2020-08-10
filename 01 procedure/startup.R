@@ -1,4 +1,5 @@
 rm(list = ls())
+library(tidyverse)
 source('/Users/patelm9/GitHub/omop_mapping/01 procedure/config/funs.R')
 set_this_wd()
 source('/Users/patelm9/GitHub/omop_mapping/01 procedure/config/constants.R')
