@@ -6,12 +6,7 @@ output:
 ---
 
 ```{r}
-rm(list = ls())
 library(tidyverse)
-source('/Users/patelm9/GitHub/omop_mapping/01 procedure/config/funs.R')
-set_this_wd()
-source('/Users/patelm9/GitHub/omop_mapping/01 procedure/config/constants.R')
-source('/Users/patelm9/GitHub/omop_mapping/01 procedure/config/variables.R')
 ```
 
 
@@ -52,25 +47,6 @@ source_skip_nchar <- 3
 additional_filters <- NULL
 
 #Additional filters fed into the dplyr filter function to apply to the input. Comment out if no filters should be applied.
-
-# Creating project directory if it does not exist
-path_to_project_data <- paste0("data/", project_name)
-cave::create_dir_if_not_exist(path_to_project_data)
-
-# Creating source file subdir if it does not exist
-path_to_file_subdir <- paste0(path_to_project_data, "/", cave::strip_fn(origin_fn))
-cave::create_dir_if_not_exist(path_to_file_subdir)
-
-# Creating subdirectories
-path_to_input_dir <- paste0(path_to_file_subdir, "/input")
-cave::create_dir_if_not_exist(path_to_input_dir)
-path_to_output_dir <- paste0(path_to_file_subdir, "/output")
-cave::create_dir_if_not_exist(path_to_output_dir)
-path_to_settings_dir <- paste0(path_to_file_subdir, "/settings")
-cave::create_dir_if_not_exist(path_to_settings_dir)
-
-# Creating settings object
-chariot::createSettings()
 
 ```
 
