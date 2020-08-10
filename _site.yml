@@ -1,1 +1,11 @@
-name: my-website
+name: OMOP Mapping
+navbar:
+  title: "OMOP Mapping"
+  left:
+  - text: "Home"
+   href: index.html
+  - text: "Setup"
+   href: Setup.html
+output:
+  html_document:
+ theme: cosmo
