@@ -1,9 +1,0 @@
-1593089195 
-vocabularies :  HemOnc 
-concept_classes : NULL
-domains : NULL
-standard_concepts : NULL
-invalid_reasons :  NA, NA 
-origin file:  ~/Memorial Sloan Kettering Cancer Center/KMI and Esophagogastric REDCAp - General/2020-06-26 Meeting/02_align_analysis_with_dd.xlsx 
-origin tab:  MAP_02 
-file stem:  ESOPHAGUS_ 

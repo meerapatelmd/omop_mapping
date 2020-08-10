@@ -1,9 +1,0 @@
-1592954464 
-vocabularies :  NAACCR, SNOMED, LOINC 
-concept_classes : NULL
-domains : NULL
-standard_concepts :  S 
-invalid_reasons :  NA, NA 
-origin file:  ~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Ready for Ingestion/covid19_concomitant_medications.xlsx 
-origin tab:  Sheet 1 
-file stem:  COVID_SL_preingestion_ 

@@ -1,8 +1,0 @@
-
-vocabularies :  SNOMED, LOINC, HemOnc, RxNorm, RxNorm Extension 
-concept_classes : NULL
-domains : NULL
-standard_concepts : NULL
-invalid_reasons :  NA, NA 
-origin file:  ~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/Workfile.xlsx 
-origin tab:  MAP_00 
