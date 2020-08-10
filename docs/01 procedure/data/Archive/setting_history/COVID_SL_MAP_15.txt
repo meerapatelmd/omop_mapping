@@ -1,0 +1,9 @@
+1592432714 
+vocabularies :  RxNorm, RxNorm Extension, HemOnc, ATC, SNOMED, LOINC 
+concept_classes : NULL
+domains :  Drug 
+standard_concepts :  S, C, NA, NA 
+invalid_reasons :  NA, NA 
+origin file:  ~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/BY FORM/Workfile.xlsx 
+origin tab:  MAP_15 
+file stem:  COVID_SL_ 
