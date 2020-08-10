@@ -1,8 +1,0 @@
-
-vocabularies :  HemOnc 
-concept_classes : NULL
-domains : NULL
-standard_concepts : NULL
-invalid_reasons :  NA, NA 
-origin file:  ~/Memorial Sloan Kettering Cancer Center/Esophagogastric REDCap Standardization - KMI Only - KMI Only/2020-07-10 Meeting/Esophagus_Analysis.xlsx 
-origin tab:  MAP_07 

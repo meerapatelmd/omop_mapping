@@ -1,9 +1,0 @@
-1592449793 
-vocabularies :  RxNorm, RxNorm Extension, HemOnc, ATC, SNOMED, LOINC 
-concept_classes : NULL
-domains : NULL
-standard_concepts :  S, C, NA, NA 
-invalid_reasons :  NA, NA 
-origin file:  ~/Memorial Sloan Kettering Cancer Center/KM COVID - General/Mappings/Meera_PreIngestion_Standard_Library.xlsx 
-origin tab:  MAP_01 
-file stem:  COVID_SL_ROUND2_ 
