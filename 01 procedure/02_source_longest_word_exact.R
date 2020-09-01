@@ -1,3 +1,9 @@
+space_before <- FALSE
+space_after <- FALSE
+between_space <- FALSE
+cacheOnly <- TRUE
+
+
 if (interactive()) {
 
 # Routine Variables
@@ -54,104 +60,126 @@ input2 <-
                                         input_routine_id <- routine_id
 
 
-                                        if (!is.logical(input_concept) && !(input_concept %in% c(NA, "NA"))) {
+                        if (!is.logical(input_concept) && !(input_concept %in% c(NA, "NA"))) {
 
-                                                        if (is.na(output_concept)) {
+                                        if (is.na(output_concept)) {
 
-                                                                if (nchar(input_concept) > source_skip_nchar) {
+                                                if (nchar(input_concept) > source_skip_nchar) {
 
-                                                                        secretary::typewrite(crayon::bold("Full:"), input_concept)
+                                                        secretary::typewrite(crayon::bold("Full:"), input_concept)
 
-                                                                        LongestWord <- tibble(all_words = strsplit(input_concept, split = word_split) %>%
-                                                                                                                unlist() %>%
-                                                                                                                centipede::no_blank() %>%
-                                                                                                                unique()) %>%
-                                                                                dplyr::mutate(nchar = nchar(all_words)) %>%
-                                                                                dplyr::filter(nchar >= source_skip_nchar) %>%
-                                                                                dplyr::arrange(desc(nchar)) %>%
-                                                                                dplyr::select(-nchar) %>%
-                                                                                rubix::filter_first_row() %>%
-                                                                                unlist() %>%
-                                                                                centipede::no_na() %>%
-                                                                                centipede::no_blank()
-
-
-                                                                        secretary::typewrite(crayon::bold("Longest Word:"), LongestWord)
+                                                        LongestWord <- tibble(all_words = strsplit(input_concept, split = word_split) %>%
+                                                                                                unlist() %>%
+                                                                                                centipede::no_blank() %>%
+                                                                                                unique()) %>%
+                                                                dplyr::mutate(nchar = nchar(all_words)) %>%
+                                                                dplyr::filter(nchar >= source_skip_nchar) %>%
+                                                                dplyr::arrange(desc(nchar)) %>%
+                                                                dplyr::select(-nchar) %>%
+                                                                rubix::filter_first_row() %>%
+                                                                unlist() %>%
+                                                                centipede::no_na() %>%
+                                                                centipede::no_blank()
 
 
-
-                                                                        if (length(LongestWord)) {
-
-
-                                                                                        #Add space after
-                                                                                        input_word <- paste0(LongestWord, " %")
-                                                                                        space_after_results <-
-                                                                                                chariot::queryPhraseExact(schema = "public",
-                                                                                                                          phrase = input_word,
-                                                                                                                          caseInsensitive = TRUE)
-
-
-                                                                                        #Add space before
-                                                                                        input_word <- paste0("% ", LongestWord)
-                                                                                        space_before_results <-
-                                                                                                chariot::queryPhraseExact(schema = "public",
-                                                                                                                          phrase = input_word,
-                                                                                                                          caseInsensitive = TRUE)
-
-                                                                                        #No space
-                                                                                        input_word <- paste0("% ", LongestWord, " %")
-                                                                                        between_results <-
-                                                                                                chariot::queryPhraseExact(schema = "public",
-                                                                                                                          phrase = input_word,
-                                                                                                                          caseInsensitive = TRUE)
-
-                                                                                        #No space
-                                                                                        input_word <- LongestWord
-                                                                                        no_space_results <-
-                                                                                                chariot::queryPhraseExact(schema = "public",
-                                                                                                                          phrase = input_word,
-                                                                                                                          caseInsensitive = TRUE)
-
-
-                                                                                        output[[i]] <-
-                                                                                                dplyr::bind_rows(space_after_results,
-                                                                                                                 space_before_results,
-                                                                                                                 no_space_results,
-                                                                                                                 between_results) %>%
-                                                                                                dplyr::distinct() %>%
-                                                                                                chariot::filterSettings() %>%
-                                                                                                rubix::arrange_by_nchar(concept_name) %>%
-                                                                                                filter_max_250()
-
-
-                                                                                names(output)[i] <- input_routine_id
+                                                        secretary::typewrite(crayon::bold("Longest Word:"), LongestWord)
 
 
 
+                                                        if (length(LongestWord)) {
 
+                                                                if (space_after) {
 
-                                                                        output[[i]] <-
-                                                                                output[[i]] %>%
-                                                                                #dplyr::bind_rows() %>%
-                                                                                chariot::merge_concepts(into = `Concept`) %>%
-                                                                                dplyr::mutate(Concept = paste0(LongestWord, ": ", Concept)) %>%
-                                                                                dplyr::select(!!new_col_name := `Concept`)
+                                                                        #Add space after
+                                                                        input_word <- paste0(LongestWord, " %")
+                                                                        space_after_results <-
+                                                                                chariot::queryPhraseExact(schema = "public",
+                                                                                                          phrase = input_word,
+                                                                                                          caseInsensitive = TRUE)
 
                                                                 } else {
-                                                                        output[[i]] <- NA
-                                                                        output[[i]] <-
-                                                                                output[[i]] %>%
-                                                                                rubix::vector_to_tibble(!!new_col_name)
+                                                                        space_after_results <- NULL
                                                                 }
 
 
+                                                                if (space_before) {
 
-                                                        } else {
-                                                                output[[i]] <- NA
-                                                                output[[i]] <-
-                                                                        output[[i]] %>%
-                                                                        rubix::vector_to_tibble(!!new_col_name)
-                                                        }
+
+                                                                        #Add space before
+                                                                        input_word <- paste0("% ", LongestWord)
+                                                                        space_before_results <-
+                                                                                chariot::queryPhraseExact(schema = "public",
+                                                                                                          phrase = input_word,
+                                                                                                          caseInsensitive = TRUE)
+                                                                } else {
+                                                                        space_after_results <- NULL
+                                                                }
+
+                                                                if (between_space) {
+
+                                                                        #No space
+                                                                        input_word <- paste0("% ", LongestWord, " %")
+                                                                        between_results <-
+                                                                                chariot::queryPhraseExact(schema = "public",
+                                                                                                          phrase = input_word,
+                                                                                                          caseInsensitive = TRUE)
+                                                                } else {
+                                                                        between_results <- NULL
+                                                                }
+
+                                                                        #No space
+                                                                        input_word <- LongestWord
+                                                                        if (cacheOnly) {
+                                                                        sql_statement <-
+                                                                        pg13::buildQuery(schema = "public",
+                                                                                         tableName = "concept",
+                                                                                         whereInField = "concept_name",
+                                                                                         whereInVector = input_word,
+                                                                                         caseInsensitive = caseInsensitive)
+
+                                                                        no_space_results <-
+                                                                        pg13::loadCachedQuery(sqlQuery = sql_statement,
+                                                                                              db = "athena")
+                                                                        } else {
+                                                                        no_space_results <-
+                                                                                chariot::queryPhraseExact(schema = "public",
+                                                                                                          phrase = input_word,
+                                                                                                          caseInsensitive = TRUE)
+                                                                        }
+
+
+                                                                        output[[i]] <-
+                                                                                dplyr::bind_rows(space_after_results,
+                                                                                                 space_before_results,
+                                                                                                 no_space_results,
+                                                                                                 between_results) %>%
+                                                                                dplyr::distinct() %>%
+                                                                                #chariot::filterSettings() %>%
+                                                                                rubix::arrange_by_nchar(concept_name) %>%
+                                                                                filter_max_250()
+
+
+                                                                names(output)[i] <- input_routine_id
+
+
+
+
+
+                                                        output[[i]] <-
+                                                                output[[i]] %>%
+                                                                #dplyr::bind_rows() %>%
+                                                                chariot::merge_concepts(into = `Concept`) %>%
+                                                                dplyr::mutate(Concept = paste0(LongestWord, ": ", Concept)) %>%
+                                                                dplyr::select(!!new_col_name := `Concept`)
+
+                                                } else {
+                                                        output[[i]] <- NA
+                                                        output[[i]] <-
+                                                                output[[i]] %>%
+                                                                rubix::vector_to_tibble(!!new_col_name)
+                                                }
+
+
 
                                         } else {
                                                 output[[i]] <- NA
@@ -160,15 +188,22 @@ input2 <-
                                                         rubix::vector_to_tibble(!!new_col_name)
                                         }
 
-                                        names(output)[i] <- input_routine_id
-
-                                        typewrite_progress(i = i, input3)
-                                        rm(list = colnames(input_row))
-                                        rm(input_row)
+                        } else {
+                                output[[i]] <- NA
+                                output[[i]] <-
+                                        output[[i]] %>%
+                                        rubix::vector_to_tibble(!!new_col_name)
                         }
 
-                        final_output <- output %>%
-                                                dplyr::bind_rows(.id = "routine_id")
+                        names(output)[i] <- input_routine_id
+
+                        typewrite_progress(i = i, input3)
+                        rm(list = colnames(input_row))
+                        rm(input_row)
+        }
+
+        final_output <- output %>%
+                                dplyr::bind_rows(.id = "routine_id")
 
                 }
 
