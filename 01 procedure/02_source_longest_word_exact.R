@@ -1,18 +1,15 @@
 if (interactive()) {
 
-clean_env()
-
-source('startup.R')
 # Routine Variables
-path_to_output_fn <- create_path_to_output_fn()
+path_to_output_fn <- createOutputPath()
 # Temporary stop if the output file exists
 brake_if_output_exists()
 
 final_output <- list()
 # Read input
 input <- read_input()
-target_col <- source_col
-
+target_col <- .SETTINGS$Required$source_col
+word_split <- .SETTINGS$MiscSettings$word_split
 # Routine Variables
 type <- c("exact")
 new_col_name <- paste0("Source Longest Word ", centipede::in_title_format(type))
@@ -87,28 +84,42 @@ input2 <-
 
 
                                                                                         #Add space after
-                                                                                        input_word <- paste0(LongestWord, " ")
+                                                                                        input_word <- paste0(LongestWord, " %")
                                                                                         space_after_results <-
-                                                                                                query_phrase_in_athena(phrase = input_word,
-                                                                                                                       type = type)
+                                                                                                chariot::queryPhraseExact(schema = "public",
+                                                                                                                          phrase = input_word,
+                                                                                                                          caseInsensitive = TRUE)
 
 
                                                                                         #Add space before
-                                                                                        input_word <- paste0(" ", LongestWord)
+                                                                                        input_word <- paste0("% ", LongestWord)
                                                                                         space_before_results <-
-                                                                                                query_phrase_in_athena(phrase = input_word,
-                                                                                                                       type = type)
+                                                                                                chariot::queryPhraseExact(schema = "public",
+                                                                                                                          phrase = input_word,
+                                                                                                                          caseInsensitive = TRUE)
 
                                                                                         #No space
+                                                                                        input_word <- paste0("% ", LongestWord, " %")
+                                                                                        between_results <-
+                                                                                                chariot::queryPhraseExact(schema = "public",
+                                                                                                                          phrase = input_word,
+                                                                                                                          caseInsensitive = TRUE)
+
+                                                                                        #No space
+                                                                                        input_word <- LongestWord
                                                                                         no_space_results <-
-                                                                                                query_phrase_in_athena(phrase = LongestWord,
-                                                                                                                       type = type)
+                                                                                                chariot::queryPhraseExact(schema = "public",
+                                                                                                                          phrase = input_word,
+                                                                                                                          caseInsensitive = TRUE)
+
 
                                                                                         output[[i]] <-
                                                                                                 dplyr::bind_rows(space_after_results,
                                                                                                                  space_before_results,
-                                                                                                                 no_space_results) %>%
+                                                                                                                 no_space_results,
+                                                                                                                 between_results) %>%
                                                                                                 dplyr::distinct() %>%
+                                                                                                chariot::filterSettings() %>%
                                                                                                 rubix::arrange_by_nchar(concept_name) %>%
                                                                                                 filter_max_250()
 

@@ -148,14 +148,14 @@ createSettingsObj <-
 
 createOutputPath <-
         function() {
-                path.expand(paste0(getwd(), "/", path_to_output_dir, "/", origin_tab,"_", cave::strip_fn(cave::present_script_path()), ".csv"))
+                path.expand(paste0(getwd(), "/", .PATHS$OUTPUT, "/", .SETTINGS$Origin$origin_tab,"_", cave::strip_fn(cave::present_script_path()), ".csv"))
 
         }
 
 brake_if_output_exists <-
         function() {
 
-                if (file.exists(path_to_output_fn)) {
+                if (file.exists(outputPath)) {
 
                         secretary::typewrite_warning(path_to_output_fn, "already exists and will be overwritten.")
                         secretary::press_enter()
@@ -339,6 +339,9 @@ brake_if_output_exists <-
 read_origin <-
         function(...) {
 
+                origin_fn <- .SETTINGS$Origin$origin_fn
+                origin_tab <- .SETTINGS$Origin$origin_tab
+
                 if (broca::is_excel(origin_fn)) {
 
                         origin_data <- broca::read_full_excel(origin_fn,
@@ -360,23 +363,23 @@ read_origin <-
 read_raw_input <-
         function(verbose = TRUE) {
 
-                x <- broca::simply_read_csv(path_to_input_fn,
+                x <- broca::simply_read_csv(INPUT$Path,
                                             log_details = "read input") %>%
                         rubix::normalize_all_to_na()
 
 
                 if (verbose) {
 
-                                secretary::typewrite(crayon::bold("Terminal Column:"), terminal_col)
+                                secretary::typewrite(crayon::bold("Terminal Column:"), .SETTINGS$Required$terminal_col)
 
                                 cat("\n")
 
                                 print(
                                         x %>%
-                                                dplyr::select(!!terminal_col) %>%
-                                                dplyr::mutate_at(vars(!!terminal_col),
+                                                dplyr::select(!!.SETTINGS$Required$terminal_col) %>%
+                                                dplyr::mutate_at(vars(!!.SETTINGS$Required$terminal_col),
                                                                  function(x) ifelse(is.na(x), "Unmapped", "Mapped")) %>%
-                                                group_by_at(vars(!!terminal_col)) %>%
+                                                group_by_at(vars(!!.SETTINGS$Required$terminal_col)) %>%
                                                 summarize(COUNT = n(), .groups = "drop") %>%
                                                 dplyr::ungroup()
                                 )
@@ -396,24 +399,24 @@ read_input <-
 
                 raw_input <- read_raw_input()
 
-                if (!is.null(additional_filters)) {
+                if (!is.null(.SETTINGS$MiscSettings$additional_filters)) {
                         input <- raw_input %>%
-                                        rubix::filterList(additional_filters)
+                                        rubix::filterList(.SETTINGS$MiscSettings$additional_filters)
                 } else {
                         input <- raw_input
                 }
 
                 cat("\n")
 
-                secretary::typewrite(crayon::bold("Terminal Column:"), terminal_col)
-                secretary::typewrite(crayon::bold("Source Column:"), source_col)
-                secretary::typewrite(crayon::bold("Term Column:"), term_col)
-                secretary::typewrite(crayon::bold("Attribute Column:"), attribute_col)
+                secretary::typewrite(crayon::bold("Terminal Column:"), .SETTINGS$Required$terminal_col)
+                secretary::typewrite(crayon::bold("Source Column:"), .SETTINGS$Required$source_col)
+                secretary::typewrite(crayon::bold("Term Column:"), .SETTINGS$NonRequiredCols$search_term_col)
+                secretary::typewrite(crayon::bold("Attribute Column:"), .SETTINGS$NonRequiredCols$attribute_col)
 
-                if (!is.null(additional_filters)) {
+                if (!is.null(.SETTINGS$MiscSettings$additional_filters)) {
 
                         secretary::typewrite(crayon::bold("Filters:"))
-                        additional_filters %>%
+                        .SETTINGS$MiscSettings$additional_filters %>%
                                 purrr::map(function(x) secretary::typewrite(x, tabs = 1))
 
                 }
@@ -421,21 +424,21 @@ read_input <-
                 cat("\n")
 
                 print(
-                        x %>%
-                                dplyr::select(!!terminal_col) %>%
-                                dplyr::mutate_at(vars(!!terminal_col),
+                        input %>%
+                                dplyr::select(!!.SETTINGS$Required$terminal_col) %>%
+                                dplyr::mutate_at(vars(!!.SETTINGS$Required$terminal_col),
                                                  function(x)
                                                          ifelse(is.na(x),
                                                                 "Unmapped",
                                                                 "Mapped")) %>%
-                                group_by_at(vars(!!terminal_col)) %>%
+                                group_by_at(vars(!!.SETTINGS$Required$terminal_col)) %>%
                                 summarize(COUNT = n(), .groups = "drop") %>%
                                 dplyr::ungroup()
                 )
 
                 cat("\n")
 
-                return(x)
+                input
 
         }
 
@@ -451,23 +454,24 @@ filter_out_null <-
 read_raw_input <-
         function() {
 
-                if (terminal_col == "MSK Concept") {
 
-                        x <- broca::simply_read_csv(path_to_input_fn,
+                if (.SETTINGS$Required$terminal_col == "MSK Concept") {
+
+                        x <- broca::simply_read_csv(INPUT$Path,
                                                     log_details = "read input") %>%
                                 normalize_na() %>%
                                 dplyr::mutate_all(as.character)
 
-                } else if (terminal_col == "Fact") {
+                } else if (.SETTINGS$Required$terminal_col == "Fact") {
 
-                        x <- broca::simply_read_csv(path_to_input_fn,
+                        x <- broca::simply_read_csv(INPUT$Path,
                                                     log_details = "read input") %>%
                                 normalize_na() %>%
                                 dplyr::mutate_all(as.character)
 
                 } else {
 
-                        x <- broca::simply_read_csv(path_to_input_fn,
+                        x <- broca::simply_read_csv(INPUT$Path,
                                                     log_details = "read input") %>%
                                 normalize_na() %>%
                                 dplyr::mutate_all(as.character)
@@ -475,19 +479,19 @@ read_raw_input <-
 
                 cat("\n")
 
-                secretary::typewrite(crayon::bold("Terminal Column:"), terminal_col)
+                secretary::typewrite(crayon::bold("Terminal Column:"), .SETTINGS$Required$terminal_col)
 
                 cat("\n")
 
                 print(
                         x %>%
-                                dplyr::select(!!terminal_col) %>%
-                                dplyr::mutate_at(vars(!!terminal_col),
+                                dplyr::select(!!.SETTINGS$Required$terminal_col) %>%
+                                dplyr::mutate_at(vars(!!.SETTINGS$Required$terminal_col),
                                                  function(x)
                                                          ifelse(is.na(x),
                                                                 "Unmapped",
                                                                 "Mapped")) %>%
-                                group_by_at(vars(!!terminal_col)) %>%
+                                group_by_at(vars(!!.SETTINGS$Required$terminal_col)) %>%
                                 summarize(COUNT = n(), .groups = "drop") %>%
                                 dplyr::ungroup()
                 )
@@ -532,7 +536,7 @@ filter_max_n <-
 read_workfile <-
         function(routine, ...) {
 
-                x <- broca::simply_read_csv(path_to_input_fn,
+                x <- broca::simply_read_csv(INPUT$Path,
                                        log_details = routine) %>%
                         normalize_na()
 
@@ -601,7 +605,10 @@ try_catch_as_na_df <-
 # Make sure all columns are in the input
 startup_qa <-
         function() {
-                x <- broca::simply_read_csv(path_to_csv = path_to_input_fn)
+                x <- broca::simply_read_csv(path_to_csv = INPUT$Path)
+                source_col <- .SETTINGS$Required$source_col
+                terminal_col <- .SETTINGS$Required$terminal_col
+
                 if (!(source_col %in% colnames(x))) {
                         stop("`source_col` not in input.")
                 }
@@ -615,7 +622,7 @@ startup_qa <-
 # View input columns if failed qa
 view_columns <-
         function() {
-                x <- broca::simply_read_csv(path_to_csv = path_to_input_fn)
+                x <- broca::simply_read_csv(path_to_csv = INPUT$Path)
                 secretary::typewrite_bold("Columns in input:")
                 colnames(x) %>%
                         purrr::map(function(x) secretary::typewrite(x, tabs = 1))
@@ -1141,7 +1148,7 @@ typewrite_source_progress <-
                                 net_input <<-
                                         input %>%
                                         dplyr::filter_at(vars(!!terminal_col), all_vars(is.na(.))) %>%
-                                        dplyr::select(!!source_col) %>%
+                                        dplyr::select(!!.SETTINGS$Required$source_col) %>%
                                         dplyr::distinct() %>%
                                         unlist() %>%
                                         centipede::no_na()

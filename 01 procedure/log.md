@@ -6902,3 +6902,52 @@ Timestamp	Activity Type	Function	File	Details
 2020-08-10 16:56:06	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
 2020-08-10 16:56:14	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
 2020-08-10 16:56:37	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	read input
+2020-08-10 19:52:00	read	simply_read_csv	data/CBIOPORTAL/cBioPortal_Workfile/input/MAP_20.csv	
+2020-08-10 19:52:39	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_Workfile.xlsx	
+2020-08-10 19:55:52	read	read_full_excel	~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardization - KMI Only - KMI Only/Mapping Files/cBioPortal_Workfile.xlsx	
+2020-09-01 14:58:47	read	read_full_excel	~/OneDrive - Memorial Sloan Kettering Cancer Center/escritoire-data/Drug Classification/Mapping Files/antineoplastic.xlsx	
+2020-09-01 14:58:54	read	read_full_excel	~/OneDrive - Memorial Sloan Kettering Cancer Center/escritoire-data/Drug Classification/Mapping Files/antineoplastic.xlsx	
+2020-09-01 14:59:10	read	read_full_excel	~/OneDrive - Memorial Sloan Kettering Cancer Center/escritoire-data/Drug Classification/Mapping Files/antineoplastic.xlsx	
+2020-09-01 14:59:43	read	read_full_excel	~/OneDrive - Memorial Sloan Kettering Cancer Center/escritoire-data/Drug Classification/Mapping Files/antineoplastic.xlsx	
+2020-09-01 15:00:24	read	read_full_excel	~/OneDrive - Memorial Sloan Kettering Cancer Center/escritoire-data/Drug Classification/Mapping Files/antineoplastic.xlsx	
+2020-09-01 15:00:24	write	simply_write_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	
+2020-09-01 15:00:30	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	
+2020-09-01 15:00:36	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	
+2020-09-01 15:00:57	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	
+2020-09-01 15:01:28	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	
+2020-09-01 15:02:07	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	
+2020-09-01 15:24:48	read	simply_read_csv	MAP_00.csv	read input
+2020-09-01 15:24:59	read	simply_read_csv	MAP_00.csv	read input
+2020-09-01 15:25:06	read	simply_read_csv	MAP_00.csv	read input
+2020-09-01 15:25:27	read	simply_read_csv	MAP_00.csv	read input
+2020-09-01 15:27:55	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv/MAP_00.csv	read input
+2020-09-01 15:29:10	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 15:29:24	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 15:29:35	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 15:29:55	read	read_full_excel	~/OneDrive - Memorial Sloan Kettering Cancer Center/escritoire-data/Drug Classification/Mapping Files/antineoplastic.xlsx	
+2020-09-01 15:29:55	write	simply_write_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	
+2020-09-01 15:30:41	read	read_full_excel	~/OneDrive - Memorial Sloan Kettering Cancer Center/escritoire-data/Drug Classification/Mapping Files/antineoplastic.xlsx	
+2020-09-01 15:30:41	write	simply_write_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	
+2020-09-01 15:30:46	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 15:30:52	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 15:31:14	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 15:32:23	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 15:33:32	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 15:34:51	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 15:35:04	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 15:35:18	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 15:35:48	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 15:35:56	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 15:36:42	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 15:37:05	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 15:37:32	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 15:37:45	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 15:38:17	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 15:38:39	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 15:38:46	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 15:41:05	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 15:56:08	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 15:56:22	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 15:56:58	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 16:00:09	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 16:02:20	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input

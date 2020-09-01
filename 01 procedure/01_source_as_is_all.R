@@ -1,8 +1,8 @@
 library(tidyverse)
 # Source function and vars
-if (interactive()) {
-                source("startup.R")
-}
+# if (interactive()) {
+#                 source("startup.R")
+# }
 
 # Set search parameters
 type <- "all"
@@ -27,8 +27,9 @@ if (interactive()) {
 ##############################################
 # Read input
 input <- read_input()
-target_col <- source_col
-
+target_col <- .SETTINGS$Required$source_col
+terminal_col <- .SETTINGS$Required$terminal_col
+source_skip_nchar <- .SETTINGS$MiscSettings$source_skip_nchar
 
 # Create final input object to join with final output object before export
 final_input <- input

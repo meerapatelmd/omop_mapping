@@ -1,0 +1,26 @@
+# Origin
+origin_fn <- '~/OneDrive - Memorial Sloan Kettering Cancer Center/escritoire-data/Drug Classification/Mapping Files/antineoplastic.xlsx'
+origin_tab <- 'MAP_00'
+
+# Required
+source_col <- 'APR_GENERIC_NAME'
+terminal_col <- 'IS_MAPPED'
+project_name <- 'DRUG_CLASSIFICATION'
+
+# NonRequiredCols
+attribute_col <- ''
+component_col <- ''
+search_term_col <- ''
+regimen_col <- ''
+
+# OutputSettings
+invalid_reason <- 'NA'
+standard_concept <- ''
+domain_id <- 'Drug'
+concept_class_id <- ''
+
+# MiscSettings
+source_skip_nchar <- '3'
+word_split <- '[ ]{1}|[(]{1}|[)]{1}|[,]{1}|[/]{1}|[+]{1}|[-]{1}[>]{1}'
+additional_filters <- ''
+

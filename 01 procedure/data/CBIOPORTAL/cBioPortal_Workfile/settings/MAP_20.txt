@@ -3,25 +3,25 @@ origin_fn <- '~/Memorial Sloan Kettering Cancer Center/cBioPortal Standardizatio
 origin_tab <- 'MAP_20'
 
 # Required
-terminal_col <- 'Fact'
 source_col <- 'CONCEPT'
+terminal_col <- 'Fact'
 project_name <- 'CBIOPORTAL'
 
 # NonRequiredCols
-search_term_col <- ''
 attribute_col <- ''
-regimen_col <- ''
+search_term_col <- ''
 component_col <- ''
+regimen_col <- ''
 
 # OutputSettings
-concept_class_id <- ''
-standard_concept <- ''
-invalid_reason <- 'NA'
 domain_id <- 'Observation'
 vocabulary_id <- 'SNOMED'
+standard_concept <- ''
+concept_class_id <- ''
+invalid_reason <- 'NA'
 
 # MiscSettings
-word_split <- '[ ]{1}|[(]{1}|[)]{1}|[,]{1}|[/]{1}|[+]{1}|[-]{1}[>]{1}'
 source_skip_nchar <- '3'
 additional_filters <- '!is.na(ONCOTREE_NAME)'
+word_split <- '[ ]{1}|[(]{1}|[)]{1}|[,]{1}|[/]{1}|[+]{1}|[-]{1}[>]{1}'
 

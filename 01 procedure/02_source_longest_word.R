@@ -1,5 +1,3 @@
-rm(list = ls())
-source('setup.R')
 path_to_output_fn <- paste0(stringr::str_replace(path_to_input_fn, "(^.*?[/]{1})(.*?)([.]{1}csv$)", "output/\\2_"), cave::strip_fn(cave::present_script_path()), ".csv")
 
 if (file.exists(path_to_output_fn)) {
@@ -8,9 +6,7 @@ if (file.exists(path_to_output_fn)) {
 }
 
 
-input2 <- read_workfile(routine = "01_search_source",
-                        STANDARD_LIBRARY == "TRUE")
-
+input2 <- read
 target_col <- source_col
 
 # Search Settings
