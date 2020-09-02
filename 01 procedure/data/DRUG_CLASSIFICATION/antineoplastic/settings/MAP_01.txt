@@ -1,6 +1,6 @@
 # Origin
 origin_fn <- '~/OneDrive - Memorial Sloan Kettering Cancer Center/escritoire-data/Drug Classification/Mapping Files/antineoplastic.xlsx'
-origin_tab <- 'MAP_00'
+origin_tab <- 'MAP_01'
 
 # Required
 project_name <- 'DRUG_CLASSIFICATION'

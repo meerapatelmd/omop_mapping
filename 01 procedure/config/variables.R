@@ -13,7 +13,7 @@ invalid_reason <- NA
 # Project Setup
 project_name <- "DRUG_CLASSIFICATION"
 origin_fn <-  "~/OneDrive - Memorial Sloan Kettering Cancer Center/escritoire-data/Drug Classification/Mapping Files/antineoplastic.xlsx"
-origin_tab <- "MAP_00"
+origin_tab <- "MAP_01"
 
 # Required
 # Target Columns: column where queries are sourced from. Note that the column called "CONCEPT" has been changed to "SOURCE" in this routine since the merge of OMOP concepts is functionalized to be called `Concept`.
@@ -40,3 +40,14 @@ word_split <- "[ ]{1}|[(]{1}|[)]{1}|[,]{1}|[/]{1}|[+]{1}|[-]{1}[>]{1}" # The reg
 setupProjectDirs()
 saveSettings()
 createSettingsObj()
+
+filterSettings <-
+        .SETTINGS$OutputSettings %>%
+        purrr::keep(~!is.null(.))
+
+filterSettings <-
+        filterSettings %>%
+        purrr::map2(names(filterSettings), function(x,y) as_tibble_col(x, column_name = y)) %>%
+        purrr::reduce(cbind) %>%
+        as_tibble() %>%
+        rubix::normalize_all_to_na()

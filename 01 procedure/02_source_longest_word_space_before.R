@@ -2,18 +2,17 @@ if (!interactive()) {
         library(tidyverse)
 }
 
-
-space_before <- FALSE
+space_before <- TRUE
 space_after <- FALSE
 between_space <- FALSE
-exact_match <- TRUE
+exact_match <- FALSE
 cacheOnly <- FALSE
 
 releaseSettings()
 target_col <- source_col
 
 # Routine Variables
-new_col_name <- "Source Longest Word Exact"
+new_col_name <- "Source Longest Word Space Before"
 new_col_name_status <- paste0(new_col_name, " Status")
 
 # Routine Variables

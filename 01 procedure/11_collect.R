@@ -3,14 +3,15 @@ source('startup.R')
 
 # It is important that the read_input function isn't used to get the true input because read_input may have applied additional_filters so the entire input is not represented
 origin <-
-        list.files(.PATHS$INPUT, full.names = TRUE, pattern = cave::strip_fn(inputFile)) %>%
-        broca::simply_read_csv()
+        broca::simply_read_csv(inputPath)
+origin_colnames <- colnames(origin)[!(colnames(origin) %in% "routine_id")]
 
 # Get all the outputs from this run based on the input_fn pattern
 all_outputs <-
-list.files(.PATHS$INPUT, full.names = TRUE, pattern = cave::strip_fn(inputFile)) %>%
+list.files(.PATHS$OUTPUT, full.names = TRUE, pattern = cave::strip_fn(inputFile)) %>%
        rubix::map_names_set(broca::simply_read_csv) %>%
-        purrr::keep(~nrow(.)>0)
+        purrr::keep(~nrow(.)>0) %>%
+        purrr::map(~select(., -any_of(colnames(origin)[!("routine_id"  %in% colnames(origin))])))
 
 
 # QA on output
