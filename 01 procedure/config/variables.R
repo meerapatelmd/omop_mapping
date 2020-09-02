@@ -13,7 +13,7 @@ invalid_reason <- NA
 # Project Setup
 project_name <- "DRUG_CLASSIFICATION"
 origin_fn <-  "~/OneDrive - Memorial Sloan Kettering Cancer Center/escritoire-data/Drug Classification/Mapping Files/antineoplastic.xlsx"
-origin_tab <- "MAP_01"
+origin_tab <- "MAP_02"
 
 # Required
 # Target Columns: column where queries are sourced from. Note that the column called "CONCEPT" has been changed to "SOURCE" in this routine since the merge of OMOP concepts is functionalized to be called `Concept`.

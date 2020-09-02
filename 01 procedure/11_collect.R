@@ -19,7 +19,7 @@ list.files(.PATHS$OUTPUT, full.names = TRUE, pattern = cave::strip_fn(inputFile)
 qa1 <-
 all_outputs %>%
         # Isolate column names not found in the origin file
-        purrr::map(function(x) colnames(x)[!(colnames(x) %in% origin_colnames)]) %>%
+        purrr::map(function(x) colnames(x)[!(colnames(x) %in% c("routine_id", origin_colnames))]) %>%
         # Convert to dataframe to bind into a dataframe and perform unique counts for each new column name
         purrr::map(rubix::vector_to_tibble, new_col = New_Colname) %>%
         dplyr::bind_rows(.id = "Source File") %>%
