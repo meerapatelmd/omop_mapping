@@ -8,19 +8,19 @@ terminal_col <- 'IS_MAPPED'
 project_name <- 'DRUG_CLASSIFICATION'
 
 # NonRequiredCols
-attribute_col <- ''
-component_col <- ''
 search_term_col <- ''
 regimen_col <- ''
+component_col <- ''
+attribute_col <- ''
 
 # OutputSettings
-invalid_reason <- 'NA'
 standard_concept <- ''
+invalid_reason <- 'NA'
 domain_id <- 'Drug'
 concept_class_id <- ''
 
 # MiscSettings
+additional_filters <- ''
 source_skip_nchar <- '3'
 word_split <- '[ ]{1}|[(]{1}|[)]{1}|[,]{1}|[/]{1}|[+]{1}|[-]{1}[>]{1}'
-additional_filters <- ''
 

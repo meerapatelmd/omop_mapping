@@ -6959,3 +6959,31 @@ Timestamp	Activity Type	Function	File	Details
 2020-09-01 17:25:28	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
 2020-09-01 17:26:45	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
 2020-09-01 17:27:14	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 17:27:39	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 17:39:46	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/DRUG_CLASSIFICATION/antineoplastic/output/MAP_00_02_source_longest_word_exact.csv	
+2020-09-01 17:56:47	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	
+2020-09-01 17:56:47	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	
+2020-09-01 17:56:47	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpbvL0Rj/file8a7825cda3f6.csv	
+2020-09-01 18:15:11	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 18:15:33	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 18:16:23	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 18:17:07	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-01 20:57:49	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/DRUG_CLASSIFICATION/antineoplastic/output/MAP_00_02_source_longest_word_exact.csv	
+2020-09-01 21:01:20	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	
+2020-09-01 21:01:20	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	
+2020-09-01 21:01:20	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpbvL0Rj/file8a782dc4bf33.csv	
+2020-09-02 13:02:15	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-02 13:03:28	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-02 13:05:23	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-02 13:05:56	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-02 13:07:40	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-02 13:08:08	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-02 13:08:14	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-02 13:08:31	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-02 13:10:10	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-02 13:11:30	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-02 13:34:49	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-02 13:35:07	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-02 13:36:06	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-02 13:37:16	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input
+2020-09-02 13:40:12	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_00.csv	read input

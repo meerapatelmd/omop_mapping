@@ -157,13 +157,39 @@ brake_if_output_exists <-
 
                 if (file.exists(outputPath)) {
 
-                        secretary::typewrite_warning(path_to_output_fn, "already exists and will be overwritten.")
+                        secretary::typewrite_warning(outputPath, "already exists and will be overwritten.")
                         secretary::press_enter()
                 }
         }
 
 
+releaseSettings <-
+        function() {
+                x <- .SETTINGS
+                names(x) <- NULL
+                x <- unlist(x)
+                names <- names(x)
+                vals <- unname(x)
 
+                names %>%
+                        purrr::map2(vals,
+                                    function(x,y) assign(x = x,
+                                                         value = y,
+                                                         envir = globalenv()))
+
+        }
+
+rmSettingsObj <-
+        function() {
+                x <- .SETTINGS
+                names(x) <- NULL
+                x <- unlist(x)
+                names <- names(x)
+
+                names %>%
+                        purrr::map(cave::rm_if_exists)
+
+        }
 ####################
 ## Apply Settings ##
 ####################
@@ -365,6 +391,7 @@ read_raw_input <-
 
                 x <- broca::simply_read_csv(INPUT$Path,
                                             log_details = "read input") %>%
+                        tibble::as_tibble() %>%
                         rubix::normalize_all_to_na()
 
 
@@ -447,59 +474,6 @@ filter_out_null <-
                 output %>%
                         purrr::keep(~!is.null(.)) %>%
                         purrr::keep(~nrow(.)>0)
-        }
-
-
-
-read_raw_input <-
-        function() {
-
-
-                if (.SETTINGS$Required$terminal_col == "MSK Concept") {
-
-                        x <- broca::simply_read_csv(INPUT$Path,
-                                                    log_details = "read input") %>%
-                                normalize_na() %>%
-                                dplyr::mutate_all(as.character)
-
-                } else if (.SETTINGS$Required$terminal_col == "Fact") {
-
-                        x <- broca::simply_read_csv(INPUT$Path,
-                                                    log_details = "read input") %>%
-                                normalize_na() %>%
-                                dplyr::mutate_all(as.character)
-
-                } else {
-
-                        x <- broca::simply_read_csv(INPUT$Path,
-                                                    log_details = "read input") %>%
-                                normalize_na() %>%
-                                dplyr::mutate_all(as.character)
-                }
-
-                cat("\n")
-
-                secretary::typewrite(crayon::bold("Terminal Column:"), .SETTINGS$Required$terminal_col)
-
-                cat("\n")
-
-                print(
-                        x %>%
-                                dplyr::select(!!.SETTINGS$Required$terminal_col) %>%
-                                dplyr::mutate_at(vars(!!.SETTINGS$Required$terminal_col),
-                                                 function(x)
-                                                         ifelse(is.na(x),
-                                                                "Unmapped",
-                                                                "Mapped")) %>%
-                                group_by_at(vars(!!.SETTINGS$Required$terminal_col)) %>%
-                                summarize(COUNT = n(), .groups = "drop") %>%
-                                dplyr::ungroup()
-                )
-
-                cat("\n")
-
-                return(x)
-
         }
 
 
