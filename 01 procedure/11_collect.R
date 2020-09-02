@@ -11,7 +11,7 @@ all_outputs <-
 list.files(.PATHS$OUTPUT, full.names = TRUE, pattern = cave::strip_fn(inputFile)) %>%
        rubix::map_names_set(broca::simply_read_csv) %>%
         purrr::keep(~nrow(.)>0) %>%
-        purrr::map(~select(., -any_of(colnames(origin)[!("routine_id"  %in% colnames(origin))])))
+        purrr::map(~select(., -any_of(origin_colnames)))
 
 
 # QA on output
@@ -19,7 +19,7 @@ list.files(.PATHS$OUTPUT, full.names = TRUE, pattern = cave::strip_fn(inputFile)
 qa1 <-
 all_outputs %>%
         # Isolate column names not found in the origin file
-        purrr::map(function(x) colnames(x)[!(colnames(x) %in% colnames(origin))]) %>%
+        purrr::map(function(x) colnames(x)[!(colnames(x) %in% origin_colnames)]) %>%
         # Convert to dataframe to bind into a dataframe and perform unique counts for each new column name
         purrr::map(rubix::vector_to_tibble, new_col = New_Colname) %>%
         dplyr::bind_rows(.id = "Source File") %>%
@@ -43,28 +43,28 @@ if (nrow(qa1) > 0) {
 # Since all New_Columns are unique, all outputs are left joined on the origin column names
 all_outputs2 <-
         all_outputs %>%
-        purrr::reduce(left_join, by = colnames(origin))
+        purrr::reduce(left_join, by = "routine_id")
 
 # The completely left-joined outputs are then joined with the origin to include all the original concepts, which is especially important in cases with the additional_filters object was created in this run.
-final_output_11 <-
+finalCollection <-
         dplyr::left_join(origin,
                          all_outputs2,
-                         by = colnames(origin))
+                         by = "routine_id")
 
 
 
 ## 2. Are all routine_ids in the origin represented in the output?
-qa2 <- all(origin$routine_id %in% final_output_11$routine_id)
+qa2 <- all(origin$routine_id %in% finalCollection$routine_id)
 if (qa2 == FALSE) {
-        stop("all origin routine_ids are not in final_output_11.")
+        stop("all origin routine_ids are not in finalCollection.")
 }
 
 ## 3. Are there any duplicates introduced?
-qa3 <- nrow(origin)-nrow(final_output_11)
+qa3 <- nrow(origin)-nrow(finalCollection)
 if (qa3 != 0) {
-        stop("The row count between origin and final_output_11 do not match.")
+        stop("The row count between origin and finalCollection do not match.")
 }
 
 
 #broca::copy_to_clipboard(final_output)
-broca::view_as_csv(final_output_11)
+broca::view_as_csv(finalCollection)
