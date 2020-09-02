@@ -7048,3 +7048,12 @@ Timestamp	Activity Type	Function	File	Details
 2020-09-02 17:48:40	write	simply_write_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_02.csv	
 2020-09-02 17:48:50	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_02.csv	read input
 2020-09-02 17:51:07	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_02.csv	read input
+2020-09-02 17:53:04	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/DRUG_CLASSIFICATION/antineoplastic/output/MAP_02_02_new_source_each_word_exact.csv	
+2020-09-02 17:53:12	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_02.csv	
+2020-09-02 17:53:12	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/output/MAP_02_02_new_source_each_word_exact.csv	
+2020-09-02 17:53:12	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmppfqS5S/fileac3a38ef5e44.csv	
+2020-09-02 17:54:23	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_02.csv	read input
+2020-09-02 17:56:20	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/DRUG_CLASSIFICATION/antineoplastic/output/MAP_02_02_new_source_each_word_exact.csv	
+2020-09-02 17:56:24	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_02.csv	
+2020-09-02 17:56:24	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/output/MAP_02_02_new_source_each_word_exact.csv	
+2020-09-02 17:56:24	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmppfqS5S/fileac3a6b15df8f.csv	

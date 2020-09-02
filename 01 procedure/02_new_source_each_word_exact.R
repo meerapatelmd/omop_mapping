@@ -212,7 +212,7 @@ if (cacheOnly) {
                                 dplyr::inner_join(filterSettings) %>%
                                 chariot::mergeStrip(into = "Concept") %>%
                                 dplyr::transmute(!!new_col_name_status := "Complete",
-                                                 !!new_col_name := paste0("Word: ", Concept))
+                                                 !!new_col_name := paste0(Word, ": ", Concept))
                 } else {
                         output_row <-
                                 tibble(!!new_col_name_status := "No cached results",
@@ -238,7 +238,7 @@ if (cacheOnly) {
                         dplyr::inner_join(filterSettings) %>%
                         chariot::mergeStrip(into = "Concept") %>%
                         dplyr::transmute(!!new_col_name_status := "Complete",
-                                         !!new_col_name := paste0("Word: ", Concept))
+                                         !!new_col_name := paste0(Word, ": ", Concept))
 
 
                 output2_b[[i]] <- output_row
