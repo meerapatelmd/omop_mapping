@@ -7149,3 +7149,6 @@ Timestamp	Activity Type	Function	File	Details
 2020-09-03 02:07:57	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmplozmZD/filec7cd231956ee.csv	
 2020-09-03 02:25:36	read	read_full_excel	~/OneDrive - Memorial Sloan Kettering Cancer Center/escritoire-data/Drug Classification/Mapping Files/antineoplastic.xlsx	
 2020-09-03 02:25:38	write	simply_write_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_07.csv	
+2020-09-03 02:28:40	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_07.csv	read input
+2020-09-03 02:49:12	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_07.csv	read input
+2020-09-03 02:50:24	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_07.csv	read input
