@@ -64,10 +64,21 @@ if (length(qa1) > 0) {
 }
 
 
+pb <- progress::progress_bar$new(total = nrow(input3),
+                                 format = "[:bar] :elapsedfull :current/:total (:percent)",
+                                 clear = FALSE)
+
+pb$tick(0)
+Sys.sleep(0.2)
+
+
 for (i in 1:nrow(input4)) {
 
         input_row <- input4 %>%
                 dplyr::filter(row_number() == i)
+
+        pb$tick()
+        Sys.sleep(0.2)
 
         rubix::release(input_row)
         input_concept <- get(target_col)
