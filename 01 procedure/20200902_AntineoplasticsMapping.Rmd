@@ -1,0 +1,66 @@
+---
+title: "Antineoplastics Datamart Drug Mapping"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+    df_print: paged
+    code_folding: hide
+---
+
+```{r chunkoptions, echo = FALSE, include=FALSE, message=FALSE,warning=FALSE}
+knitr::opts_chunk$set(
+        echo = FALSE,
+        eval = TRUE,
+        cache = TRUE,
+        tidy = 'styler',
+        message = FALSE,
+        warning = FALSE,
+        error = FALSE
+)
+
+library(tidyverse)
+source("config/funs.R")
+```
+
+2020-09-02  
+Fixing IS_MAPPED column to 1 if Mapped and NA if Unmapped  
+```{r}
+origin <- read_origin() %>%
+                        rubix::normalize_all_to_na()
+origin
+```
+
+```{r}
+output_a <-
+        origin %>%
+        dplyr::filter_at(vars(!c(routine_id,
+                                 invest_drug_rowid,
+                                 APR_DRUG_NAME,
+                                 APR_GENERIC_NAME,
+                                 CDG_COMMON_GENERIC_NAME)),
+                         all_vars(is.na(.))) 
+
+output_b <- 
+        origin[!(origin$routine_id %in% output_a$routine_id),] %>%
+        dplyr::mutate(IS_MAPPED = 1)
+```
+
+```{r}
+output2 <- 
+        dplyr::bind_rows(output_a,
+                         output_b)
+```
+
+```{r}
+nrow(output2)
+```
+
+```{r}
+nrow(origin)
+```
+
+```{r}
+broca::view_as_csv(output2)
+```
+
