@@ -12,8 +12,8 @@ invalid_reason <- NA
 
 # Project Setup
 project_name <- "DRUG_CLASSIFICATION"
-origin_fn <-  "~/OneDrive - Memorial Sloan Kettering Cancer Center/escritoire-data/Drug Classification/Mapping Files/antineoplastic.xlsx"
-origin_tab <- "MAP_07"
+origin_fn <-  "~/OneDrive - Memorial Sloan Kettering Cancer Center/escritoire-data/Drug Classification/data_without_phi/IDB/missing-drugs-invest-flag.xlsx"
+origin_tab <- "MAP_02"
 
 # Required
 # Target Columns: column where queries are sourced from. Note that the column called "CONCEPT" has been changed to "SOURCE" in this routine since the merge of OMOP concepts is functionalized to be called `Concept`.
@@ -23,7 +23,7 @@ source_col <- "APR_GENERIC_NAME"
 
 
 # Terminal Column: name of the column in the input that, if populated, indicates that a concept has been mapped and further search routines are ignored
-terminal_col <- "IS_MAPPED"
+terminal_col <- "concept_id"
 
 #Optional
 ## Term Columns: series of search terms and phrases to each original concept to further search for the concept. Term columns are manually inputed by an end-user.
@@ -47,7 +47,9 @@ filterSettings <-
 
 filterSettings <-
         filterSettings %>%
-        purrr::map2(names(filterSettings), function(x,y) as_tibble_col(x, column_name = y)) %>%
+        purrr::map2(names(filterSettings), function(x,y)
+                                                as_tibble_col(x,
+                                                              column_name = y)) %>%
         purrr::reduce(cbind) %>%
         as_tibble() %>%
         rubix::normalize_all_to_na()

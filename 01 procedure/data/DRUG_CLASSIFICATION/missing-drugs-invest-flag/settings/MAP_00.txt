@@ -1,0 +1,26 @@
+# Origin
+origin_fn <- '~/OneDrive - Memorial Sloan Kettering Cancer Center/escritoire-data/Drug Classification/data_without_phi/IDB/missing-drugs-invest-flag.xlsx'
+origin_tab <- 'MAP_00'
+
+# Required
+source_col <- 'MISSING_DRUG'
+terminal_col <- 'concept_id'
+project_name <- 'DRUG_CLASSIFICATION'
+
+# NonRequiredCols
+attribute_col <- ''
+search_term_col <- ''
+component_col <- ''
+regimen_col <- ''
+
+# OutputSettings
+domain_id <- 'Drug'
+standard_concept <- ''
+concept_class_id <- ''
+invalid_reason <- 'NA'
+
+# MiscSettings
+source_skip_nchar <- '3'
+additional_filters <- ''
+word_split <- '[ ]{1}|[(]{1}|[)]{1}|[,]{1}|[/]{1}|[+]{1}|[-]{1}[>]{1}'
+

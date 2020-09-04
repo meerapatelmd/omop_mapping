@@ -7152,3 +7152,28 @@ Timestamp	Activity Type	Function	File	Details
 2020-09-03 02:28:40	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_07.csv	read input
 2020-09-03 02:49:12	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_07.csv	read input
 2020-09-03 02:50:24	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_07.csv	read input
+2020-09-03 02:57:16	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_07.csv	read input
+2020-09-03 03:38:00	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_07.csv	read input
+2020-09-03 03:40:13	read	simply_read_csv	data/DRUG_CLASSIFICATION/antineoplastic/input/MAP_07.csv	read input
+2020-09-03 22:27:01	read	read_full_excel	~/OneDrive - Memorial Sloan Kettering Cancer Center/escritoire-data/Drug Classification/data_without_phi/IDB/missing-drugs-invest-flag.xlsx	
+2020-09-03 22:27:01	write	simply_write_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_00.csv	
+2020-09-03 22:27:47	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_00.csv	read input
+2020-09-03 22:28:31	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_00.csv	read input
+2020-09-03 22:39:16	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_00.csv	
+2020-09-03 22:39:26	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_00.csv	
+2020-09-03 22:40:37	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_00.csv	read input
+2020-09-03 23:00:58	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_00.csv	read input
+2020-09-03 23:03:52	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_00_01_source_as_is_string.csv	
+2020-09-03 23:25:31	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_00.csv	
+2020-09-03 23:25:31	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_00_01_source_as_is_string.csv	
+2020-09-03 23:25:31	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpTzEn2T/file114b37faad4b5.csv	
+2020-09-04 09:26:48	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_00.csv	
+2020-09-04 09:26:48	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_00_01_source_as_is_string.csv	
+2020-09-04 09:26:48	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpTzEn2T/file114b314865dc7.csv	
+2020-09-04 09:27:00	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_00.csv	
+2020-09-04 09:27:00	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_00_01_source_as_is_string.csv	
+2020-09-04 09:27:00	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpTzEn2T/file114b3176be58.csv	
+2020-09-04 09:36:56	read	read_full_excel	~/OneDrive - Memorial Sloan Kettering Cancer Center/escritoire-data/Drug Classification/data_without_phi/IDB/missing-drugs-invest-flag.xlsx	
+2020-09-04 09:37:39	read	read_full_excel	~/OneDrive - Memorial Sloan Kettering Cancer Center/escritoire-data/Drug Classification/data_without_phi/IDB/missing-drugs-invest-flag.xlsx	
+2020-09-04 09:37:39	write	simply_write_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_02.csv	
+2020-09-04 09:37:42	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_02.csv	read input

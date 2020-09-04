@@ -6,7 +6,7 @@ releaseSettings()
 target_col <- source_col
 
 # Routine Variables
-new_col_name <- "Source As-Is String"
+new_col_name <- paste0(target_col,  " As-Is String")
 new_col_name_status <- paste0(new_col_name, " Status")
 
 # Routine Variables
@@ -71,7 +71,7 @@ pb <- progress::progress_bar$new(total = nrow(input3),
 pb$tick(0)
 Sys.sleep(0.2)
 
-
+output <- list()
 for (i in 1:nrow(input4)) {
 
         input_row <- input4 %>%
@@ -91,15 +91,18 @@ for (i in 1:nrow(input4)) {
 
         } else {
 
+                cat("\n")
                 output[[i]] <-
                         chariot::queryPhraseStringSynonym(schema = "public",
                                                    phrase = input_concept,
-                                                   split = " |[[:punct:]]") %>%
+                                                   split = " |[[:punct:]]",
+                                                   ) %>%
                         dplyr::select(-concept_synonym_name) %>%
                         dplyr::inner_join(filterSettings) %>%
                         chariot::mergeStrip(into = "Concept") %>%
                         dplyr::transmute(!!new_col_name_status := "Complete",
-                                         !!new_col_name)
+                                         !!new_col_name := Concept)
+                cat("\n")
         }
         names(output)[i] <- routine_id
 
