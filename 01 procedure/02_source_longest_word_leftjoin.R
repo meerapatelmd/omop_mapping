@@ -6,7 +6,7 @@ releaseSettings()
 target_col <- source_col
 
 # Routine Variables
-new_col_name <- paste0(target_col, " Each Word Left Join")
+new_col_name <- paste0(target_col, " Longest Word Left Join")
 new_col_name_status <- paste0(new_col_name, " Status")
 
 
@@ -67,7 +67,18 @@ input5 <-
         tidyr::separate_rows(!!target_col,
                              sep = word_split) %>%
         rename(Word = !!target_col) %>%
-        mutate(Word = trimws(Word))
+        dplyr::mutate(Word = trimws(Word)) %>%
+        dplyr::mutate(ncharWord = nchar(Word)) %>%
+        dplyr::group_by(routine_id) %>%
+        dplyr::arrange(desc(ncharWord), .by_group = TRUE) %>%
+        rubix::filter_first_row() %>%
+        dplyr::ungroup() %>%
+        dplyr::select(-ncharWord)
+
+
+if (nrow(input5) != nrow(input4)) {
+        stop('missing routine_ids in input5')
+}
 
 input6 <-
         list(input5,
@@ -79,6 +90,7 @@ input6 <-
                      dplyr::mutate(Word = stringr::str_to_title(Word))) %>%
         bind_rows() %>%
         distinct()
+
 
 # 2. Stop If any routine_id is NA
 qa1 <-  input4$routine_id[is.na(input4$routine_id)]

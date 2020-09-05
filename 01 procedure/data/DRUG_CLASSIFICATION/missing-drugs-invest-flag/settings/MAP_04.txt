@@ -1,11 +1,11 @@
 # Origin
 origin_fn <- '~/OneDrive - Memorial Sloan Kettering Cancer Center/escritoire-data/Drug Classification/data_without_phi/IDB/missing-drugs-invest-flag.xlsx'
-origin_tab <- 'MAP_02'
+origin_tab <- 'MAP_04'
 
 # Required
 source_col <- 'APR_GENERIC_NAME'
 project_name <- 'DRUG_CLASSIFICATION'
-terminal_col <- 'concept_id'
+terminal_col <- 'Fact'
 
 # NonRequiredCols
 search_term_col <- ''

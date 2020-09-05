@@ -7177,3 +7177,54 @@ Timestamp	Activity Type	Function	File	Details
 2020-09-04 09:37:39	read	read_full_excel	~/OneDrive - Memorial Sloan Kettering Cancer Center/escritoire-data/Drug Classification/data_without_phi/IDB/missing-drugs-invest-flag.xlsx	
 2020-09-04 09:37:39	write	simply_write_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_02.csv	
 2020-09-04 09:37:42	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_02.csv	read input
+2020-09-04 09:43:05	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_02.csv	read input
+2020-09-04 09:45:59	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_01_source_as_is_string.csv	
+2020-09-04 10:20:22	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_02.csv	
+2020-09-04 10:20:22	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_01_source_as_is_string.csv	
+2020-09-04 10:20:22	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpTzEn2T/file114b379f29236.csv	
+2020-09-04 10:33:31	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_02.csv	read input
+2020-09-04 10:33:52	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_02.csv	read input
+2020-09-04 10:34:28	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_02_source_longest_word_exact.csv	
+2020-09-04 10:34:28	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_02.csv	read input
+2020-09-04 10:35:14	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_02.csv	read input
+2020-09-04 10:35:49	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_02_source_longest_word_exact.csv	
+2020-09-04 10:36:07	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_02.csv	read input
+2020-09-04 10:36:29	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_02.csv	read input
+2020-09-04 10:39:10	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_02.csv	read input
+2020-09-04 10:39:16	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_02_source_each_word_leftjoin.csv	
+2020-09-04 10:39:50	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_02.csv	
+2020-09-04 10:39:50	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_01_source_as_is_string.csv	
+2020-09-04 10:39:50	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_02_source_each_word_leftjoin.csv	
+2020-09-04 10:39:50	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_02_source_longest_word_exact.csv	
+2020-09-04 10:39:50	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpTzEn2T/file114b3554ea3ca.csv	
+2020-09-04 11:38:07	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_02.csv	read input
+2020-09-04 11:38:14	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_02_source_each_word_leftjoin.csv	
+2020-09-04 11:39:26	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_02.csv	read input
+2020-09-04 11:39:32	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_02_source_longest_word_leftjoin.csv	
+2020-09-04 11:40:19	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_02.csv	read input
+2020-09-04 11:46:42	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_02.csv	read input
+2020-09-04 11:46:48	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_02_source_longest_word_leftjoin.csv	
+2020-09-04 11:47:44	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_02.csv	read input
+2020-09-04 11:47:50	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_02_source_longest_word_leftjoin.csv	
+2020-09-04 11:50:11	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_02.csv	read input
+2020-09-04 11:50:17	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_02_source_each_word_leftjoin.csv	
+2020-09-04 11:51:50	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_02.csv	read input
+2020-09-04 11:51:56	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_02_source_every_word_leftjoin.csv	
+2020-09-04 20:37:40	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_02_source_every_word_leftjoin.csv	
+2020-09-04 20:37:49	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_02.csv	
+2020-09-04 20:37:49	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_01_source_as_is_string.csv	
+2020-09-04 20:37:49	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_02_source_each_word_leftjoin.csv	
+2020-09-04 20:37:49	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_02_source_every_word_leftjoin.csv	
+2020-09-04 20:37:49	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_02_source_longest_word_exact.csv	
+2020-09-04 20:37:49	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_02_source_longest_word_leftjoin.csv	
+2020-09-04 20:38:55	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_02.csv	read input
+2020-09-04 20:41:44	write	simply_write_csv	/Users/patelm9/GitHub/omop_mapping/01 procedure/data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_02_source_all_word_leftjoin.csv	
+2020-09-04 20:42:06	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_02.csv	
+2020-09-04 20:42:06	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_01_source_as_is_string.csv	
+2020-09-04 20:42:06	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_02_source_all_word_leftjoin.csv	
+2020-09-04 20:42:06	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_02_source_each_word_leftjoin.csv	
+2020-09-04 20:42:06	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_02_source_longest_word_exact.csv	
+2020-09-04 20:42:06	read	simply_read_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/output/MAP_02_02_source_longest_word_leftjoin.csv	
+2020-09-04 20:42:06	write	write_temp_csv	/var/folders/pg/_nr70_kj7y31yvv84yyy7524sx_q0w/T//RtmpTzEn2T/file114b312f49528.csv	
+2020-09-04 20:47:53	read	read_full_excel	~/OneDrive - Memorial Sloan Kettering Cancer Center/escritoire-data/Drug Classification/data_without_phi/IDB/missing-drugs-invest-flag.xlsx	
+2020-09-04 20:47:54	write	simply_write_csv	data/DRUG_CLASSIFICATION/missing-drugs-invest-flag/input/MAP_04.csv	

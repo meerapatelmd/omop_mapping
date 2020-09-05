@@ -13,7 +13,7 @@ releaseSettings()
 target_col <- source_col
 
 # Routine Variables
-new_col_name <- "Source Longest Word Exact"
+new_col_name <- paste0(target_col," Longest Word Exact")
 new_col_name_status <- paste0(new_col_name, " Status")
 
 # Routine Variables
